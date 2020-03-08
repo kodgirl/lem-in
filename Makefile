@@ -6,7 +6,7 @@
 #    By: bjasper <bjasper@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/01/17 14:14:45 by bjasper           #+#    #+#              #
-#    Updated: 2020/03/03 21:53:47 by bjasper          ###   ########.fr        #
+#    Updated: 2020/03/08 15:23:55 by bjasper          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,8 +16,8 @@ SRC =	src/main.c\
 		src/parser.c\
 		src/delete.c\
 		src/liba.c\
-		src/sort_rooms.c\
-		src/parse_edges.c	
+		src/parse_edges.c\
+		src/parse_rooms.c
 
 INCL = includes/lem_in.h 
 

@@ -6,7 +6,7 @@
 /*   By: bjasper <bjasper@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/02 20:23:02 by bjasper           #+#    #+#             */
-/*   Updated: 2020/03/07 18:51:38 by bjasper          ###   ########.fr       */
+/*   Updated: 2020/03/08 15:44:55 by bjasper          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,10 +55,7 @@ typedef struct		s_struct
 int		parser(t_struct *all);
 int		f_atoi(char *str, int *error);
 int 	array_len(char **str);
-// void	alphabet_sort_rooms(t_room *room);
-// void	parse_edges(char **array_edges, t_room *room);
-// void	f_lstadd(t_room **alst, t_room *new);
-// t_room	*f_lstnew(size_t content_size);
-
+int		read_room(t_struct *all, char **split);
+int		read_link(t_struct *all, char **split);
 
 #endif
