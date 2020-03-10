@@ -6,7 +6,7 @@
 /*   By: bjasper <bjasper@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/08 15:21:26 by bjasper           #+#    #+#             */
-/*   Updated: 2020/03/08 15:23:19 by bjasper          ###   ########.fr       */
+/*   Updated: 2020/03/10 20:50:03 by bjasper          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,17 +43,17 @@ int		read_room(t_struct *all, char **split)
 	if ((rm = malloc_room(split)))
 	{
 		temp = all->room;
-		while (temp && temp->next)
-			temp = temp->next;
-		if (temp)
-			temp->next = rm;
-		else
-			all->room = rm;
-		return (1);
+		if (room_validation(rm, temp) == 1)
+		{
+			while (temp && temp->next)
+				temp = temp->next;
+			if (temp)
+				temp->next = rm;
+			else
+				all->room = rm;
+			return (1);
+		}
 	}
-	else
-	{
-		all->error = 1;
-		return (0);
-	}
+	all->error = 1;
+	return (0);
 }

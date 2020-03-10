@@ -1,32 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   equal_rooms.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bjasper <bjasper@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/27 15:33:18 by bjasper           #+#    #+#             */
-/*   Updated: 2020/03/10 21:17:14 by bjasper          ###   ########.fr       */
+/*   Created: 2020/03/10 20:44:50 by bjasper           #+#    #+#             */
+/*   Updated: 2020/03/10 20:58:39 by bjasper          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/lem_in.h"
+# include "../includes/lem_in.h"
 
-int	main(int ac, char **av)
+int	room_validation(t_room *room, t_room *flat)
 {
-	t_struct	all;
-	int			visual;
-
-	visual = 0;
-	ft_bzero(&all, sizeof(t_struct));
-	while (ac >= 2 && !ft_strcmp(av[1], "-v"))
+	while (flat && room != flat)
 	{
-		if (!ft_strcmp(av[1], "-v"))
-			visual = 1;
-		av++;
-		ac--;
+		if (ft_strcmp(room->name, flat->name) == 0)
+			return (0);
+		if (room->x == flat->x && room->y == flat->y)
+			return (0);
+		flat = flat->next;
 	}
-	if (ac == 1)
-		parser(&all);
-	return (0);
+	return (1);
 }

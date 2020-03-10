@@ -6,7 +6,7 @@
 /*   By: bjasper <bjasper@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/02 20:23:02 by bjasper           #+#    #+#             */
-/*   Updated: 2020/03/08 15:44:55 by bjasper          ###   ########.fr       */
+/*   Updated: 2020/03/10 21:45:45 by bjasper          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,9 @@ typedef struct		s_edge
 
 typedef struct		s_struct
 {
+
+	int				start_flag;
+	int				end_flag;
 	int				ant_flag;
 	t_room			*room;
 	int				ant;
@@ -57,5 +60,6 @@ int		f_atoi(char *str, int *error);
 int 	array_len(char **str);
 int		read_room(t_struct *all, char **split);
 int		read_link(t_struct *all, char **split);
+int		room_validation(t_room *room, t_room *flat);
 
 #endif
