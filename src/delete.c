@@ -12,21 +12,6 @@
 
 #include "../includes/lem_in.h"
 
-// void	del_links(t_link *link)
-// {
-// 	t_link	*tmp;
-
-// 	while (link)
-// 	{
-// 		ft_strdel(&link->name1);
-// 		ft_strdel(&link->name2);
-// 		tmp = link->next;
-// 		if (link)
-// 			free(link);
-// 		link = tmp;
-// 	}
-// }
-
 void	del_double_massive(char **str)
 {
 	int i;

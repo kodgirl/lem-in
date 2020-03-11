@@ -18,10 +18,6 @@
 # include <unistd.h>
 # include <fcntl.h>
 # include "../src/libft/libft.h"
-# define ERROR_NOT_INT		"some arguments are not integers\n"
-# define ERROR_BIGGER_INT	"some arguments are bigger than an integer\n"
-# define ERROR_DUBL			"there are duplicates\n"
-# define ERROR_BAD_INSTRUCT	"wrong instruction\n"
 
 typedef struct		s_room
 {
