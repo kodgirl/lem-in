@@ -12,6 +12,13 @@
 
 # include "../includes/lem_in.h"
 
+/*
+** Allocating memory for room;
+** Annual all cells;
+** recording name and coordinates of room;
+** Checking errors;
+*/
+
 t_room	*malloc_room(char **split)
 {
 	t_room 	*rm;
@@ -35,6 +42,15 @@ t_room	*malloc_room(char **split)
 		return (NULL);
 }
 
+/*
+** Through function malloc_room recording name, x and y of room;
+** Taking pointer of all->room than to add new room.
+** Sending receiving room and pointer of list of all rooms
+** to function room_validation which check dupl of names and x/y;
+** If all fine - recording new room by end of list of rooms
+** or put new room by start of list;
+*/
+
 int		read_room(t_struct *all, char **split)
 {
 	t_room	*rm;
@@ -57,3 +73,4 @@ int		read_room(t_struct *all, char **split)
 	all->error = 1;
 	return (0);
 }
+//FREE if function room_validation find duplicates;

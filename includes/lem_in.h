@@ -19,6 +19,17 @@
 # include <fcntl.h>
 # include "../src/libft/libft.h"
 
+/*
+** Every room is vertex of graph.
+** index - variable which keep index of vertexes;
+** *name - for name of vertexes;
+** x and y for coordinate of every vertex;
+** *next - direct to the next vertex;
+** *edge - keep direction of one vertex to next;
+** 0: 1->2 // vertex have edge with 1 and 2;
+** 1: 3->4 // vertex 1 have edge with 2 and 4 ...
+*/
+
 typedef struct		s_room
 {
 	
@@ -30,12 +41,29 @@ typedef struct		s_room
 	struct s_edge	*edge;
 }					t_room;
 
+/*
+** t_edge using for build edges between vertexes.
+** cost - variable which keep info about used this direction or not;
+** *next contain direction to next vertex (or room);
+*/
+
 typedef struct		s_edge
 {
 	int				cost;
 	struct s_edge	*next;
 	struct s_room	*room;
 }					t_edge;
+
+/*
+** start_flag indicate have argument start room or not;
+** end_flag, ant_flag, and link_flag have the same goal.
+** link_flag checking existing of connections between rooms;
+** *room - all vertexes;
+** ant - count of ants in arguments;
+** *start - starting room;
+** *end - finish room where should be ants;
+** error - if have not correct data;
+*/
 
 typedef struct		s_struct
 {

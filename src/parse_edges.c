@@ -12,6 +12,11 @@
 
 # include "../includes/lem_in.h"
 
+/*
+** In cycle finding necessary room and returning
+** address;
+*/
+
 t_room	*search_room_name(char *name, t_struct *all)
 {
 	t_room *tmp;
@@ -26,6 +31,11 @@ t_room	*search_room_name(char *name, t_struct *all)
 	return (NULL);
 }
 
+/*
+** Allocating memory for edge and annual
+** variables in edge structure.
+*/
+
 t_edge	*malloc_edge(void)
 {	
 	t_edge	*edge;
@@ -37,6 +47,13 @@ t_edge	*malloc_edge(void)
 	}
 	return (NULL);
 }
+
+/*
+** Add allocated edges to structures of room.
+** Vertex could have more edges. Therefore,
+** We adding new edge by end of edges of this room.
+** But if found the same edge - returning signal of error;
+*/
 
 int		add_edge_to_room(t_room *room, t_edge *edge)
 {
@@ -55,6 +72,15 @@ int		add_edge_to_room(t_room *room, t_edge *edge)
 		room->edge = edge;
 	return (1);
 }
+
+/*
+** rooms1 and rooms2 - rooms than to create edge between them.
+** Find two vertex names in our list [0] and [1];
+** edg1 and edg2 are for create edge without orientations.
+** If rooms found - allocating memmory for edge of room1 to room2
+** and vice versa;
+** Adding edges to structure of room. That's all.
+*/
 
 int		read_link(t_struct *all, char **split)
 {

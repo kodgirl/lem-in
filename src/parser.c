@@ -12,10 +12,18 @@
 
 # include "../includes/lem_in.h"
 
+/*
+** changing from char to int and record ants;
+*/
+
 void	read_ant(char *line, t_struct *all)
 {
 	all->ant = f_atoi(line, &(all->error));
 }
+
+/*
+** Validating format of rooms;
+*/
 
 char	**is_room(char *line)
 {
@@ -26,6 +34,11 @@ char	**is_room(char *line)
 		return (NULL);
 	return (str);
 }
+
+/*
+** Looking for '-' in arg;
+** it's mean start of links;
+*/
 
 char	**is_link(char *line)
 {
@@ -70,6 +83,11 @@ void	print_all_rooms(t_struct *all)
 	}
 }
 
+/*
+** Checking comments of start and end
+** which indicating with two sharps (##);
+*/
+
 int		is_door(char *line)
 {
 	if (line && *line == '#' && ft_strcmp(line, "#start") == 0)
@@ -104,6 +122,10 @@ void	door_to_room(t_room *room, t_struct *all, int i)
 	}
 }
 
+/*
+ *
+*/
+
 int		read_door(t_struct *all, int i)
 {
 	char		*line;
@@ -130,6 +152,19 @@ int		read_door(t_struct *all, int i)
 	return (0);
 }
 
+/*
+** Through gnl parsing from file;
+** Validating through term operator;
+** And after it - recording ants, rooms, links;
+** Fucntion read_room in different file parse_rooms;
+** Function read_links and read_edges in parse_edges;
+** read_ant recording to int variable;
+** read_room recording to list of rooms;
+** read_link allocating memory for edges and adding
+** this edges to rooms structure.
+** read doors recording comments ##start and ##end;
+*/
+
 int		parser(t_struct *all)
 {
 	int			size;
@@ -144,7 +179,7 @@ int		parser(t_struct *all)
 		else if ((split = is_room(line)) && all->link_flag == 0)
 			read_room(all, split);
 		else if((split = is_link(line)))
-			read_link(all, split);
+			read_link(all, split); // а если не найдены вершины, то где освобождается??
 		else if (*line == '#')
 			read_door(all, is_door(line + 1));
 		else

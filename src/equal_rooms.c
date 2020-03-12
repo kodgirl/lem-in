@@ -12,6 +12,13 @@
 
 # include "../includes/lem_in.h"
 
+/*
+** Variable flat mean all rooms of argument;
+** Checking duplicates between names of recorded rooms and new room.
+** Checking duplicates of coordinates of rooms;
+** If all fine, sending 1 than to record new room;
+*/
+
 int	room_validation(t_room *room, t_room *flat)
 {
 	while (flat && room != flat)
