@@ -26,7 +26,9 @@ int	main(int ac, char **av)
 		av++;
 		ac--;
 	}
-	if (ac == 1)
-		parser(&all);
-	return (0);
+	if (ac == 1) {
+        parser(&all);
+        exit(1);
+    }
+		return (0);
 }
