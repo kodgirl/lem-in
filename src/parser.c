@@ -171,9 +171,11 @@ int		parser(t_struct *all)
 	char		*line;
 	char		**split;
 	int         j;
+	int         fd; //temporary
 
 	split = NULL;
 	j = 0;
+//	fd = open("test1.txt", O_RDONLY); // temporary
 	while ((size = get_next_line(0, &line)) > 0)
 	{
 	    j = ft_strlen(line);
@@ -188,18 +190,19 @@ int		parser(t_struct *all)
 		else
 			all->error = 1;
 		if (split)
-		    ft_free_split(split, j - 1);
+		    ft_free_split(split, j - 2);
 		printf("%s\n", line);
 		free(line);
 		if (all->error)
 		{
 		    free_lem_in(all);
-			write(1, "Error, sorry guy :(\n", 20);
+			write(1, "ERROR\n", 6);
 			return (0);
 		}
 	}
 	printf("\n");
 	print_all_rooms(all);
-	//del_links(&link);
+	free_lem_in(all);
+//	close(fd); //temporary
 	return (1);
 }

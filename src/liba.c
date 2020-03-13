@@ -23,28 +23,27 @@
 // 	}
 // }
 
-void        free_lem_in(t_struct *all)
-{
-    t_room  *tmp_rooms;
-    t_room  *tmp_rooms2;
-    t_edge  *tmp_edges2;
-    t_edge  *tmp_edges;
+void        free_lem_in(t_struct *all) {
+    t_room *tmp_rooms;
+    t_room *tmp_rooms2;
+    t_edge *tmp_edges2;
+    t_edge *tmp_edges;
 
     tmp_rooms = all->room;
-    while (tmp_rooms)
-    {
-        tmp_edges = tmp_rooms->edge;
-        while (tmp_edges)
+    if (tmp_rooms)
+        while (tmp_rooms)
         {
-            tmp_edges2 = tmp_edges;
-            tmp_edges = tmp_edges->next;
-            free(tmp_edges2);
+            tmp_edges = tmp_rooms->edge;
+            if (tmp_edges)
+                while (tmp_edges) {
+                    tmp_edges2 = tmp_edges;
+                    tmp_edges = tmp_edges->next;
+                    free(tmp_edges2);
+                }
+            tmp_rooms2 = tmp_rooms;
+            tmp_rooms = tmp_rooms->next;
+            free(tmp_rooms2);
         }
-        tmp_rooms2 = tmp_rooms;
-        tmp_rooms = tmp_rooms->next;
-        free(tmp_rooms2);
-    }
-    //Освободи  split
     return;
 }
 
