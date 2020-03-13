@@ -70,5 +70,6 @@ char				**ft_strsplit(const char *s, char c)
 		++j;
 		s += len;
 	}
+	fresh[j] = NULL;
 	return (fresh);
 }

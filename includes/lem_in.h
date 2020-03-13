@@ -85,5 +85,7 @@ int 	array_len(char **str);
 int		read_room(t_struct *all, char **split);
 int		read_link(t_struct *all, char **split);
 int		room_validation(t_room *room, t_room *flat);
+void    free_lem_in(t_struct *all);
+void    ft_free_split(char **for_free, size_t count);
 
 #endif

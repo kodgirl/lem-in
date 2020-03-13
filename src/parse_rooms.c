@@ -67,10 +67,12 @@ int		read_room(t_struct *all, char **split)
 				temp->next = rm;
 			else
 				all->room = rm;
+//            ft_free_split(split, i);
 			return (1);
 		}
 	}
 	all->error = 1;
+//	ft_free_split(split, i - 1);
 	return (0);
 }
 //FREE if function room_validation find duplicates;

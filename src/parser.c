@@ -170,29 +170,35 @@ int		parser(t_struct *all)
 	int			size;
 	char		*line;
 	char		**split;
-	
+	int         j;
+
 	split = NULL;
+	j = 0;
 	while ((size = get_next_line(0, &line)) > 0)
 	{
+	    j = ft_strlen(line);
 		if (all->ant == 0)
 			read_ant(line, all);
 		else if ((split = is_room(line)) && all->link_flag == 0)
-			read_room(all, split);
+            read_room(all, split);
 		else if((split = is_link(line)))
-			read_link(all, split); // а если не найдены вершины, то где освобождается??
-		else if (*line == '#')
+            read_link(all, split); // а если не найдены вершины, то где освобождается??
+        else if (*line == '#')
 			read_door(all, is_door(line + 1));
 		else
-			all->error = 1;	
+			all->error = 1;
 		if (split)
-			free(split);
+		    ft_free_split(split, j - 1);
+		printf("%s\n", line);
 		free(line);
 		if (all->error)
 		{
+		    free_lem_in(all);
 			write(1, "Error, sorry guy :(\n", 20);
 			return (0);
 		}
 	}
+	printf("\n");
 	print_all_rooms(all);
 	//del_links(&link);
 	return (1);
