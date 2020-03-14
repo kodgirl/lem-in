@@ -79,13 +79,13 @@ typedef struct		s_struct
 	int				link_flag;
 }					t_struct;
 
-int		parser(t_struct *all);
+int		parser(t_struct *all, char **av);
 int		f_atoi(char *str, int *error);
 int 	array_len(char **str);
 int		read_room(t_struct *all, char **split);
 int		read_link(t_struct *all, char **split);
 int		room_validation(t_room *room, t_room *flat);
 void    free_lem_in(t_struct *all);
-void    ft_free_split(char **for_free, size_t count);
+void    ft_free_split(char **for_free);
 
 #endif

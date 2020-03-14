@@ -54,7 +54,7 @@ char				**ft_strsplit(const char *s, char c)
 	if (!s || !c)
 		return (NULL);
 	count = ft_count(s, c);
-	if (!(fresh = (char **)ft_memalloc(sizeof(char *) * (count + 1))))
+	if (!(fresh = (char **)malloc(sizeof(char *) * (count + 1))))
 		return (NULL);
 	j = 0;
 	while (*s && count--)

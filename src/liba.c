@@ -23,7 +23,8 @@
 // 	}
 // }
 
-void        free_lem_in(t_struct *all) {
+void        free_lem_in(t_struct *all)
+{
     t_room *tmp_rooms;
     t_room *tmp_rooms2;
     t_edge *tmp_edges2;
@@ -47,17 +48,21 @@ void        free_lem_in(t_struct *all) {
     return;
 }
 
-void    ft_free_split(char **for_free, size_t count)
+void    ft_free_split(char **for_free)
 {
     size_t			i;
 
     i = 0;
-    while (count > i)
+    if (for_free)
     {
-        free(for_free[i]);
-        i++;
+        while (for_free[i])
+        {
+                if (for_free[i])
+                    free(for_free[i]);
+                i++;
+        }
+        free(for_free);
     }
-    free(for_free);
     for_free = NULL;
 }
 

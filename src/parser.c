@@ -123,7 +123,7 @@ void	door_to_room(t_room *room, t_struct *all, int i)
 }
 
 /*
- *
+ * ????????????????????
 */
 
 int		read_door(t_struct *all, int i)
@@ -146,7 +146,7 @@ int		read_door(t_struct *all, int i)
 			all->error = 1;
 	}
 	if (split)
-		free(split);
+		ft_free_split(split);
 	if (line)
 		free(line);
 	return (0);
@@ -165,44 +165,43 @@ int		read_door(t_struct *all, int i)
 ** read doors recording comments ##start and ##end;
 */
 
-int		parser(t_struct *all)
+int		parser(t_struct *all, char **av)
 {
 	int			size;
 	char		*line;
 	char		**split;
-	int         j;
-	int         fd; //temporary
+	int         fd;
 
 	split = NULL;
-	j = 0;
-//	fd = open("test1.txt", O_RDONLY); // temporary
-	while ((size = get_next_line(0, &line)) > 0)
+//	fd = open(av[0], O_RDONLY);
+//	while ((size = get_next_line(fd, &line)) > 0) //after debug should to change fd to 0.
+    while ((size = get_next_line(0, &line)) > 0)
 	{
-	    j = ft_strlen(line);
 		if (all->ant == 0)
 			read_ant(line, all);
 		else if ((split = is_room(line)) && all->link_flag == 0)
-            read_room(all, split);
+		    read_room(all, split);
 		else if((split = is_link(line)))
-            read_link(all, split); // а если не найдены вершины, то где освобождается??
+		    read_link(all, split);
         else if (*line == '#')
 			read_door(all, is_door(line + 1));
 		else
 			all->error = 1;
 		if (split)
-		    ft_free_split(split, j - 2);
+		    ft_free_split(split);
 		printf("%s\n", line);
-		free(line);
+		if (line)
+		    free(line);
 		if (all->error)
 		{
 		    free_lem_in(all);
-			write(1, "ERROR\n", 6);
+			write(1, "\nERROR\n", 6);
 			return (0);
 		}
 	}
 	printf("\n");
 	print_all_rooms(all);
-	free_lem_in(all);
+//	free_lem_in(all);
 //	close(fd); //temporary
 	return (1);
 }
