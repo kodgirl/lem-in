@@ -6,7 +6,7 @@
 /*   By: bjasper <bjasper@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/03 21:52:35 by bjasper           #+#    #+#             */
-/*   Updated: 2020/03/10 22:20:57 by bjasper          ###   ########.fr       */
+/*   Updated: 2020/03/14 19:48:47 by bjasper          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,6 +102,8 @@ int		read_link(t_struct *all, char **split)
 			all->error = 1;
 		if (add_edge_to_room(room2, edg2) == 0)
 			all->error = 1;
+		// if (split)
+		// 	ft_free_split(split);
 		return (1);
 	}
 	else

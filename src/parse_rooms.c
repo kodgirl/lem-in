@@ -6,7 +6,7 @@
 /*   By: bjasper <bjasper@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/08 15:21:26 by bjasper           #+#    #+#             */
-/*   Updated: 2020/03/10 20:50:03 by bjasper          ###   ########.fr       */
+/*   Updated: 2020/03/14 20:23:31 by bjasper          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ t_room	*malloc_room(char **split)
 	t_room 	*rm;
 	int		error;
 	
+	error = 0;
 	if ((rm = (t_room*)malloc(sizeof(t_room))))
 	{
 		ft_bzero(rm, sizeof(t_room));

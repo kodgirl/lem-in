@@ -6,7 +6,7 @@
 /*   By: bjasper <bjasper@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/08 18:01:06 by bjasper           #+#    #+#             */
-/*   Updated: 2020/03/07 18:15:06 by bjasper          ###   ########.fr       */
+/*   Updated: 2020/03/14 20:16:42 by bjasper          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,22 +29,23 @@ void        free_lem_in(t_struct *all)
     t_room *tmp_rooms2;
     t_edge *tmp_edges2;
     t_edge *tmp_edges;
+	char	*name;
 
     tmp_rooms = all->room;
-    if (tmp_rooms)
-        while (tmp_rooms)
-        {
-            tmp_edges = tmp_rooms->edge;
-            if (tmp_edges)
-                while (tmp_edges) {
-                    tmp_edges2 = tmp_edges;
-                    tmp_edges = tmp_edges->next;
-                    free(tmp_edges2);
-                }
-            tmp_rooms2 = tmp_rooms;
-            tmp_rooms = tmp_rooms->next;
-            free(tmp_rooms2);
+    while (tmp_rooms)
+    {
+        tmp_edges = tmp_rooms->edge;
+        while (tmp_edges) 
+		{
+            tmp_edges2 = tmp_edges;
+            tmp_edges = tmp_edges->next;
+            free(tmp_edges2);
         }
+        tmp_rooms2 = tmp_rooms;
+        tmp_rooms = tmp_rooms->next;
+        free(tmp_rooms2->name);
+		free(tmp_rooms2);
+    }
     return;
 }
 

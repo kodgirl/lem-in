@@ -6,7 +6,7 @@
 /*   By: bjasper <bjasper@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/27 15:32:20 by bjasper           #+#    #+#             */
-/*   Updated: 2020/03/10 22:30:19 by bjasper          ###   ########.fr       */
+/*   Updated: 2020/03/14 20:27:56 by bjasper          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,10 @@ char	**is_room(char *line)
 	
 	str = ft_strsplit(line, ' ');
 	if (array_len(str) != 3)
+	{
+		ft_free_split(str);
 		return (NULL);
+	}
 	return (str);
 }
 
@@ -46,7 +49,10 @@ char	**is_link(char *line)
 	
 	str = ft_strsplit(line, '-');
 	if (array_len(str) != 2)
+	{
+		ft_free_split(str);
 		return (NULL);
+	}
 	return (str);
 }
 
@@ -144,11 +150,10 @@ int		read_door(t_struct *all, int i)
 		}			
 		else
 			all->error = 1;
+		free(line);
 	}
 	if (split)
 		ft_free_split(split);
-	if (line)
-		free(line);
 	return (0);
 }
 
@@ -189,13 +194,13 @@ int		parser(t_struct *all, char **av)
 			all->error = 1;
 		if (split)
 		    ft_free_split(split);
-		printf("%s\n", line);
+		// printf("%s\n", line);
 		if (line)
 		    free(line);
 		if (all->error)
 		{
 		    free_lem_in(all);
-			write(1, "\nERROR\n", 6);
+			write(1, "\nERROR\n", 7);
 			return (0);
 		}
 	}
