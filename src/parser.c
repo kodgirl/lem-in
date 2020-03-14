@@ -6,7 +6,7 @@
 /*   By: bjasper <bjasper@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/27 15:32:20 by bjasper           #+#    #+#             */
-/*   Updated: 2020/03/14 21:19:52 by bjasper          ###   ########.fr       */
+/*   Updated: 2020/03/14 21:24:51 by bjasper          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -253,7 +253,7 @@ int		parser(t_struct *all, char **av)
 	}
 	printf("\n");
 	print_all_rooms(all);
-//	free_lem_in(all);
+	free_lem_in(all);
 //	close(fd); //temporary
 	return (1);
 }

@@ -6,7 +6,7 @@
 /*   By: bjasper <bjasper@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/08 15:21:26 by bjasper           #+#    #+#             */
-/*   Updated: 2020/03/14 20:23:31 by bjasper          ###   ########.fr       */
+/*   Updated: 2020/03/14 21:31:35 by bjasper          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,6 +70,8 @@ int		read_room(t_struct *all, char **split)
 				all->room = rm;
 			return (1);
 		}
+		free(rm->name);
+		free(rm);
 	}
 	all->error = 1;
 	return (0);
