@@ -6,7 +6,7 @@
 /*   By: bjasper <bjasper@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/03 21:52:35 by bjasper           #+#    #+#             */
-/*   Updated: 2020/03/14 19:48:47 by bjasper          ###   ########.fr       */
+/*   Updated: 2020/03/14 20:58:16 by bjasper          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ t_room	*search_room_name(char *name, t_struct *all)
 			return (tmp);
 		tmp = tmp->next;
 	}
+	all->error = 1;
 	return (NULL);
 }
 
@@ -89,6 +90,11 @@ int		read_link(t_struct *all, char **split)
 	t_edge	*edg1;
 	t_edge	*edg2;
 	
+	if(all->end_flag != 1 || all->start_flag != 1)
+	{
+		all->error = 1; 
+		return (0);
+	}
 	all->link_flag = 1;
 	room1 = search_room_name(split[0], all);
 	room2 = search_room_name(split[1], all);

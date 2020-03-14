@@ -6,7 +6,7 @@
 /*   By: bjasper <bjasper@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/27 15:32:20 by bjasper           #+#    #+#             */
-/*   Updated: 2020/03/14 20:27:56 by bjasper          ###   ########.fr       */
+/*   Updated: 2020/03/14 21:19:52 by bjasper          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,37 @@ char	**is_room(char *line)
 	}
 	return (str);
 }
+
+// char				**strsplit_link(const char *s)
+// {
+// 	char			**fresh;
+// 	size_t			len;
+// 	size_t			count;
+// 	int				j;
+
+// 	if (!s)
+// 		return (NULL);
+// 	if (ft_count(s, '-') < 1)
+	
+// 	if (!(fresh = (char **)malloc(sizeof(char *) * 3)))
+// 		return (NULL);
+// 	j = 0;
+// 	while (*s && count--)
+// 	{
+// 		s = ft_skip_sym(s, '-');
+// 		len = ft_strlento((char *)s, '-');
+// 		if (!(fresh[j] = ft_strnew(len)))
+// 		{
+// 			free_mem(fresh);
+// 			return (NULL);
+// 		}
+// 		fresh[j] = ft_strccpy(fresh[j], s, '-');
+// 		++j;
+// 		s += len;
+// 	}
+// 	fresh[j] = NULL;
+// 	return (fresh);
+// }
 
 /*
 ** Looking for '-' in arg;
@@ -157,6 +188,15 @@ int		read_door(t_struct *all, int i)
 	return (0);
 }
 
+int		check_end_start(t_struct *all)
+{
+	// if(all->end_flag != 1 || all->start_flag != 1)
+	// 	all->error = 1; 
+	if (!all->start->edge || !all->end->edge)
+		all->error = 1;
+	return (0);
+}
+
 /*
 ** Through gnl parsing from file;
 ** Validating through term operator;
@@ -184,9 +224,9 @@ int		parser(t_struct *all, char **av)
 	{
 		if (all->ant == 0)
 			read_ant(line, all);
-		else if ((split = is_room(line)) && all->link_flag == 0)
+		else if ((split = is_room(line)) && all->link_flag == 0 && *line != '#')
 		    read_room(all, split);
-		else if((split = is_link(line)))
+		else if((split = is_link(line)) && *line != '#')
 		    read_link(all, split);
         else if (*line == '#')
 			read_door(all, is_door(line + 1));
@@ -203,6 +243,13 @@ int		parser(t_struct *all, char **av)
 			write(1, "\nERROR\n", 7);
 			return (0);
 		}
+	}
+	check_end_start(all);
+	if (all->error)
+	{
+	    free_lem_in(all);
+		write(1, "\nERROR\n", 7);
+		return (0);
 	}
 	printf("\n");
 	print_all_rooms(all);
