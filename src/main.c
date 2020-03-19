@@ -29,7 +29,7 @@ int	main(int ac, char **av)
 	if (ac == 2) //ac == 2 if using to debug
 	{
         parser(&all, &av[1]); //remove av[1] after debuging
-//		ft_solution(&all);
+		ft_solution(&all);
 		free_lem_in(&all);
         exit(0);
     }

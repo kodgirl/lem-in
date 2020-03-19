@@ -1,12 +1,6 @@
 #include "../includes/lem_in.h"
 # define INT_MAX 2147483647
 
-typedef struct  s_way
-{
-	t_room          *rooms;
-	struct s_way    *next;
-}               t_way;
-
 /*
  * looking for smallest edge and saving
  * in variable keep;
@@ -24,14 +18,16 @@ t_way        *ft_dijkstra(t_struct *all)
 	cp_count = all->rm_count;
 	tmp = all->start; //than to start cycle
 	way->rooms = tmp; // than to record begin of graph
-	tmp_way = way->rooms; // than to don't lost head of way;
+	tmp_way = way; // than to don't lost head of way;
 	all->start->cost = 0;
 	all->start->visit = 0; // всегда устанавливаем флаг, что в этих вершинах не были
 	all->end->visit = 0; // то же самое, чтобы дошёл до конечной вершины.
 
 	while (cp_count-- != 0)
 	{
-		keep = tmp->edge->cost;
+		if (tmp == all->end)
+			printf("SEXY!\n");
+		keep = tmp->edge;
 		while (tmp->edge) //смотрим рёбра настоящей вершины
 		{
 			if (keep > tmp->edge && !(tmp->edge->room->cost > INT_MAX)) // в цикле ищём наименьшее ребро и проверяем НЕ является ли
@@ -49,7 +45,7 @@ t_way        *ft_dijkstra(t_struct *all)
 		}
 		tmp->visit = -1;
 		way->rooms = tmp;
-		way->next;
+		way->rooms = way->rooms->next;
 	}
 	return (tmp_way);
 }
@@ -62,12 +58,12 @@ t_way        *ft_dijkstra(t_struct *all)
 void        ft_solution(t_struct *all)
 {
 	t_way   *way;
-
 	t_room  *set_infinity;
+
 	set_infinity = all->room;
 	while (set_infinity != NULL)
 	{
-		if ((!set_infinity == all->end) || !(set_infinity == all->start))
+		if (!(set_infinity == all->end) || !(set_infinity == all->start))
 			set_infinity->cost = INT_MAX;
 		set_infinity = set_infinity->next;
 	}
