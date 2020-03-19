@@ -35,7 +35,7 @@ void        free_lem_in(t_struct *all)
     while (tmp_rooms)
     {
         tmp_edges = tmp_rooms->edge;
-        while (tmp_edges) 
+        while (tmp_edges)
 		{
             tmp_edges2 = tmp_edges;
             tmp_edges = tmp_edges->next;

@@ -39,6 +39,8 @@ typedef struct		s_room
 	int		        y;
 	struct s_room	*next;
 	struct s_edge	*edge;
+	int             cost;
+	struct s_room   *parent;
 	int             visit;
 }					t_room;
 
@@ -69,15 +71,16 @@ typedef struct		s_edge
 typedef struct		s_struct
 {
 
-	int				start_flag;
-	int				end_flag;
-	int				ant_flag;
+	unsigned short int	start_flag;
+	unsigned short int	end_flag;
+	unsigned short int	ant_flag;
 	t_room			*room;
 	int				ant;
 	t_room			*start;
 	t_room			*end;
 	int				error;
 	int				link_flag;
+	int             rm_count;
 }					t_struct;
 
 int		parser(t_struct *all, char **av);
