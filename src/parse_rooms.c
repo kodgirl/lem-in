@@ -6,7 +6,7 @@
 /*   By: bjasper <bjasper@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/08 15:21:26 by bjasper           #+#    #+#             */
-/*   Updated: 2020/03/10 20:50:03 by bjasper          ###   ########.fr       */
+/*   Updated: 2020/03/14 21:31:35 by bjasper          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ t_room	*malloc_room(char **split)
 	t_room 	*rm;
 	int		error;
 	
+	error = 0;
 	if ((rm = (t_room*)malloc(sizeof(t_room))))
 	{
 		ft_bzero(rm, sizeof(t_room));
@@ -69,8 +70,9 @@ int		read_room(t_struct *all, char **split)
 				all->room = rm;
 			return (1);
 		}
+		free(rm->name);
+		free(rm);
 	}
 	all->error = 1;
 	return (0);
 }
-//FREE if function room_validation find duplicates;

@@ -6,7 +6,7 @@
 /*   By: bjasper <bjasper@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/27 15:32:20 by bjasper           #+#    #+#             */
-/*   Updated: 2020/03/10 22:30:19 by bjasper          ###   ########.fr       */
+/*   Updated: 2020/03/14 21:24:51 by bjasper          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,43 @@ char	**is_room(char *line)
 	
 	str = ft_strsplit(line, ' ');
 	if (array_len(str) != 3)
+	{
+		ft_free_split(str);
 		return (NULL);
+	}
 	return (str);
 }
+
+// char				**strsplit_link(const char *s)
+// {
+// 	char			**fresh;
+// 	size_t			len;
+// 	size_t			count;
+// 	int				j;
+
+// 	if (!s)
+// 		return (NULL);
+// 	if (ft_count(s, '-') < 1)
+	
+// 	if (!(fresh = (char **)malloc(sizeof(char *) * 3)))
+// 		return (NULL);
+// 	j = 0;
+// 	while (*s && count--)
+// 	{
+// 		s = ft_skip_sym(s, '-');
+// 		len = ft_strlento((char *)s, '-');
+// 		if (!(fresh[j] = ft_strnew(len)))
+// 		{
+// 			free_mem(fresh);
+// 			return (NULL);
+// 		}
+// 		fresh[j] = ft_strccpy(fresh[j], s, '-');
+// 		++j;
+// 		s += len;
+// 	}
+// 	fresh[j] = NULL;
+// 	return (fresh);
+// }
 
 /*
 ** Looking for '-' in arg;
@@ -46,7 +80,10 @@ char	**is_link(char *line)
 	
 	str = ft_strsplit(line, '-');
 	if (array_len(str) != 2)
+	{
+		ft_free_split(str);
 		return (NULL);
+	}
 	return (str);
 }
 
@@ -123,7 +160,7 @@ void	door_to_room(t_room *room, t_struct *all, int i)
 }
 
 /*
- *
+ * ????????????????????
 */
 
 int		read_door(t_struct *all, int i)
@@ -144,11 +181,19 @@ int		read_door(t_struct *all, int i)
 		}			
 		else
 			all->error = 1;
+		free(line);
 	}
 	if (split)
-		free(split);
-	if (line)
-		free(line);
+		ft_free_split(split);
+	return (0);
+}
+
+int		check_end_start(t_struct *all)
+{
+	// if(all->end_flag != 1 || all->start_flag != 1)
+	// 	all->error = 1; 
+	if (!all->start->edge || !all->end->edge)
+		all->error = 1;
 	return (0);
 }
 
@@ -165,35 +210,50 @@ int		read_door(t_struct *all, int i)
 ** read doors recording comments ##start and ##end;
 */
 
-int		parser(t_struct *all)
+int		parser(t_struct *all, char **av)
 {
 	int			size;
 	char		*line;
 	char		**split;
-	
+	int         fd;
+
 	split = NULL;
-	while ((size = get_next_line(0, &line)) > 0)
+//	fd = open(av[0], O_RDONLY);
+//	while ((size = get_next_line(fd, &line)) > 0) //after debug should to change fd to 0.
+    while ((size = get_next_line(0, &line)) > 0)
 	{
 		if (all->ant == 0)
 			read_ant(line, all);
-		else if ((split = is_room(line)) && all->link_flag == 0)
-			read_room(all, split);
-		else if((split = is_link(line)))
-			read_link(all, split); // а если не найдены вершины, то где освобождается??
-		else if (*line == '#')
+		else if ((split = is_room(line)) && all->link_flag == 0 && *line != '#')
+		    read_room(all, split);
+		else if((split = is_link(line)) && *line != '#')
+		    read_link(all, split);
+        else if (*line == '#')
 			read_door(all, is_door(line + 1));
 		else
-			all->error = 1;	
+			all->error = 1;
 		if (split)
-			free(split);
-		free(line);
+		    ft_free_split(split);
+		// printf("%s\n", line);
+		if (line)
+		    free(line);
 		if (all->error)
 		{
-			write(1, "Error, sorry guy :(\n", 20);
+		    free_lem_in(all);
+			write(1, "\nERROR\n", 7);
 			return (0);
 		}
 	}
+	check_end_start(all);
+	if (all->error)
+	{
+	    free_lem_in(all);
+		write(1, "\nERROR\n", 7);
+		return (0);
+	}
+	printf("\n");
 	print_all_rooms(all);
-	//del_links(&link);
+	free_lem_in(all);
+//	close(fd); //temporary
 	return (1);
 }

@@ -1,4 +1,12 @@
 /home/dpenney/Downloads/clion-2019.3.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/dpenney/Desktop/lem-in
--- Configuring done
--- Generating done
--- Build files have been written to: /home/dpenney/Desktop/lem-in/cmake-build-debug
+CMake Error: Parse error in cache file /home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeCache.txt on line 127. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file /home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeCache.txt on line 131. Offending entry: >>>>>>> free
+CMake Error: Parse error in cache file /home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeCache.txt on line 199. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file /home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeCache.txt on line 209. Offending entry: >>>>>>> free
+CMake Error at CMakeLists.txt:2:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "<<<<<<<".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles/CMakeOutput.log".
