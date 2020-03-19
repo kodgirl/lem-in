@@ -15,18 +15,19 @@
 int	main(int ac, char **av)
 {
 	t_struct	all;
-	int			visual;
-
-	visual = 0;
-	ft_bzero(&all, sizeof(t_struct));
-	while (ac >= 2 && !ft_strcmp(av[1], "-v"))
-	{
-		if (!ft_strcmp(av[1], "-v"))
-			visual = 1;
-		av++;
-		ac--;
-	}
+//	int			visual;
+//
+//	visual = 0;
+//	ft_bzero(&all, sizeof(t_struct));
+//	while (ac >= 2 && !ft_strcmp(av[1], "-v"))
+//	{
+//		if (!ft_strcmp(av[1], "-v"))
+//			visual = 1;
+//		av++;
+//		ac--;
+//	}
 	if (ac == 1)
 		parser(&all);
+//	ft_solution(&all);
 	return (0);
 }

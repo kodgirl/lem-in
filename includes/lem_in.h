@@ -33,12 +33,13 @@
 typedef struct		s_room
 {
 	
-	int		index;
-	char	*name;
-	int		x;
-	int		y;
+	int             index;
+	char	        *name;
+	int		        x;
+	int		        y;
 	struct s_room	*next;
 	struct s_edge	*edge;
+	int             visit;
 }					t_room;
 
 /*
@@ -50,8 +51,8 @@ typedef struct		s_room
 typedef struct		s_edge
 {
 	int				cost;
-	struct s_edge	*next;
 	struct s_room	*room;
+	struct s_edge	*next;
 }					t_edge;
 
 /*
@@ -78,6 +79,12 @@ typedef struct		s_struct
 	int				error;
 	int				link_flag;
 }					t_struct;
+
+typedef struct      s_save_way
+{
+	t_room          *list_rooms;
+	struct s_save_way *next;
+}                   t_saved_ways;
 
 int		parser(t_struct *all);
 int		f_atoi(char *str, int *error);
