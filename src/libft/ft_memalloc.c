@@ -15,9 +15,7 @@
 void	*ft_memalloc(size_t size)
 {
 	void	*ar;
-	size_t	i;
 
-	i = 0;
 	if (size && (ar = (void*)malloc(sizeof(void) * size)))
 		ft_bzero(ar, size);
 	else

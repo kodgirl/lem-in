@@ -234,7 +234,7 @@ int		parser(t_struct *all, char **av)
 			all->error = 1;
 		if (split)
 		    ft_free_split(split);
-		// printf("%s\n", line);
+		printf("%s\n", line);
 		if (line)
 		    free(line);
 		if (all->error)
