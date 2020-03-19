@@ -35,8 +35,12 @@ t_way        *ft_dijkstra(t_struct *all)
 				keep = tmp->edge;
 			tmp->edge = tmp->edge->next;
 		}
-		while (tmp->edge != keep) // ищём нами найденное наименьшее ребро
+		while (tmp->edge) // ищём нами найденное наименьшее ребро
+		{
+			if (tmp->edge == keep)
+				break;
 			tmp->edge = tmp->edge->next;
+		}
 		if (tmp->edge == keep) //если нашли, то берём от этого ребра следующую вершину.
 		{
 			tmp->edge->room->cost = tmp->edge->cost; // перед тем как пройти по этому пути,
@@ -59,7 +63,6 @@ void        ft_solution(t_struct *all)
 {
 	t_way   *way;
 	t_room  *set_infinity;
-
 	set_infinity = all->room;
 	while (set_infinity != NULL)
 	{

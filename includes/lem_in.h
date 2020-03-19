@@ -83,6 +83,13 @@ typedef struct		s_struct
 	int             rm_count;
 }					t_struct;
 
+typedef struct      s_way
+{
+	t_room          *rooms;
+	struct s_way    *next;
+}                   t_way;
+
+
 int		parser(t_struct *all, char **av);
 int		f_atoi(char *str, int *error);
 int 	array_len(char **str);
@@ -91,5 +98,8 @@ int		read_link(t_struct *all, char **split);
 int		room_validation(t_room *room, t_room *flat);
 void    free_lem_in(t_struct *all);
 void    ft_free_split(char **for_free);
+
+void        ft_solution(t_struct *all);
+t_way       *ft_dijkstra(t_struct *all);
 
 #endif
