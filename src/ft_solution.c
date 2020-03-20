@@ -15,7 +15,7 @@ t_way        *ft_dijkstra(t_struct *all)
 	t_way   *tmp_way;
 	int     cp_count;
 
-	cp_count = all->rm_count;
+	cp_count = all->rm_count + 2; // plus start and end rooms;
 	tmp = all->start; //than to start cycle
 	way->rooms = tmp; // than to record begin of graph
 	tmp_way = way; // than to don't lost head of way;
@@ -30,10 +30,10 @@ t_way        *ft_dijkstra(t_struct *all)
 		keep = tmp->edge;
 		while (tmp->edge) //смотрим рёбра настоящей вершины
 		{
-			if (keep > tmp->edge && !(tmp->edge->room->cost > INT_MAX)) // в цикле ищём наименьшее ребро и проверяем НЕ является ли
+			if (keep->cost > tmp->edge->cost) // && !(tmp->edge->room->cost > INT_MAX)) // в цикле ищём наименьшее ребро и проверяем НЕ является ли
 				//эта комната посещённой. Если была посещена, то пропускаем.
 				keep = tmp->edge;
-			tmp->edge = tmp->edge->next;
+			tmp->edge = tmp->edge->next; // !!! Вот здесь почему-то обнуляется.
 		}
 		while (tmp->edge) // ищём нами найденное наименьшее ребро
 		{
@@ -41,9 +41,10 @@ t_way        *ft_dijkstra(t_struct *all)
 				break;
 			tmp->edge = tmp->edge->next;
 		}
+		// А где сложить значения настоящей комнаты и следующего ребра?
 		if (tmp->edge == keep) //если нашли, то берём от этого ребра следующую вершину.
 		{
-			tmp->edge->room->cost = tmp->edge->cost; // перед тем как пройти по этому пути,
+			tmp->edge->room->cost = tmp->edge->cost + tmp->cost; // перед тем как пройти по этому пути,
 			//устанавливаем ту стоимость, которая сохранена в ребре, в комнату, куда она направила.
 			tmp = tmp->edge->room; // и переходим в эту новую вершину.
 		}
@@ -51,6 +52,7 @@ t_way        *ft_dijkstra(t_struct *all)
 		way->rooms = tmp;
 		way->rooms = way->rooms->next;
 	}
+	// !!! Установи parent предыдущей вершины.
 	return (tmp_way);
 }
 
