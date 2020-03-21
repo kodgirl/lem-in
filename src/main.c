@@ -26,11 +26,12 @@ int	main(int ac, char **av)
 		av++;
 		ac--;
 	}
-	if (ac == 1) //ac == 2 if using to debug
+	if (ac == 1)
 	{
-        parser(&all, &av[1]); //remove av[1] after debuging
-        exit(1);
+        parser(&all);
+		bfs(&all);
     }
+	free_lem_in(&all);
 	return (0);
 	//	ft_solution(&all);
 }

@@ -190,8 +190,6 @@ int		read_door(t_struct *all, int i)
 
 int		check_end_start(t_struct *all)
 {
-	// if(all->end_flag != 1 || all->start_flag != 1)
-	// 	all->error = 1; 
 	if (!all->start->edge || !all->end->edge)
 		all->error = 1;
 	return (0);
@@ -210,7 +208,7 @@ int		check_end_start(t_struct *all)
 ** read doors recording comments ##start and ##end;
 */
 
-int		parser(t_struct *all, char **av)
+int		parser(t_struct *all)
 {
 	int			size;
 	char		*line;
@@ -218,8 +216,6 @@ int		parser(t_struct *all, char **av)
 	int         fd;
 
 	split = NULL;
-//	fd = open(av[0], O_RDONLY);
-//	while ((size = get_next_line(fd, &line)) > 0) //after debug should to change fd to 0.
     while ((size = get_next_line(0, &line)) > 0)
 	{
 		if (all->ant == 0)
@@ -234,7 +230,6 @@ int		parser(t_struct *all, char **av)
 			all->error = 1;
 		if (split)
 		    ft_free_split(split);
-		printf("%s\n", line);
 		if (line)
 		    free(line);
 		if (all->error)
@@ -253,7 +248,6 @@ int		parser(t_struct *all, char **av)
 	}
 	printf("\n");
 	print_all_rooms(all);
-	free_lem_in(all);
-//	close(fd); //temporary
+	
 	return (1);
 }

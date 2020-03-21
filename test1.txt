@@ -11,3 +11,7 @@ y 6 7
 i 7 8
 q-w
 q-r
+e-y
+t-y
+t-w
+t-g
