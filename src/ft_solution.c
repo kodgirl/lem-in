@@ -48,6 +48,7 @@ void     *ft_dijkstra(t_struct *all)
 		tmp_rm->parent = tmp_rm->parent->next;
 	}
 	// !!! Установи parent предыдущей вершины.
+	// Не работает во второй раз.
 }
 
 /*
@@ -65,6 +66,7 @@ void        ft_solution(t_struct *all)
 			set_infinity->cost = INT_MAX - 1;
 		set_infinity = set_infinity->next;
 	}
+	ft_dijkstra(all);
 	ft_dijkstra(all);
 	printf("Way added\n");
 }
