@@ -71,5 +71,6 @@ int		bfs(t_struct *all)
 		order = order->next;
 	}
 	write_order(head_order, all);
+	// clean_order(head_order);
 	return(0);
 }

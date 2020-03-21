@@ -67,7 +67,6 @@ typedef struct		s_edge
 
 typedef struct		s_struct
 {
-
 	int				start_flag;
 	int				end_flag;
 	int				ant_flag;

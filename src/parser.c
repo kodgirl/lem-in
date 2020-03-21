@@ -97,11 +97,9 @@ void	print_all_rooms(t_struct *all)
 		lk = all->room;
 		while (lk)
 		{
-			printf("name_rooms%s x=%d  y=%d\n", lk->name, lk->x, lk->y);
+			printf("name_rooms: %s x=%d  y=%d\n", lk->name, lk->x, lk->y);
 			lk = lk->next;
 		}
-		printf("start: %d\n", all->start_flag);
-		printf("end: %d\n", all->end_flag);
 		if (all->start)
 			printf("start: %s x=%d  y=%d\n", all->start->name, all->start->x, all->start->y);
 		if (all->end)
