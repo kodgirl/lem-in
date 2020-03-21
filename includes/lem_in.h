@@ -37,10 +37,10 @@ typedef struct		s_room
 	int		        y;
 	struct s_edge	*edge;
 	int             cost;
-	struct s_room   *parent;
 	int             visit;
 	struct s_room	*next;
 	int             index;
+	struct s_room   *parent;
 }					t_room;
 
 /*
@@ -84,7 +84,7 @@ typedef struct		s_struct
 
 typedef struct      s_way
 {
-	t_room          *rooms;
+	t_room          *room;
 	struct s_way    *next;
 }                   t_way;
 
@@ -99,6 +99,6 @@ void    free_lem_in(t_struct *all);
 void    ft_free_split(char **for_free);
 
 void        ft_solution(t_struct *all);
-t_way       *ft_dijkstra(t_struct *all);
+void       *ft_dijkstra(t_struct *all);
 
 #endif
