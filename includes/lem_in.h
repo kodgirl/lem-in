@@ -99,6 +99,6 @@ void    free_lem_in(t_struct *all);
 void    ft_free_split(char **for_free);
 
 void        ft_solution(t_struct *all);
-void       *ft_dijkstra(t_struct *all);
+t_way       *ft_dijkstra(t_struct *all);
 
 #endif
