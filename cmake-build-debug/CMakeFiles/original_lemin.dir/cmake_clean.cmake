@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/original_lemin.dir/src/bfs.c.o"
   "CMakeFiles/original_lemin.dir/src/delete.c.o"
   "CMakeFiles/original_lemin.dir/src/equal_rooms.c.o"
   "CMakeFiles/original_lemin.dir/src/ft_solution.c.o"

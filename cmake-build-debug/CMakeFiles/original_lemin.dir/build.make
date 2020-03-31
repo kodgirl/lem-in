@@ -915,9 +915,22 @@ CMakeFiles/original_lemin.dir/src/libft/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/original_lemin.dir/src/libft/get_next_line.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/original_lemin/src/libft/get_next_line.c -o CMakeFiles/original_lemin.dir/src/libft/get_next_line.c.s
 
+CMakeFiles/original_lemin.dir/src/bfs.c.o: CMakeFiles/original_lemin.dir/flags.make
+CMakeFiles/original_lemin.dir/src/bfs.c.o: ../src/bfs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/original_lemin.dir/src/bfs.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/original_lemin.dir/src/bfs.c.o   -c /home/dpenney/Desktop/original_lemin/src/bfs.c
+
+CMakeFiles/original_lemin.dir/src/bfs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/original_lemin.dir/src/bfs.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/original_lemin/src/bfs.c > CMakeFiles/original_lemin.dir/src/bfs.c.i
+
+CMakeFiles/original_lemin.dir/src/bfs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/original_lemin.dir/src/bfs.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/original_lemin/src/bfs.c -o CMakeFiles/original_lemin.dir/src/bfs.c.s
+
 CMakeFiles/original_lemin.dir/src/delete.c.o: CMakeFiles/original_lemin.dir/flags.make
 CMakeFiles/original_lemin.dir/src/delete.c.o: ../src/delete.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/original_lemin.dir/src/delete.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/original_lemin.dir/src/delete.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/original_lemin.dir/src/delete.c.o   -c /home/dpenney/Desktop/original_lemin/src/delete.c
 
 CMakeFiles/original_lemin.dir/src/delete.c.i: cmake_force
@@ -930,7 +943,7 @@ CMakeFiles/original_lemin.dir/src/delete.c.s: cmake_force
 
 CMakeFiles/original_lemin.dir/src/equal_rooms.c.o: CMakeFiles/original_lemin.dir/flags.make
 CMakeFiles/original_lemin.dir/src/equal_rooms.c.o: ../src/equal_rooms.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/original_lemin.dir/src/equal_rooms.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/original_lemin.dir/src/equal_rooms.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/original_lemin.dir/src/equal_rooms.c.o   -c /home/dpenney/Desktop/original_lemin/src/equal_rooms.c
 
 CMakeFiles/original_lemin.dir/src/equal_rooms.c.i: cmake_force
@@ -943,7 +956,7 @@ CMakeFiles/original_lemin.dir/src/equal_rooms.c.s: cmake_force
 
 CMakeFiles/original_lemin.dir/src/ft_solution.c.o: CMakeFiles/original_lemin.dir/flags.make
 CMakeFiles/original_lemin.dir/src/ft_solution.c.o: ../src/ft_solution.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/original_lemin.dir/src/ft_solution.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/original_lemin.dir/src/ft_solution.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/original_lemin.dir/src/ft_solution.c.o   -c /home/dpenney/Desktop/original_lemin/src/ft_solution.c
 
 CMakeFiles/original_lemin.dir/src/ft_solution.c.i: cmake_force
@@ -956,7 +969,7 @@ CMakeFiles/original_lemin.dir/src/ft_solution.c.s: cmake_force
 
 CMakeFiles/original_lemin.dir/src/liba.c.o: CMakeFiles/original_lemin.dir/flags.make
 CMakeFiles/original_lemin.dir/src/liba.c.o: ../src/liba.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/original_lemin.dir/src/liba.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/original_lemin.dir/src/liba.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/original_lemin.dir/src/liba.c.o   -c /home/dpenney/Desktop/original_lemin/src/liba.c
 
 CMakeFiles/original_lemin.dir/src/liba.c.i: cmake_force
@@ -969,7 +982,7 @@ CMakeFiles/original_lemin.dir/src/liba.c.s: cmake_force
 
 CMakeFiles/original_lemin.dir/src/main.c.o: CMakeFiles/original_lemin.dir/flags.make
 CMakeFiles/original_lemin.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/original_lemin.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/original_lemin.dir/src/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/original_lemin.dir/src/main.c.o   -c /home/dpenney/Desktop/original_lemin/src/main.c
 
 CMakeFiles/original_lemin.dir/src/main.c.i: cmake_force
@@ -982,7 +995,7 @@ CMakeFiles/original_lemin.dir/src/main.c.s: cmake_force
 
 CMakeFiles/original_lemin.dir/src/parse_edges.c.o: CMakeFiles/original_lemin.dir/flags.make
 CMakeFiles/original_lemin.dir/src/parse_edges.c.o: ../src/parse_edges.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/original_lemin.dir/src/parse_edges.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/original_lemin.dir/src/parse_edges.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/original_lemin.dir/src/parse_edges.c.o   -c /home/dpenney/Desktop/original_lemin/src/parse_edges.c
 
 CMakeFiles/original_lemin.dir/src/parse_edges.c.i: cmake_force
@@ -995,7 +1008,7 @@ CMakeFiles/original_lemin.dir/src/parse_edges.c.s: cmake_force
 
 CMakeFiles/original_lemin.dir/src/parse_rooms.c.o: CMakeFiles/original_lemin.dir/flags.make
 CMakeFiles/original_lemin.dir/src/parse_rooms.c.o: ../src/parse_rooms.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/original_lemin.dir/src/parse_rooms.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/original_lemin.dir/src/parse_rooms.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/original_lemin.dir/src/parse_rooms.c.o   -c /home/dpenney/Desktop/original_lemin/src/parse_rooms.c
 
 CMakeFiles/original_lemin.dir/src/parse_rooms.c.i: cmake_force
@@ -1008,7 +1021,7 @@ CMakeFiles/original_lemin.dir/src/parse_rooms.c.s: cmake_force
 
 CMakeFiles/original_lemin.dir/src/parser.c.o: CMakeFiles/original_lemin.dir/flags.make
 CMakeFiles/original_lemin.dir/src/parser.c.o: ../src/parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/original_lemin.dir/src/parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/original_lemin.dir/src/parser.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/original_lemin.dir/src/parser.c.o   -c /home/dpenney/Desktop/original_lemin/src/parser.c
 
 CMakeFiles/original_lemin.dir/src/parser.c.i: cmake_force
@@ -1087,6 +1100,7 @@ original_lemin_OBJECTS = \
 "CMakeFiles/original_lemin.dir/src/libft/ft_tolower.c.o" \
 "CMakeFiles/original_lemin.dir/src/libft/ft_toupper.c.o" \
 "CMakeFiles/original_lemin.dir/src/libft/get_next_line.c.o" \
+"CMakeFiles/original_lemin.dir/src/bfs.c.o" \
 "CMakeFiles/original_lemin.dir/src/delete.c.o" \
 "CMakeFiles/original_lemin.dir/src/equal_rooms.c.o" \
 "CMakeFiles/original_lemin.dir/src/ft_solution.c.o" \
@@ -1165,6 +1179,7 @@ original_lemin: CMakeFiles/original_lemin.dir/src/libft/ft_strtrim.c.o
 original_lemin: CMakeFiles/original_lemin.dir/src/libft/ft_tolower.c.o
 original_lemin: CMakeFiles/original_lemin.dir/src/libft/ft_toupper.c.o
 original_lemin: CMakeFiles/original_lemin.dir/src/libft/get_next_line.c.o
+original_lemin: CMakeFiles/original_lemin.dir/src/bfs.c.o
 original_lemin: CMakeFiles/original_lemin.dir/src/delete.c.o
 original_lemin: CMakeFiles/original_lemin.dir/src/equal_rooms.c.o
 original_lemin: CMakeFiles/original_lemin.dir/src/ft_solution.c.o
@@ -1175,7 +1190,7 @@ original_lemin: CMakeFiles/original_lemin.dir/src/parse_rooms.c.o
 original_lemin: CMakeFiles/original_lemin.dir/src/parser.c.o
 original_lemin: CMakeFiles/original_lemin.dir/build.make
 original_lemin: CMakeFiles/original_lemin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Linking C executable original_lemin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Linking C executable original_lemin"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/original_lemin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -75,6 +75,7 @@ add_executable(original_lemin
         src/libft/ft_toupper.c
         src/libft/get_next_line.c
         src/libft/libft.h
+        src/bfs.c
         src/delete.c
         src/equal_rooms.c
         src/ft_solution.c
@@ -82,4 +83,4 @@ add_executable(original_lemin
         src/main.c
         src/parse_edges.c
         src/parse_rooms.c
-        src/parser.c src/main.cpp)
+        src/parser.c)

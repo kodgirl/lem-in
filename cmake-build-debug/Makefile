@@ -123,6 +123,33 @@ original_lemin/fast:
 	$(MAKE) -f CMakeFiles/original_lemin.dir/build.make CMakeFiles/original_lemin.dir/build
 .PHONY : original_lemin/fast
 
+src/bfs.o: src/bfs.c.o
+
+.PHONY : src/bfs.o
+
+# target to build an object file
+src/bfs.c.o:
+	$(MAKE) -f CMakeFiles/original_lemin.dir/build.make CMakeFiles/original_lemin.dir/src/bfs.c.o
+.PHONY : src/bfs.c.o
+
+src/bfs.i: src/bfs.c.i
+
+.PHONY : src/bfs.i
+
+# target to preprocess a source file
+src/bfs.c.i:
+	$(MAKE) -f CMakeFiles/original_lemin.dir/build.make CMakeFiles/original_lemin.dir/src/bfs.c.i
+.PHONY : src/bfs.c.i
+
+src/bfs.s: src/bfs.c.s
+
+.PHONY : src/bfs.s
+
+# target to generate assembly for a file
+src/bfs.c.s:
+	$(MAKE) -f CMakeFiles/original_lemin.dir/build.make CMakeFiles/original_lemin.dir/src/bfs.c.s
+.PHONY : src/bfs.c.s
+
 src/delete.o: src/delete.c.o
 
 .PHONY : src/delete.o
@@ -2130,6 +2157,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... original_lemin"
 	@echo "... edit_cache"
+	@echo "... src/bfs.o"
+	@echo "... src/bfs.i"
+	@echo "... src/bfs.s"
 	@echo "... src/delete.o"
 	@echo "... src/delete.i"
 	@echo "... src/delete.s"

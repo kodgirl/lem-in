@@ -36,11 +36,13 @@ typedef struct		s_room
 	int		        x;
 	int		        y;
 	struct s_edge	*edge;
-	int             cost;
+	int             distance;
 	int             visit;
 	struct s_room	*next;
 	int             index;
 	struct s_room   *parent;
+	struct s_room	*go_from;
+
 }					t_room;
 
 /*
@@ -79,7 +81,6 @@ typedef struct		s_struct
 	unsigned short int	end_flag;
 	unsigned short int	ant_flag;
 	unsigned short int	link_flag;
-
 }					t_struct;
 
 typedef struct      s_way
@@ -87,6 +88,13 @@ typedef struct      s_way
 	t_room          *room;
 	struct s_way    *next;
 }                   t_way;
+
+
+typedef struct		s_order
+{
+	t_room			*room;
+	struct s_order	*next;
+}					t_order;
 
 
 int		parser(t_struct *all, char **av);
@@ -100,5 +108,6 @@ void    ft_free_split(char **for_free);
 
 void        ft_solution(t_struct *all);
 t_way       *ft_dijkstra(t_struct *all);
+int			bfs(t_struct *all);
 
 #endif

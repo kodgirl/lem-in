@@ -85,6 +85,9 @@
 		<Unit filename="/home/dpenney/Desktop/original_lemin/includes/lem_in.h">
 			<Option target="original_lemin"/>
 		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original_lemin/src/bfs.c">
+			<Option target="original_lemin"/>
+		</Unit>
 		<Unit filename="/home/dpenney/Desktop/original_lemin/src/delete.c">
 			<Option target="original_lemin"/>
 		</Unit>
@@ -299,9 +302,6 @@
 			<Option target="original_lemin"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/original_lemin/src/main.c">
-			<Option target="original_lemin"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/original_lemin/src/main.cpp">
 			<Option target="original_lemin"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/original_lemin/src/parse_edges.c">
