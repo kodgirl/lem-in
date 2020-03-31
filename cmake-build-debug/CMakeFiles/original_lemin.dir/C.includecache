@@ -18,6 +18,10 @@ fcntl.h
 ../src/libft/libft.h
 /home/dpenney/Desktop/original_lemin/src/libft/libft.h
 
+/home/dpenney/Desktop/original_lemin/src/bfs.c
+../includes/lem_in.h
+/home/dpenney/Desktop/original_lemin/includes/lem_in.h
+
 /home/dpenney/Desktop/original_lemin/src/libft/libft.h
 unistd.h
 -
@@ -25,8 +29,4 @@ stdlib.h
 -
 string.h
 -
-
-/home/dpenney/Desktop/original_lemin/src/main.c
-../includes/lem_in.h
-/home/dpenney/Desktop/original_lemin/includes/lem_in.h
 
