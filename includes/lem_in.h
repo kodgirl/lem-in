@@ -86,6 +86,7 @@ typedef struct		s_struct
 typedef struct      s_way
 {
 	t_room          *RoomsOrder;
+	struct s_way    *prev;
 	struct s_way    *next;
 }                   t_way;
 

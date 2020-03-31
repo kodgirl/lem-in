@@ -13,8 +13,8 @@ void    record_way(t_struct *all)
 	while(room != NULL)
 	{
 		way->RoomsOrder = room;
-		way->next = malloc(sizeof(t_way));
-		way = way->next;
+		way->prev = malloc(sizeof(t_way));
+		way = way->prev;
 		room = room->go_from;
 	}
 	way = HeadWay;
@@ -23,7 +23,7 @@ void    record_way(t_struct *all)
 	while (way->RoomsOrder)
 	{
 		printf("%s--->", way->RoomsOrder->name);
-		way = way->next;
+		way = way->prev;
 	}
 }
 
