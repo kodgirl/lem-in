@@ -32,14 +32,15 @@
 
 typedef struct		s_room
 {
-	
-	int             index;
 	char	        *name;
 	int		        x;
 	int		        y;
-	struct s_room	*next;
-	struct s_edge	*edge;
+	int             distance;
 	int             visit;
+	struct s_room	*next;
+	int             index;
+	struct s_edge	*edge;
+	struct s_room	*go_from;
 }					t_room;
 
 /*
@@ -68,17 +69,32 @@ typedef struct		s_edge
 
 typedef struct		s_struct
 {
-
-	int				start_flag;
-	int				end_flag;
-	int				ant_flag;
-	t_room			*room;
 	int				ant;
+	t_room			*room;
 	t_room			*start;
 	t_room			*end;
+	int             rm_count;
 	int				error;
-	int				link_flag;
+	unsigned short int	start_flag;
+	unsigned short int	end_flag;
+	unsigned short int	ant_flag;
+	unsigned short int	link_flag;
 }					t_struct;
+
+typedef struct      s_way
+{
+	t_room          *RoomsOrder;
+	struct s_way    *prev;
+	struct s_way    *next;
+}                   t_way;
+
+
+typedef struct		s_order
+{
+	t_room			*room;
+	struct s_order	*next;
+}					t_order;
+
 
 int		parser(t_struct *all, char **av);
 int		f_atoi(char *str, int *error);
@@ -88,5 +104,9 @@ int		read_link(t_struct *all, char **split);
 int		room_validation(t_room *room, t_room *flat);
 void    free_lem_in(t_struct *all);
 void    ft_free_split(char **for_free);
+
+void        ft_solution(t_struct *all);
+t_way       *ft_dijkstra(t_struct *all);
+t_way		*bfs(t_struct *all);
 
 #endif

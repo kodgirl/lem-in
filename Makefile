@@ -18,7 +18,10 @@ SRC =	src/main.c\
 		src/liba.c\
 		src/parse_edges.c\
 		src/parse_rooms.c\
-		src/equal_rooms.c
+		src/ft_solution.c\
+		src/equal_rooms.c\
+		src/bfs.c
+
 
 INCL = includes/lem_in.h 
 
@@ -34,7 +37,7 @@ $(NAME): $(OBJ)
 	make -C src/libft
 	gcc -o $(NAME) $(OBJ) -L./src/libft -lft
 	
-%.o: %.c ${INCL}
+%.o: %.c $(INCL)
 	gcc -I $(INCL) $< -c -o $@
 	
 clean:

@@ -1,7 +1,3 @@
-/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-<<<<<<< HEAD
-/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir
-=======
-/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles/my_lem_in.dir
->>>>>>> free
-/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles/original_lemin.dir
+/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles/edit_cache.dir

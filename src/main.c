@@ -17,20 +17,20 @@ int	main(int ac, char **av)
 	t_struct	all;
 	int			visual;
 
-	visual = 0;
+//	visual = 0;
+//	while (ac >= 2 && !ft_strcmp(av[1], "-v"))
+//	{
+//		if (!ft_strcmp(av[1], "-v"))
+//			visual = 1;
+//		av++;
+//		ac--;
+//	}
 	ft_bzero(&all, sizeof(t_struct));
-	while (ac >= 2 && !ft_strcmp(av[1], "-v"))
-	{
-		if (!ft_strcmp(av[1], "-v"))
-			visual = 1;
-		av++;
-		ac--;
-	}
-	if (ac == 1) //ac == 2 if using to debug
+	if (ac == 2) //ac == 2 if using to debug
 	{
         parser(&all, &av[1]); //remove av[1] after debuging
-        exit(1);
+		ft_solution(&all);
+        exit(0);
     }
 	return (0);
-	//	ft_solution(&all);
 }

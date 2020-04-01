@@ -68,6 +68,7 @@ int		read_room(t_struct *all, char **split)
 				temp->next = rm;
 			else
 				all->room = rm;
+			all->rm_count++;
 			return (1);
 		}
 		free(rm->name);

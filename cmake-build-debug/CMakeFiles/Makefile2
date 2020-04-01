@@ -44,29 +44,21 @@ RM = /home/dpenney/Downloads/clion-2019.3.2/bin/cmake/linux/bin/cmake -E remove 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dpenney/Desktop/lem-in
+CMAKE_SOURCE_DIR = /home/dpenney/Desktop/original_lemin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dpenney/Desktop/lem-in/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dpenney/Desktop/original_lemin/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-<<<<<<< HEAD
-all: CMakeFiles/lem_in.dir/all
-=======
-all: CMakeFiles/my_lem_in.dir/all
->>>>>>> free
+all: CMakeFiles/original_lemin.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-<<<<<<< HEAD
-clean: CMakeFiles/lem_in.dir/clean
-=======
-clean: CMakeFiles/my_lem_in.dir/clean
->>>>>>> free
+clean: CMakeFiles/original_lemin.dir/clean
 
 .PHONY : clean
 
@@ -76,59 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-<<<<<<< HEAD
-# Target rules for target CMakeFiles/lem_in.dir
+# Target rules for target CMakeFiles/original_lemin.dir
 
 # All Build rule for target.
-CMakeFiles/lem_in.dir/all:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/depend
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75 "Built target lem_in"
-.PHONY : CMakeFiles/lem_in.dir/all
+CMakeFiles/original_lemin.dir/all:
+	$(MAKE) -f CMakeFiles/original_lemin.dir/build.make CMakeFiles/original_lemin.dir/depend
+	$(MAKE) -f CMakeFiles/original_lemin.dir/build.make CMakeFiles/original_lemin.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76 "Built target original_lemin"
+.PHONY : CMakeFiles/original_lemin.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/lem_in.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles 75
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lem_in.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/lem_in.dir/rule
+CMakeFiles/original_lemin.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles 76
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/original_lemin.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dpenney/Desktop/original_lemin/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/original_lemin.dir/rule
 
 # Convenience name for target.
-lem_in: CMakeFiles/lem_in.dir/rule
+original_lemin: CMakeFiles/original_lemin.dir/rule
 
-.PHONY : lem_in
-
-# clean rule for target.
-CMakeFiles/lem_in.dir/clean:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/clean
-.PHONY : CMakeFiles/lem_in.dir/clean
-=======
-# Target rules for target CMakeFiles/my_lem_in.dir
-
-# All Build rule for target.
-CMakeFiles/my_lem_in.dir/all:
-	$(MAKE) -f CMakeFiles/my_lem_in.dir/build.make CMakeFiles/my_lem_in.dir/depend
-	$(MAKE) -f CMakeFiles/my_lem_in.dir/build.make CMakeFiles/my_lem_in.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74 "Built target my_lem_in"
-.PHONY : CMakeFiles/my_lem_in.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/my_lem_in.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles 74
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/my_lem_in.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/my_lem_in.dir/rule
-
-# Convenience name for target.
-my_lem_in: CMakeFiles/my_lem_in.dir/rule
-
-.PHONY : my_lem_in
+.PHONY : original_lemin
 
 # clean rule for target.
-CMakeFiles/my_lem_in.dir/clean:
-	$(MAKE) -f CMakeFiles/my_lem_in.dir/build.make CMakeFiles/my_lem_in.dir/clean
-.PHONY : CMakeFiles/my_lem_in.dir/clean
->>>>>>> free
+CMakeFiles/original_lemin.dir/clean:
+	$(MAKE) -f CMakeFiles/original_lemin.dir/build.make CMakeFiles/original_lemin.dir/clean
+.PHONY : CMakeFiles/original_lemin.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

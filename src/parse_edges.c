@@ -108,8 +108,8 @@ int		read_link(t_struct *all, char **split)
 			all->error = 1;
 		if (add_edge_to_room(room2, edg2) == 0)
 			all->error = 1;
-		// if (split)
-		// 	ft_free_split(split);
+		edg1->cost = 1;
+		edg2->cost = 1;
 		return (1);
 	}
 	else
