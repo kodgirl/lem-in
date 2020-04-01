@@ -1,5 +1,25 @@
 #include "../includes/lem_in.h"
 
+void     *clean_order(t_order *head_order, t_struct *all)
+{
+	t_order     *tmp;
+	t_room      *tmpRoom;
+
+	tmp = NULL;
+	tmpRoom = all->room;
+	while (tmpRoom)
+	{
+		tmpRoom->visit = 0;
+		tmpRoom = tmpRoom->next;
+	}
+	while (head_order)
+	{
+		tmp = head_order;
+		head_order = head_order->next;
+		free(tmp);
+	}
+}
+
 t_way    *invert_way(t_way *way)
 {
 	t_way   *curr;
@@ -31,7 +51,7 @@ t_way   *FixVisitRooms(t_way *way)
 	return (way);
 }
 
-void    record_way(t_struct *all)
+t_way    *record_way(t_struct *all)
 {
 	t_way   *HeadWay;
 	t_way   *way;
@@ -98,7 +118,6 @@ t_order	*malloc_order(t_room *rm)
 	if ((order = (t_order*)malloc(sizeof(t_order))))
 	{
 		ft_bzero(order, sizeof(t_order));
-		rm->visit = 0;
 		order->room = rm;
 		return (order);
 	}
@@ -119,22 +138,17 @@ void	add_to_order(t_room *room, t_order *order)
 }
 
 /*
- * ************************************************
- * 1. КАК СОХРАНИТЬ ПУТЬ?
- * 2. КАК ЗАПУСКАТЬ ВТОРОЙ РАЗ, ЕСЛИ ПОСЛЕ ПЕРВОГО ЗАПУСКА ОТМЕЧАЕТСЯ И НЕ НУЖНАЯ ВЕРШИН?
- * ЕСЛИ ОТ А ЕСТЬ ПУТЬ В Б И В, ТО ДАЖЕ ЕСЛИ ЕСЛИ КОРОТКИЙ ПУТЬ ЭТО ЧЕРЕЗ Б, ТО В ТОЖЕ
- * ОТМЕЧАЕТСЯ -1 КАК ПОСЕЩЁННЫЙ.
- * Варианты разделения пути - 1. Не отмечать, что прошлись по этим вершинам и, сохранив пути,
- * сравнить списки записанных путей. 2. Делать отметки и найти способ...
- * А что, если найдя путь - отметить его единицей, только после записи.
- * 3. Как перевернуть список записанного пути?
+ * Когда второй раз запускаем bfs, то рёбра заканчиваются. Как их восстановить?
  */
 
-int		bfs(t_struct *all)
+t_way		*bfs(t_struct *all)
 {
 	t_order	*order;
 	t_order	*head_order;
+	t_way   *way;
 
+	all->start->visit = 0;
+	all->end->visit = 0;
 	order = malloc_order(all->start); //идёт выделение памяти и ставится в очередь комната старта
 	head_order = order;
 	while(order)
@@ -154,7 +168,7 @@ int		bfs(t_struct *all)
 		order = order->next; //как закончили с рёбрами, берем следующу вершину
 	}
 	write_order(head_order, all); // для печати отправляем начало очереди
-	// clean_order(head_order);
-	record_way(all);
-	return(0);
+	clean_order(head_order, all);
+	way = record_way(all);
+	return(way);
 }

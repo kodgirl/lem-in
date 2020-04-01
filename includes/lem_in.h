@@ -109,6 +109,6 @@ void    ft_free_split(char **for_free);
 
 void        ft_solution(t_struct *all);
 t_way       *ft_dijkstra(t_struct *all);
-int			bfs(t_struct *all);
+t_way		*bfs(t_struct *all);
 
 #endif

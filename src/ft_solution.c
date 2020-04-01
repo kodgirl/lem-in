@@ -1,5 +1,23 @@
-// #include "../includes/lem_in.h"
+ #include "../includes/lem_in.h"
 // # define INT_MAX 2147483647
+
+ void        ft_solution(t_struct *all)
+ {
+//	t_way   *way;
+//	t_way   ways[1000];
+//	unsigned int    i;
+//
+//	i = 0;
+//	ft_bzero(ways, sizeof(t_way));
+//	while((way = bfs(all)) != NULL)
+//	{
+//		ways[i] = way;
+//		i++;
+//	}
+	bfs(all);
+	printf("\n\nSECOND_TIME\n");
+	bfs(all);
+}
 
 
 // /*
@@ -127,3 +145,4 @@
 // 	check_parent(way);
 // 	printf("Way added\n");
 // }
+

@@ -13,7 +13,9 @@ CMakeFiles/original_lemin.dir/src/equal_rooms.c.o: ../includes/lem_in.h
 CMakeFiles/original_lemin.dir/src/equal_rooms.c.o: ../src/equal_rooms.c
 CMakeFiles/original_lemin.dir/src/equal_rooms.c.o: ../src/libft/libft.h
 
+CMakeFiles/original_lemin.dir/src/ft_solution.c.o: ../includes/lem_in.h
 CMakeFiles/original_lemin.dir/src/ft_solution.c.o: ../src/ft_solution.c
+CMakeFiles/original_lemin.dir/src/ft_solution.c.o: ../src/libft/libft.h
 
 CMakeFiles/original_lemin.dir/src/liba.c.o: ../includes/lem_in.h
 CMakeFiles/original_lemin.dir/src/liba.c.o: ../src/liba.c
