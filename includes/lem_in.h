@@ -35,14 +35,12 @@ typedef struct		s_room
 	char	        *name;
 	int		        x;
 	int		        y;
-	struct s_edge	*edge;
 	int             distance;
 	int             visit;
 	struct s_room	*next;
 	int             index;
-	struct s_room   *parent;
+	struct s_edge	*edge;
 	struct s_room	*go_from;
-
 }					t_room;
 
 /*

@@ -22,6 +22,22 @@ fcntl.h
 ../includes/lem_in.h
 /home/dpenney/Desktop/original_lemin/includes/lem_in.h
 
+/home/dpenney/Desktop/original_lemin/src/delete.c
+../includes/lem_in.h
+/home/dpenney/Desktop/original_lemin/includes/lem_in.h
+
+/home/dpenney/Desktop/original_lemin/src/equal_rooms.c
+../includes/lem_in.h
+/home/dpenney/Desktop/original_lemin/includes/lem_in.h
+
+/home/dpenney/Desktop/original_lemin/src/ft_solution.c
+../includes/lem_in.h
+/home/dpenney/Desktop/original_lemin/includes/lem_in.h
+
+/home/dpenney/Desktop/original_lemin/src/liba.c
+../includes/lem_in.h
+/home/dpenney/Desktop/original_lemin/includes/lem_in.h
+
 /home/dpenney/Desktop/original_lemin/src/libft/libft.h
 unistd.h
 -
@@ -29,4 +45,20 @@ stdlib.h
 -
 string.h
 -
+
+/home/dpenney/Desktop/original_lemin/src/main.c
+../includes/lem_in.h
+/home/dpenney/Desktop/original_lemin/includes/lem_in.h
+
+/home/dpenney/Desktop/original_lemin/src/parse_edges.c
+../includes/lem_in.h
+/home/dpenney/Desktop/original_lemin/includes/lem_in.h
+
+/home/dpenney/Desktop/original_lemin/src/parse_rooms.c
+../includes/lem_in.h
+/home/dpenney/Desktop/original_lemin/includes/lem_in.h
+
+/home/dpenney/Desktop/original_lemin/src/parser.c
+../includes/lem_in.h
+/home/dpenney/Desktop/original_lemin/includes/lem_in.h
 
