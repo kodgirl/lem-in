@@ -31,7 +31,7 @@ int	main(int ac, char **av)
         parser(&all, &av[1]); //remove av[1] after debuging
 		// ft_solution(&all);
 		bfs(&all);
-		bfs(&all);
+//		bfs(&all);
         exit(0);
     }
 	return (0);

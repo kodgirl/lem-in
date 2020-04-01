@@ -5,6 +5,8 @@ void    record_way(t_struct *all)
 	t_way   *HeadWay;
 	t_way   *way;
 	t_room  *room;
+	t_room  *tmp;
+
 	way = (t_way *)malloc(sizeof(t_way));
 	way->RoomsOrder = (t_room *)malloc(sizeof(t_room));
 
@@ -13,18 +15,48 @@ void    record_way(t_struct *all)
 	while(room != NULL)
 	{
 		way->RoomsOrder = room;
-		way->prev = malloc(sizeof(t_way));
-		way = way->prev;
+		if (room == all->start) {
+			way->next = NULL;
+			break;
+		}
+		way->next = malloc(sizeof(t_way));
+		tmp = room;
+		way = way->next;
+		way->next = tmp; // как поставить next следующую вершину? как перевернуть?
 		room = room->go_from;
 	}
 	way = HeadWay;
 	room = way->RoomsOrder;
+
+	// переворачиваю путь.
+	t_way   *curr;
+	t_way   *next;
+	t_way   *prev;
+	curr = way;
+	prev = NULL;
+	next = NULL;
+
+	while (curr)
+	{
+		next = curr->next;
+		curr->next = prev;
+		prev = curr;
+		curr = next;
+	}
+	way = prev;
+	t_way   *fix;
+	fix = way;
+	while (fix) {
+		fix->RoomsOrder->visit = 1;
+		fix = fix->next;
+	}
 	printf("\nRecorder way\n");
-	while (way->RoomsOrder)
+	while (way)
 	{
 		printf("%s--->", way->RoomsOrder->name);
-		way = way->prev;
+		way = way->next;
 	}
+
 }
 
 void	write_order(t_order *order, t_struct *all)
@@ -55,6 +87,7 @@ t_order	*malloc_order(t_room *rm)
 	if ((order = (t_order*)malloc(sizeof(t_order))))
 	{
 		ft_bzero(order, sizeof(t_order));
+		rm->visit = 0;
 		order->room = rm;
 		return (order);
 	}
