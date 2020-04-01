@@ -1,5 +1,36 @@
 #include "../includes/lem_in.h"
 
+t_way    *invert_way(t_way *way)
+{
+	t_way   *curr;
+	t_way   *next;
+	t_way   *prev;
+	curr = way;
+	prev = NULL;
+	next = NULL;
+
+	while (curr)
+	{
+		next = curr->next;
+		curr->next = prev;
+		prev = curr;
+		curr = next;
+	}
+	way = prev;
+	return(way);
+}
+
+t_way   *FixVisitRooms(t_way *way)
+{
+	t_way   *fix;
+	fix = way;
+	while (fix) {
+		fix->RoomsOrder->visit = 1;
+		fix = fix->next;
+	}
+	return (way);
+}
+
 void    record_way(t_struct *all)
 {
 	t_way   *HeadWay;
@@ -28,35 +59,15 @@ void    record_way(t_struct *all)
 	way = HeadWay;
 	room = way->RoomsOrder;
 
-	// переворачиваю путь.
-	t_way   *curr;
-	t_way   *next;
-	t_way   *prev;
-	curr = way;
-	prev = NULL;
-	next = NULL;
+	way = invert_way(way);
+	way = FixVisitRooms(way);
 
-	while (curr)
-	{
-		next = curr->next;
-		curr->next = prev;
-		prev = curr;
-		curr = next;
-	}
-	way = prev;
-	t_way   *fix;
-	fix = way;
-	while (fix) {
-		fix->RoomsOrder->visit = 1;
-		fix = fix->next;
-	}
 	printf("\nRecorder way\n");
 	while (way)
 	{
 		printf("%s--->", way->RoomsOrder->name);
 		way = way->next;
 	}
-
 }
 
 void	write_order(t_order *order, t_struct *all)
