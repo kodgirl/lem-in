@@ -3,19 +3,19 @@
 
  void        ft_solution(t_struct *all)
  {
-//	t_way   *way;
-//	t_way   ways[1000];
-//	unsigned int    i;
-//
-//	i = 0;
-//	ft_bzero(ways, sizeof(t_way));
-//	while((way = bfs(all)) != NULL)
-//	{
-//		ways[i] = way;
-//		i++;
-//	}
-	bfs(all);
-    bfs(all);
+	t_way   *way;
+	t_way   ways[1000];
+	unsigned int    i;
+
+	i = 5;
+	ft_bzero(ways, sizeof(t_way));
+	while (i)
+    {
+	    way = bfs(all);
+	    if (way == NULL)
+	        break;
+	    i--;
+    }
  }
 
 

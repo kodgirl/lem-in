@@ -7,11 +7,14 @@ void     *clean_order(t_order *head_order, t_struct *all)
 
 	tmp = NULL;
 	tmpRoom = all->room;
-	while (tmpRoom)
-	{
-		tmpRoom->visit = 0;
-		tmpRoom = tmpRoom->next;
-	}
+	while (tmpRoom) {
+        if (tmpRoom->visit == -1)
+            tmpRoom = tmpRoom->next;
+        else {
+            tmpRoom->visit = 0;
+            tmpRoom = tmpRoom->next;
+        }
+    }
 	while (head_order)
 	{
 		tmp = head_order;
@@ -122,8 +125,13 @@ t_way		*bfs(t_struct *all)
 		}
 		order = order->next;
 	}
-	write_order(head_order, all);
+	if (head_order->next == NULL)
+    {
+	    printf("\nWAYS END\n");
+	    return (NULL);
+    }
+//	write_order(head_order, all);
 	clean_order(head_order, all);
-//	way = record_way(all);
+	way = record_way(all);
 	return(way);
 }
