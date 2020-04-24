@@ -20,7 +20,8 @@ SRC =	src/main.c\
 		src/parse_rooms.c\
 		src/ft_solution.c\
 		src/equal_rooms.c\
-		src/bfs.c
+		src/bfs.c\
+		src/recorder_way.c
 
 
 INCL = includes/lem_in.h 

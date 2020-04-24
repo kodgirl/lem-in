@@ -26,9 +26,9 @@ int	main(int ac, char **av)
 //		ac--;
 //	}
 	ft_bzero(&all, sizeof(t_struct));
-	if (ac == 2) //ac == 2 if using to debug
+	if (ac == 1)
 	{
-        parser(&all, &av[1]); //remove av[1] after debuging
+        parser(&all);
 		ft_solution(&all);
         exit(0);
     }

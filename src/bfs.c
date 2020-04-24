@@ -20,75 +20,6 @@ void     *clean_order(t_order *head_order, t_struct *all)
 	}
 }
 
-t_way    *invert_way(t_way *way)
-{
-	t_way   *curr;
-	t_way   *next;
-	t_way   *prev;
-	curr = way;
-	prev = NULL;
-	next = NULL;
-
-	while (curr)
-	{
-		next = curr->next;
-		curr->next = prev;
-		prev = curr;
-		curr = next;
-	}
-	way = prev;
-	return(way);
-}
-
-t_way   *FixVisitRooms(t_way *way)
-{
-	t_way   *fix;
-	fix = way;
-	while (fix) {
-		fix->RoomsOrder->visit = 1;
-		fix = fix->next;
-	}
-	return (way);
-}
-
-t_way    *record_way(t_struct *all)
-{
-	t_way   *HeadWay;
-	t_way   *way;
-	t_room  *room;
-	t_room  *tmp;
-
-	way = (t_way *)malloc(sizeof(t_way));
-	way->RoomsOrder = (t_room *)malloc(sizeof(t_room));
-
-	HeadWay = way;
-	room = all->end;
-	while(room != NULL)
-	{
-		way->RoomsOrder = room;
-		if (room == all->start) {
-			way->next = NULL;
-			break;
-		}
-		way->next = malloc(sizeof(t_way));
-		tmp = room;
-		way = way->next;
-		way->next = tmp; // как поставить next следующую вершину? как перевернуть?
-		room = room->go_from;
-	}
-	way = HeadWay;
-	room = way->RoomsOrder;
-
-	way = invert_way(way);
-	way = FixVisitRooms(way);
-
-	printf("\nRecorder way\n");
-	while (way)
-	{
-		printf("%s--->", way->RoomsOrder->name);
-		way = way->next;
-	}
-}
 
 void	write_order(t_order *order, t_struct *all)
 {
@@ -111,6 +42,11 @@ void	write_order(t_order *order, t_struct *all)
 	printf("\n");
 }
 
+/*
+** To create order - we are just allocating memory like for simple list
+** And move the start room to order
+*/
+
 t_order	*malloc_order(t_room *rm)
 {
 	t_order	*order;
@@ -125,6 +61,11 @@ t_order	*malloc_order(t_room *rm)
 		return (NULL);
 }
 
+/*
+** Every new room will be added after allocating memory
+** and move by next of current room in order.
+*/
+
 void	add_to_order(t_room *room, t_order *order)
 {
 	t_order	*add;
@@ -138,37 +79,51 @@ void	add_to_order(t_room *room, t_order *order)
 }
 
 /*
- * Когда второй раз запускаем bfs, то рёбра заканчиваются. Как их восстановить?
- */
+** Когда второй раз запускаем bfs, то рёбра заканчиваются. Как их восстановить?
+** Init visit variable in start and end with 0.
+** Allocating memory for order and puting first room by order.
+** And launching cycle with allocated order. In cycle comparing room in order and end order.
+** If room in order isn't end - marking that we visited this room.
+** In new cycle looking for new rooms via edges of current room.
+** If next of edge room isn't visited - adding this room to order
+** and marking parent of this room.
+** And going to the next edge of current room.
+** If all edges ended - alg checking next room in order.
+** After bfs - cleaning memory which allocated for order.
+*/
 
 t_way		*bfs(t_struct *all)
 {
 	t_order	*order;
 	t_order	*head_order;
 	t_way   *way;
+	t_edge  *tmp_edge;
+	t_room  *tmp_room;
 
 	all->start->visit = 0;
 	all->end->visit = 0;
-	order = malloc_order(all->start); //идёт выделение памяти и ставится в очередь комната старта
+	order = malloc_order(all->start);
 	head_order = order;
 	while(order)
 	{
 		if (order->room == all->end)
 			break;
-		order->room->visit = 1; // отмечаем, что посетили
-		while (order->room->edge) //подбор рёбер
+		order->room->visit = 1;
+		tmp_room = order->room;
+		tmp_edge = tmp_room->edge;
+		while (tmp_edge)  // рёбра заканчиваются во второй итерации
 		{
-			if (order->room->edge->room->visit == 0) //если след комната не посещена, то
+			if (tmp_edge->room->visit == 0 && tmp_edge->room->visit != -1)
 			{
-				add_to_order(order->room->edge->room, order); //добавляем её в очередь
-				order->room->edge->room->go_from = order->room; //указываем родителя новой вершины
+				add_to_order(tmp_edge->room, order);
+                tmp_edge->room->go_from = tmp_room;
 			}
-			order->room->edge = order->room->edge->next; // и смотрим следующее ребро к вершине
+            tmp_edge = tmp_edge->next;
 		}
-		order = order->next; //как закончили с рёбрами, берем следующу вершину
+		order = order->next;
 	}
-	write_order(head_order, all); // для печати отправляем начало очереди
+	write_order(head_order, all);
 	clean_order(head_order, all);
-	way = record_way(all);
+//	way = record_way(all);
 	return(way);
 }

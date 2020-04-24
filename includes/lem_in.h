@@ -83,8 +83,7 @@ typedef struct		s_struct
 
 typedef struct      s_way
 {
-	t_room          *RoomsOrder;
-	struct s_way    *prev;
+	t_room          *room;
 	struct s_way    *next;
 }                   t_way;
 
@@ -96,17 +95,25 @@ typedef struct		s_order
 }					t_order;
 
 
-int		parser(t_struct *all, char **av);
-int		f_atoi(char *str, int *error);
-int 	array_len(char **str);
-int		read_room(t_struct *all, char **split);
-int		read_link(t_struct *all, char **split);
-int		room_validation(t_room *room, t_room *flat);
-void    free_lem_in(t_struct *all);
-void    ft_free_split(char **for_free);
+int		    parser(t_struct *all);
+int		    f_atoi(char *str, int *error);
+int 	    array_len(char **str);
+int		    read_room(t_struct *all, char **split);
+int		    read_link(t_struct *all, char **split);
+int		    room_validation(t_room *room, t_room *flat);
+void        free_lem_in(t_struct *all);
+void        ft_free_split(char **for_free);
 
 void        ft_solution(t_struct *all);
 t_way       *ft_dijkstra(t_struct *all);
 t_way		*bfs(t_struct *all);
+
+/*
+** Record way function
+*/
+
+t_way       *record_way(t_struct *all);
+t_way       *FixVisitRooms(t_way *way);
+t_way       *invert_way(t_way *way);
 
 #endif

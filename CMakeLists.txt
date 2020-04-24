@@ -1,12 +1,12 @@
-cmake_minimum_required(VERSION 3.15)
-project(original_lemin C)
+cmake_minimum_required(VERSION 3.16)
+project(lem_in C)
 
 set(CMAKE_C_STANDARD 11)
 
 include_directories(includes)
 include_directories(src/libft)
 
-add_executable(original_lemin
+add_executable(lem_in
         includes/lem_in.h
         src/libft/ft_atoi.c
         src/libft/ft_bzero.c
@@ -83,4 +83,4 @@ add_executable(original_lemin
         src/main.c
         src/parse_edges.c
         src/parse_rooms.c
-        src/parser.c)
+        src/parser.c src/recorder_way.c)
