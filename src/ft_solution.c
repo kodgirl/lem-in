@@ -7,7 +7,7 @@
 	t_way   ways[1000];
 	unsigned int    i;
 
-	i = 5;
+	i = 1000;
 	ft_bzero(ways, sizeof(t_way));
 	while (i)
     {
