@@ -4,16 +4,26 @@ void     *clean_order(t_order *head_order, t_struct *all)
 {
 	t_order     *tmp;
 	t_room      *tmpRoom;
+    t_edge      *edges;
 
 	tmp = NULL;
 	tmpRoom = all->room;
-	while (tmpRoom) {
-        if (tmpRoom->visit == -1)
-            tmpRoom = tmpRoom->next;
-        else {
-            tmpRoom->visit = 0;
-            tmpRoom = tmpRoom->next;
-        }
+	while (tmpRoom)
+    {
+        edges = tmpRoom->edge;
+	    while (edges)
+	    {
+	        if (edges->cost == -1)
+            {
+	            edges = edges->next;
+            }
+	        else
+            {
+	            edges->cost = 1;
+	            edges = edges->next;
+	        }
+	    }
+	    tmpRoom = tmpRoom->next;
     }
 	while (head_order)
 	{
@@ -100,28 +110,30 @@ t_way		*bfs(t_struct *all)
 	t_order	*order;
 	t_order	*head_order;
 	t_way   *way;
-	t_edge  *tmp_edge;
+	t_edge  *tmp_edges;
 	t_room  *tmp_room;
 
-	all->start->visit = 0;
-	all->end->visit = 0;
+//	all->start->visit = 0;
+//	all->end->visit = 0;
 	order = malloc_order(all->start);
 	head_order = order;
 	while(order)
 	{
 		if (order->room == all->end)
 			break;
-		order->room->visit = 1;
+//		order->room->visit = 1;
 		tmp_room = order->room;
-		tmp_edge = tmp_room->edge;
-		while (tmp_edge)  // рёбра заканчиваются во второй итерации
+		tmp_edges = tmp_room->edge;
+		order->room->visit = 1;
+		while (tmp_edges)  // рёбра заканчиваются во второй итерации
 		{
-			if (tmp_edge->room->visit == 0 && tmp_edge->room->visit != -1)
-			{
-				add_to_order(tmp_edge->room, order);
-                tmp_edge->room->go_from = tmp_room;
+//			if (tmp_edge->room->visit == 0 && tmp_edge->room->visit != -1)
+			if (tmp_edges->cost == 1 && tmp_edges->cost != -1 && tmp_edges->room->visit == 0)
+            {
+				add_to_order(tmp_edges->room, order);
+                tmp_edges->room->go_from = tmp_room;
 			}
-            tmp_edge = tmp_edge->next;
+            tmp_edges = tmp_edges->next;
 		}
 		order = order->next;
 	}
@@ -131,7 +143,7 @@ t_way		*bfs(t_struct *all)
 	    return (NULL);
     }
 //	write_order(head_order, all);
+    way = record_way(all);
 	clean_order(head_order, all);
-	way = record_way(all);
 	return(way);
 }

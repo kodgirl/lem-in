@@ -94,6 +94,10 @@ typedef struct		s_order
 	struct s_order	*next;
 }					t_order;
 
+typedef struct      s_ways
+{
+    t_way           *way;
+}                   t_ways;
 
 int		    parser(t_struct *all);
 int		    f_atoi(char *str, int *error);

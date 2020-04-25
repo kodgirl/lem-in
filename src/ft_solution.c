@@ -1,21 +1,39 @@
  #include "../includes/lem_in.h"
 // # define INT_MAX 2147483647
 
- void        ft_solution(t_struct *all)
+void        annual_visit_vertex(t_struct *all)
+{
+     t_room *tmpRoom;
+
+     tmpRoom = all->room;
+     while (tmpRoom)
+     {
+         tmpRoom->visit = 0;
+         tmpRoom = tmpRoom->next;
+     }
+}
+
+ void       ft_solution(t_struct *all)
  {
 	t_way   *way;
-	t_way   ways[1000];
+	t_ways   ways[1000];
 	unsigned int    i;
 
-	i = 1000;
+	i = 0;
 	ft_bzero(ways, sizeof(t_way));
-	while (i)
-    {
-	    way = bfs(all);
-	    if (way == NULL)
-	        break;
-	    i--;
-    }
+//	while (i)
+//    {
+//	    way = bfs(all);
+//	    if (way == NULL)
+//	        break;
+//	    i++;
+//	    ways[i] = way;
+//    }
+    bfs(all);
+    annual_visit_vertex(all);
+    bfs(all);
+    annual_visit_vertex(all);
+    bfs(all);
  }
 
 
