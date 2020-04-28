@@ -88,6 +88,7 @@ typedef struct      s_way
 }                   t_way;
 
 
+
 typedef struct		s_order
 {
 	t_room			*room;
@@ -97,6 +98,7 @@ typedef struct		s_order
 typedef struct      s_ways
 {
     t_way           *way;
+    struct s_ways   *next;
 }                   t_ways;
 
 int		    parser(t_struct *all);
@@ -108,7 +110,7 @@ int		    room_validation(t_room *room, t_room *flat);
 void        free_lem_in(t_struct *all);
 void        ft_free_split(char **for_free);
 
-void        ft_solution(t_struct *all);
+int         ft_solution(t_struct *all);
 t_way       *ft_dijkstra(t_struct *all);
 t_way		*bfs(t_struct *all);
 

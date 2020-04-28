@@ -36,7 +36,7 @@ t_way   *FixVisitRooms(t_way *way)
         {
             while (tmpEdge)
             {
-                if (tmpEdge->room->index == tmpWay->next->room->index)
+                if (ft_strcmp(tmpEdge->room->name, tmpWay->next->room->name) == 0)
                 {
                     tmpEdge->cost = -1;
                 }
@@ -63,18 +63,8 @@ t_way    *record_way(t_struct *all) {
     t_room *room;
     t_room *tmp;
 
-    way = (t_way *) malloc(sizeof(t_way));
+    way = (t_way *)malloc(sizeof(t_way));
 
-//Нумерую индексы каждой комнаты для сравнения в последующем
-    t_room *tmpRoom;
-    int i = 0;
-    tmpRoom = all->room;
-    while (tmpRoom) {
-        tmpRoom->index = i;
-        i++;
-        tmpRoom = tmpRoom->next;
-    }
-// ///////////////////////////////////////////////
     HeadWay = way;
     room = all->end;
     while (room != NULL) {
@@ -83,8 +73,8 @@ t_way    *record_way(t_struct *all) {
             way->next = NULL;
             break;
         }
-        if (!(way->next = (t_way *) malloc(sizeof(t_way)))) {
-            printf("ERROR!"); // заменить на функцию error
+        if (!(way->next = (t_way *)malloc(sizeof(t_way)))) {
+            exit(-1);
         }
         way = way->next;
         room = room->go_from;
@@ -94,11 +84,5 @@ t_way    *record_way(t_struct *all) {
 
     way = invert_way(way);
     way = FixVisitRooms(way);
-//    return (way);
-    printf("\nRecorder way\n");
-    while (way) {
-        printf("%s--->", way->room->name);
-        way = way->next;
-    }
-    printf("\n");
+    return (way);
 }

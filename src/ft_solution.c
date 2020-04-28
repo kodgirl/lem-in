@@ -13,28 +13,53 @@ void        annual_visit_vertex(t_struct *all)
      }
 }
 
- void       ft_solution(t_struct *all)
- {
-	t_way   *way;
-	t_ways   ways[1000];
-	unsigned int    i;
+/*
+ * Описать порядок действий, если путей совсем нет.
+ * ! Создаёт лишнюю ветку в массиве для хранения пути в head_wayS;
+ */
 
-	i = 0;
-	ft_bzero(ways, sizeof(t_way));
-//	while (i)
-//    {
-//	    way = bfs(all);
-//	    if (way == NULL)
-//	        break;
-//	    i++;
-//	    ways[i] = way;
-//    }
-    bfs(all);
-    annual_visit_vertex(all);
-    bfs(all);
-    annual_visit_vertex(all);
-    bfs(all);
+ int       ft_solution(t_struct *all)
+ {
+    t_way   *way;
+    t_ways  *wayS;
+    t_ways  *head_wayS;
+    unsigned int i;
+
+    if(!(wayS = (t_ways *)malloc(sizeof(t_ways))))
+        exit(-1);
+    ft_bzero(wayS, sizeof(t_ways));
+    head_wayS = wayS;
+    while ((way = bfs(all)) != NULL)
+    {
+        annual_visit_vertex(all);
+        wayS->way = way;
+        if(!(wayS->next = (t_ways *)malloc(sizeof(t_ways))))
+            exit(-1);
+//        ft_bzero(wayS->next, sizeof(t_ways));
+        wayS = wayS->next;
+     }
+     printf("\nRecorder way\n");
+     while (head_wayS)
+    {
+        while(head_wayS->way)
+        {
+            printf("%s->", head_wayS->way->room->name);
+            head_wayS->way = head_wayS->way->next;
+        }
+        printf("\n");
+        head_wayS = head_wayS->next;
+    }
+     printf("\n");
+     if (!way && wayS == NULL)
+        return (NULL);
  }
+
+//        printf("\nRecorder way\n");
+//        while (way)
+//        {
+//            printf("%s--->", way->room->name);
+//            way = way->next;
+//        }
 
 
 // /*

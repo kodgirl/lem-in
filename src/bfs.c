@@ -103,6 +103,9 @@ void	add_to_order(t_room *room, t_order *order)
 ** And going to the next edge of current room.
 ** If all edges ended - alg checking next room in order.
 ** After bfs - cleaning memory which allocated for order.
+** Используется order->room->visit для того, чтобы если, например,
+** граф начинается с А и есть связь от А к В и от В к А, то чтобы от В к А
+** (т.е. к началу) не возвращался.
 */
 
 t_way		*bfs(t_struct *all)
@@ -113,22 +116,18 @@ t_way		*bfs(t_struct *all)
 	t_edge  *tmp_edges;
 	t_room  *tmp_room;
 
-//	all->start->visit = 0;
-//	all->end->visit = 0;
 	order = malloc_order(all->start);
 	head_order = order;
 	while(order)
 	{
 		if (order->room == all->end)
 			break;
-//		order->room->visit = 1;
 		tmp_room = order->room;
 		tmp_edges = tmp_room->edge;
 		order->room->visit = 1;
-		while (tmp_edges)  // рёбра заканчиваются во второй итерации
+		while (tmp_edges)
 		{
-//			if (tmp_edge->room->visit == 0 && tmp_edge->room->visit != -1)
-			if (tmp_edges->cost == 1 && tmp_edges->cost != -1 && tmp_edges->room->visit == 0)
+			if (tmp_edges->cost == 1 && tmp_edges->room->visit == 0)
             {
 				add_to_order(tmp_edges->room, order);
                 tmp_edges->room->go_from = tmp_room;
@@ -138,10 +137,7 @@ t_way		*bfs(t_struct *all)
 		order = order->next;
 	}
 	if (head_order->next == NULL)
-    {
-	    printf("\nWAYS END\n");
 	    return (NULL);
-    }
 //	write_order(head_order, all);
     way = record_way(all);
 	clean_order(head_order, all);
