@@ -17,14 +17,6 @@ int	main(int ac, char **av)
 	t_struct	all;
 	int			visual;
 
-//	visual = 0;
-//	while (ac >= 2 && !ft_strcmp(av[1], "-v"))
-//	{
-//		if (!ft_strcmp(av[1], "-v"))
-//			visual = 1;
-//		av++;
-//		ac--;
-//	}
 	ft_bzero(&all, sizeof(t_struct));
 	if (ac == 1)
 	{

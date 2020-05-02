@@ -12,6 +12,8 @@
 
 # include "../includes/lem_in.h"
 
+// FIXME Что делаем, когда приходит аргумент с символом -- в имени. Выходит ошибка, когда устанавливается путь
+
 /*
 ** changing from char to int and record ants;
 */
@@ -37,42 +39,6 @@ char	**is_room(char *line)
 	}
 	return (str);
 }
-
-// char				**strsplit_link(const char *s)
-// {
-// 	char			**fresh;
-// 	size_t			len;
-// 	size_t			count;
-// 	int				j;
-
-// 	if (!s)
-// 		return (NULL);
-// 	if (ft_count(s, '-') < 1)
-	
-// 	if (!(fresh = (char **)malloc(sizeof(char *) * 3)))
-// 		return (NULL);
-// 	j = 0;
-// 	while (*s && count--)
-// 	{
-// 		s = ft_skip_sym(s, '-');
-// 		len = ft_strlento((char *)s, '-');
-// 		if (!(fresh[j] = ft_strnew(len)))
-// 		{
-// 			free_mem(fresh);
-// 			return (NULL);
-// 		}
-// 		fresh[j] = ft_strccpy(fresh[j], s, '-');
-// 		++j;
-// 		s += len;
-// 	}
-// 	fresh[j] = NULL;
-// 	return (fresh);
-// }
-
-/*
-** Looking for '-' in arg;
-** it's mean start of links;
-*/
 
 char	**is_link(char *line)
 {
@@ -160,7 +126,7 @@ void	door_to_room(t_room *room, t_struct *all, int i)
 }
 
 /*
- * ????????????????????
+ * TODO Добавить функцию error_print.
 */
 
 int		read_door(t_struct *all, int i)

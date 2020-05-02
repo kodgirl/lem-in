@@ -20,8 +20,6 @@ t_way    *invert_way(t_way *way)
     return(way);
 }
 
-
-
 t_way   *FixVisitRooms(t_way *way)
 {
     t_way   *tmpWay;
@@ -61,7 +59,6 @@ t_way    *record_way(t_struct *all) {
     t_way *HeadWay;
     t_way *way;
     t_room *room;
-    t_room *tmp;
 
     way = (t_way *)malloc(sizeof(t_way));
 

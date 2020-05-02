@@ -1,5 +1,4 @@
  #include "../includes/lem_in.h"
-// # define INT_MAX 2147483647
 
 void        annual_visit_vertex(t_struct *all)
 {
@@ -13,9 +12,11 @@ void        annual_visit_vertex(t_struct *all)
      }
 }
 
+
+
 /*
- * Описать порядок действий, если путей совсем нет.
- * ! Создаёт лишнюю ветку в массиве для хранения пути в head_wayS;
+ * TODO Описать порядок действий, если путей совсем нет.
+ * FIXME Создаёт лишнюю ветку в массиве для хранения пути в head_wayS;
  */
 
  int       ft_solution(t_struct *all)
