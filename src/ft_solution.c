@@ -35,7 +35,7 @@ void        annual_visit_vertex(t_struct *all)
         wayS->way = way;
         if(!(wayS->next = (t_ways *)malloc(sizeof(t_ways))))
             exit(-1);
-//        ft_bzero(wayS->next, sizeof(t_ways));
+        ft_bzero(wayS->next, sizeof(t_ways));
         wayS = wayS->next;
      }
      printf("\nRecorder way\n");
