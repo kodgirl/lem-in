@@ -16,8 +16,8 @@ Run make, an executable called lem_in
 
 Map
 
-![Alt text](./screen_for_readme/map.png?raw=true "Map")
+![Alt text](./screen_of_readme/map.png?raw=true "Map")
 
 Run
 
-![Alt text](./screen_for_readme/result.png?raw=true "result")
+![Alt text](./screen_of_readme/result.png?raw=true "result")
