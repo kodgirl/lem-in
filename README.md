@@ -1,5 +1,5 @@
 # lem-in
-Authors: Elena (bjasper) & Bekhruz (dpenney)
+Authors: Elena & Bekhruz
 
 Goal of the project is to build a system of graphs, find all connections of vertexes and lead all ants from Start to End.
 
