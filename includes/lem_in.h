@@ -98,7 +98,9 @@ typedef struct		s_order
 typedef struct      s_ways
 {
     t_way           *way;
-    struct s_ways   *next;
+    short int 		count;
+	struct s_ways   *next;
+
 }                   t_ways;
 
 int		    parser(t_struct *all);
@@ -112,13 +114,12 @@ void        ft_free_split(char **for_free);
 
 int         ft_solution(t_struct *all);
 t_way       *ft_dijkstra(t_struct *all);
-t_way		*bfs(t_struct *all);
-
+t_way		*bfs(t_struct *all, t_order *order, t_order *head_order);
 /*
 ** Record way function
 */
 
-t_way       *record_way(t_struct *all);
+t_way		*record_way(t_struct *all);
 t_way       *FixVisitRooms(t_way *way);
 t_way       *invert_way(t_way *way);
 

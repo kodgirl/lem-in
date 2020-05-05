@@ -1,9 +1,11 @@
  #include "../includes/lem_in.h"
 
-void        annual_visit_vertex(t_struct *all)
-{
-     t_room *tmpRoom;
+/*
+ * Annualing visited vertexes.
+ */
 
+void        annual_visit_vertex(t_struct *all, t_room *tmpRoom)
+{
      tmpRoom = all->room;
      while (tmpRoom)
      {
@@ -12,15 +14,27 @@ void        annual_visit_vertex(t_struct *all)
      }
 }
 
+int 	calc_way(t_way *way)
+{
+	int 	i;
 
+	i = 0;
+	while (way)
+	{
+		i++;
+		way = way->next;
+	}
+	return (i);
+}
 
 /*
- * TODO Описать порядок действий, если путей совсем нет.
- * FIXME Создаёт лишнюю ветку в массиве для хранения пути в head_wayS;
- */
+** TODO Описать порядок действий, если путей совсем нет.
+** FIXME Создаёт лишнюю ветку в массиве для хранения пути в head_wayS;
+ * FIXME не выводит расстояние пути. Хотя переменная есть.
+*/
 
- int       ft_solution(t_struct *all)
- {
+int       ft_solution(t_struct *all)
+{
     t_way   *way;
     t_ways  *wayS;
     t_ways  *head_wayS;
@@ -30,11 +44,13 @@ void        annual_visit_vertex(t_struct *all)
         exit(-1);
     ft_bzero(wayS, sizeof(t_ways));
     head_wayS = wayS;
-    while ((way = bfs(all)) != NULL)
+	wayS->count = 0;
+    while ((way = bfs(all, NULL, NULL)) != NULL)
     {
-        annual_visit_vertex(all);
+        annual_visit_vertex(all, NULL);
         wayS->way = way;
-        if(!(wayS->next = (t_ways *)malloc(sizeof(t_ways))))
+		wayS->count = calc_way(way);
+		if(!(wayS->next = (t_ways *)malloc(sizeof(t_ways))))
             exit(-1);
         ft_bzero(wayS->next, sizeof(t_ways));
         wayS = wayS->next;
@@ -47,20 +63,15 @@ void        annual_visit_vertex(t_struct *all)
             printf("%s->", head_wayS->way->room->name);
             head_wayS->way = head_wayS->way->next;
         }
+		printf("           %d", wayS->count);
         printf("\n");
         head_wayS = head_wayS->next;
     }
      printf("\n");
      if (!way && wayS == NULL)
         return (NULL);
- }
+}
 
-//        printf("\nRecorder way\n");
-//        while (way)
-//        {
-//            printf("%s--->", way->room->name);
-//            way = way->next;
-//        }
 
 
 // /*

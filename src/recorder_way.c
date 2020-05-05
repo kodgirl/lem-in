@@ -55,16 +55,17 @@ t_way   *FixVisitRooms(t_way *way)
 ** And after it marking all rooms of the way.
 */
 
-t_way    *record_way(t_struct *all) {
+t_way    *record_way(t_struct *all)
+{
     t_way *HeadWay;
     t_way *way;
     t_room *room;
 
     way = (t_way *)malloc(sizeof(t_way));
-
     HeadWay = way;
     room = all->end;
-    while (room != NULL) {
+    while (room != NULL)
+	{
         way->room = room;
         if (room == all->start) {
             way->next = NULL;

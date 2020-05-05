@@ -108,10 +108,8 @@ void	add_to_order(t_room *room, t_order *order)
 ** (т.е. к началу) не возвращался.
 */
 
-t_way		*bfs(t_struct *all)
+t_way		*bfs(t_struct *all, t_order *order, t_order *head_order)
 {
-	t_order	*order;
-	t_order	*head_order;
 	t_way   *way;
 	t_edge  *tmp_edges;
 	t_room  *tmp_room;
@@ -138,7 +136,7 @@ t_way		*bfs(t_struct *all)
 	}
 	if (head_order->next == NULL)
 	    return (NULL);
-//	write_order(head_order, all);
+	write_order(head_order, all);
     way = record_way(all);
 	clean_order(head_order, all);
 	return(way);
