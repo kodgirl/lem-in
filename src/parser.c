@@ -129,13 +129,8 @@ void	door_to_room(t_room *room, t_struct *all, int i)
  * TODO Добавить функцию error_print.
 */
 
-int		read_door(t_struct *all, int i)
+int		read_door(t_struct *all, int i, char *line, char **split)
 {
-	char		*line;
-	char		**split;
-	
-	split = NULL;
-	line = NULL;
 	if ((i == 1 && all->start_flag == 1) || (i == 2 && all->end_flag == 1))
 		all->error = 1;
 	else if (i != 0 && get_next_line(0, &line) > 0)
@@ -193,7 +188,7 @@ int		parser(t_struct *all)
 		else if((split = is_link(line)) && *line != '#')
 		    read_link(all, split);
         else if (*line == '#')
-			read_door(all, is_door(line + 1));
+			read_door(all, is_door(line + 1), NULL, NULL);
 		else
 			all->error = 1;
 		if (split)

@@ -12,16 +12,20 @@
 
 #include "../includes/lem_in.h"
 
-int	main(int ac, char **av)
+int		main(int ac, char **av)
 {
 	t_struct	all;
 	int			visual;
+	short 		i;
 
+	i = 0;
 	ft_bzero(&all, sizeof(t_struct));
 	if (ac == 1)
 	{
         parser(&all);
-		ft_solution(&all, NULL, NULL, 0, NULL);
+		i = ft_solution(&all, NULL, NULL, NULL);
+		if (i)
+			exit (1); // Распечатай ошибку и освободи всё.
         exit(0);
     }
 	return (0);

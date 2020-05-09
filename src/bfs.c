@@ -1,12 +1,17 @@
 #include "../includes/lem_in.h"
 
-void     *clean_order(t_order *head_order, t_struct *all)
+void 	free_order(t_order *head_order, t_order *tmp)
 {
-	t_order     *tmp;
-	t_room      *tmpRoom;
-    t_edge      *edges;
+	while (head_order)
+	{
+		tmp = head_order;
+		head_order = head_order->next;
+		free(tmp);
+	}
+}
 
-	tmp = NULL;
+void     *clean_order(t_order *head_order, t_struct *all, t_room *tmpRoom, t_edge *edges)
+{
 	tmpRoom = all->room;
 	while (tmpRoom)
     {
@@ -14,9 +19,7 @@ void     *clean_order(t_order *head_order, t_struct *all)
 	    while (edges)
 	    {
 	        if (edges->cost == -1)
-            {
 	            edges = edges->next;
-            }
 	        else
             {
 	            edges->cost = 1;
@@ -25,12 +28,7 @@ void     *clean_order(t_order *head_order, t_struct *all)
 	    }
 	    tmpRoom = tmpRoom->next;
     }
-	while (head_order)
-	{
-		tmp = head_order;
-		head_order = head_order->next;
-		free(tmp);
-	}
+	free_order(head_order, NULL);
 }
 
 
@@ -107,37 +105,41 @@ void	add_to_order(t_room *room, t_order *order)
 ** граф начинается с А и есть связь от А к В и от В к А, то чтобы от В к А
 ** (т.е. к началу) не возвращался.
 */
-
-t_way		*bfs(t_struct *all, t_order *order, t_order *head_order)
+int 	perform_order(t_order *order, t_struct *all, t_edge *tmp_edges, t_room *tmp_room)
 {
-	t_way   *way;
-	t_edge  *tmp_edges;
-	t_room  *tmp_room;
+	if (order->room == all->end)
+		return (1);
+	tmp_room = order->room;
+	tmp_edges = tmp_room->edge;
+	order->room->visit = 1;
+	while (tmp_edges) {
+		if (tmp_edges->cost == 1 && tmp_edges->room->visit == 0) {
+			add_to_order(tmp_edges->room, order);
+			tmp_edges->room->go_from = tmp_room;
+		}
+		tmp_edges = tmp_edges->next;
+	}
+}
 
+t_way		*bfs(t_struct *all, t_order *order, t_order *head_order, t_way *way)
+{
+	int 	i;
+
+	i = 0;
 	order = malloc_order(all->start);
 	head_order = order;
 	while(order)
 	{
-		if (order->room == all->end)
-			break;
-		tmp_room = order->room;
-		tmp_edges = tmp_room->edge;
-		order->room->visit = 1;
-		while (tmp_edges)
-		{
-			if (tmp_edges->cost == 1 && tmp_edges->room->visit == 0)
-            {
-				add_to_order(tmp_edges->room, order);
-                tmp_edges->room->go_from = tmp_room;
-			}
-            tmp_edges = tmp_edges->next;
-		}
+		i = perform_order(order, all, NULL, NULL);
+		if (i == 1)
+			break ;
 		order = order->next;
 	}
 	if (head_order->next == NULL)
 	    return (NULL);
-//	write_order(head_order, all);
-    way = record_way(all);
-	clean_order(head_order, all);
+    way = record_way(all, NULL, NULL, NULL);
+	clean_order(head_order, all, NULL, NULL);
 	return(way);
 }
+
+//	write_order(head_order, all);

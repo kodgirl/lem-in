@@ -33,98 +33,78 @@ int 	calc_way(t_way *way)
 
 void 		printRecordWay(t_ways *head_wayS)
 {
+	int 	i;
+	t_ways	*wayS;
+
+	wayS = head_wayS;
+	i = 0;
 	printf("\nRecorder way\n");
-	while (head_wayS) {
-		while (head_wayS->way) {
-			printf("%s->", head_wayS->way->room->name);
-			head_wayS->way = head_wayS->way->next;
+	while (wayS) {
+		while (wayS->way) {
+			printf("%s->", wayS->way->room->name);
+			wayS->way = wayS->way->next;
 		}
-		printf("\tlong: %d", head_wayS->vtx_qn);
+		printf("\tlong: %d", wayS->vtx_qn);
 		printf("\n");
-		head_wayS = head_wayS->next;
-	}
-	printf("\n");
-}
-
-t_ways 	*sort(t_ways *self)
-{
-	t_ways	*current;
-	t_ways	*index;
-	t_way	*temp;
-	int 	*tmp_qn;
-	t_way 	*keep_head;
-
-	keep_head = self;
-	current = self;
-	index = NULL;
-
-	if (!self)
-		exit(1);
-	else
-		while (current)
-		/*
-		 * Проходим по всем путям, сохраненным
-		 * Сравниваем индекс настоящего и следующего путей.
-		 * Если настоящий больше следующего, то меняю их пути, но не цифры пока.
-		 */
-		{
-			index = current->next;
-			while (index != NULL && current)
-			{
-				if (current->vtx_qn > index->vtx_qn)
-				{
-					temp = current->way;
-					current->way = index->way;
-					index->way = temp;
-					tmp_qn = current->vtx_qn;
-					current->vtx_qn = index->vtx_qn;
-					index->vtx_qn = tmp_qn;
-				}
-				index = index->next;
-				current = current->next;
-			}
-		}
-	self = keep_head;
-	return (self);
-}
-
-void 		print_array(t_array *arr)
-{
-	int 	i, j = 0;
-	t_ways 	*tmp;
-
-	while (arr->wayS[i]->way)
-	{
-		j = 0;
-		arr->wayS[i];
-		printf("\n%s", tmp->way[j].room->name);
+		wayS = wayS->next;
 		i++;
 	}
+	printf("\n%d ways", i );
+}
+
+t_ways 	*sort(t_ways *self, int tmp_vtx_qn, t_way *tmp_way, t_ways *head)
+{
+	head = self->next;
+	free(self);
+	self = head;
+	while (self && self->next) {
+		if (self->vtx_qn > self->next->vtx_qn) {
+			tmp_way = self->way;
+			tmp_vtx_qn = self->vtx_qn;
+			self->way = self->next->way;
+			self->vtx_qn = self->next->vtx_qn;
+			self->next->way = tmp_way;
+			self->next->vtx_qn = tmp_vtx_qn;
+		}
+		self = self->next;
+	}
+	printRecordWay(head);
+	return (head);
 }
 
 void		to_array(t_struct *all, t_ways *wayS, int ways_qn) {
-	t_array arr;
-	t_ways *source_ways;
-	int i;
-	int j;
+	int			i;
+	t_way		*way;
+	t_way		**arr;
 
-	source_ways = wayS;
+	arr = (t_way **)malloc(sizeof(t_way *) * (ways_qn + 1)); // выделяем память под массив для хранения всех путей
+	way = wayS->way;
 	i = 0;
-	j = 0;
-	arr.rooms = ft_memalloc(sizeof(t_room *) * 10);
-	while (all->room)
+	while (way) //проходим по всем путям в листе и закидываем все пути в массив
 	{
-		arr.rooms[i] = all->room;
+		arr[i++] = way;
+		way = way->next;
+	}
+	i = 0;
+	while (arr[i])
+	{
+		printf("\n%s\n", arr[i]->room->name);
 		i++;
 	}
-	while (arr.rooms[i])
-	{
-		printf("\n%s\n", arr.rooms[i]->name);
-		i--;
-	}
-	print_array(&arr);
 }
 
+//void 	gen_cycle(head_wayS)
+//{
+//	t_ways		*ways;
+//
+//	ways = head_wayS;
+//	while (ways)
+//	{
+//
+//		move_ant(ways->way, 1);
+//		ways->next;
+//	}
+//}
 /*
 ** FIXME Создаёт лишнюю ветку в массиве для хранения пути в head_wayS;
  * FIXME не работает с картами из /home/dpenney/Desktop/lem-in/maps/valid/difficult/
@@ -133,25 +113,32 @@ void		to_array(t_struct *all, t_ways *wayS, int ways_qn) {
  * ways_qn - количество вершин в одном пути.
 */
 
-void       ft_solution(t_struct *all, t_way *way, t_ways *wayS, int *ways_qn, t_ways *head_wayS) {
+int       ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS) {
+
+	int		ways_qn;
 
 	wayS = ft_memalloc(sizeof(t_ways));
-	ft_bzero(wayS, sizeof(t_ways));
 	head_wayS = wayS;
 	wayS->vtx_qn = 0;
-	while ((way = bfs(all, NULL, NULL)) != NULL) {
-		annual_visit_vertex(all, NULL);
-		wayS->way = way;
-		wayS->vtx_qn = calc_way(way);
+	ways_qn = 0;
+	while ((way = bfs(all, NULL, NULL, NULL)) != NULL)
+	{
 		if (!(wayS->next = (t_ways *) malloc(sizeof(t_ways))))
 			exit(-1);
+		if (!way)
+			return (1);
 		ft_bzero(wayS->next, sizeof(t_ways));
 		wayS = wayS->next;
+		wayS->way = way;
+		wayS->vtx_qn = calc_way(way);
+		annual_visit_vertex(all, NULL);
 		ways_qn++;
 	}
-	to_array(all, head_wayS, ways_qn);
+	sort(head_wayS, 0, NULL, NULL);
 }
 
+//	to_array(all, head_wayS, ways_qn);
+//	gen_cycle(head_wayS);
 
 /*
  * Записать все пути в листы
@@ -173,7 +160,7 @@ void       ft_solution(t_struct *all, t_way *way, t_ways *wayS, int *ways_qn, t_
 /*
  * Хотел провести всех муравьёв сразу по всем путям, однако
  * как запомнить где остановился и двигать дальше всех муравьев?
- * Во вторым вершинам прошёлся, однако со вторых на третьи вершины не смог
+ * По вторым вершинам прошёлся, однако со вторых на третьи вершины не смог
  * выдвинуть.
  */
 // wayS = head_wayS;

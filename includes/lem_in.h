@@ -134,16 +134,17 @@ int		    room_validation(t_room *room, t_room *flat);
 void        free_lem_in(t_struct *all);
 void        ft_free_split(char **for_free);
 
-void		ft_solution(t_struct *all, t_way *way, t_ways *wayS, int *ways_qn, t_ways *head_wayS);
+int 		ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS);
 t_way       *ft_dijkstra(t_struct *all);
-t_way		*bfs(t_struct *all, t_order *order, t_order *head_order);
+t_way		*bfs(t_struct *all, t_order *order, t_order *head_order, t_way *way);
+void     	*clean_order(t_order *head_order, t_struct *all, t_room *tmpRoom, t_edge *edges);
 /*
 ** Record way function
 */
 
-t_way		*record_way(t_struct *all);
-t_way       *FixVisitRooms(t_way *way);
-t_way       *invert_way(t_way *way);
+t_way		*record_way(t_struct *all, t_way *HeadWay, t_way *way, t_room *room);
+t_way		*FixVisitRooms(t_way *way, t_way *tmpWay, t_edge *tmpEdge, t_room *room);
+t_way		*invert_way(t_way *way, t_way *curr, t_way *next, t_way *prev);
 
 /*
  * TODO change names of fucntions;
