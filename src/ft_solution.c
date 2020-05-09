@@ -68,7 +68,8 @@ t_ways 	*sort(t_ways *self, int tmp_vtx_qn, t_way *tmp_way, t_ways *head)
 		}
 		self = self->next;
 	}
-	printRecordWay(head);
+	self = head;
+	//printRecordWay(self);
 	return (head);
 }
 
@@ -92,24 +93,84 @@ void		to_array(t_struct *all, t_ways *wayS, int ways_qn) {
 		i++;
 	}
 }
+void 	move_ant(t_way *way, int i, t_struct *all)
+{
+	t_way 	*tmpW;
 
-//void 	gen_cycle(head_wayS)
-//{
-//	t_ways		*ways;
-//
-//	ways = head_wayS;
-//	while (ways)
-//	{
-//
-//		move_ant(ways->way, 1);
-//		ways->next;
-//	}
-//}
+	tmpW = way;
+	while (tmpW)
+	{
+		if (tmpW->room == all->end)
+		{
+			tmpW->room->ant++;
+			break;
+		}
+		if (tmpW->room->ant > 0 && tmpW->room->next->ant == 0)
+		{
+			if ((tmpW->room->next->ant == 0) && (tmpW->room == all->start))
+			{
+				tmpW->next->room->ant = i;
+				tmpW->room->ant = tmpW->room->ant - 1;
+				printf("\nL%d - %s", tmpW->next->room->ant, tmpW->next->room->name);
+				break;
+			}
+			else
+			{
+				tmpW->next->room->ant = tmpW->room->ant;
+				tmpW->room->ant = 0;
+				printf("\nL%d - %s", tmpW->next->room->ant, tmpW->next->room->name);
+				break;
+			}
+		}
+		else
+		{
+			tmpW = tmpW->next;
+		}
+	}
+}
+
 /*
-** FIXME Создаёт лишнюю ветку в массиве для хранения пути в head_wayS;
+ * Пока есть муравьи - прохожу по всем путям путём запуска цикла каждый раз сызнова для каждого отдельного пути.
+ * Нельзя просто взять и сохранить указатель на последнюю вершину, пока я не знаю как это делать.
+ * Поэтому каждый раз я буду проходить по всем вершинам. Если в этой вершине есть муравей, то буду двигать его вперёд.
+ * Если эта вершина не имеет муравья, то пропускаю её.
+ * Даст стар с первой вершины. Соотв-но, передаст во вторую вершину и тогда цикк прекратит дальше двигаться, выйдет из него, так как
+ * передвинул. Дальше будет по следующему пути передвигать муравья. Уже второго муравья во вторую вершину и выйдет.
+ * В следующий раз так же заново будет проходить. Так он проверит первую вершину, там всегда почти есть. Отлично,
+ * проверим теперь следующую вершину. Если вершина Б пуста, то передвинет в Б. Иначе просто перейдет к вершине Б и передаст
+ * на следующую вершину - вершину В. Если там нет муравьёв, то передвинет в В своего муравья и сам освободится.
+ * Если
+ */
+
+void 	gen_cycle(t_ways *head_wayS, t_struct *all)
+{
+	t_ways		*ways;
+	int 		i;
+
+	i = 1;
+	ways = head_wayS;
+//	while (all->ant)
+//	{
+//		move_ant(ways->way, i, all);
+//		ways = ways->next;
+//		if (!ways)
+//			ways = head_wayS;
+//		i++;
+	t_way *head;
+	head = ways->way;
+	all->start->ant = all->ant;
+	while (5 > i)
+	{
+		move_ant(ways->way, i, all);
+		ways->way = head;
+		i++;
+	}
+}
+
+/*
  * FIXME не работает с картами из /home/dpenney/Desktop/lem-in/maps/valid/difficult/
  * FIXME добавить случай, когда не нашёл ни один из путей. Что должен выводить?
- * TODO отсортировать все пути согласно её длине.
+ * TODO запуск всех муравьёв по всем путям.
  * ways_qn - количество вершин в одном пути.
 */
 
@@ -134,7 +195,8 @@ int       ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS
 		annual_visit_vertex(all, NULL);
 		ways_qn++;
 	}
-	sort(head_wayS, 0, NULL, NULL);
+	head_wayS = sort(head_wayS, 0, NULL, NULL);
+	gen_cycle(head_wayS, all);
 }
 
 //	to_array(all, head_wayS, ways_qn);

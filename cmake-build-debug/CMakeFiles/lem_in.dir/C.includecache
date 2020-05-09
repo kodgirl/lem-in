@@ -18,6 +18,10 @@ fcntl.h
 ../src/libft/libft.h
 /home/dpenney/Desktop/lem-in/src/libft/libft.h
 
+/home/dpenney/Desktop/lem-in/src/ft_solution.c
+../includes/lem_in.h
+/home/dpenney/Desktop/lem-in/includes/lem_in.h
+
 /home/dpenney/Desktop/lem-in/src/libft/libft.h
 unistd.h
 -
@@ -25,8 +29,4 @@ stdlib.h
 -
 string.h
 -
-
-/home/dpenney/Desktop/lem-in/src/parser.c
-../includes/lem_in.h
-/home/dpenney/Desktop/lem-in/includes/lem_in.h
 
