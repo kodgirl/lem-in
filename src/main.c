@@ -21,7 +21,7 @@ int	main(int ac, char **av)
 	if (ac == 1)
 	{
         parser(&all);
-		ft_solution(&all);
+		ft_solution(&all, NULL, NULL, 0, NULL);
         exit(0);
     }
 	return (0);

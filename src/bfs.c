@@ -136,7 +136,7 @@ t_way		*bfs(t_struct *all, t_order *order, t_order *head_order)
 	}
 	if (head_order->next == NULL)
 	    return (NULL);
-	write_order(head_order, all);
+//	write_order(head_order, all);
     way = record_way(all);
 	clean_order(head_order, all);
 	return(way);

@@ -41,7 +41,9 @@ typedef struct		s_room
 	int             index;
 	struct s_edge	*edge;
 	struct s_room	*go_from;
+	int 			ant;
 }					t_room;
+
 
 /*
 ** t_edge using for build edges between vertexes.
@@ -98,10 +100,30 @@ typedef struct		s_order
 typedef struct      s_ways
 {
     t_way           *way;
-    short int 		count;
+    int 			vtx_qn;
+	int 			expression;
 	struct s_ways   *next;
-
 }                   t_ways;
+
+/*
+ * FIXME change names of structure;
+*/
+
+typedef struct		s_sum
+{
+	int				number_of_ants;
+	int				sum_steps_all_ways;
+	int				number_of_ways;
+	int				result;
+	int				str_sum;
+}					t_calc;
+
+typedef struct 		s_array
+{
+	t_way			**way;
+	t_ways			**wayS;
+	t_room			**rooms;
+}					t_array;
 
 int		    parser(t_struct *all);
 int		    f_atoi(char *str, int *error);
@@ -112,7 +134,7 @@ int		    room_validation(t_room *room, t_room *flat);
 void        free_lem_in(t_struct *all);
 void        ft_free_split(char **for_free);
 
-int         ft_solution(t_struct *all);
+void		ft_solution(t_struct *all, t_way *way, t_ways *wayS, int *ways_qn, t_ways *head_wayS);
 t_way       *ft_dijkstra(t_struct *all);
 t_way		*bfs(t_struct *all, t_order *order, t_order *head_order);
 /*
@@ -122,5 +144,12 @@ t_way		*bfs(t_struct *all, t_order *order, t_order *head_order);
 t_way		*record_way(t_struct *all);
 t_way       *FixVisitRooms(t_way *way);
 t_way       *invert_way(t_way *way);
+
+/*
+ * TODO change names of fucntions;
+ */
+
+void 		printRecordWay(t_ways *head_wayS);
+void 		ove_ant(t_way *way, int i, t_struct *all);
 
 #endif
