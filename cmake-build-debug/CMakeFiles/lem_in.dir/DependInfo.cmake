@@ -81,6 +81,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/dpenney/Desktop/lem-in/src/parse_rooms.c" "/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/src/parse_rooms.c.o"
   "/home/dpenney/Desktop/lem-in/src/parser.c" "/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/src/parser.c.o"
   "/home/dpenney/Desktop/lem-in/src/recorder_way.c" "/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/src/recorder_way.c.o"
+  "/home/dpenney/Desktop/lem-in/src/sub.test.c" "/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/src/sub.test.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
