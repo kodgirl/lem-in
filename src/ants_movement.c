@@ -111,8 +111,10 @@ void 	gen_cycle(t_ways *head_wayS, t_struct *all)
 	{
 		j = move_ant(ways->way, i, all);
 		ways = ways->next;
-		if (!ways)
+		if (!ways) {
 			ways = head_wayS;
+			printf("\n");
+		}
 		i = i + 1 - j;
 	}
 }
