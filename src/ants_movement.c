@@ -1,10 +1,14 @@
 #include "../includes/lem_in.h"
 
-void 	move_ant(t_way *way, int i, t_struct *all)
+
+/*
+ * FIXME первый доходит до конца, а все остальные муравьи не доходят до конца.
+ */
+int 	move_ant(t_way *head_way, int *i, t_struct *all)
 {
 	t_way 	*tmpW;
 
-	tmpW = way;
+	tmpW = head_way;
 	while (tmpW)
 	{
 		/*
@@ -21,7 +25,7 @@ void 	move_ant(t_way *way, int i, t_struct *all)
 		 * Если муравьи есть в настоящей комнате И
 		 * Если нет муравьёв в следующей комнате
 		 */
-		if (tmpW->room->ant > 0 && tmpW->next->room->ant == 0)
+		if (tmpW->room->ant && !tmpW->next->room->ant)
 		{
 			/*
 			 * Если настоящая комната стартовая, то
@@ -34,26 +38,28 @@ void 	move_ant(t_way *way, int i, t_struct *all)
 				tmpW->next->room->ant = tmpW->room->ant;
 				tmpW->room->ant = 0;
 				printf("\nL%d - %s", tmpW->next->room->ant, tmpW->next->room->name);
-				break;
+				return (1);
 			}
 			else if (tmpW->room == all->start && tmpW->room->next->ant == 0)
 			{
-				tmpW->next->room->ant = i;
+				tmpW->next->room->ant = *i;
 				tmpW->room->ant = tmpW->room->ant - 1;
 				printf("\nL%d - %s", tmpW->next->room->ant, tmpW->next->room->name);
-				/*
-				 * и вот здесь мы должны чекать дальше остальные комнаты.
-				 */
+				return (0);
 			}
-				/*
-				 * Иначе значит, что это не стартовая комната,
-				 * а, например, комната второй волны, через которую переведем муравья во в третью вершину.
-				 */
+		}
+		else if (tmpW->room->ant && tmpW->next->room == all->end)
+		{
+			tmpW->room->ant = 0;
+			tmpW->next->room->ant++;
+			printf("\nL%d - %s", tmpW->next->room->ant, tmpW->next->room->name);
+			return (1);
 		}
 		else
 		{
 			tmpW = tmpW->next;
 		}
+
 	}
 }
 
@@ -87,11 +93,30 @@ void 	gen_cycle(t_ways *head_wayS, t_struct *all)
 //			ways = head_wayS;
 //		i++;
 	head = ways->way;
-	all->start->ant = all->ant;
-	while (50 > i)
+	/*
+	 * В процессе передвижения, когда А обращается в третий раз, а в Б
+	 * ещё содержится тройка, то в цикле муравей 3 пропускается и берётся уже 4-ый.
+	 * Нужно проверить. Если число муравьёв не изменилось после прохождения в move_ant,
+	 * то следует сохранить цифру и заново её подавать.
+	 */
+	i = 1;
+	int 	j;
+	j = 0;
+
+	t_room 	*ann_ants = all->room;
+	while (ann_ants)
 	{
-		move_ant(ways->way, i, all);
+		ann_ants->ant = 0;
+		ann_ants = ann_ants->next;
+	}
+	all->start->ant = all->ant;
+	/*
+	 * FIXME муравьи заканчиваются, когда все отходят от старта. Поэтому не все муравьи доходят до финала.
+	 */
+	while (all->start->ant || all->end->ant != all->ant)
+	{
+		j = move_ant(ways->way, &i, all);
 		ways->way = head;
-		i++;
+		i = i + 1 - j;
 	}
 }
