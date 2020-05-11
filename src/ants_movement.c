@@ -2,7 +2,8 @@
 
 
 /*
- * FIXME первый доходит до конца, а все остальные муравьи не доходят до конца.
+ * FIXME расставь правильно перенос строки, чтобы волны запуска путей печатались
+ * отдельной строкой каждая соответственно.
  */
 int 	move_ant(t_way *head_way, int i, t_struct *all)
 {
@@ -37,17 +38,17 @@ int 	move_ant(t_way *head_way, int i, t_struct *all)
 			{
 				tmpW->next->room->ant = tmpW->room->ant;
 				tmpW->room->ant = 0;
-				printf("\nL%d - %s", tmpW->next->room->ant, tmpW->next->room->name);
+				printf("L%d-%s  ", tmpW->next->room->ant, tmpW->next->room->name);
 				return (1);
 			}
 			/*
 			 * FIXME на третьем пути, когда передаёт от А к Х, то не входит в эту структуру, пропускает, хотя в Х муравья 0.
 			 */
-			else if (tmpW->room == all->start && tmpW->room->next->ant == 0)
+			else if (tmpW->room == all->start && tmpW->next->room->ant == 0)
 			{
 				tmpW->next->room->ant = i;
 				tmpW->room->ant = tmpW->room->ant - 1;
-				printf("\nL%d - %s", tmpW->next->room->ant, tmpW->next->room->name);
+				printf("L%d-%s  ", tmpW->next->room->ant, tmpW->next->room->name);
 				return (0);
 			}
 		}
@@ -55,7 +56,7 @@ int 	move_ant(t_way *head_way, int i, t_struct *all)
 		{
 			tmpW->room->ant = 0;
 			tmpW->next->room->ant++;
-			printf("\nL%d - %s", tmpW->next->room->ant, tmpW->next->room->name);
+			printf("L%d-%s ", tmpW->next->room->ant, tmpW->next->room->name);
 			return (1);
 		}
 		else
@@ -106,13 +107,16 @@ void 	gen_cycle(t_ways *head_wayS, t_struct *all)
 		ann_ants = ann_ants->next;
 	}
 	all->start->ant = all->ant;
+	printf("\n");
 	while (all->end->ant != all->ant)
 	{
 		j = move_ant(ways->way, i, all);
-		ways->way = head;
-//		ways = ways->next;
-//		if (!ways)
-//			ways = head_wayS;
+//		ways->way = head;
+		ways = ways->next;
+		if (!ways)
+			ways = head_wayS;
+		if (j)
+			printf("\n");
 		i = i + 1 - j;
 	}
 }
