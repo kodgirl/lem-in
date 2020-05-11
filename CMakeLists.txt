@@ -75,6 +75,7 @@ add_executable(lem_in
         src/libft/ft_toupper.c
         src/libft/get_next_line.c
         src/libft/libft.h
+        src/ants_movement.c
         src/bfs.c
         src/delete.c
         src/equal_rooms.c

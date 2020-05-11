@@ -85,6 +85,9 @@
 		<Unit filename="/home/dpenney/Desktop/lem-in/includes/lem_in.h">
 			<Option target="lem_in"/>
 		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ants_movement.c">
+			<Option target="lem_in"/>
+		</Unit>
 		<Unit filename="/home/dpenney/Desktop/lem-in/src/bfs.c">
 			<Option target="lem_in"/>
 		</Unit>

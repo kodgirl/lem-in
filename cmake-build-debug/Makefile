@@ -123,6 +123,33 @@ lem_in/fast:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/build
 .PHONY : lem_in/fast
 
+src/ants_movement.o: src/ants_movement.c.o
+
+.PHONY : src/ants_movement.o
+
+# target to build an object file
+src/ants_movement.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/ants_movement.c.o
+.PHONY : src/ants_movement.c.o
+
+src/ants_movement.i: src/ants_movement.c.i
+
+.PHONY : src/ants_movement.i
+
+# target to preprocess a source file
+src/ants_movement.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/ants_movement.c.i
+.PHONY : src/ants_movement.c.i
+
+src/ants_movement.s: src/ants_movement.c.s
+
+.PHONY : src/ants_movement.s
+
+# target to generate assembly for a file
+src/ants_movement.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/ants_movement.c.s
+.PHONY : src/ants_movement.c.s
+
 src/bfs.o: src/bfs.c.o
 
 .PHONY : src/bfs.o
@@ -2184,6 +2211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... lem_in"
+	@echo "... src/ants_movement.o"
+	@echo "... src/ants_movement.i"
+	@echo "... src/ants_movement.s"
 	@echo "... src/bfs.o"
 	@echo "... src/bfs.i"
 	@echo "... src/bfs.s"

@@ -151,6 +151,8 @@ t_way		*invert_way(t_way *way, t_way *curr, t_way *next, t_way *prev);
  */
 
 void 		printRecordWay(t_ways *head_wayS);
-void 		ove_ant(t_way *way, int i, t_struct *all);
+
+void 	move_ant(t_way *way, int i, t_struct *all);
+void 	gen_cycle(t_ways *head_wayS, t_struct *all);
 
 #endif
