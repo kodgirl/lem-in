@@ -41,9 +41,6 @@ int 	move_ant(t_way *head_way, int i, t_struct *all)
 				printf("L%d-%s  ", tmpW->next->room->ant, tmpW->next->room->name);
 				return (1);
 			}
-			/*
-			 * FIXME на третьем пути, когда передаёт от А к Х, то не входит в эту структуру, пропускает, хотя в Х муравья 0.
-			 */
 			else if (tmpW->room == all->start && tmpW->next->room->ant == 0)
 			{
 				tmpW->next->room->ant = i;
@@ -67,6 +64,14 @@ int 	move_ant(t_way *head_way, int i, t_struct *all)
 	}
 }
 
+//void 	move_ants_copy(t_way *head_way, int i, t_struct *all)
+//{
+//	t_way 	*tmp;
+//	while (tmp) {
+//
+//	}
+//}
+
 /*
  * Пока есть муравьи - прохожу по всем путям путём запуска цикла каждый раз сызнова для каждого отдельного пути.
  * Нельзя просто взять и сохранить указатель на последнюю вершину, пока я не знаю как это делать.
@@ -89,12 +94,6 @@ void 	gen_cycle(t_ways *head_wayS, t_struct *all)
 
 	i = 1;
 	ways = head_wayS;
-//	while (all->ant)
-//	{
-//		move_ant(ways->way, i, all);
-//		ways = ways->next;
-
-//		i++;
 	head = ways->way;
 	i = 1;
 	int 	j;
@@ -111,12 +110,9 @@ void 	gen_cycle(t_ways *head_wayS, t_struct *all)
 	while (all->end->ant != all->ant)
 	{
 		j = move_ant(ways->way, i, all);
-//		ways->way = head;
 		ways = ways->next;
 		if (!ways)
 			ways = head_wayS;
-		if (j)
-			printf("\n");
 		i = i + 1 - j;
 	}
 }
