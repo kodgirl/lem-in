@@ -4,7 +4,7 @@
 /*
  * FIXME первый доходит до конца, а все остальные муравьи не доходят до конца.
  */
-int 	move_ant(t_way *head_way, int *i, t_struct *all)
+int 	move_ant(t_way *head_way, int i, t_struct *all)
 {
 	t_way 	*tmpW;
 
@@ -40,9 +40,12 @@ int 	move_ant(t_way *head_way, int *i, t_struct *all)
 				printf("\nL%d - %s", tmpW->next->room->ant, tmpW->next->room->name);
 				return (1);
 			}
+			/*
+			 * FIXME на третьем пути, когда передаёт от А к Х, то не входит в эту структуру, пропускает, хотя в Х муравья 0.
+			 */
 			else if (tmpW->room == all->start && tmpW->room->next->ant == 0)
 			{
-				tmpW->next->room->ant = *i;
+				tmpW->next->room->ant = i;
 				tmpW->room->ant = tmpW->room->ant - 1;
 				printf("\nL%d - %s", tmpW->next->room->ant, tmpW->next->room->name);
 				return (0);
@@ -89,16 +92,9 @@ void 	gen_cycle(t_ways *head_wayS, t_struct *all)
 //	{
 //		move_ant(ways->way, i, all);
 //		ways = ways->next;
-//		if (!ways)
-//			ways = head_wayS;
+
 //		i++;
 	head = ways->way;
-	/*
-	 * В процессе передвижения, когда А обращается в третий раз, а в Б
-	 * ещё содержится тройка, то в цикле муравей 3 пропускается и берётся уже 4-ый.
-	 * Нужно проверить. Если число муравьёв не изменилось после прохождения в move_ant,
-	 * то следует сохранить цифру и заново её подавать.
-	 */
 	i = 1;
 	int 	j;
 	j = 0;
@@ -110,13 +106,13 @@ void 	gen_cycle(t_ways *head_wayS, t_struct *all)
 		ann_ants = ann_ants->next;
 	}
 	all->start->ant = all->ant;
-	/*
-	 * FIXME муравьи заканчиваются, когда все отходят от старта. Поэтому не все муравьи доходят до финала.
-	 */
-	while (all->start->ant || all->end->ant != all->ant)
+	while (all->end->ant != all->ant)
 	{
-		j = move_ant(ways->way, &i, all);
+		j = move_ant(ways->way, i, all);
 		ways->way = head;
+//		ways = ways->next;
+//		if (!ways)
+//			ways = head_wayS;
 		i = i + 1 - j;
 	}
 }

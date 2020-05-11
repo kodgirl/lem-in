@@ -103,6 +103,7 @@ int       ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS
 	}
 	head_wayS = sort(head_wayS, 0, NULL, NULL);
 	gen_cycle(head_wayS, all);
+	return (0);
 }
 
 //	to_array(all, head_wayS, ways_qn);
