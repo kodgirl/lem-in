@@ -319,9 +319,6 @@
 		<Unit filename="/home/dpenney/Desktop/lem-in/src/recorder_way.c">
 			<Option target="lem_in"/>
 		</Unit>
-		<Unit filename="/home/dpenney/Desktop/lem-in/src/sub.test.c">
-			<Option target="lem_in"/>
-		</Unit>
 		<Unit filename="/home/dpenney/Desktop/lem-in/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

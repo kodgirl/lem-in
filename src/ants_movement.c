@@ -60,8 +60,8 @@ int 	move_ant(t_way *head_way, int i, t_struct *all)
 		{
 			tmpW = tmpW->next;
 		}
-
 	}
+	printf("\n");
 }
 
 //void 	move_ants_copy(t_way *head_way, int i, t_struct *all)
@@ -71,6 +71,22 @@ int 	move_ant(t_way *head_way, int i, t_struct *all)
 //
 //	}
 //}
+
+void 	init_prev(t_ways  *head)
+{
+	t_ways		*tmp;
+	t_ways 		*keep;
+
+	tmp = head;
+	while (tmp)
+	{
+		if (tmp->next)
+			tmp->next->prev = tmp;
+		if (tmp->next)
+			break;
+		tmp = tmp->next;
+	}
+}
 
 /*
  * Пока есть муравьи - прохожу по всем путям путём запуска цикла каждый раз сызнова для каждого отдельного пути.
@@ -85,6 +101,11 @@ int 	move_ant(t_way *head_way, int i, t_struct *all)
  * Если
  */
 
+/*
+ * FIXME 1 линия за ход должна быть.
+ * N движений за один ход.
+ */
+
 void 	gen_cycle(t_ways *head_wayS, t_struct *all)
 {
 	t_ways		*ways;
@@ -95,7 +116,7 @@ void 	gen_cycle(t_ways *head_wayS, t_struct *all)
 	i = 1;
 	int 	j;
 	j = 0;
-
+	init_prev(head_wayS);
 	t_room 	*ann_ants = all->room;
 	while (ann_ants)
 	{
@@ -107,9 +128,14 @@ void 	gen_cycle(t_ways *head_wayS, t_struct *all)
 	while (all->end->ant != all->ant)
 	{
 		j = move_ant(ways->way, i, all);
-		ways = ways->next;
-		if (!ways) {
+		//TODO вот здесьс следует сделать вычисления. Если кол-во комнат настоящей вершины + кол-во меравьев > кол-ва вершин в следующей вершине, то переход к следующему пути.
+		//TODO и ещё можно добавлять указатель на заднюю вершину, чтоб если вышеназванное вычисление меньше, то идёт по прошлому пути.
+//		if ((all->start->ant + ways->vtx_qn) > ways->next->vtx_qn)
+//			ways = ways->next;
+		if (!ways)
+		{
 			ways = head_wayS;
+			printf("\n");
 		}
 		i = i + 1 - j;
 	}

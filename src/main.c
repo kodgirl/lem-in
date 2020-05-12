@@ -22,6 +22,12 @@ int		main(int ac, char **av)
 	ft_bzero(&all, sizeof(t_struct));
 	if (ac == 1)
 	{
+		//FIXME проработать момент ошибки в парсере. Если ошибка, то не должен идти в ft_solution.
+		//FIXME поэтому сегается также, когда нет комнат.
+		//FIXME Сегается, когда нет решения, т.к. переходит к решению.
+		//TODO узнать как правильно понять требование The program accepts ant-farms with commands other than ##start ##end.
+		//TODO узнать что значит Commands and comments are printed on the standart output;
+
         parser(&all);
 		i = ft_solution(&all, NULL, NULL, NULL);
 		if (i)

@@ -2202,33 +2202,6 @@ src/recorder_way.c.s:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/recorder_way.c.s
 .PHONY : src/recorder_way.c.s
 
-src/sub.test.o: src/sub.test.c.o
-
-.PHONY : src/sub.test.o
-
-# target to build an object file
-src/sub.test.c.o:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/sub.test.c.o
-.PHONY : src/sub.test.c.o
-
-src/sub.test.i: src/sub.test.c.i
-
-.PHONY : src/sub.test.i
-
-# target to preprocess a source file
-src/sub.test.c.i:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/sub.test.c.i
-.PHONY : src/sub.test.c.i
-
-src/sub.test.s: src/sub.test.c.s
-
-.PHONY : src/sub.test.s
-
-# target to generate assembly for a file
-src/sub.test.c.s:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/sub.test.c.s
-.PHONY : src/sub.test.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2469,9 +2442,6 @@ help:
 	@echo "... src/recorder_way.o"
 	@echo "... src/recorder_way.i"
 	@echo "... src/recorder_way.s"
-	@echo "... src/sub.test.o"
-	@echo "... src/sub.test.i"
-	@echo "... src/sub.test.s"
 .PHONY : help
 
 
