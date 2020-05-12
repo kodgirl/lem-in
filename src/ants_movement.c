@@ -2,9 +2,19 @@
 
 
 /*
- * FIXME расставь правильно перенос строки, чтобы волны запуска путей печатались
- * отдельной строкой каждая соответственно.
- */
+** FIXME расставь правильно перенос строки, чтобы волны запуска путей печатались
+** отдельной строкой каждая соответственно.
+** From input getting way and launching the cycle of rooms of this way.
+** If it's last room - adding ant's by end.
+** If current room have ant and next room have not ant we are making sure that
+** current room is not start room. Because if it's start room - we should to decrise
+** ants quantity.
+** If it's not start room - we are put number of ant to the next room and printing.
+** Else if the current room is preceed to the room by end - we are annualing ant's number
+** in current room and increasing quantity in end room.
+** If current room have ant and next room have ant - we are moving to the next room.
+*/
+
 int 	move_ant(t_way *head_way, int i, t_struct *all)
 {
 	t_way 	*tmpW;
@@ -12,28 +22,13 @@ int 	move_ant(t_way *head_way, int i, t_struct *all)
 	tmpW = head_way;
 	while (tmpW)
 	{
-		/*
-		 * Если это последняя комната,
-		 * то увеличиваем кол-во муравьёв в последней комнате и беремся
-		 * за следующий путь.
-		 */
 		if (tmpW->room == all->end)
 		{
 			tmpW->room->ant++;
 			break;
 		}
-		/*
-		 * Если муравьи есть в настоящей комнате И
-		 * Если нет муравьёв в следующей комнате
-		 */
 		if (tmpW->room->ant && !tmpW->next->room->ant)
 		{
-			/*
-			 * Если настоящая комната стартовая, то
-			 * значит, что следующая комната это комната из второй вершины.
-			 * Соот-но пересылаем одного муравья со старта во вторую веришну.
-			 * А стартовую уменьшаем на одну комнату.
-			 */
 			if (tmpW->room != all->start)
 			{
 				tmpW->next->room->ant = tmpW->room->ant;
@@ -103,7 +98,8 @@ void 	init_prev(t_ways  *head)
 
 /*
  * FIXME 1 линия за ход должна быть.
- * N движений за один ход.
+ * FIXME N движений за один ход.
+ * TODO работаю над тем, чтобы использовать наименьшее кол-во путей для передвижения.
  */
 
 void 	gen_cycle(t_ways *head_wayS, t_struct *all)

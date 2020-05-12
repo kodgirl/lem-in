@@ -52,6 +52,10 @@ void 		printRecordWay(t_ways *head_wayS)
 	printf("\n%d ways", i );
 }
 
+/*
+* Sorting all the found ways depending on the number of rooms in the way.
+*/
+
 t_ways 	*sort(t_ways *self, int tmp_vtx_qn, t_way *tmp_way, t_ways *head)
 {
 	head = self->next;
@@ -69,7 +73,6 @@ t_ways 	*sort(t_ways *self, int tmp_vtx_qn, t_way *tmp_way, t_ways *head)
 		self = self->next;
 	}
 	self = head;
-	//printRecordWay(self);
 	return (head);
 }
 
