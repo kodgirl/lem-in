@@ -2094,6 +2094,33 @@ src/main.c.s:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/movements.o: src/movements.c.o
+
+.PHONY : src/movements.o
+
+# target to build an object file
+src/movements.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/movements.c.o
+.PHONY : src/movements.c.o
+
+src/movements.i: src/movements.c.i
+
+.PHONY : src/movements.i
+
+# target to preprocess a source file
+src/movements.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/movements.c.i
+.PHONY : src/movements.c.i
+
+src/movements.s: src/movements.c.s
+
+.PHONY : src/movements.s
+
+# target to generate assembly for a file
+src/movements.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/movements.c.s
+.PHONY : src/movements.c.s
+
 src/parse_edges.o: src/parse_edges.c.o
 
 .PHONY : src/parse_edges.o
@@ -2430,6 +2457,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/movements.o"
+	@echo "... src/movements.i"
+	@echo "... src/movements.s"
 	@echo "... src/parse_edges.o"
 	@echo "... src/parse_edges.i"
 	@echo "... src/parse_edges.s"

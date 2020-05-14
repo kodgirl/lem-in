@@ -1,4 +1,4 @@
-5
+10W
 ##start
 A 4 2
 B 4 3
@@ -15,9 +15,9 @@ A-C
 A-X
 X-Y
 Y-Z
-Z-A
+Z-F
 B-D
 C-D
 C-E
-E-A
-D-A
+E-F
+D-F

@@ -72,6 +72,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/lem_in.dir/src/libft/ft_toupper.c.o"
   "CMakeFiles/lem_in.dir/src/libft/get_next_line.c.o"
   "CMakeFiles/lem_in.dir/src/main.c.o"
+  "CMakeFiles/lem_in.dir/src/movements.c.o"
   "CMakeFiles/lem_in.dir/src/parse_edges.c.o"
   "CMakeFiles/lem_in.dir/src/parse_rooms.c.o"
   "CMakeFiles/lem_in.dir/src/parser.c.o"

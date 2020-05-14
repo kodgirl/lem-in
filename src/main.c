@@ -28,7 +28,8 @@ int		main(int ac, char **av)
 		//TODO узнать как правильно понять требование The program accepts ant-farms with commands other than ##start ##end.
 		//TODO узнать что значит Commands and comments are printed on the standart output;
 
-        parser(&all);
+        if (!parser(&all))
+			return (0);
 		i = ft_solution(&all, NULL, NULL, NULL);
 		if (i)
 			exit (1); // Распечатай ошибку и освободи всё.

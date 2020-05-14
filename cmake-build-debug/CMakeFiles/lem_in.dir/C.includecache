@@ -18,10 +18,6 @@ fcntl.h
 ../src/libft/libft.h
 /home/dpenney/Desktop/lem-in/src/libft/libft.h
 
-/home/dpenney/Desktop/lem-in/src/ants_movement.c
-../includes/lem_in.h
-/home/dpenney/Desktop/lem-in/includes/lem_in.h
-
 /home/dpenney/Desktop/lem-in/src/libft/libft.h
 unistd.h
 -
@@ -30,7 +26,7 @@ stdlib.h
 string.h
 -
 
-/home/dpenney/Desktop/lem-in/src/main.c
+/home/dpenney/Desktop/lem-in/src/movements.c
 ../includes/lem_in.h
 /home/dpenney/Desktop/lem-in/includes/lem_in.h
 

@@ -307,6 +307,9 @@
 		<Unit filename="/home/dpenney/Desktop/lem-in/src/main.c">
 			<Option target="lem_in"/>
 		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/movements.c">
+			<Option target="lem_in"/>
+		</Unit>
 		<Unit filename="/home/dpenney/Desktop/lem-in/src/parse_edges.c">
 			<Option target="lem_in"/>
 		</Unit>

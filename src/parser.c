@@ -53,38 +53,6 @@ char	**is_link(char *line)
 	return (str);
 }
 
-void	print_all_rooms(t_struct *all)
-{
-	t_room	*lk;
-	t_edge	*ed;
-
-	if (all->room)
-	{
-		lk = all->room;
-		while (lk)
-		{
-			printf("name_rooms%s x=%d  y=%d\n", lk->name, lk->x, lk->y);
-			lk = lk->next;
-		}
-		printf("start: %d\n", all->start_flag);
-		printf("end: %d\n", all->end_flag);
-		if (all->start)
-			printf("start: %s x=%d  y=%d\n", all->start->name, all->start->x, all->start->y);
-		if (all->end)
-			printf("end: %s x=%d  y=%d\n", all->end->name, all->end->x, all->end->y);
-		lk = all->room;
-		while (lk)
-		{
-			ed = lk->edge;
-			while (ed)
-			{
-				printf("edge %s: %s\n", lk->name, ed->room->name);
-				ed = ed->next;
-			}
-			lk = lk->next;
-		}
-	}
-}
 
 /*
 ** Checking comments of start and end
@@ -171,6 +139,8 @@ int		check_end_start(t_struct *all)
 ** read doors recording comments ##start and ##end;
 */
 
+// FIXME как прочитать фдешник два раза. Сначала печатать всю карту, а потом начать запись.
+
 int		parser(t_struct *all)
 {
 	int			size;
@@ -181,6 +151,8 @@ int		parser(t_struct *all)
 	split = NULL;
 	while ((size = get_next_line(0, &line)) > 0)
 	{
+		ft_putstr(line);
+		ft_putchar('\n');
 		if (all->ant == 0)
 			read_ant(line, all);
 		else if ((split = is_room(line)) && all->link_flag == 0 && *line != '#')
@@ -193,14 +165,13 @@ int		parser(t_struct *all)
 			all->error = 1;
 		if (split)
 		    ft_free_split(split);
-		printf("%s\n", line);
 		if (line)
 		    free(line);
 		if (all->error)
 		{
 		    free_lem_in(all);
-			write(1, "\nERROR\n", 7);
-			return (0);
+			write(1, "ERROR\n", 7);
+			exit(0);
 		}
 	}
 	check_end_start(all);
@@ -208,9 +179,45 @@ int		parser(t_struct *all)
 	{
 	    free_lem_in(all);
 		write(1, "\nERROR\n", 7);
-		return (0);
+		exit(0);
 	}
-	printf("\n");
-	print_all_rooms(all);
+//	print_all_rooms(all);
 	return (1);
 }
+
+
+
+
+//void	print_all_rooms(t_struct *all)
+//{
+//	t_room	*lk;
+//	t_edge	*ed;
+//
+//	if (all->room)
+//	{
+//		lk = all->room;
+//		while (lk)
+//		{
+//			printf("name_rooms%s x=%d  y=%d\n", lk->name, lk->x, lk->y);
+//			lk = lk->next;
+//		}
+//		printf("start: %d\n", all->start_flag);
+//		printf("end: %d\n", all->end_flag);
+//		if (all->start)
+//			printf("start: %s x=%d  y=%d\n", all->start->name, all->start->x, all->start->y);
+//		if (all->end)
+//			printf("end: %s x=%d  y=%d\n", all->end->name, all->end->x, all->end->y);
+//		lk = all->room;
+//		while (lk)
+//		{
+//			ed = lk->edge;
+//			while (ed)
+//			{
+//				printf("edge %s: %s\n", lk->name, ed->room->name);
+//				ed = ed->next;
+//			}
+//			lk = lk->next;
+//		}
+//	}
+//}
+
