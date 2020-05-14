@@ -15,6 +15,10 @@
 //** If current room have ant and next room have ant - we are moving to the next room.
 //*/
 //
+//
+//Добрый день, Светлана!
+//Я один из студентов Школы.
+//		Спасибо, что вы с нами и отдельное спасибо за организацию встреч)
 //int 	move_ant(t_way *head_way, int i, t_struct *all)
 //{
 //	t_way 	*tmpW;
