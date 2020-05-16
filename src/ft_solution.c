@@ -76,6 +76,41 @@ t_ways 	*sort(t_ways *self, int tmp_vtx_qn, t_way *tmp_way, t_ways *head)
 	return (head);
 }
 
+t_way 		**way_to_array(t_way *way, int len)
+{
+	t_way	**res;
+	int 	i;
+
+	i = 0;
+	res = (t_way *)malloc(sizeof(t_way) * (len + 1));
+	while (way)
+	{
+		res[i] = way;
+		way = way->next;
+		i++;
+	}
+	return(res);
+}
+
+t_ways		**to_array(t_ways *head, int len)
+{
+	 t_ways *tmp;
+	 t_ways **arr_wayS;
+	 int 	i;
+
+	 i = 0;
+	 tmp = head;
+	 arr_wayS = (t_ways *)malloc(sizeof(t_ways) * (len + 1));
+	 tmp = head;
+	 while (tmp)
+	 {
+		 arr_wayS[i] = way_to_array(tmp->way, tmp->vtx_qn);
+		 tmp = tmp->next;
+		 i++;
+	 }
+	 return (arr_wayS);
+}
+
 /*
  * FIXME не работает с картами из /home/dpenney/Desktop/lem-in/maps/valid/difficult/
  * FIXME добавить случай, когда не нашёл ни один из путей. Что должен выводить?
@@ -86,6 +121,7 @@ t_ways 	*sort(t_ways *self, int tmp_vtx_qn, t_way *tmp_way, t_ways *head)
 int       ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS) {
 
 	int		ways_qn;
+	t_ways 	**arr;
 
 	wayS = ft_memalloc(sizeof(t_ways));
 	head_wayS = wayS;
@@ -105,67 +141,33 @@ int       ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS
 		ways_qn++;
 	}
 	head_wayS = sort(head_wayS, 0, NULL, NULL);
+	arr = to_array(head_wayS, ways_qn);
 	gen_cycle(head_wayS, all);
 	return (0);
 }
 
-//	to_array(all, head_wayS, ways_qn);
-//	gen_cycle(head_wayS);
-
-/*
- * Записать все пути в листы
- */
-// while ((way = bfs(all, NULL, NULL)) != NULL) {
-// annual_visit_vertex(all, NULL);
-// wayS->way = way;
-// wayS->ways_qn = calc_way(way);
-// if (!(wayS->next = (t_ways *) malloc(sizeof(t_ways))))
-// exit(-1);
-// ft_bzero(wayS->next, sizeof(t_ways));
-// wayS = wayS->next;
-// ways_qn++;
+// int       ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS) {
+//
+//	 int		ways_qn;
+//
+//	 wayS = ft_memalloc(sizeof(t_ways));
+//	 head_wayS = wayS;
+//	 wayS->vtx_qn = 0;
+//	 ways_qn = 0;
+//	 while ((way = bfs(all, NULL, NULL, NULL)) != NULL)
+//	 {
+//		 if (!(wayS->next = (t_ways *) malloc(sizeof(t_ways))))
+//			 exit(-1);
+//		 if (!way)
+//			 return (1);
+//		 ft_bzero(wayS->next, sizeof(t_ways));
+//		 wayS = wayS->next;
+//		 wayS->way = way;
+//		 wayS->vtx_qn = calc_way(way);
+//		 annual_visit_vertex(all, NULL);
+//		 ways_qn++;
+//	 }
+//	 head_wayS = sort(head_wayS, 0, NULL, NULL);
+//	 gen_cycle(head_wayS, all);
+//	 return (0);
 // }
-
-
-
-
-/*
- * Хотел провести всех муравьёв сразу по всем путям, однако
- * как запомнить где остановился и двигать дальше всех муравьев?
- * По вторым вершинам прошёлся, однако со вторых на третьи вершины не смог
- * выдвинуть.
- */
-// wayS = head_wayS;
-//	way = wayS->way;
-//	all->start->ant = all->ant;
-//	int 	i = 1;
-//	while (all->ant > i)
-//	{
-//		wayS = head_wayS;
-//		while (wayS) {
-//			way = wayS->way;
-//			if (!wayS->way)
-//				break;
-//			move_ant(way, i, all);
-//			way = way->next;
-//			wayS = wayS->next;
-//			i++;
-//		}
-//	}
-//
-//}
-//
-//void 	move_ant(t_way *way, int i, t_struct *all)
-//{
-//	if (way->room == all->end) {
-//		all->end->ant++;
-//		return ;
-//	}
-//	while (way->room == all->start || way->room->ant) {
-//		way = way->next;
-//	}
-//	if (way->room != all->start) {
-//			way->room->ant = 0;
-//		}
-//		way->next->room->ant = i;
-//		printf("\nL%d-%s", i, way->next->room->name);

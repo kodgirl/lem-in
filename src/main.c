@@ -27,6 +27,8 @@ int		main(int ac, char **av)
 		//FIXME Сегается, когда нет решения, т.к. переходит к решению.
 		//TODO узнать как правильно понять требование The program accepts ant-farms with commands other than ##start ##end.
 		//TODO узнать что значит Commands and comments are printed on the standart output;
+		//FIXME  тесте из сабджекта не показывает количество муравьёв.
+		//FIXME любой дополнительный комментарий вызывает ошибку.
 
         if (!parser(&all))
 			return (0);
