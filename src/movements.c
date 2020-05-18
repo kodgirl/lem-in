@@ -87,6 +87,7 @@ void 		expression(t_ways *head)
  * последней комнаты.
  * Если в этой комнате есть муравей, а в следующей нет, то передаёт муравья и печатае.
  * Если по расчётам нужен ещё один путь, то запускает следующего муравья в начало этого пути.
+ * FIXME файл testing. Когда доходит до операции с 3-ей строки, то
  */
 
 int		walking_ants(t_ways *wayS, int *antsOstatok, int *antsCurrent, t_struct *all)
@@ -105,6 +106,7 @@ int		walking_ants(t_ways *wayS, int *antsOstatok, int *antsCurrent, t_struct *al
 			printf("L%d-%s ", copyWay->room->ant, copyWay->next->room->name);
 			copyWay->next->room->ant++;
 			copyWay->room->ant = 0;
+			copyWay = startNewWay;
 		}
 		else if (copyWay->room->ant && !copyWay->next->room->ant)
 		{
