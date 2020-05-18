@@ -110,12 +110,14 @@ int		walking_ants(t_ways *wayS, int *antsOstatok, int *antsCurrent, t_struct *al
 		}
 		copyWay = copyWay->next;
 	}
-	if (*antsOstatok > wayS->expression)
+	//FIXME sub.test. Когда приходит третий муравей, то он заменяет 2-ой муравей, который ещё не двигался.
+	if (*antsOstatok > wayS->expression && !startNewWay->next->room->ant)
 	{
 		startNewWay->next->room->ant = *antsCurrent;
 		printf("L%d-%s ", *antsCurrent, startNewWay->next->room->name);
 		*antsOstatok = *antsOstatok - 1;
 		*antsCurrent = *antsCurrent + 1;
+		return (1);
 	}
 }
 
@@ -127,6 +129,8 @@ int		walking_ants(t_ways *wayS, int *antsOstatok, int *antsCurrent, t_struct *al
  * и трейтий муравей вообще не идёт.
  */
 
+// FIXME в sub.test теряет второго муравья в пути.
+
 void		gen_cycle(t_ways *head, t_struct *all)
 {
 	t_ways 	*copyWays;
@@ -134,6 +138,9 @@ void		gen_cycle(t_ways *head, t_struct *all)
 
 	int		antsCurrent;
 	int 	antsOstatok;
+	int 	i;
+
+	i = 0;
 
 	antsOstatok = all->ant;
 	antsCurrent = 1;
@@ -143,7 +150,7 @@ void		gen_cycle(t_ways *head, t_struct *all)
 	{
 		while (copyWays)
 		{
-			walking_ants(copyWays, &antsOstatok, &antsCurrent, all);
+			i = walking_ants(copyWays, &antsOstatok, &antsCurrent, all);
 			copyWays = copyWays->next;
 		}
 		printf("\n");
