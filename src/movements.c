@@ -84,73 +84,70 @@ void	pass_of_preced_to_finish(t_way *tmp, t_struct *all)
  * Когда доходит до G, то перед ним D уже заполнен
  */
 
-int		walking_ants(t_ways *wayS, int *i, t_struct *all)
+int		walking_ants(t_ways *wayS, int *antsOstatok, int *antsCurrent, t_struct *all)
 {
-	t_way		*tmp;
-	t_way 		*tmp_for_new_road;
+	t_way		*copyWay;
+	t_way 		*startNewWay;
 
-	tmp_for_new_road = wayS->way;
-	tmp = wayS->way;
-	while (tmp)
+	startNewWay = wayS->way;
+	copyWay = wayS->way;
+	while (copyWay)
 	{
-		/*
-		 * Если это предстоящая комната, то не передаем, а увеличиваем кол-во муравьев
-		 */
-		if (tmp->room == all->end)
+		if (copyWay->room == all->end)
 			break;
-		if (tmp->room->ant && tmp->next->room == all->end)
+		else if (copyWay->room->ant && copyWay->next->room == all->end)
 		{
-			printf("L%d-%s ", tmp->room->ant, tmp->next->room->name);
-			tmp->next->room->ant++;
-			tmp->room->ant = 0;
+			printf("L%d-%s ", copyWay->room->ant, copyWay->next->room->name);
+			copyWay->next->room->ant++;
+			copyWay->room->ant = 0;
 		}
-		/*
-		 * Если в наст-ей есть, а в след нет, то передаём значение и печатаем
-		 */
-		else if (tmp->room->ant && !tmp->next->room->ant)
+		else if (copyWay->room->ant && !copyWay->next->room->ant)
 		{
-			tmp->next->room->ant = tmp->room->ant;
-			tmp->room->ant = 0;
-			printf("L%d-%s ", tmp->next->room->ant, tmp->next->room->name);
+			copyWay->next->room->ant = copyWay->room->ant;
+			copyWay->room->ant = 0;
+			printf("L%d-%s ", copyWay->next->room->ant, copyWay->next->room->name);
 			break;
 		}
-		tmp = tmp->next;
+		copyWay = copyWay->next;
 	}
-	if (all->ant > wayS->expression)
+	if (*antsOstatok > wayS->expression)
 	{
-		if (i == all->ant)
-			return (0);
-		tmp_for_new_road->next->room->ant = *i;
-		printf("L%d-%s ", tmp_for_new_road->next->room->ant, tmp_for_new_road->next->room->name);
+		startNewWay->next->room->ant = *antsCurrent;
+		printf("L%d-%s ", *antsCurrent, startNewWay->next->room->name);
+		*antsOstatok = *antsOstatok - 1;
+		*antsCurrent = *antsCurrent + 1;
 	}
 }
 
 /*
  * Когда i итератор доходит до 20, то больше не нужно передавать новых муравьев.
  * А алгоритм продолжает передавать.
+ * Третий муравей не доходит до конца.
+ * Когда 3 муравья подаётся, то на третий путь муравей не запускается
+ * и трейтий муравей вообще не идёт.
  */
 
 void		gen_cycle(t_ways *head, t_struct *all)
 {
-	t_ways 	*tmpWays;
-	int 	i;
-
-	i = 1;
-
+	t_ways 	*copyWays;
 	printf("\n");
 
-	tmpWays = head;
+	int		antsCurrent;
+	int 	antsOstatok;
+
+	antsOstatok = all->ant;
+	antsCurrent = 1;
+	copyWays = head;
 	expression(head);
 	while (all->end->ant != all->ant)
 	{
-		while (tmpWays)
+		while (copyWays)
 		{
-			walking_ants(tmpWays, &i, all);
-			tmpWays = tmpWays->next;
-			i++;
+			walking_ants(copyWays, &antsOstatok, &antsCurrent, all);
+			copyWays = copyWays->next;
 		}
 		printf("\n");
-		tmpWays = head;
+		copyWays = head;
 	}
 }
 
