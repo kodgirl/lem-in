@@ -116,12 +116,17 @@ t_ways		**to_array(t_ways *head, int len)
  * FIXME добавить случай, когда не нашёл ни один из путей. Что должен выводить?
  * TODO запуск всех муравьёв по всем путям.
  * ways_qn - количество вершин в одном пути.
+ * В этой функции запускается bfs запускается для поиска всех путей
+ * Записываются все найденные пути в переменную wayS.
+ * Внутри очищаются annual_visit_vertex, чтобы можно было запустить bfs ещё раз.
+ * Далее всё сортируется в sort.
+ * Отправляется всё в gen_cycle, где самое решение
 */
 
 int       ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS) {
 
 	int		ways_qn;
-	t_ways 	**arr;
+//	t_ways 	**arr;
 
 	wayS = ft_memalloc(sizeof(t_ways));
 	head_wayS = wayS;
@@ -132,7 +137,7 @@ int       ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS
 		if (!(wayS->next = (t_ways *) malloc(sizeof(t_ways))))
 			exit(-1);
 		if (!way)
-			return (1);
+			return (1); // TODO вот здесь должен быть вызов ошибки.
 		ft_bzero(wayS->next, sizeof(t_ways));
 		wayS = wayS->next;
 		wayS->way = way;
@@ -141,7 +146,7 @@ int       ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS
 		ways_qn++;
 	}
 	head_wayS = sort(head_wayS, 0, NULL, NULL);
-	arr = to_array(head_wayS, ways_qn);
+//	arr = to_array(head_wayS, ways_qn);
 	gen_cycle(head_wayS, all);
 	return (0);
 }

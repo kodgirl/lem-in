@@ -23,65 +23,70 @@ void 		expression(t_ways *head)
 	}
 }
 
-/*
- * Если это последняя комната, то просто добавляет
- * муравья в финишную комнату.
- */
-
-//int 		check_preced_finish(t_room *room, t_room *end)
+///*
+// * Если это последняя комната, то просто добавляет
+// * муравья в финишную комнату.
+// */
+//
+////int 		check_preced_finish(t_room *room, t_room *end)
+////{
+////	if (room == end)
+////	{
+////		//room->ant++;
+////		return (1);
+////	}
+////	return (0);
+////}
+//
+///*
+// * Если настоящая комната это стартовая, а следующая пуста, то
+// * перекидываем отдельный номер нового муравья.
+// * А если настоящая комната не стартовая, то просто передаём муравя от
+// * одной комнаты в другую.
+// */
+//
+//int		pass_the_ant(t_way *tmp, int *i, t_struct *all)
 //{
-//	if (room == end)
+//	if (tmp->room == all->start && tmp->next->room->ant == 0 \
+//			&& tmp->next->room != all->end)
 //	{
-//		//room->ant++;
-//		return (1);
+//		tmp->next->room->ant = *i;
+//		tmp->room->ant--;
+//		printf("L%d-%s ", tmp->next->room->ant, tmp->next->room->name);
+//		return (0);
 //	}
-//	return (0);
+//	else if (tmp->room != all->start)
+//	{
+//		tmp->next->room->ant = tmp->room->ant;
+//		tmp->room->ant = 0;
+//		printf("L%d-%s ", tmp->next->room->ant, tmp->next->room->name);
+//		*i--;
+//	}
+//}
+//
+///*
+// * If current room is start room - we should decrease number of ants
+// * but not pass all quantities to finish room.
+// *
+// */
+//
+//void	pass_of_preced_to_finish(t_way *tmp, t_struct *all)
+//{
+//	if (tmp->room == all->start)
+//		tmp->room->ant--;
+//	else
+//		tmp->room->ant = 0;
+//	tmp->next->room->ant++;
+//	printf("L%d-%s ", tmp->next->room->ant, tmp->next->room->name);
 //}
 
 /*
- * Если настоящая комната это стартовая, а следующая пуста, то
- * перекидываем отдельный номер нового муравья.
- * А если настоящая комната не стартовая, то просто передаём муравя от
- * одной комнаты в другую.
- */
-
-int		pass_the_ant(t_way *tmp, int *i, t_struct *all)
-{
-	if (tmp->room == all->start && tmp->next->room->ant == 0 \
-			&& tmp->next->room != all->end)
-	{
-		tmp->next->room->ant = *i;
-		tmp->room->ant--;
-		printf("L%d-%s ", tmp->next->room->ant, tmp->next->room->name);
-		return (0);
-	}
-	else if (tmp->room != all->start)
-	{
-		tmp->next->room->ant = tmp->room->ant;
-		tmp->room->ant = 0;
-		printf("L%d-%s ", tmp->next->room->ant, tmp->next->room->name);
-		*i--;
-	}
-}
-
-/*
- * If current room is start room - we should decrease number of ants
- * but not pass all quantities to finish room.
- *
- */
-
-void	pass_of_preced_to_finish(t_way *tmp, t_struct *all)
-{
-	if (tmp->room == all->start)
-		tmp->room->ant--;
-	else
-		tmp->room->ant = 0;
-	tmp->next->room->ant++;
-	printf("L%d-%s ", tmp->next->room->ant, tmp->next->room->name);
-}
-
-/*
- * Когда доходит до G, то перед ним D уже заполнен
+ * Запускается в цикле один из путей.
+ * Если это последняя комната, то выйти.
+ * Если эта комната имеет муравья, а следующая последняя, то добавляет муравья в счётчик
+ * последней комнаты.
+ * Если в этой комнате есть муравей, а в следующей нет, то передаёт муравья и печатае.
+ * Если по расчётам нужен ещё один путь, то запускает следующего муравья в начало этого пути.
  */
 
 int		walking_ants(t_ways *wayS, int *antsOstatok, int *antsCurrent, t_struct *all)
@@ -122,14 +127,9 @@ int		walking_ants(t_ways *wayS, int *antsOstatok, int *antsCurrent, t_struct *al
 }
 
 /*
- * Когда i итератор доходит до 20, то больше не нужно передавать новых муравьев.
- * А алгоритм продолжает передавать.
- * Третий муравей не доходит до конца.
- * Когда 3 муравья подаётся, то на третий путь муравей не запускается
- * и трейтий муравей вообще не идёт.
+ *  Функция проходит по очереди по каждому пути и отправляет муравьёв.
  */
 
-// FIXME в sub.test теряет второго муравья в пути.
 
 void		gen_cycle(t_ways *head, t_struct *all)
 {
