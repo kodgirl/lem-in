@@ -22,7 +22,8 @@ SRC =	src/main.c\
 		src/equal_rooms.c\
 		src/bfs.c\
 		src/recorder_way.c\
-		src/ants_movement.c
+		src/ants_movement.c\
+		src/movements.c\
 
 
 INCL = includes/lem_in.h 
