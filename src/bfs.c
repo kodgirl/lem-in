@@ -1,16 +1,6 @@
 #include "../includes/lem_in.h"
 
-void 	free_order(t_order *head_order, t_order *tmp)
-{
-	while (head_order)
-	{
-		tmp = head_order;
-		head_order = head_order->next;
-		free(tmp);
-	}
-}
-
-void     *clean_order(t_order *head_order, t_struct *all, t_room *tmpRoom, t_edge *edges)
+void	*clean_order(t_order *head_order, t_struct *all, t_room *tmpRoom, t_edge *edges)
 {
 	tmpRoom = all->room;
 	while (tmpRoom)
@@ -29,28 +19,6 @@ void     *clean_order(t_order *head_order, t_struct *all, t_room *tmpRoom, t_edg
 	    tmpRoom = tmpRoom->next;
     }
 	free_order(head_order, NULL);
-}
-
-
-void	write_order(t_order *order, t_struct *all)
-{
-	t_room	*room;
-
-	room = all->end;
-	printf ("\nOrder:\n");
-	while (order)
-	{
-		printf("%s ---> ", order->room->name); //печатаем весь путь.
-		order = order->next;
-	}
-	printf("\nThe smallest way from the end:\n");
-	printf ("%s ---> ", room->name);
-	while (room != all->start)
-	{
-		printf ("%s ---> ", room->go_from->name); //идём по родителям.
-		room = room->go_from;
-	}
-	printf("\n");
 }
 
 /*
@@ -142,4 +110,4 @@ t_way		*bfs(t_struct *all, t_order *order, t_order *head_order, t_way *way)
 	return(way);
 }
 
-//	write_order(head_order, all);
+

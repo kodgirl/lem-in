@@ -19,7 +19,7 @@
 ** If all fine, sending 1 than to record new room;
 */
 
-int	room_validation(t_room *room, t_room *flat)
+int		room_validation(t_room *room, t_room *flat)
 {
 	while (flat && room != flat)
 	{

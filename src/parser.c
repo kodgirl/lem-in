@@ -119,8 +119,6 @@ int		read_door(t_struct *all, int i, char *line, char **split)
 
 int		check_end_start(t_struct *all)
 {
-	// if(all->end_flag != 1 || all->start_flag != 1)
-	// 	all->error = 1; 
 	if (!all->start->edge || !all->end->edge)
 		all->error = 1;
 	return (0);
@@ -158,7 +156,7 @@ int		parser(t_struct *all)
 		else if ((split = is_room(line)) && all->link_flag == 0 && *line != '#')
 		    read_room(all, split);
 		else if((split = is_link(line)) && *line != '#')
-		    read_link(all, split);
+		    read_link(all, split, NULL, NULL);
         else if (*line == '#')
 			read_door(all, is_door(line + 1), NULL, NULL);
 		else
@@ -169,7 +167,7 @@ int		parser(t_struct *all)
 		    free(line);
 		if (all->error)
 		{
-		    free_lem_in(all);
+		    free_lem_in(all, NULL, NULL, NULL);
 			write(1, "ERROR\n", 7);
 			exit(0);
 		}
@@ -177,47 +175,15 @@ int		parser(t_struct *all)
 	check_end_start(all);
 	if (all->error)
 	{
-	    free_lem_in(all);
+	    free_lem_in(all, NULL, NULL, NULL);
 		write(1, "\nERROR\n", 7);
 		exit(0);
 	}
-//	print_all_rooms(all);
 	return (1);
 }
 
 
 
 
-//void	print_all_rooms(t_struct *all)
-//{
-//	t_room	*lk;
-//	t_edge	*ed;
-//
-//	if (all->room)
-//	{
-//		lk = all->room;
-//		while (lk)
-//		{
-//			printf("name_rooms%s x=%d  y=%d\n", lk->name, lk->x, lk->y);
-//			lk = lk->next;
-//		}
-//		printf("start: %d\n", all->start_flag);
-//		printf("end: %d\n", all->end_flag);
-//		if (all->start)
-//			printf("start: %s x=%d  y=%d\n", all->start->name, all->start->x, all->start->y);
-//		if (all->end)
-//			printf("end: %s x=%d  y=%d\n", all->end->name, all->end->x, all->end->y);
-//		lk = all->room;
-//		while (lk)
-//		{
-//			ed = lk->edge;
-//			while (ed)
-//			{
-//				printf("edge %s: %s\n", lk->name, ed->room->name);
-//				ed = ed->next;
-//			}
-//			lk = lk->next;
-//		}
-//	}
-//}
+
 

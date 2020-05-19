@@ -23,11 +23,8 @@
 // 	}
 // }
 
-void        free_lem_in(t_struct *all)
+void        free_lem_in(t_struct *all, t_room *tmp_rooms, t_room *tmp_rooms2, t_edge *tmp_edges2)
 {
-    t_room *tmp_rooms;
-    t_room *tmp_rooms2;
-    t_edge *tmp_edges2;
     t_edge *tmp_edges;
 	char	*name;
 

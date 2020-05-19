@@ -75,14 +75,14 @@ add_executable(lem_in
         src/libft/ft_toupper.c
         src/libft/get_next_line.c
         src/libft/libft.h
-        src/ants_movement.c
         src/bfs.c
-        src/delete.c
         src/equal_rooms.c
         src/ft_solution.c
         src/liba.c
         src/main.c
+        src/movements.c
         src/parse_edges.c
         src/parse_rooms.c
         src/parser.c
-        src/recorder_way.c src/movements.c)
+        src/instruments.c
+        src/recorder_way.c src/instruments.c)

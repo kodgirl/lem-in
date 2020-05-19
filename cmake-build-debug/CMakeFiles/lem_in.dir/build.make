@@ -915,22 +915,9 @@ CMakeFiles/lem_in.dir/src/libft/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/get_next_line.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/get_next_line.c -o CMakeFiles/lem_in.dir/src/libft/get_next_line.c.s
 
-CMakeFiles/lem_in.dir/src/ants_movement.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ants_movement.c.o: ../src/ants_movement.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/lem_in.dir/src/ants_movement.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ants_movement.c.o   -c /home/dpenney/Desktop/lem-in/src/ants_movement.c
-
-CMakeFiles/lem_in.dir/src/ants_movement.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ants_movement.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ants_movement.c > CMakeFiles/lem_in.dir/src/ants_movement.c.i
-
-CMakeFiles/lem_in.dir/src/ants_movement.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ants_movement.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ants_movement.c -o CMakeFiles/lem_in.dir/src/ants_movement.c.s
-
 CMakeFiles/lem_in.dir/src/bfs.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/bfs.c.o: ../src/bfs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/lem_in.dir/src/bfs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/lem_in.dir/src/bfs.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/bfs.c.o   -c /home/dpenney/Desktop/lem-in/src/bfs.c
 
 CMakeFiles/lem_in.dir/src/bfs.c.i: cmake_force
@@ -941,22 +928,9 @@ CMakeFiles/lem_in.dir/src/bfs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/bfs.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/bfs.c -o CMakeFiles/lem_in.dir/src/bfs.c.s
 
-CMakeFiles/lem_in.dir/src/delete.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/delete.c.o: ../src/delete.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/lem_in.dir/src/delete.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/delete.c.o   -c /home/dpenney/Desktop/lem-in/src/delete.c
-
-CMakeFiles/lem_in.dir/src/delete.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/delete.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/delete.c > CMakeFiles/lem_in.dir/src/delete.c.i
-
-CMakeFiles/lem_in.dir/src/delete.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/delete.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/delete.c -o CMakeFiles/lem_in.dir/src/delete.c.s
-
 CMakeFiles/lem_in.dir/src/equal_rooms.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/equal_rooms.c.o: ../src/equal_rooms.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/lem_in.dir/src/equal_rooms.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/lem_in.dir/src/equal_rooms.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/equal_rooms.c.o   -c /home/dpenney/Desktop/lem-in/src/equal_rooms.c
 
 CMakeFiles/lem_in.dir/src/equal_rooms.c.i: cmake_force
@@ -969,7 +943,7 @@ CMakeFiles/lem_in.dir/src/equal_rooms.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/ft_solution.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/ft_solution.c.o: ../src/ft_solution.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/lem_in.dir/src/ft_solution.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/lem_in.dir/src/ft_solution.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_solution.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_solution.c
 
 CMakeFiles/lem_in.dir/src/ft_solution.c.i: cmake_force
@@ -982,7 +956,7 @@ CMakeFiles/lem_in.dir/src/ft_solution.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/liba.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/liba.c.o: ../src/liba.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/lem_in.dir/src/liba.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/lem_in.dir/src/liba.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/liba.c.o   -c /home/dpenney/Desktop/lem-in/src/liba.c
 
 CMakeFiles/lem_in.dir/src/liba.c.i: cmake_force
@@ -995,7 +969,7 @@ CMakeFiles/lem_in.dir/src/liba.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/main.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/lem_in.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/lem_in.dir/src/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/main.c.o   -c /home/dpenney/Desktop/lem-in/src/main.c
 
 CMakeFiles/lem_in.dir/src/main.c.i: cmake_force
@@ -1006,9 +980,22 @@ CMakeFiles/lem_in.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/main.c -o CMakeFiles/lem_in.dir/src/main.c.s
 
+CMakeFiles/lem_in.dir/src/movements.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/movements.c.o: ../src/movements.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/lem_in.dir/src/movements.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/movements.c.o   -c /home/dpenney/Desktop/lem-in/src/movements.c
+
+CMakeFiles/lem_in.dir/src/movements.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/movements.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/movements.c > CMakeFiles/lem_in.dir/src/movements.c.i
+
+CMakeFiles/lem_in.dir/src/movements.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/movements.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/movements.c -o CMakeFiles/lem_in.dir/src/movements.c.s
+
 CMakeFiles/lem_in.dir/src/parse_edges.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/parse_edges.c.o: ../src/parse_edges.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/lem_in.dir/src/parse_edges.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/lem_in.dir/src/parse_edges.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/parse_edges.c.o   -c /home/dpenney/Desktop/lem-in/src/parse_edges.c
 
 CMakeFiles/lem_in.dir/src/parse_edges.c.i: cmake_force
@@ -1021,7 +1008,7 @@ CMakeFiles/lem_in.dir/src/parse_edges.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/parse_rooms.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/parse_rooms.c.o: ../src/parse_rooms.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/lem_in.dir/src/parse_rooms.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/lem_in.dir/src/parse_rooms.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/parse_rooms.c.o   -c /home/dpenney/Desktop/lem-in/src/parse_rooms.c
 
 CMakeFiles/lem_in.dir/src/parse_rooms.c.i: cmake_force
@@ -1034,7 +1021,7 @@ CMakeFiles/lem_in.dir/src/parse_rooms.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/parser.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/parser.c.o: ../src/parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/lem_in.dir/src/parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/lem_in.dir/src/parser.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/parser.c.o   -c /home/dpenney/Desktop/lem-in/src/parser.c
 
 CMakeFiles/lem_in.dir/src/parser.c.i: cmake_force
@@ -1044,6 +1031,19 @@ CMakeFiles/lem_in.dir/src/parser.c.i: cmake_force
 CMakeFiles/lem_in.dir/src/parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/parser.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/parser.c -o CMakeFiles/lem_in.dir/src/parser.c.s
+
+CMakeFiles/lem_in.dir/src/instruments.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/instruments.c.o: ../src/instruments.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/lem_in.dir/src/instruments.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/instruments.c.o   -c /home/dpenney/Desktop/lem-in/src/instruments.c
+
+CMakeFiles/lem_in.dir/src/instruments.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/instruments.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/instruments.c > CMakeFiles/lem_in.dir/src/instruments.c.i
+
+CMakeFiles/lem_in.dir/src/instruments.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/instruments.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/instruments.c -o CMakeFiles/lem_in.dir/src/instruments.c.s
 
 CMakeFiles/lem_in.dir/src/recorder_way.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/recorder_way.c.o: ../src/recorder_way.c
@@ -1057,19 +1057,6 @@ CMakeFiles/lem_in.dir/src/recorder_way.c.i: cmake_force
 CMakeFiles/lem_in.dir/src/recorder_way.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/recorder_way.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/recorder_way.c -o CMakeFiles/lem_in.dir/src/recorder_way.c.s
-
-CMakeFiles/lem_in.dir/src/movements.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/movements.c.o: ../src/movements.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/lem_in.dir/src/movements.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/movements.c.o   -c /home/dpenney/Desktop/lem-in/src/movements.c
-
-CMakeFiles/lem_in.dir/src/movements.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/movements.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/movements.c > CMakeFiles/lem_in.dir/src/movements.c.i
-
-CMakeFiles/lem_in.dir/src/movements.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/movements.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/movements.c -o CMakeFiles/lem_in.dir/src/movements.c.s
 
 # Object files for target lem_in
 lem_in_OBJECTS = \
@@ -1139,18 +1126,17 @@ lem_in_OBJECTS = \
 "CMakeFiles/lem_in.dir/src/libft/ft_tolower.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_toupper.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/get_next_line.c.o" \
-"CMakeFiles/lem_in.dir/src/ants_movement.c.o" \
 "CMakeFiles/lem_in.dir/src/bfs.c.o" \
-"CMakeFiles/lem_in.dir/src/delete.c.o" \
 "CMakeFiles/lem_in.dir/src/equal_rooms.c.o" \
 "CMakeFiles/lem_in.dir/src/ft_solution.c.o" \
 "CMakeFiles/lem_in.dir/src/liba.c.o" \
 "CMakeFiles/lem_in.dir/src/main.c.o" \
+"CMakeFiles/lem_in.dir/src/movements.c.o" \
 "CMakeFiles/lem_in.dir/src/parse_edges.c.o" \
 "CMakeFiles/lem_in.dir/src/parse_rooms.c.o" \
 "CMakeFiles/lem_in.dir/src/parser.c.o" \
-"CMakeFiles/lem_in.dir/src/recorder_way.c.o" \
-"CMakeFiles/lem_in.dir/src/movements.c.o"
+"CMakeFiles/lem_in.dir/src/instruments.c.o" \
+"CMakeFiles/lem_in.dir/src/recorder_way.c.o"
 
 # External object files for target lem_in
 lem_in_EXTERNAL_OBJECTS =
@@ -1221,21 +1207,20 @@ lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strtrim.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_tolower.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_toupper.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/get_next_line.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ants_movement.c.o
 lem_in: CMakeFiles/lem_in.dir/src/bfs.c.o
-lem_in: CMakeFiles/lem_in.dir/src/delete.c.o
 lem_in: CMakeFiles/lem_in.dir/src/equal_rooms.c.o
 lem_in: CMakeFiles/lem_in.dir/src/ft_solution.c.o
 lem_in: CMakeFiles/lem_in.dir/src/liba.c.o
 lem_in: CMakeFiles/lem_in.dir/src/main.c.o
+lem_in: CMakeFiles/lem_in.dir/src/movements.c.o
 lem_in: CMakeFiles/lem_in.dir/src/parse_edges.c.o
 lem_in: CMakeFiles/lem_in.dir/src/parse_rooms.c.o
 lem_in: CMakeFiles/lem_in.dir/src/parser.c.o
+lem_in: CMakeFiles/lem_in.dir/src/instruments.c.o
 lem_in: CMakeFiles/lem_in.dir/src/recorder_way.c.o
-lem_in: CMakeFiles/lem_in.dir/src/movements.c.o
 lem_in: CMakeFiles/lem_in.dir/build.make
 lem_in: CMakeFiles/lem_in.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Linking C executable lem_in"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Linking C executable lem_in"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lem_in.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -83,10 +83,8 @@ int		add_edge_to_room(t_room *room, t_edge *edge)
 ** Adding edges to structure of room. That's all.
 */
 
-int		read_link(t_struct *all, char **split)
+int		read_link(t_struct *all, char **split, t_room *room1, t_room *room2)
 {
-	t_room	*room1;
-	t_room	*room2;
 	t_edge	*edg1;
 	t_edge	*edg2;
 	
@@ -113,5 +111,5 @@ int		read_link(t_struct *all, char **split)
 		return (1);
 	}
 	else
-		return (0);	
+		return (0);
 }

@@ -14,7 +14,6 @@ NAME = lem-in
 
 SRC =	src/main.c\
 		src/parser.c\
-		src/delete.c\
 		src/liba.c\
 		src/parse_edges.c\
 		src/parse_rooms.c\
@@ -22,9 +21,8 @@ SRC =	src/main.c\
 		src/equal_rooms.c\
 		src/bfs.c\
 		src/recorder_way.c\
-		src/ants_movement.c\
 		src/movements.c\
-
+		src/instruments.c\
 
 INCL = includes/lem_in.h 
 

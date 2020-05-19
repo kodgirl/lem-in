@@ -85,19 +85,16 @@
 		<Unit filename="/home/dpenney/Desktop/lem-in/includes/lem_in.h">
 			<Option target="lem_in"/>
 		</Unit>
-		<Unit filename="/home/dpenney/Desktop/lem-in/src/ants_movement.c">
-			<Option target="lem_in"/>
-		</Unit>
 		<Unit filename="/home/dpenney/Desktop/lem-in/src/bfs.c">
-			<Option target="lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/lem-in/src/delete.c">
 			<Option target="lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/lem-in/src/equal_rooms.c">
 			<Option target="lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_solution.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/instruments.c">
 			<Option target="lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/lem-in/src/liba.c">

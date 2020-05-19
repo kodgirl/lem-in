@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lem_in.dir/src/ants_movement.c.o"
   "CMakeFiles/lem_in.dir/src/bfs.c.o"
-  "CMakeFiles/lem_in.dir/src/delete.c.o"
   "CMakeFiles/lem_in.dir/src/equal_rooms.c.o"
   "CMakeFiles/lem_in.dir/src/ft_solution.c.o"
+  "CMakeFiles/lem_in.dir/src/instruments.c.o"
   "CMakeFiles/lem_in.dir/src/liba.c.o"
   "CMakeFiles/lem_in.dir/src/libft/ft_atoi.c.o"
   "CMakeFiles/lem_in.dir/src/libft/ft_bzero.c.o"

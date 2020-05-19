@@ -130,15 +130,17 @@ int		    parser(t_struct *all);
 int		    f_atoi(char *str, int *error);
 int 	    array_len(char **str);
 int		    read_room(t_struct *all, char **split);
-int		    read_link(t_struct *all, char **split);
+int			read_link(t_struct *all, char **split, t_room *room1, t_room *room2);
 int		    room_validation(t_room *room, t_room *flat);
-void        free_lem_in(t_struct *all);
+void        free_lem_in(t_struct *all, t_room *tmp_rooms, t_room *tmp_rooms2, t_edge *tmp_edges2);
 void        ft_free_split(char **for_free);
 
 int 		ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS);
 t_way       *ft_dijkstra(t_struct *all);
 t_way		*bfs(t_struct *all, t_order *order, t_order *head_order, t_way *way);
 void     	*clean_order(t_order *head_order, t_struct *all, t_room *tmpRoom, t_edge *edges);
+void		free_order(t_order *head_order, t_order *tmp);
+
 /*
 ** Record way function
 */
@@ -155,5 +157,15 @@ void 		printRecordWay(t_ways *head_wayS);
 
 int 		move_ant(t_way *way, int i, t_struct *all);
 void		gen_cycle(t_ways *head_wayS, t_struct *all);
+
+/*
+ * Instrumental functions
+ */
+
+void	write_order(t_order *order, t_struct *all);
+void	del_double_massive(char **str);
+void 	printRecordWay(t_ways *head_wayS);
+
+
 
 #endif

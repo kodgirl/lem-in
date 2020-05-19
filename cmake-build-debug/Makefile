@@ -123,33 +123,6 @@ lem_in/fast:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/build
 .PHONY : lem_in/fast
 
-src/ants_movement.o: src/ants_movement.c.o
-
-.PHONY : src/ants_movement.o
-
-# target to build an object file
-src/ants_movement.c.o:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/ants_movement.c.o
-.PHONY : src/ants_movement.c.o
-
-src/ants_movement.i: src/ants_movement.c.i
-
-.PHONY : src/ants_movement.i
-
-# target to preprocess a source file
-src/ants_movement.c.i:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/ants_movement.c.i
-.PHONY : src/ants_movement.c.i
-
-src/ants_movement.s: src/ants_movement.c.s
-
-.PHONY : src/ants_movement.s
-
-# target to generate assembly for a file
-src/ants_movement.c.s:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/ants_movement.c.s
-.PHONY : src/ants_movement.c.s
-
 src/bfs.o: src/bfs.c.o
 
 .PHONY : src/bfs.o
@@ -176,33 +149,6 @@ src/bfs.s: src/bfs.c.s
 src/bfs.c.s:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/bfs.c.s
 .PHONY : src/bfs.c.s
-
-src/delete.o: src/delete.c.o
-
-.PHONY : src/delete.o
-
-# target to build an object file
-src/delete.c.o:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/delete.c.o
-.PHONY : src/delete.c.o
-
-src/delete.i: src/delete.c.i
-
-.PHONY : src/delete.i
-
-# target to preprocess a source file
-src/delete.c.i:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/delete.c.i
-.PHONY : src/delete.c.i
-
-src/delete.s: src/delete.c.s
-
-.PHONY : src/delete.s
-
-# target to generate assembly for a file
-src/delete.c.s:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/delete.c.s
-.PHONY : src/delete.c.s
 
 src/equal_rooms.o: src/equal_rooms.c.o
 
@@ -257,6 +203,33 @@ src/ft_solution.s: src/ft_solution.c.s
 src/ft_solution.c.s:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/ft_solution.c.s
 .PHONY : src/ft_solution.c.s
+
+src/instruments.o: src/instruments.c.o
+
+.PHONY : src/instruments.o
+
+# target to build an object file
+src/instruments.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/instruments.c.o
+.PHONY : src/instruments.c.o
+
+src/instruments.i: src/instruments.c.i
+
+.PHONY : src/instruments.i
+
+# target to preprocess a source file
+src/instruments.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/instruments.c.i
+.PHONY : src/instruments.c.i
+
+src/instruments.s: src/instruments.c.s
+
+.PHONY : src/instruments.s
+
+# target to generate assembly for a file
+src/instruments.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/instruments.c.s
+.PHONY : src/instruments.c.s
 
 src/liba.o: src/liba.c.o
 
@@ -2238,21 +2211,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... lem_in"
-	@echo "... src/ants_movement.o"
-	@echo "... src/ants_movement.i"
-	@echo "... src/ants_movement.s"
 	@echo "... src/bfs.o"
 	@echo "... src/bfs.i"
 	@echo "... src/bfs.s"
-	@echo "... src/delete.o"
-	@echo "... src/delete.i"
-	@echo "... src/delete.s"
 	@echo "... src/equal_rooms.o"
 	@echo "... src/equal_rooms.i"
 	@echo "... src/equal_rooms.s"
 	@echo "... src/ft_solution.o"
 	@echo "... src/ft_solution.i"
 	@echo "... src/ft_solution.s"
+	@echo "... src/instruments.o"
+	@echo "... src/instruments.i"
+	@echo "... src/instruments.s"
 	@echo "... src/liba.o"
 	@echo "... src/liba.i"
 	@echo "... src/liba.s"
