@@ -17,6 +17,7 @@ SRC =	src/main.c\
 		src/liba.c\
 		src/parse_edges.c\
 		src/parse_rooms.c\
+		src/parsers_utilits.c\
 		src/ft_solution.c\
 		src/equal_rooms.c\
 		src/bfs.c\

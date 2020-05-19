@@ -127,6 +127,10 @@ typedef struct 		s_array
 }					t_array;
 
 int		    parser(t_struct *all);
+void		read_ant(char *line, t_struct *all);
+char		**is_room(char *line);
+char		**is_link(char *line);
+int			is_door(char *line);
 int		    f_atoi(char *str, int *error);
 int 	    array_len(char **str);
 int		    read_room(t_struct *all, char **split);

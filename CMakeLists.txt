@@ -85,4 +85,4 @@ add_executable(lem_in
         src/parse_rooms.c
         src/parser.c
         src/instruments.c
-        src/recorder_way.c src/instruments.c)
+        src/recorder_way.c src/instruments.c src/parsers_utilits.c)

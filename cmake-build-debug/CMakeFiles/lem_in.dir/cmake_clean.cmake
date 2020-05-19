@@ -75,6 +75,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/lem_in.dir/src/parse_edges.c.o"
   "CMakeFiles/lem_in.dir/src/parse_rooms.c.o"
   "CMakeFiles/lem_in.dir/src/parser.c.o"
+  "CMakeFiles/lem_in.dir/src/parsers_utilits.c.o"
   "CMakeFiles/lem_in.dir/src/recorder_way.c.o"
   "lem_in"
   "lem_in.pdb"
