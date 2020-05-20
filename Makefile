@@ -37,8 +37,7 @@ all: $(NAME)
 
 $(NAME): $(OBJ)
 	make -C src/libft
-	make -C src/ft_printf
-	gcc -o $(NAME) $(OBJ)  -lft -L./src/ft_printf  -lft -L./src/libft
+	gcc -o $(NAME) $(OBJ)  -lft -L./src/libft
 	
 %.o: %.c $(INCL)
 	gcc -I $(INCL) $< -c -o $@

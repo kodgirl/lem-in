@@ -28,10 +28,9 @@ int		main(int ac, char **av)
 
 	i = 0;
 	ft_bzero(&all, sizeof(t_struct));
-	ft_printf("kolobok");
 	if (ac == 1)
 	{
-        if (!parser(&all))
+        if (!parser(&all, NULL, NULL))
 			return (0);
 		i = ft_solution(&all, NULL, NULL, NULL);
 		if (i)

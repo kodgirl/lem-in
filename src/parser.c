@@ -39,14 +39,10 @@ void	door_to_room(t_room *room, t_struct *all, int i)
 	}
 }
 
-/*
- * TODO Добавить функцию error_print.
-*/
-
 int		read_door(t_struct *all, int i, char *line, char **split)
 {
 	if ((i == 1 && all->start_flag == 1) || (i == 2 && all->end_flag == 1))
-		all->error = 1;
+		all->error = 4;
 	else if (i != 0 && get_next_line(0, &line) > 0)
 	{
 		if ((split = is_room(line)) && all->link_flag == 0)
@@ -55,7 +51,7 @@ int		read_door(t_struct *all, int i, char *line, char **split)
 			door_to_room(all->room, all, i);
 		}			
 		else
-			all->error = 1;
+			all->error = 4;
 		free(line);
 	}
 	if (split)
@@ -83,13 +79,41 @@ int		check_end_start(t_struct *all)
 ** read doors recording comments ##start and ##end;
 */
 
-// FIXME как прочитать фдешник два раза. Сначала печатать всю карту, а потом начать запись.
+/*
+ * 1 - error in ants;
+ * 2- error in rooms;
+ * 3 - error in links;
+ * 4 - error in door;
+ * 5 - something else in map. Check map again.
+ */
 
-int		parser(t_struct *all)
+void		error_print(t_struct *all) {
+	if (all->error == 1) {
+		free_lem_in(all, NULL, NULL, NULL);
+		write(1, "\nERROR: invalid number of ants. [1 - 2147483647]\n", 55);
+		exit(0);
+	} else if (all->error == 2) {
+		free_lem_in(all, NULL, NULL, NULL);
+		write(1, "\nERROR: invalid records of rooms \n", 50);
+		exit(0);
+	}
+	else if (all->error == 3)
+	{
+		free_lem_in(all, NULL, NULL, NULL);
+		write(1, "\nERROR: invalid records of links and rooms\n", 40);
+		exit(0);
+	}
+	else if (all->error == 4)
+	{
+
+	}
+}
+
+// FIXME не воспринимает комнату с с символами '-' в названии комнаты независимо от кол-ва символов.
+
+int		parser(t_struct *all, char *line, char **split)
 {
 	int			size;
-	char		*line;
-	char		**split;
 
 	all->rm_count = 0;
 	split = NULL;
@@ -106,25 +130,14 @@ int		parser(t_struct *all)
         else if (*line == '#')
 			read_door(all, is_door(line + 1), NULL, NULL);
 		else
-			all->error = 1;
+			all->error = 5;
 		if (split)
 		    ft_free_split(split);
 		if (line)
 		    free(line);
-		if (all->error)
-		{
-		    free_lem_in(all, NULL, NULL, NULL);
-			write(1, "ERROR\n", 7);
-			exit(0);
-		}
 	}
+	error_print(all);
 	check_end_start(all);
-	if (all->error)
-	{
-	    free_lem_in(all, NULL, NULL, NULL);
-		write(1, "\nERROR\n", 7);
-		exit(0);
-	}
 	return (1);
 }
 

@@ -18,10 +18,6 @@
 # include <unistd.h>
 # include <fcntl.h>
 # include "../src/libft/libft.h"
-# include "../src/ft_printf/printf.h"
-# include "../src/ft_printf/fp_type.h"
-# include "../src/ft_printf/read_spec.h"
-# include "../src/ft_printf/apply_spec.h"
 
 /*
 ** Every room is vertex of graph.
@@ -130,7 +126,7 @@ typedef struct 		s_array
 	t_room			**rooms;
 }					t_array;
 
-int		    parser(t_struct *all);
+int			parser(t_struct *all, char *line, char **split);
 void		read_ant(char *line, t_struct *all);
 char		**is_room(char *line);
 char		**is_link(char *line);

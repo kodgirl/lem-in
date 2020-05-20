@@ -28,7 +28,7 @@ t_room	*search_room_name(char *name, t_struct *all)
 			return (tmp);
 		tmp = tmp->next;
 	}
-	all->error = 1;
+	all->error = 3;
 	return (NULL);
 }
 
@@ -90,7 +90,7 @@ int		read_link(t_struct *all, char **split, t_room *room1, t_room *room2)
 	
 	if(all->end_flag != 1 || all->start_flag != 1)
 	{
-		all->error = 1; 
+		all->error = 3;
 		return (0);
 	}
 	all->link_flag = 1;
@@ -103,9 +103,9 @@ int		read_link(t_struct *all, char **split, t_room *room1, t_room *room2)
 		edg1->room = room2;
 		edg2->room = room1;
 		if (add_edge_to_room(room1, edg1) == 0)
-			all->error = 1;
+			all->error = 3;
 		if (add_edge_to_room(room2, edg2) == 0)
-			all->error = 1;
+			all->error = 3;
 		edg1->cost = 1;
 		edg2->cost = 1;
 		return (1);
