@@ -37,7 +37,8 @@ all: $(NAME)
 
 $(NAME): $(OBJ)
 	make -C src/libft
-	gcc -o $(NAME) $(OBJ) -L./src/libft -lft
+	make -C src/ft_printf
+	gcc -o $(NAME) $(OBJ)  -lft -L./src/ft_printf  -lft -L./src/libft
 	
 %.o: %.c $(INCL)
 	gcc -I $(INCL) $< -c -o $@
@@ -45,6 +46,7 @@ $(NAME): $(OBJ)
 clean:
 	rm -rf $(OBJ)
 	make clean -C src/libft/
+	make clean -C src/ft_printf
 
 fclean: clean
 	rm -rf $(NAME)

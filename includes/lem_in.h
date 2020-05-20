@@ -18,6 +18,10 @@
 # include <unistd.h>
 # include <fcntl.h>
 # include "../src/libft/libft.h"
+# include "../src/ft_printf/printf.h"
+# include "../src/ft_printf/fp_type.h"
+# include "../src/ft_printf/read_spec.h"
+# include "../src/ft_printf/apply_spec.h"
 
 /*
 ** Every room is vertex of graph.
@@ -140,7 +144,6 @@ void        free_lem_in(t_struct *all, t_room *tmp_rooms, t_room *tmp_rooms2, t_
 void        ft_free_split(char **for_free);
 
 int 		ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS);
-t_way       *ft_dijkstra(t_struct *all);
 t_way		*bfs(t_struct *all, t_order *order, t_order *head_order, t_way *way);
 void     	*clean_order(t_order *head_order, t_struct *all, t_room *tmpRoom, t_edge *edges);
 void		free_order(t_order *head_order, t_order *tmp);
