@@ -71,16 +71,16 @@ typedef struct		s_edge
 
 typedef struct		s_struct
 {
-	int				ant;
-	t_room			*room;
-	t_room			*start;
-	t_room			*end;
-	int             rm_count;
-	int				error;
-	unsigned short int	start_flag;
-	unsigned short int	end_flag;
-	unsigned short int	ant_flag;
-	unsigned short int	link_flag;
+	int					ant;
+	t_room				*room;
+	t_room				*start;
+	t_room				*end;
+	short 				rm_count;
+	short				error;
+	short				start_flag;
+	short				end_flag;
+	short				ant_flag;
+	short				link_flag;
 }					t_struct;
 
 typedef struct      s_way
@@ -100,7 +100,7 @@ typedef struct		s_order
 typedef struct      s_ways
 {
     t_way           *way;
-    int 			vtx_qn;
+    unsigned int 	vtx_qn;
 	int 			expression;
 	struct s_ways   *next;
 	struct s_ways	*prev;
@@ -138,6 +138,8 @@ int			read_link(t_struct *all, char **split, t_room *room1, t_room *room2);
 int		    room_validation(t_room *room, t_room *flat);
 void        free_lem_in(t_struct *all, t_room *tmp_rooms, t_room *tmp_rooms2, t_edge *tmp_edges2);
 void        ft_free_split(char **for_free);
+void		error_print(t_struct *all);
+int		check_end_start(t_struct *all);
 
 int 		ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS);
 t_way		*bfs(t_struct *all, t_order *order, t_order *head_order, t_way *way);
@@ -156,19 +158,17 @@ t_way		*invert_way(t_way *way, t_way *curr, t_way *next, t_way *prev);
  * TODO change names of fucntions;
  */
 
-void 		printRecordWay(t_ways *head_wayS);
 
 int 		move_ant(t_way *way, int i, t_struct *all);
 void		gen_cycle(t_ways *head_wayS, t_struct *all);
-
+void		walking_ants(t_ways *wayS, int *antsRemain, int *antsCurrent, t_struct *all);
 /*
- * Instrumental functions
- */
+** Instrumental functions
+*/
 
 void	write_order(t_order *order, t_struct *all);
 void	del_double_massive(char **str);
 void 	printRecordWay(t_ways *head_wayS);
-
-
+void 	printRecordWay(t_ways *head_wayS);
 
 #endif

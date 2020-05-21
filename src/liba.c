@@ -79,7 +79,7 @@ int		check_char(int *b, char str, int *error)
 	return (0);
 }
 
-int		f_atoi(char *str, int *error)
+int		    f_atoi(char *str, int *error)
 {
 	int		a;
 	int		b;

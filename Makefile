@@ -45,7 +45,6 @@ $(NAME): $(OBJ)
 clean:
 	rm -rf $(OBJ)
 	make clean -C src/libft/
-	make clean -C src/ft_printf
 
 fclean: clean
 	rm -rf $(NAME)

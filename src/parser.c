@@ -45,6 +45,8 @@ int		read_door(t_struct *all, int i, char *line, char **split)
 		all->error = 4;
 	else if (i != 0 && get_next_line(0, &line) > 0)
 	{
+		ft_putstr(line);
+		ft_putstr("\n");
 		if ((split = is_room(line)) && all->link_flag == 0)
 		{
 			read_room(all, split);
@@ -62,7 +64,7 @@ int		read_door(t_struct *all, int i, char *line, char **split)
 int		check_end_start(t_struct *all)
 {
 	if (!all->start->edge || !all->end->edge)
-		all->error = 1;
+		error_print(all);
 	return (0);
 }
 
@@ -87,7 +89,8 @@ int		check_end_start(t_struct *all)
  * 5 - something else in map. Check map again.
  */
 
-void		error_print(t_struct *all) {
+void		error_print(t_struct *all)
+{
 	if (all->error == 1) {
 		free_lem_in(all, NULL, NULL, NULL);
 		write(1, "\nERROR: invalid number of ants. [1 - 2147483647]\n", 55);
@@ -105,11 +108,14 @@ void		error_print(t_struct *all) {
 	}
 	else if (all->error == 4)
 	{
-
+		free_lem_in(all, NULL, NULL, NULL);
+		write(1,"\nERROR: invalid records of doors.", 40);
+		exit(0);
 	}
 }
 
 // FIXME не воспринимает комнату с с символами '-' в названии комнаты независимо от кол-ва символов.
+// FIXME пропускает стартовую комнату.
 
 int		parser(t_struct *all, char *line, char **split)
 {

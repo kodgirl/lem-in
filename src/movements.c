@@ -30,15 +30,24 @@ void 		expression(t_ways *head)
  * последней комнаты.
  * Если в этой комнате есть муравей, а в следующей нет, то передаёт муравья и печатае.
  * Если по расчётам нужен ещё один путь, то запускает следующего муравья в начало этого пути.
- * FIXME файл testing. Когда доходит до операции с 3-ей строки, то
  */
 
-int		walking_ants(t_ways *wayS, int *antsOstatok, int *antsCurrent, t_struct *all)
+void			launch_new_way(t_way *startNewWay, int *antsRemain, int *antsCurrent, t_ways *wayS)
+{
+	if (*antsRemain > wayS->expression && !startNewWay->next->room->ant)
+	{
+		startNewWay->next->room->ant = *antsCurrent;
+		printf("L%d-%s ", *antsCurrent, startNewWay->next->room->name);
+		*antsRemain = *antsRemain - 1;
+		*antsCurrent = *antsCurrent + 1;
+		return;
+	}
+}
+
+void		walking_ants(t_ways *wayS, int *antsRemain, int *antsCurrent, t_struct *all)
 {
 	t_way		*copyWay;
-	t_way 		*startNewWay;
 
-	startNewWay = wayS->way;
 	copyWay = wayS->way;
 	while (copyWay)
 	{
@@ -46,10 +55,10 @@ int		walking_ants(t_ways *wayS, int *antsOstatok, int *antsCurrent, t_struct *al
 			break;
 		else if (copyWay->room->ant && copyWay->next->room == all->end)
 		{
-			printf("L%d-%s ", copyWay->room->ant, copyWay->next->room->name);
-			copyWay->next->room->ant++;
-			copyWay->room->ant = 0;
-			copyWay = startNewWay;
+				printf("L%d-%s ", copyWay->room->ant, copyWay->next->room->name);
+				copyWay->next->room->ant++;
+				copyWay->room->ant = 0;
+				copyWay = wayS->way;
 		}
 		else if (copyWay->room->ant && !copyWay->next->room->ant)
 		{
@@ -60,21 +69,9 @@ int		walking_ants(t_ways *wayS, int *antsOstatok, int *antsCurrent, t_struct *al
 		}
 		copyWay = copyWay->next;
 	}
-	//FIXME sub.test. Когда приходит третий муравей, то он заменяет 2-ой муравей, который ещё не двигался.
-	if (*antsOstatok > wayS->expression && !startNewWay->next->room->ant)
-	{
-		startNewWay->next->room->ant = *antsCurrent;
-		printf("L%d-%s ", *antsCurrent, startNewWay->next->room->name);
-		*antsOstatok = *antsOstatok - 1;
-		*antsCurrent = *antsCurrent + 1;
-		return (1);
-	}
+	copyWay = wayS->way;
+	launch_new_way(copyWay, antsRemain, antsCurrent, wayS);
 }
-
-/*
- *  Функция проходит по очереди по каждому пути и отправляет муравьёв.
- */
-
 
 void		gen_cycle(t_ways *head, t_struct *all)
 {
@@ -82,12 +79,9 @@ void		gen_cycle(t_ways *head, t_struct *all)
 	printf("\n");
 
 	int		antsCurrent;
-	int 	antsOstatok;
-	int 	i;
+	int 	antsRemain;
 
-	i = 0;
-
-	antsOstatok = all->ant;
+	antsRemain = all->ant;
 	antsCurrent = 1;
 	copyWays = head;
 	expression(head);
@@ -95,7 +89,7 @@ void		gen_cycle(t_ways *head, t_struct *all)
 	{
 		while (copyWays)
 		{
-			i = walking_ants(copyWays, &antsOstatok, &antsCurrent, all);
+			walking_ants(copyWays, &antsRemain, &antsCurrent, all);
 			copyWays = copyWays->next;
 		}
 		printf("\n");
