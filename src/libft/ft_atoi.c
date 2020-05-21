@@ -3,39 +3,38 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bjasper <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: bgian <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/07/08 18:01:06 by bjasper           #+#    #+#             */
-/*   Updated: 2019/09/21 13:51:08 by bjasper          ###   ########.fr       */
+/*   Created: 2019/09/21 16:46:08 by bgian             #+#    #+#             */
+/*   Updated: 2019/09/21 19:28:05 by bgian            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-int		ft_atoi(const char *str)
+static int	ft_isspace(char c)
 {
-	int					a;
-	unsigned long int	b;
-	size_t				check;
+	return (c == '\t' || c == '\n' || c == '\v' ||\
+			c == '\f' || c == '\r' || c == ' ' ? 1 : 0);
+}
 
-	a = 1;
-	b = 0;
-	while ((*str >= 9 && *str <= 13) || *str == 32)
+int			ft_atoi(const char *str)
+{
+	int	res;
+	int sign;
+
+	res = 0;
+	sign = 1;
+	while (ft_isspace(*str))
 		str++;
-	if (*str == 45)
+	if (*str == '-' || *str == '+')
 	{
-		a = -a;
+		sign = (*str == '-') ? -1 : 1;
 		str++;
 	}
-	else if (*str == 43)
-		str++;
-	while (*str >= 48 && *str <= 57)
+	while (*str >= '0' && *str <= '9')
 	{
-		check = b;
-		b = (*str - 48) + b * 10;
-		if (check != b / 10)
-			return (a == 1 ? -1 : 0);
+		res *= 10;
+		res += *str - '0';
 		str++;
 	}
-	return (a * b);
+	return (res * sign);
 }

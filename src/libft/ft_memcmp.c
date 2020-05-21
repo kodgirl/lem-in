@@ -3,30 +3,27 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bjasper <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: bgian <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/07 17:10:48 by bjasper           #+#    #+#             */
-/*   Updated: 2019/09/11 16:40:57 by bjasper          ###   ########.fr       */
+/*   Created: 2019/09/21 18:37:23 by bgian             #+#    #+#             */
+/*   Updated: 2019/09/25 14:16:53 by bgian            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int					ft_memcmp(const void *s1, const void *s2, size_t n)
+int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	unsigned char	*a;
-	unsigned char	*b;
-
-	if (n == 0)
-		return (0);
-	a = (unsigned char *)s1;
-	b = (unsigned char *)s2;
-	while ((n--))
-	{
-		if (*a != *b)
-			return (*a - *b);
-		a++;
-		b++;
-	}
-	return (0);
+	while (n && *((char *)s1++) == *((char *)s2++) && n--)
+		;
+	s1 -= 1;
+	s2 -= 1;
+	return (n ? (int)(*((unsigned char *)s1) - *((unsigned char *)s2)) : 0);
 }
+
+/*
+** When differing bytes are treated as unsigned char, '\200' is > '0'
+** (decimal of '\200' is 128 when treated as unsigned char and -128 when
+** treated as signed char).
+** That is why library implementation differs from man. See tests.
+*/

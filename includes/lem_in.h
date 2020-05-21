@@ -13,12 +13,12 @@
 #ifndef LEM_IN_H
 # define LEM_IN_H
 
-# include <stdio.h>
+//# include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
 # include <fcntl.h>
-# include "../src/libft/libft.h"
-
+# include "../src/libft/includes/libft.h"
+# include "../src/libft/ft_printf/printf.h"
 /*
 ** Every room is vertex of graph.
 ** index - variable which keep index of vertexes;

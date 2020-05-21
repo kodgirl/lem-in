@@ -37,7 +37,7 @@ void			launch_new_way(t_way *startNewWay, int *antsRemain, int *antsCurrent, t_w
 	if (*antsRemain > wayS->expression && !startNewWay->next->room->ant)
 	{
 		startNewWay->next->room->ant = *antsCurrent;
-		printf("L%d-%s ", *antsCurrent, startNewWay->next->room->name);
+		ft_printf("L%d-%s ", *antsCurrent, startNewWay->next->room->name);
 		*antsRemain = *antsRemain - 1;
 		*antsCurrent = *antsCurrent + 1;
 		return;
@@ -55,7 +55,7 @@ void		walking_ants(t_ways *wayS, int *antsRemain, int *antsCurrent, t_struct *al
 			break;
 		else if (copyWay->room->ant && copyWay->next->room == all->end)
 		{
-				printf("L%d-%s ", copyWay->room->ant, copyWay->next->room->name);
+				ft_printf("L%d-%s ", copyWay->room->ant, copyWay->next->room->name);
 				copyWay->next->room->ant++;
 				copyWay->room->ant = 0;
 				copyWay = wayS->way;
@@ -64,7 +64,7 @@ void		walking_ants(t_ways *wayS, int *antsRemain, int *antsCurrent, t_struct *al
 		{
 			copyWay->next->room->ant = copyWay->room->ant;
 			copyWay->room->ant = 0;
-			printf("L%d-%s ", copyWay->next->room->ant, copyWay->next->room->name);
+			ft_printf("L%d-%s ", copyWay->next->room->ant, copyWay->next->room->name);
 			break;
 		}
 		copyWay = copyWay->next;
@@ -76,7 +76,6 @@ void		walking_ants(t_ways *wayS, int *antsRemain, int *antsCurrent, t_struct *al
 void		gen_cycle(t_ways *head, t_struct *all)
 {
 	t_ways 	*copyWays;
-	printf("\n");
 
 	int		antsCurrent;
 	int 	antsRemain;
@@ -85,6 +84,7 @@ void		gen_cycle(t_ways *head, t_struct *all)
 	antsCurrent = 1;
 	copyWays = head;
 	expression(head);
+	ft_printf("\n");
 	while (all->end->ant != all->ant)
 	{
 		while (copyWays)
@@ -92,7 +92,7 @@ void		gen_cycle(t_ways *head, t_struct *all)
 			walking_ants(copyWays, &antsRemain, &antsCurrent, all);
 			copyWays = copyWays->next;
 		}
-		printf("\n");
+		ft_printf("\n");
 		copyWays = head;
 	}
 }

@@ -3,34 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bjasper <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: bgian <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/13 15:42:57 by bjasper           #+#    #+#             */
-/*   Updated: 2019/09/17 21:17:09 by bjasper          ###   ########.fr       */
+/*   Created: 2019/09/23 18:26:03 by bgian             #+#    #+#             */
+/*   Updated: 2020/02/02 21:30:34 by bgian            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_itoa(int n)
+char				*ft_itoa(int n)
 {
-	char	*str;
-	size_t	len;
-	int		a;
-
-	a = 1;
-	len = ft_nbrlen(n);
-	if (!(str = ft_strnew(len)))
-		return (NULL);
-	if (n < 0)
-		a = -1;
-	while (len)
-	{
-		--len;
-		str[len] = (char)((n % 10) * a + 48);
-		n /= 10;
-	}
-	if (a == -1)
-		str[0] = '-';
-	return (str);
+	return (ft_itoa_base(n, "0123456789", 1));
 }

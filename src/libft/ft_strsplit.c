@@ -3,73 +3,82 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strsplit.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bjasper <bjasper@student.42.fr>            +#+  +:+       +#+        */
+/*   By: bgian <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/18 14:47:25 by bjasper           #+#    #+#             */
-/*   Updated: 2020/03/14 19:35:47 by bjasper          ###   ########.fr       */
+/*   Created: 2019/09/23 17:25:27 by bgian             #+#    #+#             */
+/*   Updated: 2019/09/25 19:32:45 by bgian            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static void			free_mem(char **str)
+static int				get_n_words(char const *s, char c)
 {
-	int				i;
+	int	n;
 
-	i = 0;
-	while (str[i])
-	{
-		free(&str[i]);
-		i++;
-	}
-	free(str);
-}
-
-static size_t		ft_count(const char *s, char c)
-{
-	size_t			n;
-
+	if (!s)
+		return (0);
 	n = 0;
 	while (*s)
 	{
-		while (*s == c && *s)
-			++s;
-		if (*s != c && *s)
-		{
-			while (*s != c && *s)
-				++s;
-			++n;
-		}
+		if (*s != c && (*(s + 1) == c || *(s + 1) == 0))
+			n++;
+		s++;
 	}
 	return (n);
 }
 
-char				**ft_strsplit(const char *s, char c)
+static const char		*start_of_next(const char *s, char sep)
 {
-	char			**fresh;
-	size_t			len;
-	size_t			count;
-	int				j;
+	while (*s == sep)
+		s++;
+	return (s);
+}
 
-	if (!s || !c)
-		return (NULL);
-	count = ft_count(s, c);
-	if (!(fresh = (char **)malloc(sizeof(char *) * (count + 1))))
-		return (NULL);
-	j = 0;
-	while (*s && count--)
+static size_t			len_of_next(const char *src, char sep)
+{
+	size_t	len;
+
+	len = 0;
+	while (*src != sep && *src != 0)
 	{
-		s = ft_skip_sym(s, c);
-		len = ft_strlento((char *)s, c);
-		if (!(fresh[j] = ft_strnew(len)))
+		src++;
+		len++;
+	}
+	return (len);
+}
+
+static void				avoid_leaks(char **res, int nlinks)
+{
+	while (nlinks > 0)
+		free(res[nlinks--]);
+	free(res);
+}
+
+char					**ft_strsplit(char const *s, char c)
+{
+	int		n_words;
+	char	**res;
+	size_t	len;
+	int		i;
+
+	i = 0;
+	n_words = get_n_words(s, c);
+	res = (char **)malloc(sizeof(char *) * (n_words + 1));
+	if (!res)
+		return (0);
+	res[n_words] = 0;
+	while (i < n_words)
+	{
+		s = start_of_next(s, c);
+		len = len_of_next(s, c);
+		res[i++] = ft_strsub(s, 0, len);
+		if (!res[i - 1])
 		{
-			free_mem(fresh);
-			return (NULL);
+			avoid_leaks(res, i - 2);
+			return (0);
 		}
-		fresh[j] = ft_strccpy(fresh[j], s, c);
-		++j;
 		s += len;
 	}
-	fresh[j] = NULL;
-	return (fresh);
+	return (res);
 }

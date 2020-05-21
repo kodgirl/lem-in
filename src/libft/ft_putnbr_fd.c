@@ -1,34 +1,67 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
+/*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bjasper <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: bgian <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/10 16:35:17 by bjasper           #+#    #+#             */
-/*   Updated: 2019/09/11 16:42:59 by bjasper          ###   ########.fr       */
+/*   Created: 2019/09/23 18:50:52 by bgian             #+#    #+#             */
+/*   Updated: 2019/09/23 20:41:23 by bgian            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putnbr_fd(int n, int fd)
+static void			str_rev(char *s)
 {
-	if (n == -2147483648)
+	int		len;
+	int		i;
+	char	tmp;
+
+	i = 0;
+	len = ft_strlen(s);
+	while (i < (len - i - 1))
 	{
-		ft_putnbr_fd(-2147, fd);
-		ft_putnbr_fd(483648, fd);
+		tmp = s[i];
+		s[i] = s[len - i - 1];
+		s[len - i - 1] = tmp;
+		i++;
 	}
-	else if (n >= 10)
+}
+
+static int			my_abs(int n)
+{
+	return (n > 0 ? n : -1 * n);
+}
+
+static void			ft_itoa_stack(int n, char *s)
+{
+	int		i;
+
+	i = 0;
+	if (n < 0)
 	{
-		ft_putnbr_fd(n / 10, fd);
-		ft_putnbr_fd(n % 10, fd);
+		s[0] = '-';
+		i++;
 	}
-	else if (n < 0)
+	if (n == 0)
+		s[0] = '0';
+	while (n)
 	{
-		ft_putchar_fd('-', fd);
-		ft_putnbr_fd(-n, fd);
+		s[i++] = my_abs(n % 10) + '0';
+		n = n / 10;
 	}
-	else
-		ft_putchar_fd(n + 48, fd);
+	str_rev((s[0] == '-') ? s + 1 : s);
+}
+
+void				ft_putnbr_fd(int n, int fd)
+{
+	char	s[12];
+	int		i;
+
+	i = 0;
+	while (i < 12)
+		s[i++] = 0;
+	ft_itoa_stack(n, s);
+	ft_putstr_fd(s, fd);
 }

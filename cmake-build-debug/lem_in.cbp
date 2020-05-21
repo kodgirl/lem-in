@@ -45,6 +45,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/dpenney/Desktop/lem-in/includes"/>
+					<Add directory="/home/dpenney/Desktop/lem-in/src/ft_printf"/>
+					<Add directory="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/includes"/>
 					<Add directory="/home/dpenney/Desktop/lem-in/src/libft"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
@@ -67,6 +69,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/dpenney/Desktop/lem-in/includes"/>
+					<Add directory="/home/dpenney/Desktop/lem-in/src/ft_printf"/>
+					<Add directory="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/includes"/>
 					<Add directory="/home/dpenney/Desktop/lem-in/src/libft"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
@@ -89,6 +93,309 @@
 			<Option target="lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/lem-in/src/equal_rooms.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec.h">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec2.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec3.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec4.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec5.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec6.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/arg_extractors.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/arg_extractors2.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/conv_int.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/conv_int2.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/conv_other.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/conv_wrappers_int.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/conv_wrappers_int2.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/conv_wrappers_other.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/find_action.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/fp_type.h">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/ftoa.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/int_len.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_array_subtract.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_atoi.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_bbtree_utils.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_bsort_int.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_bzero.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_del.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isalnum.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isalpha.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isascii.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isdigit.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isprint.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_itoa.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_itoa_base.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstadd.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstappend.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstdel.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstdelone.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstiter.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstmap.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstnew.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_max_int.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_maxval_int.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memalloc.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memccpy.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memchr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memcmp.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memcpy.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memdel.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memdup.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memmove.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memset.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_min_int.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_minval_int.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_print_array.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putchar.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putchar_fd.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putendl.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putendl_fd.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putnbr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putnbr_fd.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putstr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putstr_fd.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strcat.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strchr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strclr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strcmp.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strcpy.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strdel.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strdup.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strequ.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_striter.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_striteri.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strjoin.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strlcat.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strlen.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strmap.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strmapi.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strncat.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strncmp.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strncpy.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strnequ.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strnew.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strnstr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strrchr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strrev.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strsplit.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strstr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strsub.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strtrim.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_swap.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_swapint.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_tolower.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_toupper.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/get_next_line.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/includes/bbtree_utils.h">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/includes/get_next_line.h">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/libft/includes/libft.h">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/printf.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/printf.h">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/read_spec.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/read_spec.h">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_printf/read_spec2.c">
 			<Option target="lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/lem-in/src/ft_solution.c">

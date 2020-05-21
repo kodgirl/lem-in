@@ -3,38 +3,32 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bjasper <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: bgian <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/17 20:00:18 by bjasper           #+#    #+#             */
-/*   Updated: 2019/09/19 21:40:02 by bjasper          ###   ########.fr       */
+/*   Created: 2019/09/23 16:11:24 by bgian             #+#    #+#             */
+/*   Updated: 2019/09/23 16:36:10 by bgian            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strtrim(char const *s)
+static int	ft_isspace(char c)
 {
-	char	*dst;
-	ssize_t	len;
+	if (c == ' ' || c == '\n' || c == '\t')
+		return (1);
+	return (0);
+}
 
-	len = 0;
-	if (!s)
-		return (NULL);
-	while (*s && (*s == ' ' || *s == '\n' || *s == '\t'))
-		++s;
-	while (*s)
-	{
-		++s;
-		++len;
-	}
-	while (len && (*s == ' ' || *s == '\n' || *s == '\t' || *s == '\0'))
-	{
-		--len;
-		--s;
-	}
-	if (!(dst = (char *)ft_strnew(len + 1)))
-		return (NULL);
-	while (len >= 0)
-		dst[len--] = *s--;
-	return (dst);
+char		*ft_strtrim(char const *s)
+{
+	char	*end_of_text;
+
+	while (*s && ft_isspace(*s))
+		s++;
+	end_of_text = (char *)s;
+	while (*end_of_text)
+		end_of_text++;
+	while (ft_isspace(*(--end_of_text)))
+		;
+	return (ft_strsub(s, 0, (end_of_text >= s ? end_of_text - s + 1 : 0)));
 }

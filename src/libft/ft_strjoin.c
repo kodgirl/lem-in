@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bjasper <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: bgian <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/12 19:26:01 by bjasper           #+#    #+#             */
-/*   Updated: 2019/09/20 12:38:16 by bjasper          ###   ########.fr       */
+/*   Created: 2019/09/23 16:36:27 by bgian             #+#    #+#             */
+/*   Updated: 2019/09/23 16:36:31 by bgian            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,29 +14,19 @@
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
+	int		len;
 	char	*res;
-	size_t	len1;
-	size_t	len2;
-	size_t	i;
+	char	*cur;
 
-	if (!s1 || !s2)
+	len = ft_strlen(s1) + ft_strlen(s2);
+	res = (char *)malloc(len + 1);
+	if (!res)
 		return (NULL);
-	i = 0;
-	len1 = ft_strlen(s1);
-	len2 = ft_strlen(s2);
-	if (!(res = (char *)malloc(sizeof(char) * (len1 + len2 + 1))))
-		return (NULL);
-	while (s1[i])
-	{
-		res[i] = s1[i];
-		i++;
-	}
+	cur = res;
+	while (*s1)
+		*cur++ = *s1++;
 	while (*s2)
-	{
-		res[i] = *s2;
-		s2++;
-		i++;
-	}
-	res[i] = '\0';
+		*cur++ = *s2++;
+	*cur = 0;
 	return (res);
 }
