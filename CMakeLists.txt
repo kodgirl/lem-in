@@ -4,139 +4,88 @@ project(lem_in C)
 set(CMAKE_C_STANDARD 11)
 
 include_directories(includes)
-include_directories(src/ft_printf)
-include_directories(src/ft_printf/libft/includes)
-include_directories(src/libft)
+include_directories(src/libft/ft_printf)
+include_directories(src/libft/ftoa)
+include_directories(src/libft/includes)
 
 add_executable(lem_in
         includes/lem_in.h
-        src/ft_printf/libft/includes/bbtree_utils.h
-        src/ft_printf/libft/includes/get_next_line.h
-        src/ft_printf/libft/includes/libft.h
-        src/ft_printf/libft/ft_array_subtract.c
-        src/ft_printf/libft/ft_atoi.c
-        src/ft_printf/libft/ft_bbtree_utils.c
-        src/ft_printf/libft/ft_bsort_int.c
-        src/ft_printf/libft/ft_bzero.c
-        src/ft_printf/libft/ft_del.c
-        src/ft_printf/libft/ft_isalnum.c
-        src/ft_printf/libft/ft_isalpha.c
-        src/ft_printf/libft/ft_isascii.c
-        src/ft_printf/libft/ft_isdigit.c
-        src/ft_printf/libft/ft_isprint.c
-        src/ft_printf/libft/ft_itoa.c
-        src/ft_printf/libft/ft_itoa_base.c
-        src/ft_printf/libft/ft_lstadd.c
-        src/ft_printf/libft/ft_lstappend.c
-        src/ft_printf/libft/ft_lstdel.c
-        src/ft_printf/libft/ft_lstdelone.c
-        src/ft_printf/libft/ft_lstiter.c
-        src/ft_printf/libft/ft_lstmap.c
-        src/ft_printf/libft/ft_lstnew.c
-        src/ft_printf/libft/ft_max_int.c
-        src/ft_printf/libft/ft_maxval_int.c
-        src/ft_printf/libft/ft_memalloc.c
-        src/ft_printf/libft/ft_memccpy.c
-        src/ft_printf/libft/ft_memchr.c
-        src/ft_printf/libft/ft_memcmp.c
-        src/ft_printf/libft/ft_memcpy.c
-        src/ft_printf/libft/ft_memdel.c
-        src/ft_printf/libft/ft_memdup.c
-        src/ft_printf/libft/ft_memmove.c
-        src/ft_printf/libft/ft_memset.c
-        src/ft_printf/libft/ft_min_int.c
-        src/ft_printf/libft/ft_minval_int.c
-        src/ft_printf/libft/ft_print_array.c
-        src/ft_printf/libft/ft_putchar.c
-        src/ft_printf/libft/ft_putchar_fd.c
-        src/ft_printf/libft/ft_putendl.c
-        src/ft_printf/libft/ft_putendl_fd.c
-        src/ft_printf/libft/ft_putnbr.c
-        src/ft_printf/libft/ft_putnbr_fd.c
-        src/ft_printf/libft/ft_putstr.c
-        src/ft_printf/libft/ft_putstr_fd.c
-        src/ft_printf/libft/ft_strcat.c
-        src/ft_printf/libft/ft_strchr.c
-        src/ft_printf/libft/ft_strclr.c
-        src/ft_printf/libft/ft_strcmp.c
-        src/ft_printf/libft/ft_strcpy.c
-        src/ft_printf/libft/ft_strdel.c
-        src/ft_printf/libft/ft_strdup.c
-        src/ft_printf/libft/ft_strequ.c
-        src/ft_printf/libft/ft_striter.c
-        src/ft_printf/libft/ft_striteri.c
-        src/ft_printf/libft/ft_strjoin.c
-        src/ft_printf/libft/ft_strlcat.c
-        src/ft_printf/libft/ft_strlen.c
-        src/ft_printf/libft/ft_strmap.c
-        src/ft_printf/libft/ft_strmapi.c
-        src/ft_printf/libft/ft_strncat.c
-        src/ft_printf/libft/ft_strncmp.c
-        src/ft_printf/libft/ft_strncpy.c
-        src/ft_printf/libft/ft_strnequ.c
-        src/ft_printf/libft/ft_strnew.c
-        src/ft_printf/libft/ft_strnstr.c
-        src/ft_printf/libft/ft_strrchr.c
-        src/ft_printf/libft/ft_strrev.c
-        src/ft_printf/libft/ft_strsplit.c
-        src/ft_printf/libft/ft_strstr.c
-        src/ft_printf/libft/ft_strsub.c
-        src/ft_printf/libft/ft_strtrim.c
-        src/ft_printf/libft/ft_swap.c
-        src/ft_printf/libft/ft_swapint.c
-        src/ft_printf/libft/ft_tolower.c
-        src/ft_printf/libft/ft_toupper.c
-        src/ft_printf/libft/get_next_line.c
-        src/ft_printf/apply_spec.c
-        src/ft_printf/apply_spec.h
-        src/ft_printf/apply_spec2.c
-        src/ft_printf/apply_spec3.c
-        src/ft_printf/apply_spec4.c
-        src/ft_printf/apply_spec5.c
-        src/ft_printf/apply_spec6.c
-        src/ft_printf/arg_extractors.c
-        src/ft_printf/arg_extractors2.c
-        src/ft_printf/conv_int.c
-        src/ft_printf/conv_int2.c
-        src/ft_printf/conv_other.c
-        src/ft_printf/conv_wrappers_int.c
-        src/ft_printf/conv_wrappers_int2.c
-        src/ft_printf/conv_wrappers_other.c
-        src/ft_printf/find_action.c
-        src/ft_printf/fp_type.h
-        src/ft_printf/ftoa.c
-        src/ft_printf/int_len.c
-        src/ft_printf/printf.c
-        src/ft_printf/printf.h
-        src/ft_printf/read_spec.c
-        src/ft_printf/read_spec.h
-        src/ft_printf/read_spec2.c
+        src/libft/ft_printf/apply_spec.c
+        src/libft/ft_printf/apply_spec.h
+        src/libft/ft_printf/apply_spec2.c
+        src/libft/ft_printf/apply_spec3.c
+        src/libft/ft_printf/apply_spec4.c
+        src/libft/ft_printf/apply_spec5.c
+        src/libft/ft_printf/apply_spec6.c
+        src/libft/ft_printf/arg_extractors.c
+        src/libft/ft_printf/arg_extractors2.c
+        src/libft/ft_printf/conv_int.c
+        src/libft/ft_printf/conv_int2.c
+        src/libft/ft_printf/conv_other.c
+        src/libft/ft_printf/conv_wrappers_int.c
+        src/libft/ft_printf/conv_wrappers_int2.c
+        src/libft/ft_printf/conv_wrappers_other.c
+        src/libft/ft_printf/find_action.c
+        src/libft/ft_printf/fp_type.h
+        src/libft/ft_printf/fprintf.c
+        src/libft/ft_printf/printf.c
+        src/libft/ft_printf/printf.h
+        src/libft/ft_printf/read_spec.c
+        src/libft/ft_printf/read_spec.h
+        src/libft/ft_printf/read_spec2.c
+        src/libft/ftoa/decimal_arithmetic.c
+        src/libft/ftoa/decimal_arithmetic2.c
+        src/libft/ftoa/decimal_arithmetic3.c
+        src/libft/ftoa/decimal_arithmetic4.c
+        src/libft/ftoa/decimal_arithmetic5.c
+        src/libft/ftoa/ft_fp.h
+        src/libft/ftoa/ftoa.c
+        src/libft/ftoa/ftoa2.c
+        src/libft/includes/bbtree_utils.h
+        src/libft/includes/ft_ptree.h
+        src/libft/includes/get_next_line.h
+        src/libft/includes/libft.h
+        src/libft/ft_array_subtract.c
         src/libft/ft_atoi.c
+        src/libft/ft_bbtree_utils.c
+        src/libft/ft_bsort_int.c
         src/libft/ft_bzero.c
+        src/libft/ft_copy_ptree.c
+        src/libft/ft_del.c
+        src/libft/ft_is_escaped.c
+        src/libft/ft_is_part_of_word.c
         src/libft/ft_isalnum.c
         src/libft/ft_isalpha.c
         src/libft/ft_isascii.c
         src/libft/ft_isdigit.c
-        src/libft/ft_islower.c
         src/libft/ft_isprint.c
-        src/libft/ft_isupper.c
         src/libft/ft_itoa.c
+        src/libft/ft_itoa_base.c
         src/libft/ft_lstadd.c
+        src/libft/ft_lstaddstart.c
         src/libft/ft_lstdel.c
         src/libft/ft_lstdelone.c
         src/libft/ft_lstiter.c
+        src/libft/ft_lstlen.c
         src/libft/ft_lstmap.c
         src/libft/ft_lstnew.c
-        src/libft/ft_massmalloc.c
+        src/libft/ft_max_int.c
+        src/libft/ft_maxval_int.c
         src/libft/ft_memalloc.c
         src/libft/ft_memccpy.c
         src/libft/ft_memchr.c
         src/libft/ft_memcmp.c
         src/libft/ft_memcpy.c
         src/libft/ft_memdel.c
+        src/libft/ft_memdup.c
         src/libft/ft_memmove.c
         src/libft/ft_memset.c
-        src/libft/ft_nbrlen.c
+        src/libft/ft_min_int.c
+        src/libft/ft_minval_int.c
+        src/libft/ft_path_append.c
+        src/libft/ft_print_array.c
+        src/libft/ft_ptree.c
+        src/libft/ft_ptree_to_kvpairs.c
         src/libft/ft_putchar.c
         src/libft/ft_putchar_fd.c
         src/libft/ft_putendl.c
@@ -145,9 +94,8 @@ add_executable(lem_in
         src/libft/ft_putnbr_fd.c
         src/libft/ft_putstr.c
         src/libft/ft_putstr_fd.c
-        src/libft/ft_skip_sym.c
+        src/libft/ft_straddchar.c
         src/libft/ft_strcat.c
-        src/libft/ft_strccpy.c
         src/libft/ft_strchr.c
         src/libft/ft_strclr.c
         src/libft/ft_strcmp.c
@@ -160,7 +108,6 @@ add_executable(lem_in
         src/libft/ft_strjoin.c
         src/libft/ft_strlcat.c
         src/libft/ft_strlen.c
-        src/libft/ft_strlento.c
         src/libft/ft_strmap.c
         src/libft/ft_strmapi.c
         src/libft/ft_strncat.c
@@ -170,14 +117,17 @@ add_executable(lem_in
         src/libft/ft_strnew.c
         src/libft/ft_strnstr.c
         src/libft/ft_strrchr.c
+        src/libft/ft_strrev.c
         src/libft/ft_strsplit.c
+        src/libft/ft_strsplit_unescaped.c
         src/libft/ft_strstr.c
         src/libft/ft_strsub.c
         src/libft/ft_strtrim.c
+        src/libft/ft_swap.c
+        src/libft/ft_swapint.c
         src/libft/ft_tolower.c
         src/libft/ft_toupper.c
         src/libft/get_next_line.c
-        src/libft/libft.h
         src/bfs.c
         src/equal_rooms.c
         src/ft_solution.c

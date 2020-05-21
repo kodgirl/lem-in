@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/dpenney/Desktop/lem-in/includes -I/home/dpenney/Desktop/lem-in/src/ft_printf -I/home/dpenney/Desktop/lem-in/src/ft_printf/libft/includes -I/home/dpenney/Desktop/lem-in/src/libft 
+C_INCLUDES = -I/home/dpenney/Desktop/lem-in/includes -I/home/dpenney/Desktop/lem-in/src/libft/ft_printf -I/home/dpenney/Desktop/lem-in/src/libft/ftoa -I/home/dpenney/Desktop/lem-in/src/libft/includes 
 

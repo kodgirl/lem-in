@@ -19,6 +19,7 @@
 # include <fcntl.h>
 # include "../src/libft/includes/libft.h"
 # include "../src/libft/ft_printf/printf.h"
+
 /*
 ** Every room is vertex of graph.
 ** index - variable which keep index of vertexes;

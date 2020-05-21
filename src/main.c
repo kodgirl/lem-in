@@ -28,6 +28,7 @@ int		main(int ac, char **av)
 
 	i = 0;
 	ft_bzero(&all, sizeof(t_struct));
+	ft_printf("OLOLOLOLO");
 	if (ac == 1)
 	{
         if (!parser(&all, NULL, NULL))

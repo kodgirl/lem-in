@@ -57,1231 +57,360 @@ include CMakeFiles/lem_in.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lem_in.dir/flags.make
 
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_array_subtract.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_array_subtract.c.o: ../src/ft_printf/libft/ft_array_subtract.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_array_subtract.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_array_subtract.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_array_subtract.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_array_subtract.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_array_subtract.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_array_subtract.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_array_subtract.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_array_subtract.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_array_subtract.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_array_subtract.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_array_subtract.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_atoi.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_atoi.c.o: ../src/ft_printf/libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_atoi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_atoi.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_atoi.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_atoi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_atoi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_atoi.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_atoi.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_atoi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_atoi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_atoi.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_atoi.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bbtree_utils.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bbtree_utils.c.o: ../src/ft_printf/libft/ft_bbtree_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bbtree_utils.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bbtree_utils.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_bbtree_utils.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bbtree_utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bbtree_utils.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_bbtree_utils.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bbtree_utils.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bbtree_utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bbtree_utils.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_bbtree_utils.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bbtree_utils.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bsort_int.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bsort_int.c.o: ../src/ft_printf/libft/ft_bsort_int.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bsort_int.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bsort_int.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_bsort_int.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bsort_int.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bsort_int.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_bsort_int.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bsort_int.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bsort_int.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bsort_int.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_bsort_int.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bsort_int.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bzero.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bzero.c.o: ../src/ft_printf/libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bzero.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bzero.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_bzero.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bzero.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bzero.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_bzero.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bzero.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bzero.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bzero.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_bzero.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bzero.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_del.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_del.c.o: ../src/ft_printf/libft/ft_del.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_del.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_del.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_del.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_del.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_del.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_del.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_del.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_del.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_del.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_del.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_del.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalnum.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalnum.c.o: ../src/ft_printf/libft/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalnum.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalnum.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isalnum.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalnum.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalnum.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isalnum.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalnum.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalnum.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalnum.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isalnum.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalnum.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalpha.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalpha.c.o: ../src/ft_printf/libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalpha.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalpha.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isalpha.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalpha.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalpha.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isalpha.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalpha.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalpha.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalpha.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isalpha.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalpha.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isascii.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isascii.c.o: ../src/ft_printf/libft/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isascii.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isascii.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isascii.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isascii.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isascii.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isascii.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isascii.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isascii.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isascii.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isascii.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isascii.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isdigit.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isdigit.c.o: ../src/ft_printf/libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isdigit.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isdigit.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isdigit.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isdigit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isdigit.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isdigit.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isdigit.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isdigit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isdigit.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isdigit.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isdigit.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isprint.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isprint.c.o: ../src/ft_printf/libft/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isprint.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isprint.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isprint.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isprint.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isprint.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isprint.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isprint.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isprint.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isprint.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_isprint.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isprint.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa.c.o: ../src/ft_printf/libft/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_itoa.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_itoa.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_itoa.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa_base.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa_base.c.o: ../src/ft_printf/libft/ft_itoa_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa_base.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa_base.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_itoa_base.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa_base.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa_base.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_itoa_base.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa_base.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa_base.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa_base.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_itoa_base.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa_base.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstadd.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstadd.c.o: ../src/ft_printf/libft/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstadd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstadd.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstadd.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstadd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstadd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstadd.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstadd.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstadd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstadd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstadd.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstadd.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstappend.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstappend.c.o: ../src/ft_printf/libft/ft_lstappend.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstappend.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstappend.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstappend.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstappend.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstappend.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstappend.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstappend.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstappend.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstappend.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstappend.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstappend.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdel.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdel.c.o: ../src/ft_printf/libft/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdel.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstdel.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdel.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstdel.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdel.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdel.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstdel.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdel.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdelone.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdelone.c.o: ../src/ft_printf/libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdelone.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdelone.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstdelone.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdelone.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdelone.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstdelone.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdelone.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdelone.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdelone.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstdelone.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdelone.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstiter.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstiter.c.o: ../src/ft_printf/libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstiter.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstiter.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstiter.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstiter.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstiter.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstiter.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstiter.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstiter.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstiter.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstiter.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstiter.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstmap.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstmap.c.o: ../src/ft_printf/libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstmap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstmap.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstmap.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstmap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstmap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstmap.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstmap.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstmap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstmap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstmap.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstmap.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstnew.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstnew.c.o: ../src/ft_printf/libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstnew.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstnew.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstnew.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstnew.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstnew.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstnew.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstnew.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstnew.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstnew.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_lstnew.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstnew.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_max_int.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_max_int.c.o: ../src/ft_printf/libft/ft_max_int.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_max_int.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_max_int.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_max_int.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_max_int.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_max_int.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_max_int.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_max_int.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_max_int.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_max_int.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_max_int.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_max_int.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_maxval_int.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_maxval_int.c.o: ../src/ft_printf/libft/ft_maxval_int.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_maxval_int.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_maxval_int.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_maxval_int.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_maxval_int.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_maxval_int.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_maxval_int.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_maxval_int.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_maxval_int.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_maxval_int.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_maxval_int.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_maxval_int.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memalloc.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memalloc.c.o: ../src/ft_printf/libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memalloc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memalloc.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memalloc.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memalloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memalloc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memalloc.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memalloc.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memalloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memalloc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memalloc.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memalloc.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memccpy.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memccpy.c.o: ../src/ft_printf/libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memccpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memccpy.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memccpy.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memccpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memccpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memccpy.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memccpy.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memccpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memccpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memccpy.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memccpy.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memchr.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memchr.c.o: ../src/ft_printf/libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memchr.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memchr.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memchr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memchr.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memchr.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memchr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memchr.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memchr.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcmp.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcmp.c.o: ../src/ft_printf/libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcmp.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memcmp.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memcmp.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcmp.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memcmp.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcmp.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcpy.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcpy.c.o: ../src/ft_printf/libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcpy.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memcpy.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memcpy.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcpy.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memcpy.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcpy.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdel.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdel.c.o: ../src/ft_printf/libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdel.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memdel.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdel.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memdel.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdel.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdel.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memdel.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdel.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdup.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdup.c.o: ../src/ft_printf/libft/ft_memdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdup.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdup.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memdup.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdup.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdup.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memdup.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdup.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdup.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdup.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memdup.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdup.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memmove.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memmove.c.o: ../src/ft_printf/libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memmove.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memmove.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memmove.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memmove.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memmove.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memmove.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memmove.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memmove.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memmove.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memmove.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memmove.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memset.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memset.c.o: ../src/ft_printf/libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memset.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memset.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memset.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memset.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memset.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memset.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memset.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memset.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memset.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_memset.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memset.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_min_int.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_min_int.c.o: ../src/ft_printf/libft/ft_min_int.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_min_int.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_min_int.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_min_int.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_min_int.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_min_int.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_min_int.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_min_int.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_min_int.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_min_int.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_min_int.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_min_int.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_minval_int.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_minval_int.c.o: ../src/ft_printf/libft/ft_minval_int.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_minval_int.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_minval_int.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_minval_int.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_minval_int.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_minval_int.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_minval_int.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_minval_int.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_minval_int.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_minval_int.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_minval_int.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_minval_int.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_print_array.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_print_array.c.o: ../src/ft_printf/libft/ft_print_array.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_print_array.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_print_array.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_print_array.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_print_array.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_print_array.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_print_array.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_print_array.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_print_array.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_print_array.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_print_array.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_print_array.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar.c.o: ../src/ft_printf/libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putchar.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putchar.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putchar.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar_fd.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar_fd.c.o: ../src/ft_printf/libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar_fd.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putchar_fd.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar_fd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putchar_fd.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar_fd.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar_fd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putchar_fd.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar_fd.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl.c.o: ../src/ft_printf/libft/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putendl.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putendl.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putendl.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl_fd.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl_fd.c.o: ../src/ft_printf/libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl_fd.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putendl_fd.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl_fd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putendl_fd.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl_fd.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl_fd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putendl_fd.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl_fd.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr.c.o: ../src/ft_printf/libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putnbr.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putnbr.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putnbr.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr_fd.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr_fd.c.o: ../src/ft_printf/libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr_fd.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putnbr_fd.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr_fd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putnbr_fd.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr_fd.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr_fd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putnbr_fd.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr_fd.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr.c.o: ../src/ft_printf/libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putstr.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putstr.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putstr.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr_fd.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr_fd.c.o: ../src/ft_printf/libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr_fd.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putstr_fd.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr_fd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putstr_fd.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr_fd.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr_fd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_putstr_fd.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr_fd.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcat.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcat.c.o: ../src/ft_printf/libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcat.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strcat.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcat.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strcat.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcat.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcat.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strcat.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcat.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strchr.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strchr.c.o: ../src/ft_printf/libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strchr.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strchr.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strchr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strchr.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strchr.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strchr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strchr.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strchr.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strclr.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strclr.c.o: ../src/ft_printf/libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strclr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strclr.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strclr.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strclr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strclr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strclr.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strclr.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strclr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strclr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strclr.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strclr.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcmp.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcmp.c.o: ../src/ft_printf/libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcmp.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strcmp.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strcmp.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcmp.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strcmp.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcmp.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcpy.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcpy.c.o: ../src/ft_printf/libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcpy.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strcpy.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strcpy.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcpy.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strcpy.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcpy.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdel.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdel.c.o: ../src/ft_printf/libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdel.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strdel.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdel.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strdel.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdel.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdel.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strdel.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdel.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdup.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdup.c.o: ../src/ft_printf/libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdup.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdup.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strdup.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdup.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdup.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strdup.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdup.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdup.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdup.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strdup.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdup.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strequ.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strequ.c.o: ../src/ft_printf/libft/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strequ.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strequ.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strequ.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strequ.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strequ.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strequ.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strequ.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strequ.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strequ.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strequ.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strequ.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striter.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striter.c.o: ../src/ft_printf/libft/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striter.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striter.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_striter.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striter.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striter.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_striter.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striter.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striter.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striter.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_striter.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striter.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striteri.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striteri.c.o: ../src/ft_printf/libft/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striteri.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striteri.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_striteri.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striteri.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striteri.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_striteri.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striteri.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striteri.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striteri.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_striteri.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striteri.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strjoin.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strjoin.c.o: ../src/ft_printf/libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strjoin.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strjoin.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strjoin.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strjoin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strjoin.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strjoin.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strjoin.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strjoin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strjoin.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strjoin.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strjoin.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlcat.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlcat.c.o: ../src/ft_printf/libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlcat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlcat.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strlcat.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlcat.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlcat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strlcat.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlcat.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlcat.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlcat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strlcat.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlcat.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlen.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlen.c.o: ../src/ft_printf/libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlen.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlen.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strlen.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlen.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strlen.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlen.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlen.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strlen.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlen.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmap.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmap.c.o: ../src/ft_printf/libft/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmap.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strmap.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strmap.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmap.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strmap.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmap.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmapi.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmapi.c.o: ../src/ft_printf/libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmapi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmapi.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strmapi.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmapi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmapi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strmapi.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmapi.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmapi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmapi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strmapi.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmapi.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncat.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncat.c.o: ../src/ft_printf/libft/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncat.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strncat.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncat.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strncat.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncat.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncat.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strncat.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncat.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncmp.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncmp.c.o: ../src/ft_printf/libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncmp.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strncmp.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strncmp.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncmp.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strncmp.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncmp.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncpy.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncpy.c.o: ../src/ft_printf/libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncpy.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strncpy.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strncpy.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncpy.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strncpy.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncpy.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnequ.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnequ.c.o: ../src/ft_printf/libft/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnequ.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnequ.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strnequ.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnequ.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnequ.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strnequ.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnequ.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnequ.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnequ.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strnequ.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnequ.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnew.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnew.c.o: ../src/ft_printf/libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnew.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnew.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strnew.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnew.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnew.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strnew.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnew.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnew.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnew.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strnew.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnew.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnstr.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnstr.c.o: ../src/ft_printf/libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnstr.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strnstr.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnstr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strnstr.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnstr.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnstr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strnstr.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnstr.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrchr.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrchr.c.o: ../src/ft_printf/libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrchr.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strrchr.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrchr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strrchr.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrchr.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrchr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strrchr.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrchr.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrev.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrev.c.o: ../src/ft_printf/libft/ft_strrev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrev.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrev.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strrev.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrev.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrev.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strrev.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrev.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrev.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrev.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strrev.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrev.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsplit.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsplit.c.o: ../src/ft_printf/libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsplit.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsplit.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strsplit.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsplit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsplit.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strsplit.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsplit.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsplit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsplit.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strsplit.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsplit.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strstr.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strstr.c.o: ../src/ft_printf/libft/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strstr.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strstr.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strstr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strstr.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strstr.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strstr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strstr.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strstr.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsub.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsub.c.o: ../src/ft_printf/libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsub.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsub.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strsub.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsub.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsub.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strsub.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsub.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsub.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsub.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strsub.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsub.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strtrim.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strtrim.c.o: ../src/ft_printf/libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strtrim.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strtrim.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strtrim.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strtrim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strtrim.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strtrim.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strtrim.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strtrim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strtrim.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_strtrim.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strtrim.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swap.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swap.c.o: ../src/ft_printf/libft/ft_swap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swap.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_swap.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_swap.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swap.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_swap.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swap.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swapint.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swapint.c.o: ../src/ft_printf/libft/ft_swapint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swapint.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swapint.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_swapint.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swapint.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swapint.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_swapint.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swapint.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swapint.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swapint.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_swapint.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swapint.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_tolower.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_tolower.c.o: ../src/ft_printf/libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_tolower.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_tolower.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_tolower.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_tolower.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_tolower.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_tolower.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_tolower.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_tolower.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_tolower.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_tolower.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_tolower.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_toupper.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_toupper.c.o: ../src/ft_printf/libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_toupper.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_toupper.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_toupper.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_toupper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_toupper.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_toupper.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_toupper.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_toupper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_toupper.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/ft_toupper.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_toupper.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/get_next_line.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/libft/get_next_line.c.o: ../src/ft_printf/libft/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/libft/get_next_line.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/libft/get_next_line.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/libft/get_next_line.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/get_next_line.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/libft/get_next_line.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/libft/get_next_line.c > CMakeFiles/lem_in.dir/src/ft_printf/libft/get_next_line.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/libft/get_next_line.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/libft/get_next_line.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/libft/get_next_line.c -o CMakeFiles/lem_in.dir/src/ft_printf/libft/get_next_line.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec.c.o: ../src/ft_printf/apply_spec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/apply_spec.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/apply_spec.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/apply_spec.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec.c > CMakeFiles/lem_in.dir/src/ft_printf/apply_spec.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/apply_spec.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec.c -o CMakeFiles/lem_in.dir/src/ft_printf/apply_spec.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec2.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec2.c.o: ../src/ft_printf/apply_spec2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/apply_spec2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/apply_spec2.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec2.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/apply_spec2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec2.c > CMakeFiles/lem_in.dir/src/ft_printf/apply_spec2.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/apply_spec2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec2.c -o CMakeFiles/lem_in.dir/src/ft_printf/apply_spec2.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec3.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec3.c.o: ../src/ft_printf/apply_spec3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/apply_spec3.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/apply_spec3.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec3.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/apply_spec3.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec3.c > CMakeFiles/lem_in.dir/src/ft_printf/apply_spec3.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/apply_spec3.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec3.c -o CMakeFiles/lem_in.dir/src/ft_printf/apply_spec3.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec4.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec4.c.o: ../src/ft_printf/apply_spec4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/apply_spec4.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/apply_spec4.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec4.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/apply_spec4.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec4.c > CMakeFiles/lem_in.dir/src/ft_printf/apply_spec4.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/apply_spec4.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec4.c -o CMakeFiles/lem_in.dir/src/ft_printf/apply_spec4.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec5.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec5.c.o: ../src/ft_printf/apply_spec5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/apply_spec5.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/apply_spec5.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec5.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec5.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/apply_spec5.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec5.c > CMakeFiles/lem_in.dir/src/ft_printf/apply_spec5.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec5.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/apply_spec5.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec5.c -o CMakeFiles/lem_in.dir/src/ft_printf/apply_spec5.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec6.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec6.c.o: ../src/ft_printf/apply_spec6.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/apply_spec6.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/apply_spec6.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec6.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/apply_spec6.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec6.c > CMakeFiles/lem_in.dir/src/ft_printf/apply_spec6.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/apply_spec6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/apply_spec6.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/apply_spec6.c -o CMakeFiles/lem_in.dir/src/ft_printf/apply_spec6.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors.c.o: ../src/ft_printf/arg_extractors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/arg_extractors.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/arg_extractors.c > CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/arg_extractors.c -o CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors2.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors2.c.o: ../src/ft_printf/arg_extractors2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors2.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/arg_extractors2.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/arg_extractors2.c > CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors2.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/arg_extractors2.c -o CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors2.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_int.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/conv_int.c.o: ../src/ft_printf/conv_int.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/conv_int.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/conv_int.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/conv_int.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_int.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/conv_int.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/conv_int.c > CMakeFiles/lem_in.dir/src/ft_printf/conv_int.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_int.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/conv_int.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/conv_int.c -o CMakeFiles/lem_in.dir/src/ft_printf/conv_int.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_int2.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/conv_int2.c.o: ../src/ft_printf/conv_int2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/conv_int2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/conv_int2.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/conv_int2.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_int2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/conv_int2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/conv_int2.c > CMakeFiles/lem_in.dir/src/ft_printf/conv_int2.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_int2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/conv_int2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/conv_int2.c -o CMakeFiles/lem_in.dir/src/ft_printf/conv_int2.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_other.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/conv_other.c.o: ../src/ft_printf/conv_other.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/conv_other.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/conv_other.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/conv_other.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_other.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/conv_other.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/conv_other.c > CMakeFiles/lem_in.dir/src/ft_printf/conv_other.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_other.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/conv_other.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/conv_other.c -o CMakeFiles/lem_in.dir/src/ft_printf/conv_other.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int.c.o: ../src/ft_printf/conv_wrappers_int.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/conv_wrappers_int.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/conv_wrappers_int.c > CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/conv_wrappers_int.c -o CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int2.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int2.c.o: ../src/ft_printf/conv_wrappers_int2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int2.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/conv_wrappers_int2.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/conv_wrappers_int2.c > CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int2.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/conv_wrappers_int2.c -o CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int2.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_other.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_other.c.o: ../src/ft_printf/conv_wrappers_other.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_other.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_other.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/conv_wrappers_other.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_other.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_other.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/conv_wrappers_other.c > CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_other.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_other.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_other.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/conv_wrappers_other.c -o CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_other.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/find_action.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/find_action.c.o: ../src/ft_printf/find_action.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/find_action.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/find_action.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/find_action.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/find_action.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/find_action.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/find_action.c > CMakeFiles/lem_in.dir/src/ft_printf/find_action.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/find_action.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/find_action.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/find_action.c -o CMakeFiles/lem_in.dir/src/ft_printf/find_action.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/ftoa.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/ftoa.c.o: ../src/ft_printf/ftoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/ftoa.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/ftoa.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/ftoa.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/ftoa.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/ftoa.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/ftoa.c > CMakeFiles/lem_in.dir/src/ft_printf/ftoa.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/ftoa.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/ftoa.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/ftoa.c -o CMakeFiles/lem_in.dir/src/ft_printf/ftoa.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/int_len.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/int_len.c.o: ../src/ft_printf/int_len.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/int_len.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/int_len.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/int_len.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/int_len.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/int_len.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/int_len.c > CMakeFiles/lem_in.dir/src/ft_printf/int_len.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/int_len.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/int_len.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/int_len.c -o CMakeFiles/lem_in.dir/src/ft_printf/int_len.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/printf.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/printf.c.o: ../src/ft_printf/printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/printf.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/printf.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/printf.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/printf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/printf.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/printf.c > CMakeFiles/lem_in.dir/src/ft_printf/printf.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/printf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/printf.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/printf.c -o CMakeFiles/lem_in.dir/src/ft_printf/printf.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/read_spec.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/read_spec.c.o: ../src/ft_printf/read_spec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/read_spec.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/read_spec.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/read_spec.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/read_spec.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/read_spec.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/read_spec.c > CMakeFiles/lem_in.dir/src/ft_printf/read_spec.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/read_spec.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/read_spec.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/read_spec.c -o CMakeFiles/lem_in.dir/src/ft_printf/read_spec.c.s
-
-CMakeFiles/lem_in.dir/src/ft_printf/read_spec2.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/ft_printf/read_spec2.c.o: ../src/ft_printf/read_spec2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/lem_in.dir/src/ft_printf/read_spec2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_printf/read_spec2.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_printf/read_spec2.c
-
-CMakeFiles/lem_in.dir/src/ft_printf/read_spec2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/ft_printf/read_spec2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/ft_printf/read_spec2.c > CMakeFiles/lem_in.dir/src/ft_printf/read_spec2.c.i
-
-CMakeFiles/lem_in.dir/src/ft_printf/read_spec2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/ft_printf/read_spec2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/ft_printf/read_spec2.c -o CMakeFiles/lem_in.dir/src/ft_printf/read_spec2.c.s
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec.c.o: ../src/libft/ft_printf/apply_spec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec2.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec2.c.o: ../src/libft/ft_printf/apply_spec2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec2.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec2.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec2.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec2.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec2.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec2.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec3.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec3.c.o: ../src/libft/ft_printf/apply_spec3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec3.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec3.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec3.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec3.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec3.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec3.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec3.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec3.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec3.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec4.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec4.c.o: ../src/libft/ft_printf/apply_spec4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec4.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec4.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec4.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec4.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec4.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec4.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec4.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec4.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec4.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec5.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec5.c.o: ../src/libft/ft_printf/apply_spec5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec5.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec5.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec5.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec5.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec5.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec5.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec5.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec5.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec5.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec6.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec6.c.o: ../src/libft/ft_printf/apply_spec6.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec6.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec6.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec6.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec6.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec6.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec6.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec6.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/apply_spec6.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec6.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors.c.o: ../src/libft/ft_printf/arg_extractors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/arg_extractors.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/arg_extractors.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/arg_extractors.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors2.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors2.c.o: ../src/libft/ft_printf/arg_extractors2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors2.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/arg_extractors2.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/arg_extractors2.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors2.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/arg_extractors2.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors2.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int.c.o: ../src/libft/ft_printf/conv_int.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_int.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_int.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_int.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int2.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int2.c.o: ../src/libft/ft_printf/conv_int2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int2.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_int2.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_int2.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int2.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_int2.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int2.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_other.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_other.c.o: ../src/libft/ft_printf/conv_other.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_other.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_other.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_other.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_other.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_other.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_other.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_other.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_other.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_other.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_other.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_other.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.o: ../src/libft/ft_printf/conv_wrappers_int.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_wrappers_int.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_wrappers_int.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_wrappers_int.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.o: ../src/libft/ft_printf/conv_wrappers_int2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_wrappers_int2.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_wrappers_int2.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_wrappers_int2.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.o: ../src/libft/ft_printf/conv_wrappers_other.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_wrappers_other.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_wrappers_other.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/conv_wrappers_other.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/find_action.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/find_action.c.o: ../src/libft/ft_printf/find_action.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/find_action.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/find_action.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/find_action.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/find_action.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/find_action.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/find_action.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/find_action.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/find_action.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/find_action.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/find_action.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/find_action.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/fprintf.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/fprintf.c.o: ../src/libft/ft_printf/fprintf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/fprintf.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/fprintf.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/fprintf.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/fprintf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/fprintf.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/fprintf.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/fprintf.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/fprintf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/fprintf.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/fprintf.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/fprintf.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/printf.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/printf.c.o: ../src/libft/ft_printf/printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/printf.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/printf.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/printf.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/printf.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/printf.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/printf.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/printf.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/printf.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/printf.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec.c.o: ../src/libft/ft_printf/read_spec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/read_spec.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/read_spec.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/read_spec.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec2.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec2.c.o: ../src/libft/ft_printf/read_spec2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec2.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_printf/read_spec2.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_printf/read_spec2.c > CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec2.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_printf/read_spec2.c -o CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec2.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic.c.o: ../src/libft/ftoa/decimal_arithmetic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ftoa/decimal_arithmetic.c
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ftoa/decimal_arithmetic.c > CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ftoa/decimal_arithmetic.c -o CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic2.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic2.c.o: ../src/libft/ftoa/decimal_arithmetic2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic2.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ftoa/decimal_arithmetic2.c
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ftoa/decimal_arithmetic2.c > CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic2.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ftoa/decimal_arithmetic2.c -o CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic2.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic3.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic3.c.o: ../src/libft/ftoa/decimal_arithmetic3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic3.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic3.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ftoa/decimal_arithmetic3.c
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic3.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ftoa/decimal_arithmetic3.c > CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic3.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic3.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ftoa/decimal_arithmetic3.c -o CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic3.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic4.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic4.c.o: ../src/libft/ftoa/decimal_arithmetic4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic4.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic4.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ftoa/decimal_arithmetic4.c
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic4.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ftoa/decimal_arithmetic4.c > CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic4.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic4.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ftoa/decimal_arithmetic4.c -o CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic4.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic5.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic5.c.o: ../src/libft/ftoa/decimal_arithmetic5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic5.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic5.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ftoa/decimal_arithmetic5.c
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic5.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ftoa/decimal_arithmetic5.c > CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic5.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic5.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ftoa/decimal_arithmetic5.c -o CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic5.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa.c.o: ../src/libft/ftoa/ftoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ftoa/ftoa.c
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ftoa/ftoa.c > CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ftoa/ftoa.c -o CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa2.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa2.c.o: ../src/libft/ftoa/ftoa2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa2.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ftoa/ftoa2.c
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ftoa/ftoa2.c > CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa2.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ftoa/ftoa2.c -o CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa2.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_array_subtract.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_array_subtract.c.o: ../src/libft/ft_array_subtract.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_array_subtract.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_array_subtract.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_array_subtract.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_array_subtract.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_array_subtract.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_array_subtract.c > CMakeFiles/lem_in.dir/src/libft/ft_array_subtract.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_array_subtract.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_array_subtract.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_array_subtract.c -o CMakeFiles/lem_in.dir/src/libft/ft_array_subtract.c.s
 
 CMakeFiles/lem_in.dir/src/libft/ft_atoi.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_atoi.c.o: ../src/libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_atoi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_atoi.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_atoi.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_atoi.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_atoi.c.i: cmake_force
@@ -1292,9 +421,35 @@ CMakeFiles/lem_in.dir/src/libft/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_atoi.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_atoi.c -o CMakeFiles/lem_in.dir/src/libft/ft_atoi.c.s
 
+CMakeFiles/lem_in.dir/src/libft/ft_bbtree_utils.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_bbtree_utils.c.o: ../src/libft/ft_bbtree_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_bbtree_utils.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_bbtree_utils.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_bbtree_utils.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_bbtree_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_bbtree_utils.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_bbtree_utils.c > CMakeFiles/lem_in.dir/src/libft/ft_bbtree_utils.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_bbtree_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_bbtree_utils.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_bbtree_utils.c -o CMakeFiles/lem_in.dir/src/libft/ft_bbtree_utils.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_bsort_int.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_bsort_int.c.o: ../src/libft/ft_bsort_int.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_bsort_int.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_bsort_int.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_bsort_int.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_bsort_int.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_bsort_int.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_bsort_int.c > CMakeFiles/lem_in.dir/src/libft/ft_bsort_int.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_bsort_int.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_bsort_int.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_bsort_int.c -o CMakeFiles/lem_in.dir/src/libft/ft_bsort_int.c.s
+
 CMakeFiles/lem_in.dir/src/libft/ft_bzero.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_bzero.c.o: ../src/libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_bzero.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_bzero.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_bzero.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_bzero.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_bzero.c.i: cmake_force
@@ -1305,9 +460,61 @@ CMakeFiles/lem_in.dir/src/libft/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_bzero.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_bzero.c -o CMakeFiles/lem_in.dir/src/libft/ft_bzero.c.s
 
+CMakeFiles/lem_in.dir/src/libft/ft_copy_ptree.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_copy_ptree.c.o: ../src/libft/ft_copy_ptree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_copy_ptree.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_copy_ptree.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_copy_ptree.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_copy_ptree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_copy_ptree.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_copy_ptree.c > CMakeFiles/lem_in.dir/src/libft/ft_copy_ptree.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_copy_ptree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_copy_ptree.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_copy_ptree.c -o CMakeFiles/lem_in.dir/src/libft/ft_copy_ptree.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_del.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_del.c.o: ../src/libft/ft_del.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_del.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_del.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_del.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_del.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_del.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_del.c > CMakeFiles/lem_in.dir/src/libft/ft_del.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_del.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_del.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_del.c -o CMakeFiles/lem_in.dir/src/libft/ft_del.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_is_escaped.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_is_escaped.c.o: ../src/libft/ft_is_escaped.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_is_escaped.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_is_escaped.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_is_escaped.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_is_escaped.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_is_escaped.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_is_escaped.c > CMakeFiles/lem_in.dir/src/libft/ft_is_escaped.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_is_escaped.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_is_escaped.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_is_escaped.c -o CMakeFiles/lem_in.dir/src/libft/ft_is_escaped.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_is_part_of_word.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_is_part_of_word.c.o: ../src/libft/ft_is_part_of_word.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_is_part_of_word.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_is_part_of_word.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_is_part_of_word.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_is_part_of_word.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_is_part_of_word.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_is_part_of_word.c > CMakeFiles/lem_in.dir/src/libft/ft_is_part_of_word.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_is_part_of_word.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_is_part_of_word.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_is_part_of_word.c -o CMakeFiles/lem_in.dir/src/libft/ft_is_part_of_word.c.s
+
 CMakeFiles/lem_in.dir/src/libft/ft_isalnum.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_isalnum.c.o: ../src/libft/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_isalnum.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_isalnum.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_isalnum.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_isalnum.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_isalnum.c.i: cmake_force
@@ -1320,7 +527,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_isalnum.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_isalpha.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_isalpha.c.o: ../src/libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_isalpha.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_isalpha.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_isalpha.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_isalpha.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_isalpha.c.i: cmake_force
@@ -1333,7 +540,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_isalpha.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_isascii.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_isascii.c.o: ../src/libft/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_isascii.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_isascii.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_isascii.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_isascii.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_isascii.c.i: cmake_force
@@ -1346,7 +553,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_isascii.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_isdigit.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_isdigit.c.o: ../src/libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_isdigit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_isdigit.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_isdigit.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_isdigit.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_isdigit.c.i: cmake_force
@@ -1357,22 +564,9 @@ CMakeFiles/lem_in.dir/src/libft/ft_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_isdigit.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_isdigit.c -o CMakeFiles/lem_in.dir/src/libft/ft_isdigit.c.s
 
-CMakeFiles/lem_in.dir/src/libft/ft_islower.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/libft/ft_islower.c.o: ../src/libft/ft_islower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_islower.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_islower.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_islower.c
-
-CMakeFiles/lem_in.dir/src/libft/ft_islower.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_islower.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_islower.c > CMakeFiles/lem_in.dir/src/libft/ft_islower.c.i
-
-CMakeFiles/lem_in.dir/src/libft/ft_islower.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_islower.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_islower.c -o CMakeFiles/lem_in.dir/src/libft/ft_islower.c.s
-
 CMakeFiles/lem_in.dir/src/libft/ft_isprint.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_isprint.c.o: ../src/libft/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_isprint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_isprint.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_isprint.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_isprint.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_isprint.c.i: cmake_force
@@ -1383,22 +577,9 @@ CMakeFiles/lem_in.dir/src/libft/ft_isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_isprint.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_isprint.c -o CMakeFiles/lem_in.dir/src/libft/ft_isprint.c.s
 
-CMakeFiles/lem_in.dir/src/libft/ft_isupper.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/libft/ft_isupper.c.o: ../src/libft/ft_isupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_isupper.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_isupper.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_isupper.c
-
-CMakeFiles/lem_in.dir/src/libft/ft_isupper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_isupper.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_isupper.c > CMakeFiles/lem_in.dir/src/libft/ft_isupper.c.i
-
-CMakeFiles/lem_in.dir/src/libft/ft_isupper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_isupper.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_isupper.c -o CMakeFiles/lem_in.dir/src/libft/ft_isupper.c.s
-
 CMakeFiles/lem_in.dir/src/libft/ft_itoa.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_itoa.c.o: ../src/libft/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_itoa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_itoa.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_itoa.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_itoa.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_itoa.c.i: cmake_force
@@ -1409,9 +590,22 @@ CMakeFiles/lem_in.dir/src/libft/ft_itoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_itoa.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_itoa.c -o CMakeFiles/lem_in.dir/src/libft/ft_itoa.c.s
 
+CMakeFiles/lem_in.dir/src/libft/ft_itoa_base.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_itoa_base.c.o: ../src/libft/ft_itoa_base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_itoa_base.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_itoa_base.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_itoa_base.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_itoa_base.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_itoa_base.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_itoa_base.c > CMakeFiles/lem_in.dir/src/libft/ft_itoa_base.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_itoa_base.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_itoa_base.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_itoa_base.c -o CMakeFiles/lem_in.dir/src/libft/ft_itoa_base.c.s
+
 CMakeFiles/lem_in.dir/src/libft/ft_lstadd.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_lstadd.c.o: ../src/libft/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_lstadd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_lstadd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_lstadd.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_lstadd.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_lstadd.c.i: cmake_force
@@ -1422,9 +616,22 @@ CMakeFiles/lem_in.dir/src/libft/ft_lstadd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_lstadd.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_lstadd.c -o CMakeFiles/lem_in.dir/src/libft/ft_lstadd.c.s
 
+CMakeFiles/lem_in.dir/src/libft/ft_lstaddstart.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_lstaddstart.c.o: ../src/libft/ft_lstaddstart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_lstaddstart.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_lstaddstart.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_lstaddstart.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_lstaddstart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_lstaddstart.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_lstaddstart.c > CMakeFiles/lem_in.dir/src/libft/ft_lstaddstart.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_lstaddstart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_lstaddstart.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_lstaddstart.c -o CMakeFiles/lem_in.dir/src/libft/ft_lstaddstart.c.s
+
 CMakeFiles/lem_in.dir/src/libft/ft_lstdel.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_lstdel.c.o: ../src/libft/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_lstdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_lstdel.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_lstdel.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_lstdel.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_lstdel.c.i: cmake_force
@@ -1437,7 +644,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_lstdel.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_lstdelone.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_lstdelone.c.o: ../src/libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_lstdelone.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_lstdelone.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_lstdelone.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_lstdelone.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_lstdelone.c.i: cmake_force
@@ -1450,7 +657,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_lstdelone.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_lstiter.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_lstiter.c.o: ../src/libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_lstiter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_lstiter.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_lstiter.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_lstiter.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_lstiter.c.i: cmake_force
@@ -1461,9 +668,22 @@ CMakeFiles/lem_in.dir/src/libft/ft_lstiter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_lstiter.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_lstiter.c -o CMakeFiles/lem_in.dir/src/libft/ft_lstiter.c.s
 
+CMakeFiles/lem_in.dir/src/libft/ft_lstlen.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_lstlen.c.o: ../src/libft/ft_lstlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_lstlen.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_lstlen.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_lstlen.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_lstlen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_lstlen.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_lstlen.c > CMakeFiles/lem_in.dir/src/libft/ft_lstlen.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_lstlen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_lstlen.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_lstlen.c -o CMakeFiles/lem_in.dir/src/libft/ft_lstlen.c.s
+
 CMakeFiles/lem_in.dir/src/libft/ft_lstmap.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_lstmap.c.o: ../src/libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_lstmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_lstmap.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_lstmap.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_lstmap.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_lstmap.c.i: cmake_force
@@ -1476,7 +696,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_lstmap.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_lstnew.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_lstnew.c.o: ../src/libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_lstnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_lstnew.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_lstnew.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_lstnew.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_lstnew.c.i: cmake_force
@@ -1487,22 +707,35 @@ CMakeFiles/lem_in.dir/src/libft/ft_lstnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_lstnew.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_lstnew.c -o CMakeFiles/lem_in.dir/src/libft/ft_lstnew.c.s
 
-CMakeFiles/lem_in.dir/src/libft/ft_massmalloc.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/libft/ft_massmalloc.c.o: ../src/libft/ft_massmalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_massmalloc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_massmalloc.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_massmalloc.c
+CMakeFiles/lem_in.dir/src/libft/ft_max_int.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_max_int.c.o: ../src/libft/ft_max_int.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_max_int.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_max_int.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_max_int.c
 
-CMakeFiles/lem_in.dir/src/libft/ft_massmalloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_massmalloc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_massmalloc.c > CMakeFiles/lem_in.dir/src/libft/ft_massmalloc.c.i
+CMakeFiles/lem_in.dir/src/libft/ft_max_int.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_max_int.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_max_int.c > CMakeFiles/lem_in.dir/src/libft/ft_max_int.c.i
 
-CMakeFiles/lem_in.dir/src/libft/ft_massmalloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_massmalloc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_massmalloc.c -o CMakeFiles/lem_in.dir/src/libft/ft_massmalloc.c.s
+CMakeFiles/lem_in.dir/src/libft/ft_max_int.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_max_int.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_max_int.c -o CMakeFiles/lem_in.dir/src/libft/ft_max_int.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_maxval_int.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_maxval_int.c.o: ../src/libft/ft_maxval_int.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_maxval_int.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_maxval_int.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_maxval_int.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_maxval_int.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_maxval_int.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_maxval_int.c > CMakeFiles/lem_in.dir/src/libft/ft_maxval_int.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_maxval_int.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_maxval_int.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_maxval_int.c -o CMakeFiles/lem_in.dir/src/libft/ft_maxval_int.c.s
 
 CMakeFiles/lem_in.dir/src/libft/ft_memalloc.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_memalloc.c.o: ../src/libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_memalloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_memalloc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_memalloc.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_memalloc.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_memalloc.c.i: cmake_force
@@ -1515,7 +748,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_memalloc.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_memccpy.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_memccpy.c.o: ../src/libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_memccpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_memccpy.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_memccpy.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_memccpy.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_memccpy.c.i: cmake_force
@@ -1528,7 +761,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_memccpy.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_memchr.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_memchr.c.o: ../src/libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_memchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_memchr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_memchr.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_memchr.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_memchr.c.i: cmake_force
@@ -1541,7 +774,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_memchr.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_memcmp.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_memcmp.c.o: ../src/libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_memcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_memcmp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_memcmp.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_memcmp.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_memcmp.c.i: cmake_force
@@ -1554,7 +787,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_memcmp.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_memcpy.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_memcpy.c.o: ../src/libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_memcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_memcpy.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_memcpy.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_memcpy.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_memcpy.c.i: cmake_force
@@ -1567,7 +800,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_memcpy.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_memdel.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_memdel.c.o: ../src/libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_memdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_memdel.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_memdel.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_memdel.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_memdel.c.i: cmake_force
@@ -1578,9 +811,22 @@ CMakeFiles/lem_in.dir/src/libft/ft_memdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_memdel.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_memdel.c -o CMakeFiles/lem_in.dir/src/libft/ft_memdel.c.s
 
+CMakeFiles/lem_in.dir/src/libft/ft_memdup.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_memdup.c.o: ../src/libft/ft_memdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_memdup.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_memdup.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_memdup.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_memdup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_memdup.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_memdup.c > CMakeFiles/lem_in.dir/src/libft/ft_memdup.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_memdup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_memdup.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_memdup.c -o CMakeFiles/lem_in.dir/src/libft/ft_memdup.c.s
+
 CMakeFiles/lem_in.dir/src/libft/ft_memmove.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_memmove.c.o: ../src/libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_memmove.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_memmove.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_memmove.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_memmove.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_memmove.c.i: cmake_force
@@ -1593,7 +839,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_memmove.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_memset.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_memset.c.o: ../src/libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_memset.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_memset.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_memset.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_memset.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_memset.c.i: cmake_force
@@ -1604,22 +850,87 @@ CMakeFiles/lem_in.dir/src/libft/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_memset.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_memset.c -o CMakeFiles/lem_in.dir/src/libft/ft_memset.c.s
 
-CMakeFiles/lem_in.dir/src/libft/ft_nbrlen.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/libft/ft_nbrlen.c.o: ../src/libft/ft_nbrlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_nbrlen.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_nbrlen.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_nbrlen.c
+CMakeFiles/lem_in.dir/src/libft/ft_min_int.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_min_int.c.o: ../src/libft/ft_min_int.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_min_int.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_min_int.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_min_int.c
 
-CMakeFiles/lem_in.dir/src/libft/ft_nbrlen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_nbrlen.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_nbrlen.c > CMakeFiles/lem_in.dir/src/libft/ft_nbrlen.c.i
+CMakeFiles/lem_in.dir/src/libft/ft_min_int.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_min_int.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_min_int.c > CMakeFiles/lem_in.dir/src/libft/ft_min_int.c.i
 
-CMakeFiles/lem_in.dir/src/libft/ft_nbrlen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_nbrlen.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_nbrlen.c -o CMakeFiles/lem_in.dir/src/libft/ft_nbrlen.c.s
+CMakeFiles/lem_in.dir/src/libft/ft_min_int.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_min_int.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_min_int.c -o CMakeFiles/lem_in.dir/src/libft/ft_min_int.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_minval_int.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_minval_int.c.o: ../src/libft/ft_minval_int.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_minval_int.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_minval_int.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_minval_int.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_minval_int.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_minval_int.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_minval_int.c > CMakeFiles/lem_in.dir/src/libft/ft_minval_int.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_minval_int.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_minval_int.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_minval_int.c -o CMakeFiles/lem_in.dir/src/libft/ft_minval_int.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_path_append.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_path_append.c.o: ../src/libft/ft_path_append.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_path_append.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_path_append.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_path_append.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_path_append.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_path_append.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_path_append.c > CMakeFiles/lem_in.dir/src/libft/ft_path_append.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_path_append.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_path_append.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_path_append.c -o CMakeFiles/lem_in.dir/src/libft/ft_path_append.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_print_array.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_print_array.c.o: ../src/libft/ft_print_array.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_print_array.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_print_array.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_print_array.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_print_array.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_print_array.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_print_array.c > CMakeFiles/lem_in.dir/src/libft/ft_print_array.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_print_array.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_print_array.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_print_array.c -o CMakeFiles/lem_in.dir/src/libft/ft_print_array.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_ptree.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_ptree.c.o: ../src/libft/ft_ptree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_ptree.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_ptree.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_ptree.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_ptree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_ptree.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_ptree.c > CMakeFiles/lem_in.dir/src/libft/ft_ptree.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_ptree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_ptree.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_ptree.c -o CMakeFiles/lem_in.dir/src/libft/ft_ptree.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_ptree_to_kvpairs.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_ptree_to_kvpairs.c.o: ../src/libft/ft_ptree_to_kvpairs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_ptree_to_kvpairs.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_ptree_to_kvpairs.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_ptree_to_kvpairs.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_ptree_to_kvpairs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_ptree_to_kvpairs.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_ptree_to_kvpairs.c > CMakeFiles/lem_in.dir/src/libft/ft_ptree_to_kvpairs.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_ptree_to_kvpairs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_ptree_to_kvpairs.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_ptree_to_kvpairs.c -o CMakeFiles/lem_in.dir/src/libft/ft_ptree_to_kvpairs.c.s
 
 CMakeFiles/lem_in.dir/src/libft/ft_putchar.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_putchar.c.o: ../src/libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_putchar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_putchar.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_putchar.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_putchar.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_putchar.c.i: cmake_force
@@ -1632,7 +943,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_putchar.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_putchar_fd.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_putchar_fd.c.o: ../src/libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_putchar_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_putchar_fd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_putchar_fd.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_putchar_fd.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_putchar_fd.c.i: cmake_force
@@ -1645,7 +956,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_putchar_fd.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_putendl.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_putendl.c.o: ../src/libft/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_putendl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_putendl.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_putendl.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_putendl.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_putendl.c.i: cmake_force
@@ -1658,7 +969,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_putendl.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_putendl_fd.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_putendl_fd.c.o: ../src/libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_putendl_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_putendl_fd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_putendl_fd.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_putendl_fd.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_putendl_fd.c.i: cmake_force
@@ -1671,7 +982,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_putendl_fd.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_putnbr.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_putnbr.c.o: ../src/libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_putnbr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_putnbr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_putnbr.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_putnbr.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_putnbr.c.i: cmake_force
@@ -1684,7 +995,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_putnbr.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_putnbr_fd.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_putnbr_fd.c.o: ../src/libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_putnbr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_putnbr_fd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_putnbr_fd.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_putnbr_fd.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_putnbr_fd.c.i: cmake_force
@@ -1697,7 +1008,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_putnbr_fd.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_putstr.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_putstr.c.o: ../src/libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_putstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_putstr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_putstr.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_putstr.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_putstr.c.i: cmake_force
@@ -1710,7 +1021,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_putstr.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_putstr_fd.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_putstr_fd.c.o: ../src/libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_putstr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_putstr_fd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_putstr_fd.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_putstr_fd.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_putstr_fd.c.i: cmake_force
@@ -1721,22 +1032,22 @@ CMakeFiles/lem_in.dir/src/libft/ft_putstr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_putstr_fd.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_putstr_fd.c -o CMakeFiles/lem_in.dir/src/libft/ft_putstr_fd.c.s
 
-CMakeFiles/lem_in.dir/src/libft/ft_skip_sym.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/libft/ft_skip_sym.c.o: ../src/libft/ft_skip_sym.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_skip_sym.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_skip_sym.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_skip_sym.c
+CMakeFiles/lem_in.dir/src/libft/ft_straddchar.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_straddchar.c.o: ../src/libft/ft_straddchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_straddchar.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_straddchar.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_straddchar.c
 
-CMakeFiles/lem_in.dir/src/libft/ft_skip_sym.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_skip_sym.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_skip_sym.c > CMakeFiles/lem_in.dir/src/libft/ft_skip_sym.c.i
+CMakeFiles/lem_in.dir/src/libft/ft_straddchar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_straddchar.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_straddchar.c > CMakeFiles/lem_in.dir/src/libft/ft_straddchar.c.i
 
-CMakeFiles/lem_in.dir/src/libft/ft_skip_sym.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_skip_sym.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_skip_sym.c -o CMakeFiles/lem_in.dir/src/libft/ft_skip_sym.c.s
+CMakeFiles/lem_in.dir/src/libft/ft_straddchar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_straddchar.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_straddchar.c -o CMakeFiles/lem_in.dir/src/libft/ft_straddchar.c.s
 
 CMakeFiles/lem_in.dir/src/libft/ft_strcat.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strcat.c.o: ../src/libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strcat.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strcat.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strcat.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strcat.c.i: cmake_force
@@ -1747,22 +1058,9 @@ CMakeFiles/lem_in.dir/src/libft/ft_strcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_strcat.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_strcat.c -o CMakeFiles/lem_in.dir/src/libft/ft_strcat.c.s
 
-CMakeFiles/lem_in.dir/src/libft/ft_strccpy.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/libft/ft_strccpy.c.o: ../src/libft/ft_strccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strccpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strccpy.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strccpy.c
-
-CMakeFiles/lem_in.dir/src/libft/ft_strccpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_strccpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_strccpy.c > CMakeFiles/lem_in.dir/src/libft/ft_strccpy.c.i
-
-CMakeFiles/lem_in.dir/src/libft/ft_strccpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_strccpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_strccpy.c -o CMakeFiles/lem_in.dir/src/libft/ft_strccpy.c.s
-
 CMakeFiles/lem_in.dir/src/libft/ft_strchr.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strchr.c.o: ../src/libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strchr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strchr.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strchr.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strchr.c.i: cmake_force
@@ -1775,7 +1073,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strchr.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strclr.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strclr.c.o: ../src/libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strclr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strclr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strclr.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strclr.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strclr.c.i: cmake_force
@@ -1788,7 +1086,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strclr.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strcmp.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strcmp.c.o: ../src/libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strcmp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strcmp.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strcmp.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strcmp.c.i: cmake_force
@@ -1801,7 +1099,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strcmp.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strcpy.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strcpy.c.o: ../src/libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strcpy.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strcpy.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strcpy.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strcpy.c.i: cmake_force
@@ -1814,7 +1112,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strcpy.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strdel.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strdel.c.o: ../src/libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strdel.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strdel.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strdel.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strdel.c.i: cmake_force
@@ -1827,7 +1125,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strdel.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strdup.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strdup.c.o: ../src/libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strdup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strdup.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strdup.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strdup.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strdup.c.i: cmake_force
@@ -1840,7 +1138,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strdup.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strequ.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strequ.c.o: ../src/libft/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strequ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strequ.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strequ.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strequ.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strequ.c.i: cmake_force
@@ -1853,7 +1151,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strequ.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_striter.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_striter.c.o: ../src/libft/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_striter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_striter.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_striter.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_striter.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_striter.c.i: cmake_force
@@ -1866,7 +1164,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_striter.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_striteri.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_striteri.c.o: ../src/libft/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_striteri.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_striteri.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_striteri.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_striteri.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_striteri.c.i: cmake_force
@@ -1879,7 +1177,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_striteri.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strjoin.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strjoin.c.o: ../src/libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strjoin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strjoin.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strjoin.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strjoin.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strjoin.c.i: cmake_force
@@ -1892,7 +1190,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strjoin.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strlcat.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strlcat.c.o: ../src/libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strlcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strlcat.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strlcat.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strlcat.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strlcat.c.i: cmake_force
@@ -1905,7 +1203,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strlcat.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strlen.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strlen.c.o: ../src/libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strlen.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strlen.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strlen.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strlen.c.i: cmake_force
@@ -1916,22 +1214,9 @@ CMakeFiles/lem_in.dir/src/libft/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_strlen.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_strlen.c -o CMakeFiles/lem_in.dir/src/libft/ft_strlen.c.s
 
-CMakeFiles/lem_in.dir/src/libft/ft_strlento.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/src/libft/ft_strlento.c.o: ../src/libft/ft_strlento.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strlento.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strlento.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strlento.c
-
-CMakeFiles/lem_in.dir/src/libft/ft_strlento.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_strlento.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_strlento.c > CMakeFiles/lem_in.dir/src/libft/ft_strlento.c.i
-
-CMakeFiles/lem_in.dir/src/libft/ft_strlento.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_strlento.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_strlento.c -o CMakeFiles/lem_in.dir/src/libft/ft_strlento.c.s
-
 CMakeFiles/lem_in.dir/src/libft/ft_strmap.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strmap.c.o: ../src/libft/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strmap.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strmap.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strmap.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strmap.c.i: cmake_force
@@ -1944,7 +1229,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strmap.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strmapi.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strmapi.c.o: ../src/libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strmapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strmapi.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strmapi.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strmapi.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strmapi.c.i: cmake_force
@@ -1957,7 +1242,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strmapi.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strncat.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strncat.c.o: ../src/libft/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strncat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strncat.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strncat.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strncat.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strncat.c.i: cmake_force
@@ -1970,7 +1255,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strncat.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strncmp.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strncmp.c.o: ../src/libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strncmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strncmp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strncmp.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strncmp.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strncmp.c.i: cmake_force
@@ -1983,7 +1268,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strncmp.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strncpy.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strncpy.c.o: ../src/libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strncpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strncpy.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strncpy.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strncpy.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strncpy.c.i: cmake_force
@@ -1996,7 +1281,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strncpy.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strnequ.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strnequ.c.o: ../src/libft/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strnequ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strnequ.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strnequ.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strnequ.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strnequ.c.i: cmake_force
@@ -2009,7 +1294,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strnequ.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strnew.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strnew.c.o: ../src/libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strnew.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strnew.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strnew.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strnew.c.i: cmake_force
@@ -2022,7 +1307,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strnew.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strnstr.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strnstr.c.o: ../src/libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strnstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strnstr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strnstr.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strnstr.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strnstr.c.i: cmake_force
@@ -2035,7 +1320,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strnstr.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strrchr.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strrchr.c.o: ../src/libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strrchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strrchr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strrchr.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strrchr.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strrchr.c.i: cmake_force
@@ -2046,9 +1331,22 @@ CMakeFiles/lem_in.dir/src/libft/ft_strrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_strrchr.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_strrchr.c -o CMakeFiles/lem_in.dir/src/libft/ft_strrchr.c.s
 
+CMakeFiles/lem_in.dir/src/libft/ft_strrev.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_strrev.c.o: ../src/libft/ft_strrev.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strrev.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strrev.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strrev.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_strrev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_strrev.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_strrev.c > CMakeFiles/lem_in.dir/src/libft/ft_strrev.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_strrev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_strrev.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_strrev.c -o CMakeFiles/lem_in.dir/src/libft/ft_strrev.c.s
+
 CMakeFiles/lem_in.dir/src/libft/ft_strsplit.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strsplit.c.o: ../src/libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strsplit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strsplit.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strsplit.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strsplit.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strsplit.c.i: cmake_force
@@ -2059,9 +1357,22 @@ CMakeFiles/lem_in.dir/src/libft/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_strsplit.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_strsplit.c -o CMakeFiles/lem_in.dir/src/libft/ft_strsplit.c.s
 
+CMakeFiles/lem_in.dir/src/libft/ft_strsplit_unescaped.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_strsplit_unescaped.c.o: ../src/libft/ft_strsplit_unescaped.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strsplit_unescaped.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strsplit_unescaped.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strsplit_unescaped.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_strsplit_unescaped.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_strsplit_unescaped.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_strsplit_unescaped.c > CMakeFiles/lem_in.dir/src/libft/ft_strsplit_unescaped.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_strsplit_unescaped.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_strsplit_unescaped.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_strsplit_unescaped.c -o CMakeFiles/lem_in.dir/src/libft/ft_strsplit_unescaped.c.s
+
 CMakeFiles/lem_in.dir/src/libft/ft_strstr.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strstr.c.o: ../src/libft/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strstr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strstr.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strstr.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strstr.c.i: cmake_force
@@ -2074,7 +1385,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strstr.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strsub.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strsub.c.o: ../src/libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strsub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strsub.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strsub.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strsub.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strsub.c.i: cmake_force
@@ -2087,7 +1398,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_strsub.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_strtrim.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_strtrim.c.o: ../src/libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strtrim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_strtrim.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_strtrim.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_strtrim.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_strtrim.c.i: cmake_force
@@ -2098,9 +1409,35 @@ CMakeFiles/lem_in.dir/src/libft/ft_strtrim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_strtrim.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_strtrim.c -o CMakeFiles/lem_in.dir/src/libft/ft_strtrim.c.s
 
+CMakeFiles/lem_in.dir/src/libft/ft_swap.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_swap.c.o: ../src/libft/ft_swap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_swap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_swap.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_swap.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_swap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_swap.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_swap.c > CMakeFiles/lem_in.dir/src/libft/ft_swap.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_swap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_swap.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_swap.c -o CMakeFiles/lem_in.dir/src/libft/ft_swap.c.s
+
+CMakeFiles/lem_in.dir/src/libft/ft_swapint.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/libft/ft_swapint.c.o: ../src/libft/ft_swapint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_swapint.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_swapint.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_swapint.c
+
+CMakeFiles/lem_in.dir/src/libft/ft_swapint.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/libft/ft_swapint.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/lem-in/src/libft/ft_swapint.c > CMakeFiles/lem_in.dir/src/libft/ft_swapint.c.i
+
+CMakeFiles/lem_in.dir/src/libft/ft_swapint.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/libft/ft_swapint.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/lem-in/src/libft/ft_swapint.c -o CMakeFiles/lem_in.dir/src/libft/ft_swapint.c.s
+
 CMakeFiles/lem_in.dir/src/libft/ft_tolower.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_tolower.c.o: ../src/libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_tolower.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_tolower.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_tolower.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_tolower.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_tolower.c.i: cmake_force
@@ -2113,7 +1450,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_tolower.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/ft_toupper.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/ft_toupper.c.o: ../src/libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_toupper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/lem_in.dir/src/libft/ft_toupper.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/ft_toupper.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/ft_toupper.c
 
 CMakeFiles/lem_in.dir/src/libft/ft_toupper.c.i: cmake_force
@@ -2126,7 +1463,7 @@ CMakeFiles/lem_in.dir/src/libft/ft_toupper.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/libft/get_next_line.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/libft/get_next_line.c.o: ../src/libft/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/lem_in.dir/src/libft/get_next_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/lem_in.dir/src/libft/get_next_line.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/libft/get_next_line.c.o   -c /home/dpenney/Desktop/lem-in/src/libft/get_next_line.c
 
 CMakeFiles/lem_in.dir/src/libft/get_next_line.c.i: cmake_force
@@ -2139,7 +1476,7 @@ CMakeFiles/lem_in.dir/src/libft/get_next_line.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/bfs.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/bfs.c.o: ../src/bfs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/lem_in.dir/src/bfs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/lem_in.dir/src/bfs.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/bfs.c.o   -c /home/dpenney/Desktop/lem-in/src/bfs.c
 
 CMakeFiles/lem_in.dir/src/bfs.c.i: cmake_force
@@ -2152,7 +1489,7 @@ CMakeFiles/lem_in.dir/src/bfs.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/equal_rooms.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/equal_rooms.c.o: ../src/equal_rooms.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/lem_in.dir/src/equal_rooms.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/lem_in.dir/src/equal_rooms.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/equal_rooms.c.o   -c /home/dpenney/Desktop/lem-in/src/equal_rooms.c
 
 CMakeFiles/lem_in.dir/src/equal_rooms.c.i: cmake_force
@@ -2165,7 +1502,7 @@ CMakeFiles/lem_in.dir/src/equal_rooms.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/ft_solution.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/ft_solution.c.o: ../src/ft_solution.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/lem_in.dir/src/ft_solution.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/lem_in.dir/src/ft_solution.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/ft_solution.c.o   -c /home/dpenney/Desktop/lem-in/src/ft_solution.c
 
 CMakeFiles/lem_in.dir/src/ft_solution.c.i: cmake_force
@@ -2178,7 +1515,7 @@ CMakeFiles/lem_in.dir/src/ft_solution.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/instruments.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/instruments.c.o: ../src/instruments.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/lem_in.dir/src/instruments.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/lem_in.dir/src/instruments.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/instruments.c.o   -c /home/dpenney/Desktop/lem-in/src/instruments.c
 
 CMakeFiles/lem_in.dir/src/instruments.c.i: cmake_force
@@ -2191,7 +1528,7 @@ CMakeFiles/lem_in.dir/src/instruments.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/liba.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/liba.c.o: ../src/liba.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/lem_in.dir/src/liba.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/lem_in.dir/src/liba.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/liba.c.o   -c /home/dpenney/Desktop/lem-in/src/liba.c
 
 CMakeFiles/lem_in.dir/src/liba.c.i: cmake_force
@@ -2204,7 +1541,7 @@ CMakeFiles/lem_in.dir/src/liba.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/main.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/lem_in.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/lem_in.dir/src/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/main.c.o   -c /home/dpenney/Desktop/lem-in/src/main.c
 
 CMakeFiles/lem_in.dir/src/main.c.i: cmake_force
@@ -2217,7 +1554,7 @@ CMakeFiles/lem_in.dir/src/main.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/movements.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/movements.c.o: ../src/movements.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/lem_in.dir/src/movements.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/lem_in.dir/src/movements.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/movements.c.o   -c /home/dpenney/Desktop/lem-in/src/movements.c
 
 CMakeFiles/lem_in.dir/src/movements.c.i: cmake_force
@@ -2230,7 +1567,7 @@ CMakeFiles/lem_in.dir/src/movements.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/parse_edges.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/parse_edges.c.o: ../src/parse_edges.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/lem_in.dir/src/parse_edges.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/lem_in.dir/src/parse_edges.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/parse_edges.c.o   -c /home/dpenney/Desktop/lem-in/src/parse_edges.c
 
 CMakeFiles/lem_in.dir/src/parse_edges.c.i: cmake_force
@@ -2243,7 +1580,7 @@ CMakeFiles/lem_in.dir/src/parse_edges.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/parse_rooms.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/parse_rooms.c.o: ../src/parse_rooms.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/lem_in.dir/src/parse_rooms.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/lem_in.dir/src/parse_rooms.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/parse_rooms.c.o   -c /home/dpenney/Desktop/lem-in/src/parse_rooms.c
 
 CMakeFiles/lem_in.dir/src/parse_rooms.c.i: cmake_force
@@ -2256,7 +1593,7 @@ CMakeFiles/lem_in.dir/src/parse_rooms.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/parser.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/parser.c.o: ../src/parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/lem_in.dir/src/parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/lem_in.dir/src/parser.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/parser.c.o   -c /home/dpenney/Desktop/lem-in/src/parser.c
 
 CMakeFiles/lem_in.dir/src/parser.c.i: cmake_force
@@ -2269,7 +1606,7 @@ CMakeFiles/lem_in.dir/src/parser.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/parsers_utilits.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/parsers_utilits.c.o: ../src/parsers_utilits.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/lem_in.dir/src/parsers_utilits.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/lem_in.dir/src/parsers_utilits.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/parsers_utilits.c.o   -c /home/dpenney/Desktop/lem-in/src/parsers_utilits.c
 
 CMakeFiles/lem_in.dir/src/parsers_utilits.c.i: cmake_force
@@ -2282,7 +1619,7 @@ CMakeFiles/lem_in.dir/src/parsers_utilits.c.s: cmake_force
 
 CMakeFiles/lem_in.dir/src/recorder_way.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/recorder_way.c.o: ../src/recorder_way.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/lem_in.dir/src/recorder_way.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/lem_in.dir/src/recorder_way.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/recorder_way.c.o   -c /home/dpenney/Desktop/lem-in/src/recorder_way.c
 
 CMakeFiles/lem_in.dir/src/recorder_way.c.i: cmake_force
@@ -2295,126 +1632,73 @@ CMakeFiles/lem_in.dir/src/recorder_way.c.s: cmake_force
 
 # Object files for target lem_in
 lem_in_OBJECTS = \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_array_subtract.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_atoi.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bbtree_utils.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bsort_int.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bzero.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_del.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalnum.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalpha.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isascii.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isdigit.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isprint.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa_base.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstadd.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstappend.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdel.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdelone.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstiter.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstmap.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstnew.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_max_int.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_maxval_int.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memalloc.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memccpy.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memchr.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcmp.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcpy.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdel.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdup.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memmove.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memset.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_min_int.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_minval_int.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_print_array.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar_fd.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl_fd.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr_fd.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr_fd.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcat.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strchr.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strclr.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcmp.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcpy.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdel.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdup.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strequ.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striter.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striteri.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strjoin.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlcat.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlen.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmap.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmapi.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncat.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncmp.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncpy.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnequ.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnew.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnstr.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrchr.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrev.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsplit.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strstr.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsub.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strtrim.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swap.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swapint.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_tolower.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_toupper.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/libft/get_next_line.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/apply_spec.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/apply_spec2.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/apply_spec3.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/apply_spec4.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/apply_spec5.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/apply_spec6.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors2.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/conv_int.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/conv_int2.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/conv_other.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int2.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_other.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/find_action.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/ftoa.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/int_len.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/printf.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/read_spec.c.o" \
-"CMakeFiles/lem_in.dir/src/ft_printf/read_spec2.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec2.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec3.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec4.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec5.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec6.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors2.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int2.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_other.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/find_action.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/fprintf.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/printf.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec2.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic2.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic3.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic4.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic5.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa2.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_array_subtract.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_atoi.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_bbtree_utils.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_bsort_int.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_bzero.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_copy_ptree.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_del.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_is_escaped.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_is_part_of_word.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_isalnum.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_isalpha.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_isascii.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_isdigit.c.o" \
-"CMakeFiles/lem_in.dir/src/libft/ft_islower.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_isprint.c.o" \
-"CMakeFiles/lem_in.dir/src/libft/ft_isupper.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_itoa.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_itoa_base.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_lstadd.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_lstaddstart.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_lstdel.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_lstdelone.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_lstiter.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_lstlen.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_lstmap.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_lstnew.c.o" \
-"CMakeFiles/lem_in.dir/src/libft/ft_massmalloc.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_max_int.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_maxval_int.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_memalloc.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_memccpy.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_memchr.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_memcmp.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_memcpy.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_memdel.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_memdup.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_memmove.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_memset.c.o" \
-"CMakeFiles/lem_in.dir/src/libft/ft_nbrlen.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_min_int.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_minval_int.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_path_append.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_print_array.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_ptree.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_ptree_to_kvpairs.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_putchar.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_putchar_fd.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_putendl.c.o" \
@@ -2423,9 +1707,8 @@ lem_in_OBJECTS = \
 "CMakeFiles/lem_in.dir/src/libft/ft_putnbr_fd.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_putstr.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_putstr_fd.c.o" \
-"CMakeFiles/lem_in.dir/src/libft/ft_skip_sym.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_straddchar.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_strcat.c.o" \
-"CMakeFiles/lem_in.dir/src/libft/ft_strccpy.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_strchr.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_strclr.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_strcmp.c.o" \
@@ -2438,7 +1721,6 @@ lem_in_OBJECTS = \
 "CMakeFiles/lem_in.dir/src/libft/ft_strjoin.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_strlcat.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_strlen.c.o" \
-"CMakeFiles/lem_in.dir/src/libft/ft_strlento.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_strmap.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_strmapi.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_strncat.c.o" \
@@ -2448,10 +1730,14 @@ lem_in_OBJECTS = \
 "CMakeFiles/lem_in.dir/src/libft/ft_strnew.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_strnstr.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_strrchr.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_strrev.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_strsplit.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_strsplit_unescaped.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_strstr.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_strsub.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_strtrim.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_swap.c.o" \
+"CMakeFiles/lem_in.dir/src/libft/ft_swapint.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_tolower.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/ft_toupper.c.o" \
 "CMakeFiles/lem_in.dir/src/libft/get_next_line.c.o" \
@@ -2471,126 +1757,73 @@ lem_in_OBJECTS = \
 # External object files for target lem_in
 lem_in_EXTERNAL_OBJECTS =
 
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_array_subtract.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_atoi.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bbtree_utils.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bsort_int.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_bzero.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_del.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalnum.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isalpha.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isascii.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isdigit.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_isprint.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_itoa_base.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstadd.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstappend.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdel.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstdelone.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstiter.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstmap.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_lstnew.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_max_int.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_maxval_int.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memalloc.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memccpy.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memchr.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcmp.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memcpy.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdel.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memdup.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memmove.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_memset.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_min_int.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_minval_int.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_print_array.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putchar_fd.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putendl_fd.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putnbr_fd.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_putstr_fd.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcat.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strchr.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strclr.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcmp.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strcpy.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdel.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strdup.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strequ.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striter.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_striteri.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strjoin.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlcat.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strlen.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmap.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strmapi.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncat.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncmp.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strncpy.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnequ.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnew.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strnstr.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrchr.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strrev.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsplit.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strstr.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strsub.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_strtrim.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swap.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_swapint.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_tolower.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/ft_toupper.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/libft/get_next_line.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/apply_spec.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/apply_spec2.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/apply_spec3.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/apply_spec4.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/apply_spec5.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/apply_spec6.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/arg_extractors2.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/conv_int.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/conv_int2.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/conv_other.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_int2.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/conv_wrappers_other.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/find_action.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/ftoa.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/int_len.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/printf.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/read_spec.c.o
-lem_in: CMakeFiles/lem_in.dir/src/ft_printf/read_spec2.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec2.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec3.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec4.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec5.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/apply_spec6.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/arg_extractors2.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_int2.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_other.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/find_action.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/fprintf.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/printf.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_printf/read_spec2.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic2.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic3.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic4.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ftoa/decimal_arithmetic5.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ftoa/ftoa2.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_array_subtract.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_atoi.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_bbtree_utils.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_bsort_int.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_bzero.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_copy_ptree.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_del.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_is_escaped.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_is_part_of_word.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_isalnum.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_isalpha.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_isascii.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_isdigit.c.o
-lem_in: CMakeFiles/lem_in.dir/src/libft/ft_islower.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_isprint.c.o
-lem_in: CMakeFiles/lem_in.dir/src/libft/ft_isupper.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_itoa.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_itoa_base.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_lstadd.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_lstaddstart.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_lstdel.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_lstdelone.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_lstiter.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_lstlen.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_lstmap.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_lstnew.c.o
-lem_in: CMakeFiles/lem_in.dir/src/libft/ft_massmalloc.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_max_int.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_maxval_int.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_memalloc.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_memccpy.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_memchr.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_memcmp.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_memcpy.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_memdel.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_memdup.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_memmove.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_memset.c.o
-lem_in: CMakeFiles/lem_in.dir/src/libft/ft_nbrlen.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_min_int.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_minval_int.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_path_append.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_print_array.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_ptree.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_ptree_to_kvpairs.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_putchar.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_putchar_fd.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_putendl.c.o
@@ -2599,9 +1832,8 @@ lem_in: CMakeFiles/lem_in.dir/src/libft/ft_putnbr.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_putnbr_fd.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_putstr.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_putstr_fd.c.o
-lem_in: CMakeFiles/lem_in.dir/src/libft/ft_skip_sym.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_straddchar.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strcat.c.o
-lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strccpy.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strchr.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strclr.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strcmp.c.o
@@ -2614,7 +1846,6 @@ lem_in: CMakeFiles/lem_in.dir/src/libft/ft_striteri.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strjoin.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strlcat.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strlen.c.o
-lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strlento.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strmap.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strmapi.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strncat.c.o
@@ -2624,10 +1855,14 @@ lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strnequ.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strnew.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strnstr.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strrchr.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strrev.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strsplit.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strsplit_unescaped.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strstr.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strsub.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_strtrim.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_swap.c.o
+lem_in: CMakeFiles/lem_in.dir/src/libft/ft_swapint.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_tolower.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/ft_toupper.c.o
 lem_in: CMakeFiles/lem_in.dir/src/libft/get_next_line.c.o
@@ -2645,7 +1880,7 @@ lem_in: CMakeFiles/lem_in.dir/src/parsers_utilits.c.o
 lem_in: CMakeFiles/lem_in.dir/src/recorder_way.c.o
 lem_in: CMakeFiles/lem_in.dir/build.make
 lem_in: CMakeFiles/lem_in.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Linking C executable lem_in"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Linking C executable lem_in"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lem_in.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
