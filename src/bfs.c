@@ -58,20 +58,12 @@ void	add_to_order(t_room *room, t_order *order)
 }
 
 /*
-** Когда второй раз запускаем bfs, то рёбра заканчиваются. Как их восстановить?
-** Init visit variable in start and end with 0.
-** Allocating memory for order and puting first room by order.
-** And launching cycle with allocated order. In cycle comparing room in order and end order.
-** If room in order isn't end - marking that we visited this room.
-** In new cycle looking for new rooms via edges of current room.
-** If next of edge room isn't visited - adding this room to order
-** and marking parent of this room.
-** And going to the next edge of current room.
-** If all edges ended - alg checking next room in order.
-** After bfs - cleaning memory which allocated for order.
-** Используется order->room->visit для того, чтобы если, например,
-** граф начинается с А и есть связь от А к В и от В к А, то чтобы от В к А
-** (т.е. к началу) не возвращался.
+ * Если добавляемая комната последняя, то выходит. Так как от последней комнаты некуда дальше идти.
+ * А иначе берётся комната и рёбра этой комнаты в tmp_edges;
+ * Настоящая комната отмечается помеченной, чтобы обратно не возвращаться.
+ * Дальше идём по рёбрам настоящей комнаты. Если выбранное ребро комнаты не использовано, а та комната, на которое указывает ребро, не посещено,
+ * то эта комната добавляется в очередь.
+ * Так проходим по всем рёбрам настоящей комнаты.
 */
 int 	perform_order(t_order *order, t_struct *all, t_edge *tmp_edges, t_room *tmp_room)
 {
@@ -88,6 +80,15 @@ int 	perform_order(t_order *order, t_struct *all, t_edge *tmp_edges, t_room *tmp
 		tmp_edges = tmp_edges->next;
 	}
 }
+
+/*
+ * Создаётся очередь в виде листов.
+ * В лист добавляется первая комната.
+ * Когда все рёбра первой комнаты рассмотрены и добавлены в очередь, тогда
+ * продвигаемся дальше по найденным через рёбра комнатам.
+ * Когда дошли по одному из путей до конца, то записываем этот путь в record_way
+ * и очищаем память от order, выделенную для очереди.
+ */
 
 t_way		*bfs(t_struct *all, t_order *order, t_order *head_order, t_way *way)
 {

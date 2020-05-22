@@ -58,22 +58,17 @@ t_ways		*sort(t_ways *self, int tmp_vtx_qn, t_way *tmp_way, t_ways *head)
 /*
  * FIXME не работает с картами из /home/dpenney/Desktop/lem-in/maps/valid/difficult/
  * FIXME добавить случай, когда не нашёл ни один из путей. Что должен выводить?
- * ways_qn - количество вершин в одном пути.
  * В этой функции запускается bfs запускается для поиска всех путей
  * Записываются все найденные пути в переменную wayS.
  * Внутри очищаются annual_visit_vertex, чтобы можно было запустить bfs ещё раз.
- * Далее всё сортируется в sort.
- * Отправляется всё в gen_cycle, где самое решение
+ * Далее всё сортируется в sort, где комнаты сортируются по кол-ву комнат в пути.
+ * Отправляется всё в gen_cycle, где передвигаются муравьи.
 */
 
 int       ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS) {
-
-	int		ways_qn;
-
 	wayS = ft_memalloc(sizeof(t_ways));
 	head_wayS = wayS;
 	wayS->vtx_qn = 0;
-	ways_qn = 0;
 	while ((way = bfs(all, NULL, NULL, NULL)) != NULL)
 	{
 		if (!(wayS->next = (t_ways *) malloc(sizeof(t_ways))))
@@ -85,7 +80,6 @@ int       ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS
 		wayS->way = way;
 		wayS->vtx_qn = calc_way(way);
 		annual_visit_vertex(all, NULL);
-		ways_qn++;
 	}
 	head_wayS = sort(head_wayS, 0, NULL, NULL);
 	gen_cycle(head_wayS, all);
