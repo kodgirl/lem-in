@@ -605,10 +605,12 @@ CMakeFiles/lem_in.dir/src/parsers_utilits.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/lem_in.dir/src/parsers_utilits.c.o: ../src/libft/includes/libft.h
 CMakeFiles/lem_in.dir/src/parsers_utilits.c.o: ../src/parsers_utilits.c
 
-CMakeFiles/lem_in.dir/src/recorder_way.c.o: ../includes/lem_in.h
-CMakeFiles/lem_in.dir/src/recorder_way.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/lem_in.dir/src/recorder_way.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/lem_in.dir/src/recorder_way.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/lem_in.dir/src/recorder_way.c.o: ../src/libft/includes/libft.h
 CMakeFiles/lem_in.dir/src/recorder_way.c.o: ../src/recorder_way.c
+
+CMakeFiles/lem_in.dir/src/solution.c.o: ../includes/lem_in.h
+CMakeFiles/lem_in.dir/src/solution.c.o: ../src/libft/ft_printf/printf.h
+CMakeFiles/lem_in.dir/src/solution.c.o: ../src/libft/includes/bbtree_utils.h
+CMakeFiles/lem_in.dir/src/solution.c.o: ../src/libft/includes/ft_ptree.h
+CMakeFiles/lem_in.dir/src/solution.c.o: ../src/libft/includes/libft.h
+CMakeFiles/lem_in.dir/src/solution.c.o: ../src/solution.c
 

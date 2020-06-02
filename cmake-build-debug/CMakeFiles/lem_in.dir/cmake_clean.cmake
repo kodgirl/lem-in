@@ -120,6 +120,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/lem_in.dir/src/parser.c.o"
   "CMakeFiles/lem_in.dir/src/parsers_utilits.c.o"
   "CMakeFiles/lem_in.dir/src/recorder_way.c.o"
+  "CMakeFiles/lem_in.dir/src/solution.c.o"
   "lem_in"
   "lem_in.pdb"
 )

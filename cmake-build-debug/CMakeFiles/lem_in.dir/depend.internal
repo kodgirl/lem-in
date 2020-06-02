@@ -606,9 +606,11 @@ CMakeFiles/lem_in.dir/src/parsers_utilits.c.o
  /home/dpenney/Desktop/lem-in/src/libft/includes/libft.h
  /home/dpenney/Desktop/lem-in/src/parsers_utilits.c
 CMakeFiles/lem_in.dir/src/recorder_way.c.o
+ /home/dpenney/Desktop/lem-in/src/recorder_way.c
+CMakeFiles/lem_in.dir/src/solution.c.o
  /home/dpenney/Desktop/lem-in/includes/lem_in.h
  /home/dpenney/Desktop/lem-in/src/libft/ft_printf/printf.h
  /home/dpenney/Desktop/lem-in/src/libft/includes/bbtree_utils.h
  /home/dpenney/Desktop/lem-in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/lem-in/src/libft/includes/libft.h
- /home/dpenney/Desktop/lem-in/src/recorder_way.c
+ /home/dpenney/Desktop/lem-in/src/solution.c

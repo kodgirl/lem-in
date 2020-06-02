@@ -31,6 +31,7 @@ t_room	*malloc_room(char **split)
 		rm->name = ft_strdup(split[0]);
 		rm->x = f_atoi(split[1], &error);
 		rm->y = f_atoi(split[2], &error);
+		rm->visit = -1;
 		if (error != 0)
 		{
 			free(rm->name);

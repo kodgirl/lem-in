@@ -125,6 +125,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/dpenney/Desktop/lem-in/src/parser.c" "/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/src/parser.c.o"
   "/home/dpenney/Desktop/lem-in/src/parsers_utilits.c" "/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/src/parsers_utilits.c.o"
   "/home/dpenney/Desktop/lem-in/src/recorder_way.c" "/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/src/recorder_way.c.o"
+  "/home/dpenney/Desktop/lem-in/src/solution.c" "/home/dpenney/Desktop/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/src/solution.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

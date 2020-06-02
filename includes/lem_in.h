@@ -43,6 +43,8 @@ typedef struct		s_room
 	struct s_edge	*edge;
 	struct s_room	*go_from;
 	int 			ant;
+	//добавить in и out;
+
 }					t_room;
 
 
@@ -51,6 +53,7 @@ typedef struct		s_room
 ** cost - variable which keep info about used this direction or not;
 ** *next contain direction to next vertex (or room);
 */
+
 
 typedef struct		s_edge
 {
@@ -90,8 +93,6 @@ typedef struct      s_way
 	struct s_way    *next;
 }                   t_way;
 
-
-
 typedef struct		s_order
 {
 	t_room			*room;
@@ -104,28 +105,7 @@ typedef struct      s_ways
     unsigned int 	vtx_qn;
 	int 			expression;
 	struct s_ways   *next;
-	struct s_ways	*prev;
 }                   t_ways;
-
-/*
- * FIXME change names of structure;
-*/
-
-typedef struct		s_sum
-{
-	int				number_of_ants;
-	int				sum_steps_all_ways;
-	int				number_of_ways;
-	int				result;
-	int				str_sum;
-}					t_calc;
-
-typedef struct 		s_array
-{
-	t_way			**way;
-	t_ways			**wayS;
-	t_room			**rooms;
-}					t_array;
 
 int			parser(t_struct *all, char *line, char **split);
 void		read_ant(char *line, t_struct *all);
@@ -140,36 +120,38 @@ int		    room_validation(t_room *room, t_room *flat);
 void        free_lem_in(t_struct *all, t_room *tmp_rooms, t_room *tmp_rooms2, t_edge *tmp_edges2);
 void        ft_free_split(char **for_free);
 void		error_print(t_struct *all);
-int		check_end_start(t_struct *all);
+int			check_end_start(t_struct *all);
 
-int 		ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS);
-t_way		*bfs(t_struct *all, t_order *order, t_order *head_order, t_way *way);
-void     	*clean_order(t_order *head_order, t_struct *all, t_room *tmpRoom, t_edge *edges);
-void		free_order(t_order *head_order, t_order *tmp);
+//int 		ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS);
+//t_way		*bfs(t_struct *all, t_order *order, t_order *head_order, t_way *way);
+//void     	*clean_order(t_order *head_order, t_struct *all, t_room *tmpRoom, t_edge *edges);
+//void		free_order(t_order *head_order, t_order *tmp);
+//
+///*
+//** Record way function
+//*/
+//
+//t_way		*record_way(t_struct *all, t_way *HeadWay, t_way *way, t_room *room);
+//t_way		*FixVisitRooms(t_way *way, t_way *tmpWay, t_edge *tmpEdge, t_room *room);
+//t_way		*invert_way(t_way *way, t_way *curr, t_way *next, t_way *prev);
+//
+//void		gen_cycle(t_ways *head_wayS, t_struct *all);
+//void		walking_ants(t_ways *wayS, int *antsRemain, int *antsCurrent, t_struct *all);
+//
+///*
+//** Instrumental functions
+//*/
+//
+//void	write_order(t_order *order, t_struct *all);
+//void	del_double_massive(char **str);
+//void 	printRecordWay(t_ways *head_wayS);
+//void 	printRecordWay(t_ways *head_wayS);
 
 /*
-** Record way function
-*/
-
-t_way		*record_way(t_struct *all, t_way *HeadWay, t_way *way, t_room *room);
-t_way		*FixVisitRooms(t_way *way, t_way *tmpWay, t_edge *tmpEdge, t_room *room);
-t_way		*invert_way(t_way *way, t_way *curr, t_way *next, t_way *prev);
-
-/*
- * TODO change names of fucntions;
+ * New solution
  */
+void 	*solution(t_struct *all);
+int 	bfs(t_struct *all);
 
-
-int 		move_ant(t_way *way, int i, t_struct *all);
-void		gen_cycle(t_ways *head_wayS, t_struct *all);
-void		walking_ants(t_ways *wayS, int *antsRemain, int *antsCurrent, t_struct *all);
-/*
-** Instrumental functions
-*/
-
-void	write_order(t_order *order, t_struct *all);
-void	del_double_massive(char **str);
-void 	printRecordWay(t_ways *head_wayS);
-void 	printRecordWay(t_ways *head_wayS);
 
 #endif

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bda2cfc2-178c-4880-9868-95050bcf76a2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1cDi6yhFEHXtTHn6lhOuGFKw1Iu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="useFileNestingRules" value="false" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bda2cfc2-178c-4880-9868-95050bcf76a2" name="Default Changelist" comment="" />
+      <created>1590069392033</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590069392033</updated>
+      <workItem from="1590069393700" duration="20000" />
+      <workItem from="1590069415751" duration="1325000" />
+      <workItem from="1590164481262" duration="5000" />
+      <workItem from="1590339304545" duration="23000" />
+      <workItem from="1590615701227" duration="10000" />
+      <workItem from="1590786349649" duration="518000" />
+      <workItem from="1590992777471" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="709" y="329" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590992789404">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="709" y="329" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1590992789404" />
+    <state x="2075" y="310" width="424" height="484" key="FileChooserDialogImpl/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1590069409200" />
+    <state width="862" height="252" key="GridCell.Tab.0.bottom" timestamp="1590151878093">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="862" height="252" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1590151878093" />
+    <state width="862" height="252" key="GridCell.Tab.0.center" timestamp="1590151878093">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="862" height="252" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1590151878093" />
+    <state width="862" height="252" key="GridCell.Tab.0.left" timestamp="1590151878093">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="862" height="252" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1590151878093" />
+    <state width="862" height="252" key="GridCell.Tab.0.right" timestamp="1590151878093">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="862" height="252" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1590151878093" />
+    <state width="862" height="252" key="GridCell.Tab.1.bottom" timestamp="1590151878092">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="862" height="252" key="GridCell.Tab.1.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1590151878092" />
+    <state width="862" height="252" key="GridCell.Tab.1.center" timestamp="1590151878092">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="862" height="252" key="GridCell.Tab.1.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1590151878092" />
+    <state width="862" height="252" key="GridCell.Tab.1.left" timestamp="1590151878092">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="862" height="252" key="GridCell.Tab.1.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1590151878092" />
+    <state width="862" height="252" key="GridCell.Tab.1.right" timestamp="1590151878092">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="862" height="252" key="GridCell.Tab.1.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1590151878092" />
+  </component>
+</project>

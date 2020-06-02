@@ -112,6 +112,10 @@ t_ways *check_ant_in_way(t_ways *ways, t_struct *all)
  * А когда пути заканчиваются, то обновляем голову лситов путей.
  */
 
+/*
+ *
+ */
+
 void		gen_cycle(t_ways *head, t_struct *all)
 {
 	t_ways 	*copyWays;
@@ -124,7 +128,7 @@ void		gen_cycle(t_ways *head, t_struct *all)
 	copyWays = head;
 	expression(head);
 	ft_printf("\n");
-//	printRecordWay(head);
+	//printRecordWay(head);
 	while (all->end->ant != all->ant)
 	{
 		while (copyWays)

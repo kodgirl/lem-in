@@ -103,7 +103,7 @@ void		error_print(t_struct *all)
 	else if (all->error == 3)
 	{
 		free_lem_in(all, NULL, NULL, NULL);
-		write(1, "\nERROR: invalid records of links and rooms\n", 40);
+		write(1, "\nERROR: invalid records of links and rooms.\n", 45);
 		exit(0);
 	}
 	else if (all->error == 4)
@@ -114,11 +114,10 @@ void		error_print(t_struct *all)
 	}
 }
 
-// FIXME не воспринимает комнату с с символами '-' в названии комнаты независимо от кол-ва символов.
-// FIXME пропускает стартовую комнату.
 // FIXME когда нет муравьёв вообще, то пропускает. Когда пустая линия вместо кол-ва муравьёв, то тоже пропускает без реакции. Должен выдавать ошибку.
 // FIXME когда муравьёв 0, то тоже нет реакции.
-
+// FIXME когда нет муравьёв, то говорит, что неправильные пути или комнаты.
+// FIXME сделать обработку комнат с символом "-", чтобы обработал нормально как обычные комнаты. Можно найти у Саши в links_addm doubleminus
 int		parser(t_struct *all, char *line, char **split)
 {
 	int			size;

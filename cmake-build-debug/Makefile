@@ -3390,6 +3390,33 @@ src/recorder_way.c.s:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/recorder_way.c.s
 .PHONY : src/recorder_way.c.s
 
+src/solution.o: src/solution.c.o
+
+.PHONY : src/solution.o
+
+# target to build an object file
+src/solution.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/solution.c.o
+.PHONY : src/solution.c.o
+
+src/solution.i: src/solution.c.i
+
+.PHONY : src/solution.i
+
+# target to preprocess a source file
+src/solution.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/solution.c.i
+.PHONY : src/solution.c.i
+
+src/solution.s: src/solution.c.s
+
+.PHONY : src/solution.s
+
+# target to generate assembly for a file
+src/solution.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/solution.c.s
+.PHONY : src/solution.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -3762,6 +3789,9 @@ help:
 	@echo "... src/recorder_way.o"
 	@echo "... src/recorder_way.i"
 	@echo "... src/recorder_way.s"
+	@echo "... src/solution.o"
+	@echo "... src/solution.i"
+	@echo "... src/solution.s"
 .PHONY : help
 
 

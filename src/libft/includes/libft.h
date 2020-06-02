@@ -145,7 +145,7 @@ char				**ft_strsplit_unescaped(char const *s, char c,\
 /*
 ** Prefix tree data structure
 ** key - value pairs, keys are strings, values - *void
-** value must be freeable (TODO: arbitrary)
+** value must be freeable
 **
 ** NULL value means lack of value
 ** If no children and no value, we can delete a node and check parent
