@@ -44,6 +44,7 @@ t_edge	*malloc_edge(void)
 	if ((edge = (t_edge *)malloc(sizeof(t_edge))))
 	{
 		ft_bzero(edge, sizeof(t_edge));
+		edge->cost = 0;
 		return (edge);
 	}
 	return (NULL);
@@ -58,21 +59,40 @@ t_edge	*malloc_edge(void)
 
 int		add_edge_to_room(t_room *room, t_edge *edge)
 {
-	t_edge	*tmp;
+	t_edge *runner;
 
-	tmp = room->edge;
-	while (tmp && tmp->next)
+	runner = room->edge;
+	while (runner && runner->next)
 	{
-		if (tmp->room == edge->room)
+		if (runner == edge->room)
 			return (0);
-		tmp = tmp->next;
+		runner = runner->next;
 	}
-	if (tmp)
-		tmp->next = edge;
-	else
+	if (room->edge && edge)
+	{
+		edge->next = room->edge;
+		room->edge = edge;
+	}
+	if (!room->edge)
 		room->edge = edge;
 	return (1);
 }
+
+//	t_edge	*edge_runner;
+//
+//	tmp = room->edge;
+//	while (tmp && tmp->next)
+//	{
+//		if (tmp->room == edge->room)
+//			return (0);
+//		tmp = tmp->next;
+//	}
+//	if (tmp)
+//		tmp->next = edge;
+//	else
+//		room->edge = edge;
+//	return (1);
+
 
 /*
 ** rooms1 and rooms2 - rooms than to create edge between them.
@@ -106,8 +126,8 @@ int		read_link(t_struct *all, char **split, t_room *room1, t_room *room2)
 			all->error = 3;
 		if (add_edge_to_room(room2, edg2) == 0)
 			all->error = 3;
-		edg1->cost = 1;
-		edg2->cost = 1;
+		edg1->cost = 0;
+		edg2->cost = 0;
 		return (1);
 	}
 	else

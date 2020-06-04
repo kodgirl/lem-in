@@ -51,7 +51,7 @@ void	print_all_rooms(t_struct *all)
 	}
 }
 
-void 		printRecordWay(t_ways *head_wayS)
+void 		printRecordWayS(t_ways *head_wayS)
 {
 	int 	i;
 	t_ways	*wayS;
@@ -71,6 +71,22 @@ void 		printRecordWay(t_ways *head_wayS)
 	}
 	ft_printf("\n%d ways", i );
 }
+
+void 	printRecordWay(t_way *way)
+{
+	t_way 	*runner_way;
+
+	runner_way = way;
+	while (way)
+	{
+		if (runner_way->next == NULL)
+			ft_printf("%s", runner_way->room->name);
+		else
+			ft_printf("%s -> ", runner_way->room->name);
+		runner_way = runner_way->next;
+	}
+}
+
 
 void	write_order(t_order *order, t_struct *all)
 {

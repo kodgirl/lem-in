@@ -131,7 +131,7 @@ int			check_end_start(t_struct *all);
 //** Record way function
 //*/
 //
-//t_way		*record_way(t_struct *all, t_way *HeadWay, t_way *way, t_room *room);
+t_way		*record_way(t_struct *all, t_way *HeadWay, t_way *way, t_room *room);
 //t_way		*FixVisitRooms(t_way *way, t_way *tmpWay, t_edge *tmpEdge, t_room *room);
 //t_way		*invert_way(t_way *way, t_way *curr, t_way *next, t_way *prev);
 //
@@ -144,14 +144,14 @@ int			check_end_start(t_struct *all);
 //
 //void	write_order(t_order *order, t_struct *all);
 //void	del_double_massive(char **str);
-//void 	printRecordWay(t_ways *head_wayS);
-//void 	printRecordWay(t_ways *head_wayS);
+void 	printRecordWay(t_way *way);
+void 	printRecordWayS(t_ways *head_wayS);
 
 /*
  * New solution
  */
 void 	*solution(t_struct *all);
-int 	bfs(t_struct *all);
+t_way 	*bfs(t_struct *all);
 
 
 #endif

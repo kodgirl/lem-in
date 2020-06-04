@@ -10,7 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "../includes/lem_in.h"
+#include "../includes/lem_in.h"
+#include <limits.h>
 
 // FIXME Что делаем, когда приходит аргумент с символом -- в имени. Выходит ошибка, когда устанавливается путь
 
@@ -36,6 +37,7 @@ void	door_to_room(t_room *room, t_struct *all, int i)
 		else
 			all->end = room;
 		all->end_flag = 1;
+		all->end->visit = INT_MAX;
 	}
 }
 

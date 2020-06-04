@@ -14,6 +14,8 @@
 
 //TODO узнать как правильно понять требование The program accepts ant-farms with commands other than ##start ##end.
 
+//TODO вместо поворачивания списка комнат в отдельной функции, лучше комнаты в путь добавлять через go_from в начало это списка, сдвигая лежащую там комнату.
+
 int		main(int ac, char **av)
 {
 	t_struct	all;
