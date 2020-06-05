@@ -13,7 +13,6 @@
 #ifndef LEM_IN_H
 # define LEM_IN_H
 
-//# include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
 # include <fcntl.h>
@@ -43,6 +42,7 @@ typedef struct		s_room
 	struct s_edge	*edge;
 	struct s_room	*go_from;
 	int 			ant;
+	short 			in_way;
 }					t_room;
 
 
@@ -152,7 +152,7 @@ void		free_order(t_order *head_order, t_order *tmp);
 */
 
 t_way		*record_way(t_struct *all, t_way *HeadWay, t_way *way, t_room *room);
-t_way		*FixVisitRooms(t_way *way, t_way *tmpWay, t_edge *tmpEdge, t_room *room);
+t_way		*mark_used_edges(t_way *way, t_way *tmpWay, t_edge *tmpEdge, t_room *room);
 t_way		*invert_way(t_way *way, t_way *curr, t_way *next, t_way *prev);
 
 /*

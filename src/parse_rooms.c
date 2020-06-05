@@ -37,6 +37,7 @@ t_room	*malloc_room(char **split)
 			free(rm);
 			return (NULL);
 		}
+		rm->in_way = 0;
 		return (rm);
 	}
 	else

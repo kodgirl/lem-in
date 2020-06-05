@@ -56,8 +56,8 @@ t_edge	*malloc_edge(void)
 ** But if found the same edge - returning signal of error;
 */
 
-int		add_edge_to_room(t_room *room, t_edge *edge)
-{
+/*
+ * {
 	t_edge	*tmp;
 
 	tmp = room->edge;
@@ -73,12 +73,35 @@ int		add_edge_to_room(t_room *room, t_edge *edge)
 		room->edge = edge;
 	return (1);
 }
+ */
+
+int		add_edge_to_room(t_room *room, t_edge *new_edge)
+{
+	t_edge *edge_runner;
+
+	edge_runner = room->edge;
+
+	if (!room->edge)
+	{
+		room->edge = new_edge;
+		return (1);
+	}
+	while (edge_runner)
+	{
+		if (edge_runner->room == new_edge->room)
+			return (0);
+		edge_runner = edge_runner->next;
+	}
+	new_edge->next = room->edge;
+	room->edge = new_edge;
+	return (1);
+}
 
 /*
 ** rooms1 and rooms2 - rooms than to create edge between them.
 ** Find two vertex names in our list [0] and [1];
 ** edg1 and edg2 are for create edge without orientations.
-** If rooms found - allocating memmory for edge of room1 to room2
+** If rooms found - allocating memory for edge of room1 to room2
 ** and vice versa;
 ** Adding edges to structure of room. That's all.
 */

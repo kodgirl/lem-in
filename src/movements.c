@@ -62,6 +62,12 @@ void		walking_ants(t_ways *wayS, int *antsRemain, int *antsCurrent, t_struct *al
 	{
 		if (copyWay->room == all->end)
 			break;
+		else if (copyWay->room == all->start && copyWay->next->room == all->end)
+		{
+			copyWay->room->ant--;
+			copyWay->next->room->ant++;
+			ft_printf("L%d-%s", copyWay->next->room->ant, copyWay->next->room->name);
+		}
 		else if (copyWay->room->ant && copyWay->next->room == all->end)
 		{
 				ft_printf("L%d-%s ", copyWay->room->ant, copyWay->next->room->name);
@@ -134,6 +140,5 @@ void		gen_cycle(t_ways *head, t_struct *all)
 		}
 		ft_printf("\n");
 		copyWays = head;
-//		head = check_ant_in_way(head, all);
 	}
 }
