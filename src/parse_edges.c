@@ -56,25 +56,6 @@ t_edge	*malloc_edge(void)
 ** But if found the same edge - returning signal of error;
 */
 
-/*
- * {
-	t_edge	*tmp;
-
-	tmp = room->edge;
-	while (tmp && tmp->next)
-	{
-		if (tmp->room == edge->room)
-			return (0);
-		tmp = tmp->next;
-	}
-	if (tmp)
-		tmp->next = edge;
-	else
-		room->edge = edge;
-	return (1);
-}
- */
-
 int		add_edge_to_room(t_room *room, t_edge *new_edge)
 {
 	t_edge *edge_runner;
@@ -129,8 +110,8 @@ int		read_link(t_struct *all, char **split, t_room *room1, t_room *room2)
 			all->error = 3;
 		if (add_edge_to_room(room2, edg2) == 0)
 			all->error = 3;
-		edg1->cost = 1;
-		edg2->cost = 1;
+		edg1->cost = 0;
+		edg2->cost = 0;
 		return (1);
 	}
 	else

@@ -32,9 +32,7 @@ int		main(int ac, char **av)
 	{
         if (!parser(&all, NULL, NULL))
 			return (0);
-		i = ft_solution(&all, NULL, NULL, NULL);
-		if (i)
-			exit (1); // Распечатай ошибку и освободи всё.
+		start_actions(&all);
         exit(0);
     }
 	return (0);

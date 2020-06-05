@@ -64,7 +64,7 @@ void 		printRecordWay(t_ways *head_wayS)
 			ft_printf("%s->", wayS->way->room->name);
 			wayS->way = wayS->way->next;
 		}
-		ft_printf("\tlong: %d", wayS->vtx_qn);
+		ft_printf("\tlong: %d", wayS->rm_qn);
 		ft_printf("\n");
 		wayS = wayS->next;
 		i++;
