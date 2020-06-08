@@ -1,15 +1,10 @@
 #include "../includes/lem_in.h"
 
-void free_orders_rooms(t_order *clean_order)
-{
-	t_order *tmp;
-	while (clean_order)
-	{
-		tmp = clean_order;
-		clean_order = clean_order->next;
-		free(tmp);
-	}
-}
+/*
+ * Function of free orders lists.
+ */
+
+
 
 t_order *allocate_orders_list(t_room *start_room)
 {
@@ -21,6 +16,13 @@ t_order *allocate_orders_list(t_room *start_room)
 	new_orders_list->room = start_room;
 	return (new_orders_list);
 }
+
+/*
+ * allocating memory to new list of order and
+ * put new room to the orders list.
+ * After it - adding new list by the end of orders
+ * lists.
+ */
 
 void 	add_room(t_order *order, t_room *new_room)
 {
@@ -34,6 +36,21 @@ void 	add_room(t_order *order, t_room *new_room)
 	orders_runner->next = new_orders_list;
 }
 
+/*
+ * Checking - if next rooms is finish room, function
+ * marking in go_from pointer of room where did it come from and marking
+ * like visited room and returning one than to break
+ * process of reading edges and reading next room.
+ * If it's not finish room, function checking next terms:
+ * 1. this edge did not use early AND
+ * 2. Rooms of the edge don't visited. AND
+ * 3. This room don't include to the other saved way.
+ * If all terms are true, function adding this room to
+ * order, marking in go_from in pointer where did it come
+ * from and marking this room like visited than don't
+ * add in future. Returning zero than to continue read edges.
+ */
+
 int 	read_edges_room(t_edge *edge, t_order *order, t_struct *all)
 {
 	t_room *next_room;
@@ -41,7 +58,7 @@ int 	read_edges_room(t_edge *edge, t_order *order, t_struct *all)
 
 	edges_runner = edge;
 	next_room = edges_runner->room;
-	if (next_room == all->end)
+	if (next_room == all->end && !next_room->visit)
 	{
 		next_room->go_from = order->room;
 		next_room->visit = 1;
@@ -55,6 +72,17 @@ int 	read_edges_room(t_edge *edge, t_order *order, t_struct *all)
 	}
 	return (0);
 }
+
+/*
+ * Allocationg memory for order and put to order start room.
+ * Marking start room like visited than later don't add to
+ * order.
+ * Launching cycle of orders contains rooms.
+ * If current room in order is finish room - breaking process,
+ * because way found.
+ * Next step is reading edges of current room and adding edges
+ * rooms to order if this edge did not used in past.
+ */
 
 int 	bfs(t_struct *all)
 {
@@ -72,15 +100,17 @@ int 	bfs(t_struct *all)
 		read_edges = order->room->edge;
 		while (read_edges)
 		{
-			if (read_edges->cost == 1)
-				read_edges = read_edges->next;
-			if (read_edges_room(read_edges, order, all))
-				break;
+			if (!read_edges->cost) {
+				if (read_edges_room(read_edges, order, all))
+					break;
+			}
 			read_edges = read_edges->next;
 		}
 		order = order->next;
 	}
-	free_orders_rooms(clean_order);
-	return (1);
+	free_order(clean_order);
+	if (all->end->go_from)
+		return (1);
+	return (NULL);
 }
 

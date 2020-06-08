@@ -1,4 +1,4 @@
-# Install script for directory: /home/dpenney/Desktop/original_lem_in
+# Install script for directory: /home/dpenney/Desktop/rewriting_lem_in
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dpenney/Desktop/original_lem_in/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dpenney/Desktop/rewriting_lem_in/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

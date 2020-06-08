@@ -1,20 +1,6 @@
 #include "../includes/lem_in.h"
 
 /*
-** For free bfs's order.
-*/
-
-void	free_order(t_order *head_order, t_order *tmp)
-{
-	while (head_order)
-	{
-		tmp = head_order;
-		head_order = head_order->next;
-		free(tmp);
-	}
-}
-
-/*
 ** Next functions for print other processes.
 */
 

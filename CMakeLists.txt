@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(lem_in C)
+project(rewriting_lem_in C)
 
 set(CMAKE_C_STANDARD 11)
 
@@ -8,7 +8,7 @@ include_directories(src/libft/ft_printf)
 include_directories(src/libft/ftoa)
 include_directories(src/libft/includes)
 
-add_executable(lem_in
+add_executable(rewriting_lem_in
         includes/lem_in.h
         src/libft/ft_printf/apply_spec.c
         src/libft/ft_printf/apply_spec.h
@@ -130,13 +130,12 @@ add_executable(lem_in
         src/libft/get_next_line.c
         src/bfs.c
         src/equal_rooms.c
-        src/ft_solution.c
         src/instruments.c
         src/liba.c
         src/main.c
-        src/movements.c
         src/parse_edges.c
         src/parse_rooms.c
         src/parser.c
         src/parsers_utilits.c
-        src/recorder_way.c)
+        src/start_actions.c
+        src/record_way.c src/marking_and_clearing.c src/utilits.c src/record_ways_to_array.c src/ants_movement.c)
