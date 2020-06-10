@@ -111,6 +111,6 @@ int 	bfs(t_struct *all)
 	free_order(clean_order);
 	if (all->end->go_from)
 		return (1);
-	return (NULL);
+	return (0);
 }
 

@@ -72,16 +72,16 @@ typedef struct		s_edge
 
 typedef struct		s_struct
 {
-	int					ant;
-	t_room				*room;
-	t_room				*start;
-	t_room				*end;
-	short 				rm_count;
-	short				error;
-	short				start_flag;
-	short				end_flag;
-	short				ant_flag;
-	short				link_flag;
+	int				ant;
+	t_room			*room;
+	t_room			*start;
+	t_room			*end;
+	int 			rm_count;
+	int				error;
+	short			start_flag;
+	short			end_flag;
+	short			ant_flag;
+	short			link_flag;
 }					t_struct;
 
 typedef struct      s_way
@@ -102,54 +102,45 @@ typedef struct      s_ways
 {
     t_way           *way;
 	unsigned		rm_qn;
-	int 			expression;
+	int calc;
 	t_room			**way_in_arr;
 	struct s_ways   *next;
 }                   t_ways;
 
+int					parser(t_struct *all, char *line, char **split);
+void				read_ant(char *line, t_struct *all);
+char				**is_room(char *line);
+char				**is_link(char *line);
+int					is_door(char *line);
+int				    f_atoi(char *str, int *error);
+int 			    array_len(char **str);
+int				    read_room(t_struct *all, char **split);
+int					read_link(t_struct *all, char **split, t_room *room1, t_room *room2);
+int				    room_validation(t_room *room, t_room *flat);
+void    		    free_lem_in(t_struct *all, t_room *tmp_rooms, t_room *tmp_rooms2, t_edge *tmp_edges2);
+void				ft_free_split(char **for_free);
+void				error_print(t_struct *all);
+int					check_end_start(t_struct *all);
+
 /*
- * FIXME change names of structure;
+** Functions of find ways and print results
 */
 
-typedef struct		s_sum
-{
-	int				number_of_ants;
-	int				sum_steps_all_ways;
-	int				number_of_ways;
-	int				result;
-	int				str_sum;
-}					t_calc;
-
-int			parser(t_struct *all, char *line, char **split);
-void		read_ant(char *line, t_struct *all);
-char		**is_room(char *line);
-char		**is_link(char *line);
-int			is_door(char *line);
-int		    f_atoi(char *str, int *error);
-int 	    array_len(char **str);
-int		    read_room(t_struct *all, char **split);
-int			read_link(t_struct *all, char **split, t_room *room1, t_room *room2);
-int		    room_validation(t_room *room, t_room *flat);
-void        free_lem_in(t_struct *all, t_room *tmp_rooms, t_room *tmp_rooms2, t_edge *tmp_edges2);
-void        ft_free_split(char **for_free);
-void		error_print(t_struct *all);
-int			check_end_start(t_struct *all);
-
-int			start_actions(t_struct *all);
-t_ways 		*record_ways(t_struct *all);
-t_way		*processing_way(t_struct *all, t_room *last_room, t_way *new_way);
-t_way 		*add_room_to_way(t_room *room, t_way *new_way, t_struct *all);
-int 		calc_rooms_in_way(t_way *way);
-void 		annual_rooms_vars(t_struct *all);
+int					start_actions(t_struct *all);
+t_ways 				*record_ways(t_struct *all);
+t_way				*processing_way(t_struct *all, t_room *last_room, t_way *new_way);
+t_way 				*add_room_to_way(t_room *room, t_way *new_way, t_struct *all);
+int 				calc_rooms_in_way(t_way *way);
+void 				annual_rooms_vars(t_struct *all);
 
 /*
  * Next functions of bfs regulation
  */
 
-int			bfs(t_struct *all);
-int			read_edges_room(t_edge *edge, t_order *order, t_struct *all);
-void		add_room(t_order *order, t_room *new_room);
-t_order		*allocate_orders_list(t_room *start_room);
+int					bfs(t_struct *all);
+int					read_edges_room(t_edge *edge, t_order *order, t_struct *all);
+void				add_room(t_order *order, t_room *new_room);
+t_order				*allocate_orders_list(t_room *start_room);
 
 
 /*
@@ -157,19 +148,24 @@ t_order		*allocate_orders_list(t_room *start_room);
  * in new way and clear variable visited than to start bfs again.
  */
 
-void 		annual_rooms_vars(t_struct *all);
-void 		mark_used_rooms(t_struct *all, t_way *way);
-void 		mark_used_edges(t_struct *all, t_way *way);
-void		preparing_to_bfs(t_struct *all, t_way *way);
-void		free_order(t_order *clean_order);
-t_room		**record_to_array(t_way *way, int quantity);
+void 				annual_rooms_vars(t_struct *all);
+void 				mark_used_rooms(t_struct *all, t_way *way);
+void 				mark_used_edges(t_struct *all, t_way *way);
+void				preparing_to_bfs(t_struct *all, t_way *way);
+void				free_order(t_order *clean_order);
+t_room				**record_to_array(t_way *way, int quantity);
 
-void 		ants_movement(t_ways *all_ways, t_struct *all);
+/*
+ * Functions for printing results
+ */
+
+void 				ants_movement(t_ways *all_ways, t_struct *all);
+void		 		ways_expressions(t_ways *ways, t_struct *all);
 
 /*
  * Utilits
  */
 
-void 	print_way(t_room **arr);
+void 				print_way(t_room **arr);
 
 #endif

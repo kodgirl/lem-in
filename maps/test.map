@@ -1,0 +1,23 @@
+14
+##start
+A 4 2
+B 4 3
+C 4 4
+D 4 5
+E 4 6
+X 4 8
+Y 4 9
+Z 4 10
+##end
+F 4 7
+A-B
+A-C
+A-X
+X-Y
+Y-Z
+Z-F
+B-D
+C-D
+C-E
+E-F
+D-F

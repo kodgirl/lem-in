@@ -12,4 +12,5 @@ void 	print_way(t_room **arr)
 		ft_printf("%s -> ", arr[i]->name);
 		i++;
 	}
+	ft_putchar('\n');
 }

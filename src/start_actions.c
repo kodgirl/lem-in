@@ -6,7 +6,10 @@ int 	start_actions(t_struct *all)
 
 	ways = NULL;
 	if (ways = record_ways(all))
+	{
+		ways_expressions(ways, all);
 		ants_movement(ways, all);
-
+	}
 	return (0);
+
 }

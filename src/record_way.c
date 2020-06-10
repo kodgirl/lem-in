@@ -43,6 +43,26 @@ t_way	*processing_way(t_struct *all, t_room *last_room, t_way *new_way)
 	return (new_way);
 }
 
+void 		free_void_list(t_ways *all_ways)
+{
+	t_ways *runner;
+	t_ways *tmp;
+
+	runner = all_ways;
+	while (runner)
+	{
+		if (runner->way == NULL)
+		{
+			free(runner);
+			tmp->next = NULL;
+			break;
+		}
+		tmp = runner;
+		runner = runner->next;
+	}
+}
+
+
 /*
  * TODO Free found ways in lists
  */
@@ -69,8 +89,12 @@ t_ways 	*record_ways(t_struct *all)
 		all_ways = all_ways->next;
 		preparing_to_bfs(all, way);
 	}
+	free_void_list(head_of_ways);
 	if (head_of_ways->rm_qn)
 		return(head_of_ways);
 	else
-		error_print("Ways not found");
+	{
+		ft_printf("ERROR: Ways not found.");
+		exit(-1);
+	}
 }

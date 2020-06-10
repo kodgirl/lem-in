@@ -6,7 +6,7 @@
 
 void	read_ant(char *line, t_struct *all)
 {
-	all->ant = f_atoi(line, &(all->error));
+	all->ant = f_atoi(line, &all->error);
 }
 
 /*

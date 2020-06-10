@@ -13,17 +13,20 @@
 NAME = lem-in
 
 SRC =	src/main.c\
-		src/parser.c\
+		src/ants_movement.c\
+		src/bfs.c\
+		src/equal_rooms.c\
+		src/instruments.c\
 		src/liba.c\
+		src/marking_and_clearing.c\
 		src/parse_edges.c\
 		src/parse_rooms.c\
+		src/parser.c\
 		src/parsers_utilits.c\
-		src/ft_solution.c\
-		src/equal_rooms.c\
-		src/bfs.c\
-		src/recorder_way.c\
-		src/movements.c\
-		src/instruments.c\
+		src/record_way.c\
+		src/record_ways_to_array.c\
+		src/start_actions.c\
+		src/utilits.c\
 
 INCL = includes/lem_in.h 
 

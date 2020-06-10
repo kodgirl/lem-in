@@ -93,7 +93,7 @@ void		error_print(t_struct *all)
 {
 	if (all->error == 1) {
 		free_lem_in(all, NULL, NULL, NULL);
-		write(1, "\nERROR: invalid number of ants. [1 - 2147483647]\n", 55);
+		write(1, "\nERROR: invalid number of ants. [1 - 2147483647].\n", 55);
 		exit(0);
 	} else if (all->error == 2) {
 		free_lem_in(all, NULL, NULL, NULL);
@@ -103,7 +103,7 @@ void		error_print(t_struct *all)
 	else if (all->error == 3)
 	{
 		free_lem_in(all, NULL, NULL, NULL);
-		write(1, "\nERROR: invalid records of links and rooms\n", 40);
+		write(1, "\nERROR: invalid records of links and rooms or ants.\n", 52);
 		exit(0);
 	}
 	else if (all->error == 4)
