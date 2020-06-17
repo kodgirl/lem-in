@@ -12,5 +12,6 @@ void 	print_way(t_room **arr)
 		ft_printf("%s -> ", arr[i]->name);
 		i++;
 	}
+	ft_printf("\nLength of the way is %d\n", i);
 	ft_putchar('\n');
 }

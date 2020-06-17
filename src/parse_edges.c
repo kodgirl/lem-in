@@ -28,7 +28,8 @@ t_room	*search_room_name(char *name, t_struct *all)
 			return (tmp);
 		tmp = tmp->next;
 	}
-	all->error = 3;
+	if (!all->error)
+		all->error = 3;
 	return (NULL);
 }
 
