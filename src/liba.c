@@ -100,7 +100,7 @@ int		    f_atoi(char *str, int *error)
 		str++;
 	}
 	if (*str != '\0')
-		*error = 1;
+		*error = ERROR_ANTS;
 	return (a * b);
 }
 

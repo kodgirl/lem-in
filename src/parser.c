@@ -53,7 +53,7 @@ int		read_door(t_struct *all, int i, char *line, char **split)
 			door_to_room(all->room, all, i);
 		}			
 		else
-			all->error = 4;
+			all->error = ERROR_RECORD_START_FINISH;
 		free(line);
 	}
 	if (split)
@@ -93,24 +93,29 @@ void		error_print(t_struct *all)
 {
 	if (all->error == 1) {
 		free_lem_in(all, NULL, NULL, NULL);
-		write(1, "\nERROR: invalid number of ants. [1 - 2147483647].\n", 55);
-		exit(0);
+		write(1, "\nERROR: invalid number of ants. [1 - 2147483647].\n", 52);
+		exit(-1);
 	} else if (all->error == 2) {
 		free_lem_in(all, NULL, NULL, NULL);
-		write(1, "\nERROR: invalid records of rooms \n", 50);
-		exit(0);
+		write(1, "\nERROR: invalid records of rooms \n", 36);
+		exit(-1);
 	}
 	else if (all->error == 3)
 	{
 		free_lem_in(all, NULL, NULL, NULL);
-		write(1, "\nERROR: invalid records of links and rooms or ants.\n", 52);
-		exit(0);
+		write(1, "\nERROR: invalid records of links\n", 35);
+		exit(-1);
 	}
 	else if (all->error == 4)
 	{
 		free_lem_in(all, NULL, NULL, NULL);
-		write(1,"\nERROR: invalid records of doors.", 40);
-		exit(0);
+		write(1,"\nERROR: invalid records of doors.", 34);
+		exit(-1);
+	}
+	else if (all->error == ERROR_WAYS_NOT_FOUND)
+	{
+		write(1, "\nERROR: Ways not found.", 22);
+		exit(-1);
 	}
 }
 

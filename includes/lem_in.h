@@ -30,6 +30,14 @@
 ** 1: 3->4 // vertex 1 have edge with 2 and 4 ...
 */
 
+//TODO распиши здесь все коды ошибки и вызывай ошибки не по номеру, а по определенным здесь константам
+
+#define ERROR_ANTS 1
+#define ERROR_READ_ROOMS 2
+#define ERROR_INVALID_LINKS 3
+#define ERROR_RECORD_START_FINISH 4
+#define ERROR_WAYS_NOT_FOUND 5
+
 typedef struct		s_room
 {
 	char	        *name;

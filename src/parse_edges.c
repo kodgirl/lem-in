@@ -29,7 +29,7 @@ t_room	*search_room_name(char *name, t_struct *all)
 		tmp = tmp->next;
 	}
 	if (!all->error)
-		all->error = 3;
+		all->error = ERROR_INVALID_LINKS;
 	return (NULL);
 }
 

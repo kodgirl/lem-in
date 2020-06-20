@@ -76,6 +76,6 @@ int		read_room(t_struct *all, char **split)
 		free(rm);
 	}
 	if (!all->error)
-		all->error = 2;
+		all->error = ERROR_READ_ROOMS;
 	return (0);
 }
