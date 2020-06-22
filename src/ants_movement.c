@@ -115,7 +115,7 @@ void		ants_movement(t_ways *ways, t_struct *all)
 	ft_putchar('\n');
 	while (all->ant != all->end->ant)
 	{
-		while (ways && ways->next)
+		while (ways)
 		{
 			movement(ways, &current_ant, &remain_ants);
 			ways = ways->next;

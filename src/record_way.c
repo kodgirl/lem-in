@@ -94,7 +94,7 @@ t_ways 	*record_ways(t_struct *all)
 		return(head_of_ways);
 	else
 	{
-		all->error = ERROR_WAYS_NOT_FOUND
+		all->error = ERROR_WAYS_NOT_FOUND;
 //		ft_printf("ERROR: Ways not found.");
 //		exit(-1);
 	}
