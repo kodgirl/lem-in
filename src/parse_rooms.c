@@ -25,7 +25,7 @@ t_room	*malloc_room(char **split)
 	int		error;
 	
 	error = 0;
-	if ((rm = (t_room*)malloc(sizeof(t_room))))
+	if ((rm = (t_room *)malloc(sizeof(t_room))))
 	{
 		ft_bzero(rm, sizeof(t_room));
 		rm->name = ft_strdup(split[0]);

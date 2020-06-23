@@ -22,6 +22,13 @@ CMakeFiles/rewriting_lem_in.dir/src/equal_rooms.c.o: ../src/libft/includes/bbtre
 CMakeFiles/rewriting_lem_in.dir/src/equal_rooms.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/equal_rooms.c.o: ../src/libft/includes/libft.h
 
+CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o: ../includes/lem_in.h
+CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o: ../src/free_sources.c
+CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o: ../src/libft/ft_printf/printf.h
+CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o: ../src/libft/includes/bbtree_utils.h
+CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o: ../src/libft/includes/ft_ptree.h
+CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o: ../src/libft/includes/libft.h
+
 CMakeFiles/rewriting_lem_in.dir/src/instruments.c.o: ../includes/lem_in.h
 CMakeFiles/rewriting_lem_in.dir/src/instruments.c.o: ../src/instruments.c
 CMakeFiles/rewriting_lem_in.dir/src/instruments.c.o: ../src/libft/ft_printf/printf.h
@@ -604,6 +611,13 @@ CMakeFiles/rewriting_lem_in.dir/src/parsers_utilits.c.o: ../src/libft/includes/b
 CMakeFiles/rewriting_lem_in.dir/src/parsers_utilits.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/parsers_utilits.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/parsers_utilits.c.o: ../src/parsers_utilits.c
+
+CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o: ../includes/lem_in.h
+CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o: ../src/libft/ft_printf/printf.h
+CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o: ../src/libft/includes/bbtree_utils.h
+CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o: ../src/libft/includes/ft_ptree.h
+CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o: ../src/libft/includes/libft.h
+CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o: ../src/print_strings.c
 
 CMakeFiles/rewriting_lem_in.dir/src/record_way.c.o: ../includes/lem_in.h
 CMakeFiles/rewriting_lem_in.dir/src/record_way.c.o: ../src/libft/ft_printf/printf.h

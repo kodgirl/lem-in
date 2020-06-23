@@ -1669,6 +1669,32 @@ CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/rewriting_lem_in/src/ants_movement.c -o CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.s
 
+CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o: CMakeFiles/rewriting_lem_in.dir/flags.make
+CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o: ../src/print_strings.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/rewriting_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o   -c /home/dpenney/Desktop/rewriting_lem_in/src/print_strings.c
+
+CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/rewriting_lem_in/src/print_strings.c > CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.i
+
+CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/rewriting_lem_in/src/print_strings.c -o CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.s
+
+CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o: CMakeFiles/rewriting_lem_in.dir/flags.make
+CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o: ../src/free_sources.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/rewriting_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o   -c /home/dpenney/Desktop/rewriting_lem_in/src/free_sources.c
+
+CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/rewriting_lem_in/src/free_sources.c > CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.i
+
+CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/rewriting_lem_in/src/free_sources.c -o CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.s
+
 # Object files for target rewriting_lem_in
 rewriting_lem_in_OBJECTS = \
 "CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec.c.o" \
@@ -1794,7 +1820,9 @@ rewriting_lem_in_OBJECTS = \
 "CMakeFiles/rewriting_lem_in.dir/src/marking_and_clearing.c.o" \
 "CMakeFiles/rewriting_lem_in.dir/src/utilits.c.o" \
 "CMakeFiles/rewriting_lem_in.dir/src/record_ways_to_array.c.o" \
-"CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o"
+"CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o" \
+"CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o" \
+"CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o"
 
 # External object files for target rewriting_lem_in
 rewriting_lem_in_EXTERNAL_OBJECTS =
@@ -1923,9 +1951,11 @@ rewriting_lem_in: CMakeFiles/rewriting_lem_in.dir/src/marking_and_clearing.c.o
 rewriting_lem_in: CMakeFiles/rewriting_lem_in.dir/src/utilits.c.o
 rewriting_lem_in: CMakeFiles/rewriting_lem_in.dir/src/record_ways_to_array.c.o
 rewriting_lem_in: CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o
+rewriting_lem_in: CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o
+rewriting_lem_in: CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o
 rewriting_lem_in: CMakeFiles/rewriting_lem_in.dir/build.make
 rewriting_lem_in: CMakeFiles/rewriting_lem_in.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dpenney/Desktop/rewriting_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Linking C executable rewriting_lem_in"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dpenney/Desktop/rewriting_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Linking C executable rewriting_lem_in"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rewriting_lem_in.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

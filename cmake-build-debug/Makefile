@@ -204,6 +204,33 @@ src/equal_rooms.c.s:
 	$(MAKE) -f CMakeFiles/rewriting_lem_in.dir/build.make CMakeFiles/rewriting_lem_in.dir/src/equal_rooms.c.s
 .PHONY : src/equal_rooms.c.s
 
+src/free_sources.o: src/free_sources.c.o
+
+.PHONY : src/free_sources.o
+
+# target to build an object file
+src/free_sources.c.o:
+	$(MAKE) -f CMakeFiles/rewriting_lem_in.dir/build.make CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o
+.PHONY : src/free_sources.c.o
+
+src/free_sources.i: src/free_sources.c.i
+
+.PHONY : src/free_sources.i
+
+# target to preprocess a source file
+src/free_sources.c.i:
+	$(MAKE) -f CMakeFiles/rewriting_lem_in.dir/build.make CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.i
+.PHONY : src/free_sources.c.i
+
+src/free_sources.s: src/free_sources.c.s
+
+.PHONY : src/free_sources.s
+
+# target to generate assembly for a file
+src/free_sources.c.s:
+	$(MAKE) -f CMakeFiles/rewriting_lem_in.dir/build.make CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.s
+.PHONY : src/free_sources.c.s
+
 src/instruments.o: src/instruments.c.o
 
 .PHONY : src/instruments.o
@@ -3363,6 +3390,33 @@ src/parsers_utilits.c.s:
 	$(MAKE) -f CMakeFiles/rewriting_lem_in.dir/build.make CMakeFiles/rewriting_lem_in.dir/src/parsers_utilits.c.s
 .PHONY : src/parsers_utilits.c.s
 
+src/print_strings.o: src/print_strings.c.o
+
+.PHONY : src/print_strings.o
+
+# target to build an object file
+src/print_strings.c.o:
+	$(MAKE) -f CMakeFiles/rewriting_lem_in.dir/build.make CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o
+.PHONY : src/print_strings.c.o
+
+src/print_strings.i: src/print_strings.c.i
+
+.PHONY : src/print_strings.i
+
+# target to preprocess a source file
+src/print_strings.c.i:
+	$(MAKE) -f CMakeFiles/rewriting_lem_in.dir/build.make CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.i
+.PHONY : src/print_strings.c.i
+
+src/print_strings.s: src/print_strings.c.s
+
+.PHONY : src/print_strings.s
+
+# target to generate assembly for a file
+src/print_strings.c.s:
+	$(MAKE) -f CMakeFiles/rewriting_lem_in.dir/build.make CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.s
+.PHONY : src/print_strings.c.s
+
 src/record_way.o: src/record_way.c.o
 
 .PHONY : src/record_way.o
@@ -3489,6 +3543,9 @@ help:
 	@echo "... src/equal_rooms.o"
 	@echo "... src/equal_rooms.i"
 	@echo "... src/equal_rooms.s"
+	@echo "... src/free_sources.o"
+	@echo "... src/free_sources.i"
+	@echo "... src/free_sources.s"
 	@echo "... src/instruments.o"
 	@echo "... src/instruments.i"
 	@echo "... src/instruments.s"
@@ -3840,6 +3897,9 @@ help:
 	@echo "... src/parsers_utilits.o"
 	@echo "... src/parsers_utilits.i"
 	@echo "... src/parsers_utilits.s"
+	@echo "... src/print_strings.o"
+	@echo "... src/print_strings.i"
+	@echo "... src/print_strings.s"
 	@echo "... src/record_way.o"
 	@echo "... src/record_way.i"
 	@echo "... src/record_way.s"

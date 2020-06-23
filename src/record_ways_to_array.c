@@ -8,7 +8,7 @@ t_room	**record_to_array(t_way *way, int quantity)
 
 	i = 0;
 	read_way = way;
-	if (!(array = ft_memalloc(sizeof(t_room *) * quantity + 1)))
+	if (!(array = (t_room **)malloc(sizeof(t_room) * (quantity + 1))))
 		exit(-1);
 	while (read_way)
 	{

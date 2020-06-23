@@ -12,8 +12,6 @@
 
 # include "../includes/lem_in.h"
 
-// FIXME Что делаем, когда приходит аргумент с символом -- в имени. Выходит ошибка, когда устанавливается путь
-
 void	door_to_room(t_room *room, t_struct *all, int i)
 {
 	t_room *tmp;
@@ -91,38 +89,41 @@ int		check_end_start(t_struct *all)
 
 void		error_print(t_struct *all)
 {
-	if (all->error == 1) {
-		free_lem_in(all, NULL, NULL, NULL);
-		write(1, "\nERROR: invalid number of ants. [1 - 2147483647].\n", 52);
-		exit(-1);
-	} else if (all->error == 2) {
-		free_lem_in(all, NULL, NULL, NULL);
-		write(1, "\nERROR: invalid records of rooms \n", 36);
-		exit(-1);
-	}
-	else if (all->error == 3)
+	if (all->error)
 	{
 		free_lem_in(all, NULL, NULL, NULL);
-		write(1, "\nERROR: invalid records of links\n", 35);
+		ft_putstr("\nERROR\n");
 		exit(-1);
 	}
-	else if (all->error == 4)
-	{
-		free_lem_in(all, NULL, NULL, NULL);
-		write(1,"\nERROR: invalid records of doors.", 34);
-		exit(-1);
-	}
-	else if (all->error == ERROR_WAYS_NOT_FOUND)
-	{
-		write(1, "\nERROR: Ways not found.", 22);
-		exit(-1);
-	}
+//	if (all->error == 1)
+//	{
+//		free_lem_in(all, NULL, NULL, NULL);
+//		write(1, "\nERROR: invalid number of ants. [1 - 2147483647].\n", 52);
+//		exit(-1);
+//	}
+//	else if (all->error == 2) {
+//		free_lem_in(all, NULL, NULL, NULL);
+//		write(1, "\nERROR: invalid records of rooms \n", 36);
+//		exit(-1);
+//	}
+//	else if (all->error == 3)
+//	{
+//		free_lem_in(all, NULL, NULL, NULL);
+//		write(1, "\nERROR: invalid records of links\n", 35);
+//		exit(-1);
+//	}
+//	else if (all->error == 4)
+//	{
+//		free_lem_in(all, NULL, NULL, NULL);
+//		write(1,"\nERROR: invalid records of doors.", 34);
+//		exit(-1);
+//	}
+//	else if (all->error == ERROR_WAYS_NOT_FOUND)
+//	{
+//		write(1, "\nERROR: Ways not found.", 22);
+//		exit(-1);
+//	}
 }
-
-// FIXME не воспринимает комнату с с символами '-' в названии комнаты независимо от кол-ва символов.
-// FIXME пропускает стартовую комнату.
-// FIXME когда нет муравьёв вообще, то пропускает. Когда пустая линия вместо кол-ва муравьёв, то тоже пропускает без реакции. Должен выдавать ошибку.
-// FIXME когда муравьёв 0, то тоже нет реакции.
 
 int		parser(t_struct *all, char *line, char **split)
 {

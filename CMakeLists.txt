@@ -138,4 +138,4 @@ add_executable(rewriting_lem_in
         src/parser.c
         src/parsers_utilits.c
         src/start_actions.c
-        src/record_way.c src/marking_and_clearing.c src/utilits.c src/record_ways_to_array.c src/ants_movement.c)
+        src/record_way.c src/marking_and_clearing.c src/utilits.c src/record_ways_to_array.c src/ants_movement.c src/print_strings.c src/free_sources.c)

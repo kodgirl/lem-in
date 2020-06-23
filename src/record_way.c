@@ -32,8 +32,9 @@ t_way	*processing_way(t_struct *all, t_room *last_room, t_way *new_way)
 {
 	t_room *room_runner;
 
-	if(!(new_way = (t_way *)ft_memalloc(sizeof(t_way))))
+	if(!(new_way = (t_way *)malloc(sizeof(t_way))))
 		return (NULL);
+	ft_bzero(new_way, sizeof(t_way));
 	room_runner = last_room;
 	while (room_runner)
 	{
@@ -62,17 +63,13 @@ void 		free_void_list(t_ways *all_ways)
 	}
 }
 
-
 /*
- * TODO Free found ways in lists
- */
+** TODO Free found ways in lists
+*/
 
-t_ways 	*record_ways(t_struct *all)
+t_ways 	*record_ways(t_struct *all, t_ways *all_ways, t_ways *clean_all_ways, t_ways *head_of_ways)
 {
-	t_ways	*all_ways;
-	t_ways	*clean_all_ways;
 	t_way	*way;
-	t_ways	*head_of_ways;
 
 	if(!(all_ways = (t_ways *)ft_memalloc(sizeof(t_ways))))
 		return (NULL);
@@ -84,7 +81,6 @@ t_ways 	*record_ways(t_struct *all)
 		all_ways->rm_qn = calc_rooms_in_way(way);
 		all_ways->way = way;
 		all_ways->way_in_arr = record_to_array(way, all_ways->rm_qn);
-		//print_way(all_ways->way_in_arr);
 		all_ways->next = (t_ways *)ft_memalloc(sizeof(t_ways));
 		all_ways = all_ways->next;
 		preparing_to_bfs(all, way);
@@ -94,8 +90,7 @@ t_ways 	*record_ways(t_struct *all)
 		return(head_of_ways);
 	else
 	{
-		all->error = ERROR_WAYS_NOT_FOUND;
-//		ft_printf("ERROR: Ways not found.");
-//		exit(-1);
+		ft_putstr("\nERROR\n");
+		free_lem_in2(all, NULL);
 	}
 }

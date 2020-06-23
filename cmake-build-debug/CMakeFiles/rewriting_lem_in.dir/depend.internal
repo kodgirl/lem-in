@@ -22,6 +22,13 @@ CMakeFiles/rewriting_lem_in.dir/src/equal_rooms.c.o
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
+CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o
+ /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
+ /home/dpenney/Desktop/rewriting_lem_in/src/free_sources.c
+ /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
+ /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/instruments.c.o
  /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
  /home/dpenney/Desktop/rewriting_lem_in/src/instruments.c
@@ -605,6 +612,13 @@ CMakeFiles/rewriting_lem_in.dir/src/parsers_utilits.c.o
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/parsers_utilits.c
+CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o
+ /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
+ /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
+ /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
+ /home/dpenney/Desktop/rewriting_lem_in/src/print_strings.c
 CMakeFiles/rewriting_lem_in.dir/src/record_way.c.o
  /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h

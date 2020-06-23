@@ -27,6 +27,8 @@ SRC =	src/main.c\
 		src/record_ways_to_array.c\
 		src/start_actions.c\
 		src/utilits.c\
+		src/print_strings.c\
+		src/free_sources.c
 
 INCL = includes/lem_in.h 
 

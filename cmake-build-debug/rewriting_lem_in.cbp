@@ -98,6 +98,9 @@
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/equal_rooms.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
+		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/free_sources.c">
+			<Option target="rewriting_lem_in"/>
+		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/instruments.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
@@ -474,6 +477,9 @@
 			<Option target="rewriting_lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/parsers_utilits.c">
+			<Option target="rewriting_lem_in"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/print_strings.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/record_way.c">

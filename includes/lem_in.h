@@ -135,7 +135,7 @@ int					check_end_start(t_struct *all);
 */
 
 int					start_actions(t_struct *all);
-t_ways 				*record_ways(t_struct *all);
+t_ways				*record_ways(t_struct *all, t_ways *all_ways, t_ways *clean_all_ways, t_ways *head_of_ways);
 t_way				*processing_way(t_struct *all, t_room *last_room, t_way *new_way);
 t_way 				*add_room_to_way(t_room *room, t_way *new_way, t_struct *all);
 int 				calc_rooms_in_way(t_way *way);
@@ -168,7 +168,8 @@ t_room				**record_to_array(t_way *way, int quantity);
  */
 
 void 				ants_movement(t_ways *all_ways, t_struct *all);
-void		 		ways_expressions(t_ways *ways, t_struct *all);
+void				print_ants(int i, char *str);
+void				free_lem_in2(t_struct *all, t_ways *wayS);
 
 /*
  * Utilits
