@@ -84,7 +84,7 @@ t_ways 	*record_ways(t_struct *all)
 		all_ways->rm_qn = calc_rooms_in_way(way);
 		all_ways->way = way;
 		all_ways->way_in_arr = record_to_array(way, all_ways->rm_qn);
-		print_way(all_ways->way_in_arr);
+		//print_way(all_ways->way_in_arr);
 		all_ways->next = (t_ways *)ft_memalloc(sizeof(t_ways));
 		all_ways = all_ways->next;
 		preparing_to_bfs(all, way);

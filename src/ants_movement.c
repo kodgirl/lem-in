@@ -12,24 +12,28 @@
 
 void 		ways_expressions(t_ways *ways, t_struct *all)
 {
-	int 	k;
-	int		i;
-	t_ways	*read_ways;
+	int		curr_len;
+	int		next_len;
+	t_ways 	*curr;
+	t_ways	*next_way;
 
-	read_ways = ways;
-	k = 0;
-	i = 0;
-	while (read_ways)
+	curr_len = 0;
+	next_len = 0;
+	curr = ways;
+	next_way = ways->next;
+	while (next_way)
 	{
-		if (!read_ways->next)
-			break;
-		k += read_ways->rm_qn;
-		if (i != 0)
-			read_ways->next->calc = (read_ways->next->rm_qn * 2) - k;
-		else
-			read_ways->next->calc = read_ways->next->rm_qn - k;
-		read_ways = read_ways->next;
-		i++;
+		curr = ways->next;
+		curr_len = 0;
+		next_len = 0;
+		while (curr != next_way)
+		{
+			curr_len += curr->rm_qn;
+			next_len += next_way->rm_qn;
+			curr = curr->next;
+		}
+		next_way->calc = next_len - curr_len;
+		next_way = next_way->next;
 	}
 }
 
