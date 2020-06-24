@@ -3,32 +3,31 @@
 /*
 ** Article about calculation than to launch new way;
 ** https://medium.com/@jamierobertdawson/lem-in-finding-all-the-paths-and-deciding-which-are-worth-it-2503dffb893
+** At this function taking for expression two ways length - current and next ways;
+** Calculating length of next way with current way.
+** cWay is current way and nWay is next way.
 */
 
-static void 		ways_expressions(t_ways *ways, t_struct *all)
+static void 		calc_ways(t_ways *ways, t_struct *all, int cLen, int nLen)
 {
-	int		curr_len;
-	int		next_len;
-	t_ways 	*curr;
-	t_ways	*next_way;
+	t_ways 	*cWay;
+	t_ways	*nWay;
 
-	curr_len = 0;
-	next_len = 0;
-	curr = ways;
-	next_way = ways->next;
-	while (next_way)
+	cWay = ways;
+	nWay = ways->next;
+	while (nWay)
 	{
-		curr = ways->next;
-		curr_len = 0;
-		next_len = 0;
-		while (curr != next_way)
+		cWay = ways->next;
+		cLen = 0;
+		nLen = 0;
+		while (cWay != nWay)
 		{
-			curr_len += curr->rm_qn;
-			next_len += next_way->rm_qn;
-			curr = curr->next;
+			cLen += cWay->rm_qn;
+			nLen += nWay->rm_qn;
+			cWay = cWay->next;
 		}
-		next_way->calc = next_len - curr_len;
-		next_way = next_way->next;
+		nWay->calc = nLen - cLen;
+		nWay = nWay->next;
 	}
 }
 
@@ -39,7 +38,7 @@ int 	start_actions(t_struct *all)
 	ways = NULL;
 	if (ways = record_ways(all, NULL, NULL, NULL))
 	{
-		ways_expressions(ways, all);
+		calc_ways(ways, all, 0, 0);
 		ants_movement(ways, all);
 	}
 	free_lem_in2(all, ways);

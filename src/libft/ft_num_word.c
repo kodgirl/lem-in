@@ -1,19 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
+/*   ft_num_word.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bgian <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/23 18:56:51 by bgian             #+#    #+#             */
-/*   Updated: 2019/09/23 19:02:06 by bgian            ###   ########.fr       */
+/*   Created: 2020/02/16 17:08:48 by dpenney           #+#    #+#             */
+/*   Updated: 2020/02/16 17:08:56 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putendl_fd(char const *s, int fd)
+int						num_word(char const *s, char c)
 {
-	ft_putstr_fd(s, fd);
-	ft_putchar_fd('\n', fd);
+	int				i;
+	int				num;
+
+	i = 0;
+	num = 0;
+	while (s[i] != '\0')
+	{
+		while (s[i] == c)
+			i++;
+		if (s[i] != '\0')
+			num++;
+		while (s[i] != '\0' && s[i] != c)
+			i++;
+	}
+	return (num);
 }

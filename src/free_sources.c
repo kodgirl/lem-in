@@ -66,5 +66,4 @@ void		free_lem_in2(t_struct *all, t_ways *wayS)
 		wayS = wayS->next;
 		free(tmp);
 	}
-
 }

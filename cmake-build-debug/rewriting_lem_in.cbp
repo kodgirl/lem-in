@@ -45,8 +45,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/dpenney/Desktop/rewriting_lem_in/includes"/>
-					<Add directory="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf"/>
-					<Add directory="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa"/>
 					<Add directory="/home/dpenney/Desktop/rewriting_lem_in/src/libft/includes"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
@@ -69,8 +67,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/dpenney/Desktop/rewriting_lem_in/includes"/>
-					<Add directory="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf"/>
-					<Add directory="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa"/>
 					<Add directory="/home/dpenney/Desktop/rewriting_lem_in/src/libft/includes"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
@@ -101,9 +97,6 @@
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/free_sources.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/instruments.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/liba.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
@@ -122,16 +115,7 @@
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_bzero.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_copy_ptree.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_del.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_is_escaped.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_is_part_of_word.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_isalnum.c">
@@ -158,7 +142,7 @@
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_lstadd.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_lstaddstart.c">
+		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_lstappend.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_lstdel.c">
@@ -168,9 +152,6 @@
 			<Option target="rewriting_lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_lstiter.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_lstlen.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_lstmap.c">
@@ -218,85 +199,10 @@
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_minval_int.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_path_append.c">
+		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_num_word.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_print_array.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec.h">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec2.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec3.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec4.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec5.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec6.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/arg_extractors.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/arg_extractors2.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/conv_int.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/conv_int2.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/conv_other.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/conv_wrappers_int.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/conv_wrappers_int2.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/conv_wrappers_other.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/find_action.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/fp_type.h">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/fprintf.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/read_spec.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/read_spec.h">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/read_spec2.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_ptree.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_ptree_to_kvpairs.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_putchar.c">
@@ -321,9 +227,6 @@
 			<Option target="rewriting_lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_putstr_fd.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_straddchar.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strcat.c">
@@ -398,9 +301,6 @@
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strsplit.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strsplit_unescaped.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strstr.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
@@ -422,37 +322,10 @@
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_toupper.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/decimal_arithmetic.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/decimal_arithmetic2.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/decimal_arithmetic3.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/decimal_arithmetic4.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/decimal_arithmetic5.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/ft_fp.h">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/ftoa.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/ftoa2.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/get_next_line.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/get_next_line.h">
@@ -489,9 +362,6 @@
 			<Option target="rewriting_lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/start_actions.c">
-			<Option target="rewriting_lem_in"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/utilits.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/CMakeLists.txt">

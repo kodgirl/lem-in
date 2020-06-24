@@ -4,88 +4,53 @@
 CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o
  /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
  /home/dpenney/Desktop/rewriting_lem_in/src/ants_movement.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/bfs.c.o
  /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
  /home/dpenney/Desktop/rewriting_lem_in/src/bfs.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/equal_rooms.c.o
  /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
  /home/dpenney/Desktop/rewriting_lem_in/src/equal_rooms.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o
  /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
  /home/dpenney/Desktop/rewriting_lem_in/src/free_sources.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/instruments.c.o
- /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
- /home/dpenney/Desktop/rewriting_lem_in/src/instruments.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/liba.c.o
  /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
  /home/dpenney/Desktop/rewriting_lem_in/src/liba.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_array_subtract.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_array_subtract.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_atoi.c.o
+ ../src/libft/includes/bbtree_utils.h
+ ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_atoi.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_bbtree_utils.c.o
  ../src/libft/includes/bbtree_utils.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_bbtree_utils.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_bsort_int.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_bsort_int.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_bzero.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_bzero.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_copy_ptree.c.o
- ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
- ../src/libft/includes/libft.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_copy_ptree.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_del.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_del.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_is_escaped.c.o
- ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
- ../src/libft/includes/libft.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_is_escaped.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_is_part_of_word.c.o
- ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
- ../src/libft/includes/libft.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_is_part_of_word.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_isalnum.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_isalnum.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_isalpha.c.o
@@ -98,341 +63,154 @@ CMakeFiles/rewriting_lem_in.dir/src/libft/ft_isprint.c.o
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_isprint.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_itoa.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_itoa.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_itoa_base.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_itoa_base.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstadd.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_lstadd.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstaddstart.c.o
+CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstappend.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_lstaddstart.c
+ /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_lstappend.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstdel.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_lstdel.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstdelone.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_lstdelone.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstiter.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_lstiter.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstlen.c.o
- ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
- ../src/libft/includes/libft.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_lstlen.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstmap.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_lstmap.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstnew.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_lstnew.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_max_int.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_max_int.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_maxval_int.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_maxval_int.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memalloc.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_memalloc.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memccpy.c.o
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_memccpy.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memchr.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_memchr.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memcmp.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_memcmp.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memcpy.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_memcpy.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memdel.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_memdel.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memdup.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_memdup.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memmove.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_memmove.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memset.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_memset.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_min_int.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_min_int.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_minval_int.c.o
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_minval_int.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_path_append.c.o
+CMakeFiles/rewriting_lem_in.dir/src/libft/ft_num_word.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_path_append.c
+ /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_num_word.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_print_array.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_print_array.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec2.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec2.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec3.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec3.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec4.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec4.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec5.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec5.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec6.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec6.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/arg_extractors.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/arg_extractors.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/fp_type.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/arg_extractors2.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/arg_extractors2.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/fp_type.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_int.c.o
- ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
- ../src/libft/includes/libft.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/conv_int.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_int2.c.o
- ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
- ../src/libft/includes/libft.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/conv_int2.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_other.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/conv_other.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/conv_wrappers_int.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/conv_wrappers_int2.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/conv_wrappers_other.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/find_action.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/find_action.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/fprintf.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/fp_type.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/fprintf.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/read_spec.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/printf.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/apply_spec.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/fp_type.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/read_spec.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/read_spec.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/read_spec.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/read_spec.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/read_spec2.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/read_spec2.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_ptree.c.o
- ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
- ../src/libft/includes/libft.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_ptree.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_ptree_to_kvpairs.c.o
- ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
- ../src/libft/includes/libft.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_ptree_to_kvpairs.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putchar.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_putchar.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putchar_fd.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_putchar_fd.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putendl.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_putendl.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putendl_fd.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_putendl_fd.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putnbr.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_putnbr.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putnbr_fd.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_putnbr_fd.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putstr.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_putstr.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putstr_fd.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_putstr_fd.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_straddchar.c.o
- ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
- ../src/libft/includes/libft.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_straddchar.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strcat.c.o
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strcat.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strchr.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strchr.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strclr.c.o
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strclr.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strcmp.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strcmp.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strcpy.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strcpy.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strdel.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strdel.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strdup.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strdup.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strequ.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strequ.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_striter.c.o
@@ -441,209 +219,136 @@ CMakeFiles/rewriting_lem_in.dir/src/libft/ft_striteri.c.o
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_striteri.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strjoin.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strjoin.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strlcat.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strlcat.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strlen.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strlen.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strmap.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strmap.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strmapi.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strmapi.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strncat.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strncat.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strncmp.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strncmp.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strncpy.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strncpy.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strnequ.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strnequ.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strnew.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strnew.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strnstr.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strnstr.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strrchr.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strrchr.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strrev.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strrev.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strsplit.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strsplit.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strsplit_unescaped.c.o
- ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
- ../src/libft/includes/libft.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strsplit_unescaped.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strstr.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strstr.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strsub.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strsub.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strtrim.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_strtrim.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_swap.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_swap.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_swapint.c.o
  ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
  ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_swapint.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_tolower.c.o
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_tolower.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_toupper.c.o
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_toupper.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/decimal_arithmetic.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/decimal_arithmetic.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/ft_fp.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/decimal_arithmetic2.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/decimal_arithmetic2.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/ft_fp.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/decimal_arithmetic3.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/decimal_arithmetic3.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/ft_fp.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/decimal_arithmetic4.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/decimal_arithmetic4.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/ft_fp.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/decimal_arithmetic5.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/decimal_arithmetic5.c
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/ft_fp.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/ftoa.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/ft_fp.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/ftoa.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/ftoa2.c.o
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/ft_fp.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ftoa/ftoa2.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/get_next_line.c.o
- ../src/libft/includes/bbtree_utils.h
- ../src/libft/includes/ft_ptree.h
- ../src/libft/includes/get_next_line.h
- ../src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/get_next_line.c
+ /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/get_next_line.h
+ /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/main.c.o
  /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/main.c
 CMakeFiles/rewriting_lem_in.dir/src/marking_and_clearing.c.o
  /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/marking_and_clearing.c
 CMakeFiles/rewriting_lem_in.dir/src/parse_edges.c.o
  /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/parse_edges.c
 CMakeFiles/rewriting_lem_in.dir/src/parse_rooms.c.o
  /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/parse_rooms.c
 CMakeFiles/rewriting_lem_in.dir/src/parser.c.o
  /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/parser.c
 CMakeFiles/rewriting_lem_in.dir/src/parsers_utilits.c.o
  /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/parsers_utilits.c
 CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o
  /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/print_strings.c
 CMakeFiles/rewriting_lem_in.dir/src/record_way.c.o
  /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/record_way.c
 CMakeFiles/rewriting_lem_in.dir/src/record_ways_to_array.c.o
  /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/record_ways_to_array.c
 CMakeFiles/rewriting_lem_in.dir/src/start_actions.c.o
  /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
  /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
  /home/dpenney/Desktop/rewriting_lem_in/src/start_actions.c
-CMakeFiles/rewriting_lem_in.dir/src/utilits.c.o
- /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
- /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
- /home/dpenney/Desktop/rewriting_lem_in/src/utilits.c

@@ -3,88 +3,53 @@
 
 CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o: ../includes/lem_in.h
 CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o: ../src/ants_movement.c
-CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o: ../src/libft/ft_printf/printf.h
 CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o: ../src/libft/includes/libft.h
 
 CMakeFiles/rewriting_lem_in.dir/src/bfs.c.o: ../includes/lem_in.h
 CMakeFiles/rewriting_lem_in.dir/src/bfs.c.o: ../src/bfs.c
-CMakeFiles/rewriting_lem_in.dir/src/bfs.c.o: ../src/libft/ft_printf/printf.h
 CMakeFiles/rewriting_lem_in.dir/src/bfs.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/bfs.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/bfs.c.o: ../src/libft/includes/libft.h
 
 CMakeFiles/rewriting_lem_in.dir/src/equal_rooms.c.o: ../includes/lem_in.h
 CMakeFiles/rewriting_lem_in.dir/src/equal_rooms.c.o: ../src/equal_rooms.c
-CMakeFiles/rewriting_lem_in.dir/src/equal_rooms.c.o: ../src/libft/ft_printf/printf.h
 CMakeFiles/rewriting_lem_in.dir/src/equal_rooms.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/equal_rooms.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/equal_rooms.c.o: ../src/libft/includes/libft.h
 
 CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o: ../includes/lem_in.h
 CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o: ../src/free_sources.c
-CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o: ../src/libft/ft_printf/printf.h
 CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/instruments.c.o: ../includes/lem_in.h
-CMakeFiles/rewriting_lem_in.dir/src/instruments.c.o: ../src/instruments.c
-CMakeFiles/rewriting_lem_in.dir/src/instruments.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/instruments.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/instruments.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/instruments.c.o: ../src/libft/includes/libft.h
 
 CMakeFiles/rewriting_lem_in.dir/src/liba.c.o: ../includes/lem_in.h
 CMakeFiles/rewriting_lem_in.dir/src/liba.c.o: ../src/liba.c
-CMakeFiles/rewriting_lem_in.dir/src/liba.c.o: ../src/libft/ft_printf/printf.h
 CMakeFiles/rewriting_lem_in.dir/src/liba.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/liba.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/liba.c.o: ../src/libft/includes/libft.h
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_array_subtract.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_array_subtract.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_array_subtract.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_array_subtract.c.o: ../src/libft/ft_array_subtract.c
 
+CMakeFiles/rewriting_lem_in.dir/src/libft/ft_atoi.c.o: ../src/libft/includes/bbtree_utils.h
+CMakeFiles/rewriting_lem_in.dir/src/libft/ft_atoi.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_atoi.c.o: ../src/libft/ft_atoi.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_bbtree_utils.c.o: ../src/libft/includes/bbtree_utils.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_bbtree_utils.c.o: ../src/libft/ft_bbtree_utils.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_bsort_int.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_bsort_int.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_bsort_int.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_bsort_int.c.o: ../src/libft/ft_bsort_int.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_bzero.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_bzero.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_bzero.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_bzero.c.o: ../src/libft/ft_bzero.c
 
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_copy_ptree.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_copy_ptree.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_copy_ptree.c.o: ../src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_copy_ptree.c.o: ../src/libft/ft_copy_ptree.c
-
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_del.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_del.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_del.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_del.c.o: ../src/libft/ft_del.c
 
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_is_escaped.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_is_escaped.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_is_escaped.c.o: ../src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_is_escaped.c.o: ../src/libft/ft_is_escaped.c
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_is_part_of_word.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_is_part_of_word.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_is_part_of_word.c.o: ../src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_is_part_of_word.c.o: ../src/libft/ft_is_part_of_word.c
-
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_isalnum.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_isalnum.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_isalnum.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_isalnum.c.o: ../src/libft/ft_isalnum.c
 
@@ -97,341 +62,154 @@ CMakeFiles/rewriting_lem_in.dir/src/libft/ft_isdigit.c.o: ../src/libft/ft_isdigi
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_isprint.c.o: ../src/libft/ft_isprint.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_itoa.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_itoa.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_itoa.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_itoa.c.o: ../src/libft/ft_itoa.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_itoa_base.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_itoa_base.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_itoa_base.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_itoa_base.c.o: ../src/libft/ft_itoa_base.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstadd.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstadd.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstadd.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstadd.c.o: ../src/libft/ft_lstadd.c
 
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstaddstart.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstaddstart.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstaddstart.c.o: ../src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstaddstart.c.o: ../src/libft/ft_lstaddstart.c
+CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstappend.c.o: ../src/libft/includes/bbtree_utils.h
+CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstappend.c.o: ../src/libft/includes/libft.h
+CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstappend.c.o: ../src/libft/ft_lstappend.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstdel.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstdel.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstdel.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstdel.c.o: ../src/libft/ft_lstdel.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstdelone.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstdelone.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstdelone.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstdelone.c.o: ../src/libft/ft_lstdelone.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstiter.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstiter.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstiter.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstiter.c.o: ../src/libft/ft_lstiter.c
 
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstlen.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstlen.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstlen.c.o: ../src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstlen.c.o: ../src/libft/ft_lstlen.c
-
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstmap.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstmap.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstmap.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstmap.c.o: ../src/libft/ft_lstmap.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstnew.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstnew.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstnew.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_lstnew.c.o: ../src/libft/ft_lstnew.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_max_int.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_max_int.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_max_int.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_max_int.c.o: ../src/libft/ft_max_int.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_maxval_int.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_maxval_int.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_maxval_int.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_maxval_int.c.o: ../src/libft/ft_maxval_int.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memalloc.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memalloc.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memalloc.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memalloc.c.o: ../src/libft/ft_memalloc.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memccpy.c.o: ../src/libft/ft_memccpy.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memchr.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memchr.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memchr.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memchr.c.o: ../src/libft/ft_memchr.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memcmp.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memcmp.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memcmp.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memcmp.c.o: ../src/libft/ft_memcmp.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memcpy.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memcpy.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memcpy.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memcpy.c.o: ../src/libft/ft_memcpy.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memdel.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memdel.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memdel.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memdel.c.o: ../src/libft/ft_memdel.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memdup.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memdup.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memdup.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memdup.c.o: ../src/libft/ft_memdup.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memmove.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memmove.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memmove.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memmove.c.o: ../src/libft/ft_memmove.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memset.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memset.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memset.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_memset.c.o: ../src/libft/ft_memset.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_min_int.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_min_int.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_min_int.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_min_int.c.o: ../src/libft/ft_min_int.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_minval_int.c.o: ../src/libft/ft_minval_int.c
 
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_path_append.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_path_append.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_path_append.c.o: ../src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_path_append.c.o: ../src/libft/ft_path_append.c
+CMakeFiles/rewriting_lem_in.dir/src/libft/ft_num_word.c.o: ../src/libft/includes/bbtree_utils.h
+CMakeFiles/rewriting_lem_in.dir/src/libft/ft_num_word.c.o: ../src/libft/includes/libft.h
+CMakeFiles/rewriting_lem_in.dir/src/libft/ft_num_word.c.o: ../src/libft/ft_num_word.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_print_array.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_print_array.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_print_array.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_print_array.c.o: ../src/libft/ft_print_array.c
 
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec.c.o: ../src/libft/ft_printf/apply_spec.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec.c.o: ../src/libft/ft_printf/apply_spec.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec2.c.o: ../src/libft/ft_printf/apply_spec.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec2.c.o: ../src/libft/ft_printf/apply_spec2.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec2.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec2.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec2.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec2.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec3.c.o: ../src/libft/ft_printf/apply_spec.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec3.c.o: ../src/libft/ft_printf/apply_spec3.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec3.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec3.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec3.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec3.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec4.c.o: ../src/libft/ft_printf/apply_spec.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec4.c.o: ../src/libft/ft_printf/apply_spec4.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec4.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec4.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec4.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec4.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec5.c.o: ../src/libft/ft_printf/apply_spec.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec5.c.o: ../src/libft/ft_printf/apply_spec5.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec5.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec5.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec5.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec5.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec6.c.o: ../src/libft/ft_printf/apply_spec.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec6.c.o: ../src/libft/ft_printf/apply_spec6.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec6.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec6.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec6.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/apply_spec6.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/arg_extractors.c.o: ../src/libft/ft_printf/arg_extractors.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/arg_extractors.c.o: ../src/libft/ft_printf/fp_type.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/arg_extractors.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/arg_extractors.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/arg_extractors.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/arg_extractors.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/arg_extractors2.c.o: ../src/libft/ft_printf/arg_extractors2.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/arg_extractors2.c.o: ../src/libft/ft_printf/fp_type.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/arg_extractors2.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/arg_extractors2.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/arg_extractors2.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/arg_extractors2.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_int.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_int.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_int.c.o: ../src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_int.c.o: ../src/libft/ft_printf/conv_int.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_int.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_int.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_int2.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_int2.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_int2.c.o: ../src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_int2.c.o: ../src/libft/ft_printf/conv_int2.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_int2.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_int2.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_other.c.o: ../src/libft/ft_printf/conv_other.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_other.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_other.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_other.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_other.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.o: ../src/libft/ft_printf/conv_wrappers_int.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_int.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.o: ../src/libft/ft_printf/conv_wrappers_int2.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_int2.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.o: ../src/libft/ft_printf/conv_wrappers_other.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/conv_wrappers_other.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/find_action.c.o: ../src/libft/ft_printf/find_action.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/find_action.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/find_action.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/find_action.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/find_action.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/fprintf.c.o: ../src/libft/ft_printf/apply_spec.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/fprintf.c.o: ../src/libft/ft_printf/fp_type.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/fprintf.c.o: ../src/libft/ft_printf/fprintf.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/fprintf.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/fprintf.c.o: ../src/libft/ft_printf/read_spec.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/fprintf.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/fprintf.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/fprintf.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/printf.c.o: ../src/libft/ft_printf/apply_spec.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/printf.c.o: ../src/libft/ft_printf/fp_type.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/printf.c.o: ../src/libft/ft_printf/printf.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/printf.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/printf.c.o: ../src/libft/ft_printf/read_spec.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/printf.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/printf.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/printf.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/read_spec.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/read_spec.c.o: ../src/libft/ft_printf/read_spec.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/read_spec.c.o: ../src/libft/ft_printf/read_spec.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/read_spec.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/read_spec.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/read_spec.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/read_spec2.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/read_spec2.c.o: ../src/libft/ft_printf/read_spec2.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/read_spec2.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/read_spec2.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_printf/read_spec2.c.o: ../src/libft/includes/libft.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_ptree.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_ptree.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_ptree.c.o: ../src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_ptree.c.o: ../src/libft/ft_ptree.c
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_ptree_to_kvpairs.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_ptree_to_kvpairs.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_ptree_to_kvpairs.c.o: ../src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_ptree_to_kvpairs.c.o: ../src/libft/ft_ptree_to_kvpairs.c
-
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putchar.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putchar.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putchar.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putchar.c.o: ../src/libft/ft_putchar.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putchar_fd.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putchar_fd.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putchar_fd.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putchar_fd.c.o: ../src/libft/ft_putchar_fd.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putendl.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putendl.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putendl.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putendl.c.o: ../src/libft/ft_putendl.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putendl_fd.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putendl_fd.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putendl_fd.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putendl_fd.c.o: ../src/libft/ft_putendl_fd.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putnbr.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putnbr.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putnbr.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putnbr.c.o: ../src/libft/ft_putnbr.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putnbr_fd.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putnbr_fd.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putnbr_fd.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putnbr_fd.c.o: ../src/libft/ft_putnbr_fd.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putstr.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putstr.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putstr.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putstr.c.o: ../src/libft/ft_putstr.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putstr_fd.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putstr_fd.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putstr_fd.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_putstr_fd.c.o: ../src/libft/ft_putstr_fd.c
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_straddchar.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_straddchar.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_straddchar.c.o: ../src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_straddchar.c.o: ../src/libft/ft_straddchar.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strcat.c.o: ../src/libft/ft_strcat.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strchr.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strchr.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strchr.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strchr.c.o: ../src/libft/ft_strchr.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strclr.c.o: ../src/libft/ft_strclr.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strcmp.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strcmp.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strcmp.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strcmp.c.o: ../src/libft/ft_strcmp.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strcpy.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strcpy.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strcpy.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strcpy.c.o: ../src/libft/ft_strcpy.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strdel.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strdel.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strdel.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strdel.c.o: ../src/libft/ft_strdel.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strdup.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strdup.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strdup.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strdup.c.o: ../src/libft/ft_strdup.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strequ.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strequ.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strequ.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strequ.c.o: ../src/libft/ft_strequ.c
 
@@ -440,102 +218,78 @@ CMakeFiles/rewriting_lem_in.dir/src/libft/ft_striter.c.o: ../src/libft/ft_strite
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_striteri.c.o: ../src/libft/ft_striteri.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strjoin.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strjoin.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strjoin.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strjoin.c.o: ../src/libft/ft_strjoin.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strlcat.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strlcat.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strlcat.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strlcat.c.o: ../src/libft/ft_strlcat.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strlen.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strlen.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strlen.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strlen.c.o: ../src/libft/ft_strlen.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strmap.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strmap.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strmap.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strmap.c.o: ../src/libft/ft_strmap.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strmapi.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strmapi.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strmapi.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strmapi.c.o: ../src/libft/ft_strmapi.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strncat.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strncat.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strncat.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strncat.c.o: ../src/libft/ft_strncat.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strncmp.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strncmp.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strncmp.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strncmp.c.o: ../src/libft/ft_strncmp.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strncpy.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strncpy.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strncpy.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strncpy.c.o: ../src/libft/ft_strncpy.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strnequ.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strnequ.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strnequ.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strnequ.c.o: ../src/libft/ft_strnequ.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strnew.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strnew.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strnew.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strnew.c.o: ../src/libft/ft_strnew.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strnstr.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strnstr.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strnstr.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strnstr.c.o: ../src/libft/ft_strnstr.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strrchr.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strrchr.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strrchr.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strrchr.c.o: ../src/libft/ft_strrchr.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strrev.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strrev.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strrev.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strrev.c.o: ../src/libft/ft_strrev.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strsplit.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strsplit.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strsplit.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strsplit.c.o: ../src/libft/ft_strsplit.c
 
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strsplit_unescaped.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strsplit_unescaped.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strsplit_unescaped.c.o: ../src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strsplit_unescaped.c.o: ../src/libft/ft_strsplit_unescaped.c
-
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strstr.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strstr.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strstr.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strstr.c.o: ../src/libft/ft_strstr.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strsub.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strsub.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strsub.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strsub.c.o: ../src/libft/ft_strsub.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strtrim.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strtrim.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strtrim.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_strtrim.c.o: ../src/libft/ft_strtrim.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_swap.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_swap.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_swap.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_swap.c.o: ../src/libft/ft_swap.c
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_swapint.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ft_swapint.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_swapint.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_swapint.c.o: ../src/libft/ft_swapint.c
 
@@ -543,107 +297,58 @@ CMakeFiles/rewriting_lem_in.dir/src/libft/ft_tolower.c.o: ../src/libft/ft_tolowe
 
 CMakeFiles/rewriting_lem_in.dir/src/libft/ft_toupper.c.o: ../src/libft/ft_toupper.c
 
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/decimal_arithmetic.c.o: ../src/libft/ftoa/decimal_arithmetic.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/decimal_arithmetic.c.o: ../src/libft/ftoa/ft_fp.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/decimal_arithmetic2.c.o: ../src/libft/ftoa/decimal_arithmetic2.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/decimal_arithmetic2.c.o: ../src/libft/ftoa/ft_fp.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/decimal_arithmetic3.c.o: ../src/libft/ftoa/decimal_arithmetic3.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/decimal_arithmetic3.c.o: ../src/libft/ftoa/ft_fp.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/decimal_arithmetic4.c.o: ../src/libft/ftoa/decimal_arithmetic4.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/decimal_arithmetic4.c.o: ../src/libft/ftoa/ft_fp.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/decimal_arithmetic5.c.o: ../src/libft/ftoa/decimal_arithmetic5.c
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/decimal_arithmetic5.c.o: ../src/libft/ftoa/ft_fp.h
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/ftoa.c.o: ../src/libft/ftoa/ft_fp.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/ftoa.c.o: ../src/libft/ftoa/ftoa.c
-
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/ftoa2.c.o: ../src/libft/ftoa/ft_fp.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/ftoa/ftoa2.c.o: ../src/libft/ftoa/ftoa2.c
-
+CMakeFiles/rewriting_lem_in.dir/src/libft/get_next_line.c.o: ../src/libft/get_next_line.c
 CMakeFiles/rewriting_lem_in.dir/src/libft/get_next_line.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/get_next_line.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/get_next_line.c.o: ../src/libft/includes/get_next_line.h
 CMakeFiles/rewriting_lem_in.dir/src/libft/get_next_line.c.o: ../src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/libft/get_next_line.c.o: ../src/libft/get_next_line.c
 
 CMakeFiles/rewriting_lem_in.dir/src/main.c.o: ../includes/lem_in.h
-CMakeFiles/rewriting_lem_in.dir/src/main.c.o: ../src/libft/ft_printf/printf.h
 CMakeFiles/rewriting_lem_in.dir/src/main.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/main.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/main.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/main.c.o: ../src/main.c
 
 CMakeFiles/rewriting_lem_in.dir/src/marking_and_clearing.c.o: ../includes/lem_in.h
-CMakeFiles/rewriting_lem_in.dir/src/marking_and_clearing.c.o: ../src/libft/ft_printf/printf.h
 CMakeFiles/rewriting_lem_in.dir/src/marking_and_clearing.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/marking_and_clearing.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/marking_and_clearing.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/marking_and_clearing.c.o: ../src/marking_and_clearing.c
 
 CMakeFiles/rewriting_lem_in.dir/src/parse_edges.c.o: ../includes/lem_in.h
-CMakeFiles/rewriting_lem_in.dir/src/parse_edges.c.o: ../src/libft/ft_printf/printf.h
 CMakeFiles/rewriting_lem_in.dir/src/parse_edges.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/parse_edges.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/parse_edges.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/parse_edges.c.o: ../src/parse_edges.c
 
 CMakeFiles/rewriting_lem_in.dir/src/parse_rooms.c.o: ../includes/lem_in.h
-CMakeFiles/rewriting_lem_in.dir/src/parse_rooms.c.o: ../src/libft/ft_printf/printf.h
 CMakeFiles/rewriting_lem_in.dir/src/parse_rooms.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/parse_rooms.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/parse_rooms.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/parse_rooms.c.o: ../src/parse_rooms.c
 
 CMakeFiles/rewriting_lem_in.dir/src/parser.c.o: ../includes/lem_in.h
-CMakeFiles/rewriting_lem_in.dir/src/parser.c.o: ../src/libft/ft_printf/printf.h
 CMakeFiles/rewriting_lem_in.dir/src/parser.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/parser.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/parser.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/parser.c.o: ../src/parser.c
 
 CMakeFiles/rewriting_lem_in.dir/src/parsers_utilits.c.o: ../includes/lem_in.h
-CMakeFiles/rewriting_lem_in.dir/src/parsers_utilits.c.o: ../src/libft/ft_printf/printf.h
 CMakeFiles/rewriting_lem_in.dir/src/parsers_utilits.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/parsers_utilits.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/parsers_utilits.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/parsers_utilits.c.o: ../src/parsers_utilits.c
 
 CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o: ../includes/lem_in.h
-CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o: ../src/libft/ft_printf/printf.h
 CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/print_strings.c.o: ../src/print_strings.c
 
 CMakeFiles/rewriting_lem_in.dir/src/record_way.c.o: ../includes/lem_in.h
-CMakeFiles/rewriting_lem_in.dir/src/record_way.c.o: ../src/libft/ft_printf/printf.h
 CMakeFiles/rewriting_lem_in.dir/src/record_way.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/record_way.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/record_way.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/record_way.c.o: ../src/record_way.c
 
 CMakeFiles/rewriting_lem_in.dir/src/record_ways_to_array.c.o: ../includes/lem_in.h
-CMakeFiles/rewriting_lem_in.dir/src/record_ways_to_array.c.o: ../src/libft/ft_printf/printf.h
 CMakeFiles/rewriting_lem_in.dir/src/record_ways_to_array.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/record_ways_to_array.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/record_ways_to_array.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/record_ways_to_array.c.o: ../src/record_ways_to_array.c
 
 CMakeFiles/rewriting_lem_in.dir/src/start_actions.c.o: ../includes/lem_in.h
-CMakeFiles/rewriting_lem_in.dir/src/start_actions.c.o: ../src/libft/ft_printf/printf.h
 CMakeFiles/rewriting_lem_in.dir/src/start_actions.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/start_actions.c.o: ../src/libft/includes/ft_ptree.h
 CMakeFiles/rewriting_lem_in.dir/src/start_actions.c.o: ../src/libft/includes/libft.h
 CMakeFiles/rewriting_lem_in.dir/src/start_actions.c.o: ../src/start_actions.c
-
-CMakeFiles/rewriting_lem_in.dir/src/utilits.c.o: ../includes/lem_in.h
-CMakeFiles/rewriting_lem_in.dir/src/utilits.c.o: ../src/libft/ft_printf/printf.h
-CMakeFiles/rewriting_lem_in.dir/src/utilits.c.o: ../src/libft/includes/bbtree_utils.h
-CMakeFiles/rewriting_lem_in.dir/src/utilits.c.o: ../src/libft/includes/ft_ptree.h
-CMakeFiles/rewriting_lem_in.dir/src/utilits.c.o: ../src/libft/includes/libft.h
-CMakeFiles/rewriting_lem_in.dir/src/utilits.c.o: ../src/utilits.c
 

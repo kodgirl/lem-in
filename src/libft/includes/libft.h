@@ -6,7 +6,7 @@
 /*   By: bgian <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/21 18:42:53 by bgian             #+#    #+#             */
-/*   Updated: 2020/01/24 17:18:21 by bgian            ###   ########.fr       */
+/*   Updated: 2020/02/16 17:10:48 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@
 # include <unistd.h>
 
 # include "bbtree_utils.h"
-# include "ft_ptree.h"
 
 int					ft_strcmp(const char *s1, const char *s2);
 size_t				ft_strlen(const char *s);
@@ -55,7 +54,9 @@ int					ft_isdigit(int c);
 int					ft_isascii(int c);
 int					ft_isalpha(int c);
 int					ft_isalnum(int c);
-
+void				avoid_leaks(char **res, int nlinks);
+int					ft_num_word(char const *s, char c);
+int					num_word(char const *s, char c);
 void				*ft_memalloc(size_t size);
 void				ft_memdel(void **ap);
 char				*ft_strnew(size_t size);
@@ -78,11 +79,10 @@ void				ft_putendl(char const *s);
 void				ft_putnbr(int n);
 void				ft_putchar_fd(char c, int fd);
 void				ft_putstr_fd(char const *s, int fd);
-int					ft_putendl_fd(char const *s, int fd);
+void				ft_putendl_fd(char const *s, int fd);
 void				ft_putnbr_fd(int n, int fd);
 void				ft_strrev(char *s);
 char				*ft_itoa_base(long long value, char *base, int sgn);
-
 typedef struct		s_list
 {
 	void			*content;
@@ -93,6 +93,7 @@ typedef struct		s_list
 t_list				*ft_lstnew(void const *content, size_t content_size);
 void				ft_lstdelone(t_list **alst, void (*del)(void*, size_t));
 void				ft_lstdel(t_list **alst, void (*del)(void *, size_t));
+void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 
@@ -114,90 +115,5 @@ void				ft_print_array(int *a, int len);
 int					*ft_array_subtract(int *arr, unsigned int len, int number,\
 		int in_place);
 char				*ftoa(long double x, int precision);
-
-int					ft_printf(const char *format, ...);
-int					ft_fprintf(int fd, const char *format, ...);
-
-char				*ft_straddchar(char *s, char c);
-
-/*
-** Add data point to start of the linked list
-** return 0 in case of errors
-*/
-
-int					ft_lstadd_data(t_list **lst, void *content,\
-		size_t content_size);
-
-int					ft_lstlen(t_list *l);
-char				*ft_path_append(char *path, char *name);
-int					ft_is_escaped(const char *start, const char *symbol,\
-		char escape_char);
-
-int					ft_is_part_of_word(const char *start,\
-		const char *position,\
-		char sep,\
-		char escape);
-char				**ft_strsplit_unescaped(char const *s, char c,\
-		char escape);
-
-# define N_CHILDREN 256
-
-/*
-** Prefix tree data structure
-** key - value pairs, keys are strings, values - *void
-** value must be freeable (TODO: arbitrary)
-**
-** NULL value means lack of value
-** If no children and no value, we can delete a node and check parent
-** (not really needed)
-*/
-
-typedef struct		s_ptree
-{
-	struct s_ptree	*child[N_CHILDREN];
-	void			*value;
-}					t_ptree;
-
-t_ptree				*new_tree(void);
-
-/*
-** Return value of key if it exists
-*/
-
-void				*search_key(t_ptree *tree, char *key);
-
-/*
-** Return nonzero on success
-** Remove old entry properly if needed
-** If NULL is provided instead of tree, create a new tree
-*/
-
-int					insert_value(t_ptree *tree, char *key, void *value);
-void				del_key(t_ptree *tree, char *key);
-void				del_tree(t_ptree *tree);
-
-/*
-** Copy tree with all contents.
-** Modification of copy never affects original tree
-*/
-
-t_ptree				*copy_ptree(t_ptree *tree);
-
-typedef	struct		s_key_value
-{
-	char			*key;
-	void			*value;
-}					t_key_value;
-
-/*
-** Convert ptree to list of  key-value pairs
-**
-** If no values are present on the tree and some keys (yes, this is possible),
-** return single node of list with empty content.
-**
-** Return 0 in case of malloc errors.
-*/
-
-t_list				*ptree_to_kvpairs(t_ptree *tree);
 
 #endif

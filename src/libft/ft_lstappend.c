@@ -1,19 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
+/*   ft_lstappend.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bgian <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/23 18:56:51 by bgian             #+#    #+#             */
-/*   Updated: 2019/09/23 19:02:06 by bgian            ###   ########.fr       */
+/*   Created: 2019/10/01 00:12:21 by bgian             #+#    #+#             */
+/*   Updated: 2019/10/09 18:36:04 by bgian            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putendl_fd(char const *s, int fd)
+/*
+** Create new list if needed.
+** Append to the end a new element
+** Return pointer to start
+*/
+
+t_list	*ft_lstappend(t_list *lst, void const *content, size_t content_size)
 {
-	ft_putstr_fd(s, fd);
-	ft_putchar_fd('\n', fd);
+	t_list	*new;
+	t_list	*tmp;
+
+	if (!content_size || !content || !(new = ft_lstnew(content, content_size)))
+		return (lst);
+	if (!lst)
+		return (new);
+	tmp = lst;
+	while (lst->next)
+		lst = lst->next;
+	lst->next = new;
+	return (tmp);
 }
