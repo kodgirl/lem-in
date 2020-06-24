@@ -91,7 +91,7 @@ void		error_print(t_struct *all)
 {
 	if (all->error)
 	{
-		free_lem_in(all, NULL, NULL, NULL);
+		error_free(all, NULL, NULL, NULL);
 		ft_putstr("\nERROR\n");
 		exit(-1);
 	}

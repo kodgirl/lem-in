@@ -12,6 +12,7 @@ static void 			free_edges(t_room *room)
 		curr_edge = curr_edge->next;
 		free(tmp);
 	}
+	free(curr_edge);
 }
 
 static void 		free_rooms(t_room *room)
@@ -23,12 +24,9 @@ static void 		free_rooms(t_room *room)
 	while (curr)
 	{
 		free(curr->name);
-		if (curr->go_from)
-			free(curr->go_from);
 		free_edges(curr);
 		tmp = curr;
 		curr = curr->next;
-		free(tmp);
 	}
 }
 
@@ -38,16 +36,14 @@ static void 		free_way(t_way *way, t_room **room, unsigned *quan)
 {
 	t_way	*tmp;
 	int 	i;
-	t_room *tmp_room;
 
 	i = 0;
-	while (way)
+	while (way != NULL)
 	{
 		tmp = way;
 		way = way->next;
 		free(tmp);
 	}
-	free(way);
 	while (i < *quan)
 	{
 		free(room[i]);
@@ -62,13 +58,13 @@ void		free_lem_in2(t_struct *all, t_ways *wayS)
 	t_ways	*tmp;
 
 	i = 0;
+	free_rooms(all->room);
 	while (wayS != NULL)
 	{
-		free_way(wayS->way, wayS->way_in_arr, &wayS->rm_qn);
+		free_way(wayS->way, wayS->way_in_arr, &wayS->rm_qn - 1);
 		tmp = wayS;
 		wayS = wayS->next;
 		free(tmp);
 	}
-	free_rooms(all->room);
 
 }

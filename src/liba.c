@@ -23,7 +23,7 @@
 // 	}
 // }
 
-void        free_lem_in(t_struct *all, t_room *tmp_rooms, t_room *tmp_rooms2, t_edge *tmp_edges2)
+void        error_free(t_struct *all, t_room *tmp_rooms, t_room *tmp_rooms2, t_edge *tmp_edges2)
 {
     t_edge *tmp_edges;
 	char	*name;
@@ -46,7 +46,7 @@ void        free_lem_in(t_struct *all, t_room *tmp_rooms, t_room *tmp_rooms2, t_
     return;
 }
 
-void    ft_free_split(char **for_free)
+void		ft_free_split(char **for_free)
 {
     size_t			i;
 

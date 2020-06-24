@@ -18,10 +18,6 @@ fcntl.h
 ../src/libft/ft_printf/printf.h
 /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
 
-/home/dpenney/Desktop/rewriting_lem_in/src/free_sources.c
-../includes/lem_in.h
-/home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
-
 /home/dpenney/Desktop/rewriting_lem_in/src/libft/ft_printf/printf.h
 ../includes/libft.h
 /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/libft.h
@@ -47,4 +43,8 @@ bbtree_utils.h
 /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
 ft_ptree.h
 /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/ft_ptree.h
+
+/home/dpenney/Desktop/rewriting_lem_in/src/record_way.c
+../includes/lem_in.h
+/home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
 
