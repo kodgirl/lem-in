@@ -16,7 +16,6 @@ SRC =	src/main.c\
 		src/ants_movement.c\
 		src/bfs.c\
 		src/equal_rooms.c\
-		src/instruments.c\
 		src/liba.c\
 		src/marking_and_clearing.c\
 		src/parse_edges.c\
@@ -26,7 +25,6 @@ SRC =	src/main.c\
 		src/record_way.c\
 		src/record_ways_to_array.c\
 		src/start_actions.c\
-		src/utilits.c\
 		src/print_strings.c\
 		src/free_sources.c
 
