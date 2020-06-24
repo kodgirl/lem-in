@@ -86,7 +86,7 @@ add_executable(rewriting_lem_in
         src/libft/ft_tolower.c
         src/libft/ft_toupper.c
         src/libft/get_next_line.c
-        src/ants_movement.c
+        src/ants_moving.c
         src/bfs.c
         src/equal_rooms.c
         src/free_sources.c

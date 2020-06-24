@@ -136,7 +136,6 @@ t_ways				*record_ways(t_struct *all, t_ways *all_ways, t_ways *clean_all_ways, 
 t_way				*processing_way(t_struct *all, t_room *last_room, t_way *new_way);
 t_way 				*add_room_to_way(t_room *room, t_way *new_way, t_struct *all);
 int 				calc_rooms_in_way(t_way *way);
-void 				annual_rooms_vars(t_struct *all);
 
 /*
  * Next functions of bfs regulation
@@ -153,25 +152,17 @@ t_order				*allocate_orders_list(t_room *start_room);
  * in new way and clear variable visited than to start bfs again.
  */
 
-void 				annual_rooms_vars(t_struct *all);
-void 				mark_used_rooms(t_struct *all, t_way *way);
-void 				mark_used_edges(t_struct *all, t_way *way);
 void				preparing_to_bfs(t_struct *all, t_way *way);
+void				annual_rooms_vars(t_struct *all);
 void				free_order(t_order *clean_order);
 t_room				**record_to_array(t_way *way, int quantity);
 
 /*
  * Functions for printing results
  */
-
+void				movement(t_ways *curr_way, unsigned *curr_ant, unsigned *remain_ants);
 void 				ants_movement(t_ways *all_ways, t_struct *all);
-void				print_ants(int i, char *str);
+void				print_ants(int ant, char *room, short space);
 void				free_lem_in2(t_struct *all, t_ways *wayS);
-
-/*
- * Utilits
- */
-
-void 				print_way(t_room **arr);
 
 #endif

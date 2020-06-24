@@ -43,5 +43,26 @@ int 	start_actions(t_struct *all)
 	}
 	free_lem_in2(all, ways);
 	return (0);
+}
 
+void		ants_movement(t_ways *ways, t_struct *all)
+{
+	unsigned current_ant;
+	unsigned remain_ants;
+	t_ways	*ways_head;
+
+	current_ant = 1;
+	remain_ants = all->ant;
+	ways_head = ways;
+	ft_putchar('\n');
+	while (all->ant != all->end->ant)
+	{
+		while (ways)
+		{
+			movement(ways, &current_ant, &remain_ants);
+			ways = ways->next;
+		}
+		ft_putchar('\n');
+		ways = ways_head;
+	}
 }

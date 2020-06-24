@@ -1032,18 +1032,18 @@ CMakeFiles/rewriting_lem_in.dir/src/libft/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rewriting_lem_in.dir/src/libft/get_next_line.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/rewriting_lem_in/src/libft/get_next_line.c -o CMakeFiles/rewriting_lem_in.dir/src/libft/get_next_line.c.s
 
-CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o: CMakeFiles/rewriting_lem_in.dir/flags.make
-CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o: ../src/ants_movement.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/rewriting_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o   -c /home/dpenney/Desktop/rewriting_lem_in/src/ants_movement.c
+CMakeFiles/rewriting_lem_in.dir/src/ants_moving.c.o: CMakeFiles/rewriting_lem_in.dir/flags.make
+CMakeFiles/rewriting_lem_in.dir/src/ants_moving.c.o: ../src/ants_moving.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/rewriting_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/rewriting_lem_in.dir/src/ants_moving.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rewriting_lem_in.dir/src/ants_moving.c.o   -c /home/dpenney/Desktop/rewriting_lem_in/src/ants_moving.c
 
-CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/rewriting_lem_in/src/ants_movement.c > CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.i
+CMakeFiles/rewriting_lem_in.dir/src/ants_moving.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rewriting_lem_in.dir/src/ants_moving.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/rewriting_lem_in/src/ants_moving.c > CMakeFiles/rewriting_lem_in.dir/src/ants_moving.c.i
 
-CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/rewriting_lem_in/src/ants_movement.c -o CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.s
+CMakeFiles/rewriting_lem_in.dir/src/ants_moving.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rewriting_lem_in.dir/src/ants_moving.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/rewriting_lem_in/src/ants_moving.c -o CMakeFiles/rewriting_lem_in.dir/src/ants_moving.c.s
 
 CMakeFiles/rewriting_lem_in.dir/src/bfs.c.o: CMakeFiles/rewriting_lem_in.dir/flags.make
 CMakeFiles/rewriting_lem_in.dir/src/bfs.c.o: ../src/bfs.c
@@ -1304,7 +1304,7 @@ rewriting_lem_in_OBJECTS = \
 "CMakeFiles/rewriting_lem_in.dir/src/libft/ft_tolower.c.o" \
 "CMakeFiles/rewriting_lem_in.dir/src/libft/ft_toupper.c.o" \
 "CMakeFiles/rewriting_lem_in.dir/src/libft/get_next_line.c.o" \
-"CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o" \
+"CMakeFiles/rewriting_lem_in.dir/src/ants_moving.c.o" \
 "CMakeFiles/rewriting_lem_in.dir/src/bfs.c.o" \
 "CMakeFiles/rewriting_lem_in.dir/src/equal_rooms.c.o" \
 "CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o" \
@@ -1398,7 +1398,7 @@ rewriting_lem_in: CMakeFiles/rewriting_lem_in.dir/src/libft/ft_swapint.c.o
 rewriting_lem_in: CMakeFiles/rewriting_lem_in.dir/src/libft/ft_tolower.c.o
 rewriting_lem_in: CMakeFiles/rewriting_lem_in.dir/src/libft/ft_toupper.c.o
 rewriting_lem_in: CMakeFiles/rewriting_lem_in.dir/src/libft/get_next_line.c.o
-rewriting_lem_in: CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o
+rewriting_lem_in: CMakeFiles/rewriting_lem_in.dir/src/ants_moving.c.o
 rewriting_lem_in: CMakeFiles/rewriting_lem_in.dir/src/bfs.c.o
 rewriting_lem_in: CMakeFiles/rewriting_lem_in.dir/src/equal_rooms.c.o
 rewriting_lem_in: CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o

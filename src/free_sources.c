@@ -30,8 +30,6 @@ static void 		free_rooms(t_room *room)
 	}
 }
 
-// TODO Free 1.ways in lists and 2.arrays too. And 3.variable ways.
-
 static void 		free_way(t_way *way, t_room **room, unsigned quan)
 {
 	t_way	*tmp;

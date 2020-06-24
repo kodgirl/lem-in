@@ -123,32 +123,32 @@ rewriting_lem_in/fast:
 	$(MAKE) -f CMakeFiles/rewriting_lem_in.dir/build.make CMakeFiles/rewriting_lem_in.dir/build
 .PHONY : rewriting_lem_in/fast
 
-src/ants_movement.o: src/ants_movement.c.o
+src/ants_moving.o: src/ants_moving.c.o
 
-.PHONY : src/ants_movement.o
+.PHONY : src/ants_moving.o
 
 # target to build an object file
-src/ants_movement.c.o:
-	$(MAKE) -f CMakeFiles/rewriting_lem_in.dir/build.make CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o
-.PHONY : src/ants_movement.c.o
+src/ants_moving.c.o:
+	$(MAKE) -f CMakeFiles/rewriting_lem_in.dir/build.make CMakeFiles/rewriting_lem_in.dir/src/ants_moving.c.o
+.PHONY : src/ants_moving.c.o
 
-src/ants_movement.i: src/ants_movement.c.i
+src/ants_moving.i: src/ants_moving.c.i
 
-.PHONY : src/ants_movement.i
+.PHONY : src/ants_moving.i
 
 # target to preprocess a source file
-src/ants_movement.c.i:
-	$(MAKE) -f CMakeFiles/rewriting_lem_in.dir/build.make CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.i
-.PHONY : src/ants_movement.c.i
+src/ants_moving.c.i:
+	$(MAKE) -f CMakeFiles/rewriting_lem_in.dir/build.make CMakeFiles/rewriting_lem_in.dir/src/ants_moving.c.i
+.PHONY : src/ants_moving.c.i
 
-src/ants_movement.s: src/ants_movement.c.s
+src/ants_moving.s: src/ants_moving.c.s
 
-.PHONY : src/ants_movement.s
+.PHONY : src/ants_moving.s
 
 # target to generate assembly for a file
-src/ants_movement.c.s:
-	$(MAKE) -f CMakeFiles/rewriting_lem_in.dir/build.make CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.s
-.PHONY : src/ants_movement.c.s
+src/ants_moving.c.s:
+	$(MAKE) -f CMakeFiles/rewriting_lem_in.dir/build.make CMakeFiles/rewriting_lem_in.dir/src/ants_moving.c.s
+.PHONY : src/ants_moving.c.s
 
 src/bfs.o: src/bfs.c.o
 
@@ -2562,9 +2562,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... rewriting_lem_in"
-	@echo "... src/ants_movement.o"
-	@echo "... src/ants_movement.i"
-	@echo "... src/ants_movement.s"
+	@echo "... src/ants_moving.o"
+	@echo "... src/ants_moving.i"
+	@echo "... src/ants_moving.s"
 	@echo "... src/bfs.o"
 	@echo "... src/bfs.i"
 	@echo "... src/bfs.s"

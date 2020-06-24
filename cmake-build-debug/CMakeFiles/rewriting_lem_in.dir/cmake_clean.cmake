@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/rewriting_lem_in.dir/src/ants_movement.c.o"
+  "CMakeFiles/rewriting_lem_in.dir/src/ants_moving.c.o"
   "CMakeFiles/rewriting_lem_in.dir/src/bfs.c.o"
   "CMakeFiles/rewriting_lem_in.dir/src/equal_rooms.c.o"
   "CMakeFiles/rewriting_lem_in.dir/src/free_sources.c.o"

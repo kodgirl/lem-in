@@ -13,7 +13,7 @@
 NAME = lem-in
 
 SRC =	src/main.c\
-		src/ants_movement.c\
+		src/ants_moving.c\
 		src/bfs.c\
 		src/equal_rooms.c\
 		src/liba.c\

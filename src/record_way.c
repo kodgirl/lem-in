@@ -62,10 +62,6 @@ void 		free_void_list(t_ways *all_ways)
 	}
 }
 
-/*
-** TODO Free found ways in lists
-*/
-
 t_ways 	*record_ways(t_struct *all, t_ways *all_ways, t_ways *clean_all_ways, t_ways *head_of_ways)
 {
 	t_way	*way;

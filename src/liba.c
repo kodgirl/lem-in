@@ -12,17 +12,6 @@
 
 # include "../includes/lem_in.h"
 
-// void	f_lstadd(t_room **alst, t_room *new)
-// {
-// 	if (!(alst))
-// 		new->next = NULL;
-// 	else
-// 	{
-// 		new->next = *alst;
-// 		*alst = new;
-// 	}
-// }
-
 void        error_free(t_struct *all, t_room *tmp_rooms, t_room *tmp_rooms2, t_edge *tmp_edges2)
 {
     t_edge *tmp_edges;

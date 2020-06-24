@@ -22,7 +22,7 @@ void 	annual_rooms_vars(t_struct *all)
  * After it - taking next rooms of the way till a finish room.
  */
 
-void 	mark_used_edges(t_struct *all, t_way *way)
+static void 	mark_used_edges(t_struct *all, t_way *way)
 {
 	t_way *ways_runner;
 	t_edge	*read_edges;

@@ -85,7 +85,7 @@
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
-		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/ants_movement.c">
+		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/ants_moving.c">
 			<Option target="rewriting_lem_in"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/rewriting_lem_in/src/bfs.c">
