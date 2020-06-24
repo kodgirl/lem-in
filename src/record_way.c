@@ -32,9 +32,8 @@ t_way	*processing_way(t_struct *all, t_room *last_room, t_way *new_way)
 {
 	t_room *room_runner;
 
-	if(!(new_way = (t_way *)malloc(sizeof(t_way))))
+	if(!(new_way = (t_way *)ft_memalloc(sizeof(t_way))))
 		return (NULL);
-	ft_bzero(new_way, sizeof(t_way));
 	room_runner = last_room;
 	while (room_runner)
 	{

@@ -32,7 +32,7 @@ static void 		free_rooms(t_room *room)
 
 // TODO Free 1.ways in lists and 2.arrays too. And 3.variable ways.
 
-static void 		free_way(t_way *way, t_room **room, unsigned *quan)
+static void 		free_way(t_way *way, t_room **room, unsigned quan)
 {
 	t_way	*tmp;
 	int 	i;
@@ -44,7 +44,7 @@ static void 		free_way(t_way *way, t_room **room, unsigned *quan)
 		way = way->next;
 		free(tmp);
 	}
-	while (i < *quan)
+	while (i <= quan)
 	{
 		free(room[i]);
 		i++;
@@ -61,7 +61,7 @@ void		free_lem_in2(t_struct *all, t_ways *wayS)
 	free_rooms(all->room);
 	while (wayS != NULL)
 	{
-		free_way(wayS->way, wayS->way_in_arr, &wayS->rm_qn - 1);
+		free_way(wayS->way, wayS->way_in_arr, wayS->rm_qn - 1);
 		tmp = wayS;
 		wayS = wayS->next;
 		free(tmp);

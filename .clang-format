@@ -1,12 +1,12 @@
 # Generated from CLion C/C++ Code Style settings
-BasedOnStyle: LLVM
+BasedOnStyle: LLVMM
 AccessModifierOffset: -4
 AlignAfterOpenBracket: Align
 AlignConsecutiveAssignments: false
 AlignOperands: true
 AllowAllArgumentsOnNextLine: false
 AllowAllConstructorInitializersOnNextLine: false
-AllowAllParametersOfDeclarationOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: true
 AllowShortBlocksOnASingleLine: Always
 AllowShortCaseLabelsOnASingleLine: false
 AllowShortFunctionsOnASingleLine: All
@@ -15,7 +15,7 @@ AllowShortLambdasOnASingleLine: All
 AllowShortLoopsOnASingleLine: true
 AlwaysBreakAfterReturnType: None
 AlwaysBreakTemplateDeclarations: Yes
-BreakBeforeBraces: Custom
+BreakBeforeBraces: BS_Allmain
 BraceWrapping:
   AfterCaseLabel: false
   AfterClass: false
