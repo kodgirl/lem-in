@@ -86,6 +86,7 @@ int		add_edge_to_room(t_room *room, t_edge *new_edge)
 ** If rooms found - allocating memory for edge of room1 to room2
 ** and vice versa;
 ** Adding edges to structure of room. That's all.
+** TODO рассортировать функцию ниже.
 */
 
 int		read_link(t_struct *all, char **split, t_room *room1, t_room *room2)
@@ -96,7 +97,9 @@ int		read_link(t_struct *all, char **split, t_room *room1, t_room *room2)
 	if(all->end_flag != 1 || all->start_flag != 1)
 	{
 		if (!all->error)
+		{
 			all->error = 3;
+		}
 		return (0);
 	}
 	all->link_flag = 1;

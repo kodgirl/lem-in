@@ -95,34 +95,6 @@ void		error_print(t_struct *all)
 		ft_putstr("\nERROR\n");
 		exit(-1);
 	}
-//	if (all->error == 1)
-//	{
-//		free_lem_in(all, NULL, NULL, NULL);
-//		write(1, "\nERROR: invalid number of ants. [1 - 2147483647].\n", 52);
-//		exit(-1);
-//	}
-//	else if (all->error == 2) {
-//		free_lem_in(all, NULL, NULL, NULL);
-//		write(1, "\nERROR: invalid records of rooms \n", 36);
-//		exit(-1);
-//	}
-//	else if (all->error == 3)
-//	{
-//		free_lem_in(all, NULL, NULL, NULL);
-//		write(1, "\nERROR: invalid records of links\n", 35);
-//		exit(-1);
-//	}
-//	else if (all->error == 4)
-//	{
-//		free_lem_in(all, NULL, NULL, NULL);
-//		write(1,"\nERROR: invalid records of doors.", 34);
-//		exit(-1);
-//	}
-//	else if (all->error == ERROR_WAYS_NOT_FOUND)
-//	{
-//		write(1, "\nERROR: Ways not found.", 22);
-//		exit(-1);
-//	}
 }
 
 int		parser(t_struct *all, char *line, char **split)
