@@ -62,13 +62,10 @@ t_ways 	*record_ways(t_struct *all, t_ways *all_ways, t_ways *clean_all_ways, t_
 		preparing_to_bfs(all, way);
 	}
 	if (head_of_ways->rm_qn)
-	{
 		return(head_of_ways);
-	}
 	else
 	{
 		free(all_ways);
 		ft_putstr("\nERROR\n");
-		error_print(all);
 	}
 }
