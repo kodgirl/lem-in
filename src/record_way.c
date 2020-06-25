@@ -32,8 +32,6 @@ t_way	*processing_way(t_struct *all, t_room *last_room, t_way *new_way)
 {
 	t_room *room_runner;
 
-	if(!(new_way = (t_way *)ft_memalloc(sizeof(t_way))))
-		return (NULL);
 	room_runner = last_room;
 	while (room_runner)
 	{
@@ -41,6 +39,18 @@ t_way	*processing_way(t_struct *all, t_room *last_room, t_way *new_way)
 		room_runner = room_runner->go_from;
 	}
 	return (new_way);
+}
+
+void 	free_way_in_list(t_way *way)
+{
+	t_way	*tmp;
+
+	while (way)
+	{
+		tmp = way->next;
+		free(way);
+		way = tmp;
+	}
 }
 
 t_ways 	*record_ways(t_struct *all, t_ways *all_ways, t_ways *clean_all_ways, t_ways *head_of_ways)
@@ -55,11 +65,13 @@ t_ways 	*record_ways(t_struct *all, t_ways *all_ways, t_ways *clean_all_ways, t_
 	{
 		way = processing_way(all, all->end, NULL);
 		all_ways->rm_qn = calc_rooms_in_way(way);
+		//TODO почему сегается прога, если не присваиваю путь в all_ways. Причём её нигде не использую.
 		all_ways->way = way;
 		all_ways->way_in_arr = record_to_array(way, all_ways->rm_qn);
 		all_ways->next = (t_ways *)ft_memalloc(sizeof(t_ways));
 		all_ways = all_ways->next;
 		preparing_to_bfs(all, way);
+		free_way_in_list(all_ways->way);
 	}
 	if (head_of_ways->rm_qn)
 		return(head_of_ways);

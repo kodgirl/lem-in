@@ -61,8 +61,8 @@ int 	start_actions(t_struct *all)
 		calc_ways(ways, all, 0, 0);
 		ants_movement(ways, all);
 	}
-	free_lem_in2(all, ways);
-	return (0);
+//	free_lem_in2(all, ways);
+	exit (0);
 }
 
 void		ants_movement(t_ways *ways, t_struct *all)
