@@ -31,6 +31,25 @@ static void 		calc_ways(t_ways *ways, t_struct *all, int cLen, int nLen)
 	}
 }
 
+void 		free_void_list(t_ways *all_ways)
+{
+	t_ways *runner;
+	t_ways *tmp;
+
+	runner = all_ways;
+	while (runner)
+	{
+		if (runner->way == NULL)
+		{
+			free(runner);
+			tmp->next = NULL;
+			break;
+		}
+		tmp = runner;
+		runner = runner->next;
+	}
+}
+
 int 	start_actions(t_struct *all)
 {
 	t_ways *ways;
@@ -38,6 +57,7 @@ int 	start_actions(t_struct *all)
 	ways = NULL;
 	if (ways = record_ways(all, NULL, NULL, NULL))
 	{
+		free_void_list(ways);
 		calc_ways(ways, all, 0, 0);
 		ants_movement(ways, all);
 	}

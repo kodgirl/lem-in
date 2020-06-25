@@ -18,7 +18,7 @@ char	**is_room(char *line)
 	char	**str;
 
 	str = ft_strsplit(line, ' ');
-	if (array_len(str) != 3)
+	if (array_len(str) != 3 || *line == '#')
 	{
 		ft_free_split(str);
 		return (NULL);

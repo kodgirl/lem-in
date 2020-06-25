@@ -93,8 +93,22 @@ void		error_print(t_struct *all)
 	{
 		error_free(all, NULL, NULL, NULL);
 		ft_putstr("\nERROR\n");
-		exit(-1);
+		exit(0);
 	}
+}
+
+static void	print_just_text(int fd, char *line, t_struct *all)
+{
+	int 	i;
+
+	i = 0;
+	while (( i = get_next_line(0, &line) > 0))
+	{
+		ft_putstr(line);
+		ft_putchar('\n');
+		free(line);
+	}
+	error_print(all);
 }
 
 int		parser(t_struct *all, char *line, char **split)
@@ -107,6 +121,8 @@ int		parser(t_struct *all, char *line, char **split)
 	{
 		ft_putstr(line);
 		ft_putchar('\n');
+		if (all->error)
+			print_just_text(0, line, all);
 		if (all->ant == 0)
 			read_ant(line, all);
 		else if ((split = is_room(line)) && all->link_flag == 0 && *line != '#')
@@ -115,8 +131,6 @@ int		parser(t_struct *all, char *line, char **split)
 		    read_link(all, split, NULL, NULL);
         else if (*line == '#')
 			read_door(all, is_door(line + 1), NULL, NULL);
-		else
-			all->error = 5;
 		if (split)
 		    ft_free_split(split);
 		if (line)

@@ -15,7 +15,6 @@
 void        error_free(t_struct *all, t_room *tmp_rooms, t_room *tmp_rooms2, t_edge *tmp_edges2)
 {
     t_edge *tmp_edges;
-	char	*name;
 
     tmp_rooms = all->room;
     while (tmp_rooms)
@@ -75,8 +74,11 @@ int		    f_atoi(char *str, int *error)
 
 	a = 1;
 	b = 0;
-	if (*str == 45 && str++)
-		a = -a;
+	if (*str == 45)
+	{
+		*error = ERROR_ANTS;
+		return (0);
+	}
 	if (*str < 48 || *str > 57)
 	{
 		*error = 1;

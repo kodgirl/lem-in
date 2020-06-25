@@ -30,36 +30,36 @@ static void 		free_rooms(t_room *room)
 	}
 }
 
-static void 		free_way(t_way *way, t_room **room, unsigned quan)
+static void 		free_way(t_way *way, t_room **room)
 {
 	t_way	*tmp;
-	int 	i;
+	int 	len;
 
-	i = 0;
+	len = 0;
 	while (way != NULL)
 	{
 		tmp = way;
 		way = way->next;
 		free(tmp);
+		len++;
 	}
-	while (i <= quan)
+	len--;
+	while (len >= 0)
 	{
-		free(room[i]);
-		i++;
+		free(room[len]);
+		len--;
 	}
 	free(room);
 }
 
 void		free_lem_in2(t_struct *all, t_ways *wayS)
 {
-	int 	i;
 	t_ways	*tmp;
 
-	i = 0;
 	free_rooms(all->room);
 	while (wayS != NULL)
 	{
-		free_way(wayS->way, wayS->way_in_arr, wayS->rm_qn - 1);
+		free_way(wayS->way, wayS->way_in_arr);
 		tmp = wayS;
 		wayS = wayS->next;
 		free(tmp);

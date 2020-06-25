@@ -113,10 +113,20 @@ int		read_link(t_struct *all, char **split, t_room *room1, t_room *room2)
 		edg2->room = room1;
 		if (add_edge_to_room(room1, edg1) == 0)
 			if (!all->error)
+			{
 				all->error= 3;
+				free(edg1);
+				free(edg2);
+				return(0);
+			}
 		if (add_edge_to_room(room2, edg2) == 0)
 			if (!all->error)
+			{
 				all->error= 3;
+				free(edg2);
+				free(edg1);
+				return (0);
+			}
 		edg1->cost = 0;
 		edg2->cost = 0;
 		return (1);
