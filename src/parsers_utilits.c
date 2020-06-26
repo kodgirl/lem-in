@@ -19,6 +19,8 @@
 void	read_ant(char *line, t_struct *all)
 {
 	all->ant = f_atoi(line, &all->error);
+	if (all->ant < 0)
+		all->error = ERROR_ANTS;
 }
 
 /*

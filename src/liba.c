@@ -74,11 +74,8 @@ int				f_atoi(char *str, int *error)
 
 	a = 1;
 	b = 0;
-	if (*str == 45)
-	{
-		*error = ERROR_ANTS;
-		return (0);
-	}
+	if (*str == 45 && str++)
+		a = -a;
 	if (*str < 48 || *str > 57)
 	{
 		*error = 1;
