@@ -1,6 +1,6 @@
 #include "../includes/lem_in.h"
 
-void 	annual_rooms_vars(t_struct *all)
+void				annual_rooms_vars(t_struct *all)
 {
 	t_room *rooms;
 
@@ -13,19 +13,20 @@ void 	annual_rooms_vars(t_struct *all)
 }
 
 /*
- * Function gets new detected way and
- * laucnhing cycle. At fisrt gets pointers to first and next room of
- * this way. Next step is reading edges of first room and looking for
- * next room in edges of first room via comparing names.
- * If next room found in edges of first room - marking this edge like
- * used in variable cost of edges.
- * After it - taking next rooms of the way till a finish room.
- */
+** Function gets new detected way and
+** laucnhing cycle. At fisrt gets pointers to first and next room of
+** this way. Next step is reading edges of first room and looking for
+** next room in edges of first room via comparing names.
+** If next room found in edges of first room - marking this edge like
+** used in variable cost of edges.
+** After it - taking next rooms of the way till a finish room.
+*/
 
-static void 	mark_used_edges(t_struct *all, t_way *way, t_way *w_read, t_edge *edge_read)
+static void			mark_used_edges(t_struct *all, t_way *way,
+				t_way *w_read, t_edge *edge_read)
 {
-	t_room	*first_rm;
-	t_room 	*next_rm;
+	t_room			*first_rm;
+	t_room			*next_rm;
 
 	w_read = way;
 	while (w_read && w_read->next)
@@ -40,7 +41,7 @@ static void 	mark_used_edges(t_struct *all, t_way *way, t_way *w_read, t_edge *e
 				next_rm->in_way = 1;
 				edge_read->cost = 1;
 				next_rm->go_from = NULL;
-				break;
+				break ;
 			}
 			edge_read = edge_read->next;
 		}
@@ -48,15 +49,16 @@ static void 	mark_used_edges(t_struct *all, t_way *way, t_way *w_read, t_edge *e
 	}
 }
 
-void	preparing_to_bfs(t_struct *all, t_way *way)
+void				preparing_to_bfs(t_struct *all, t_way *way)
 {
 	annual_rooms_vars(all);
 	mark_used_edges(all, way, NULL, NULL);
 }
 
-void free_order(t_order *clean_order)
+void				free_order(t_order *clean_order)
 {
-	t_order *tmp;
+	t_order	*tmp;
+
 	while (clean_order)
 	{
 		tmp = clean_order;

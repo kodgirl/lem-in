@@ -10,17 +10,17 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "../includes/lem_in.h"
+#include "../includes/lem_in.h"
 
 /*
 ** In cycle finding necessary room and returning
 ** address;
 */
 
-t_room	*search_room_name(char *name, t_struct *all)
+t_room		*search_room_name(char *name, t_struct *all)
 {
 	t_room *tmp;
-	
+
 	tmp = all->room;
 	while (tmp)
 	{
@@ -38,10 +38,10 @@ t_room	*search_room_name(char *name, t_struct *all)
 ** variables in edge structure.
 */
 
-t_edge	*malloc_edge(void)
-{	
+t_edge		*malloc_edge(void)
+{
 	t_edge	*edge;
-	
+
 	if ((edge = (t_edge *)malloc(sizeof(t_edge))))
 	{
 		ft_bzero(edge, sizeof(t_edge));
@@ -57,12 +57,11 @@ t_edge	*malloc_edge(void)
 ** But if found the same edge - returning signal of error;
 */
 
-int		add_edge_to_room(t_room *room, t_edge *new_edge)
+int			add_edge_to_room(t_room *room, t_edge *new_edge)
 {
 	t_edge *edge_runner;
 
 	edge_runner = room->edge;
-
 	if (!room->edge)
 	{
 		room->edge = new_edge;
@@ -89,12 +88,12 @@ int		add_edge_to_room(t_room *room, t_edge *new_edge)
 ** TODO рассортировать функцию ниже.
 */
 
-int		read_link(t_struct *all, char **split, t_room *room1, t_room *room2)
+int			read_link(t_struct *all, char **split, t_room *room1, t_room *room2)
 {
 	t_edge	*edg1;
 	t_edge	*edg2;
-	
-	if(all->end_flag != 1 || all->start_flag != 1)
+
+	if (all->end_flag != 1 || all->start_flag != 1)
 	{
 		if (!all->error)
 		{
@@ -114,15 +113,15 @@ int		read_link(t_struct *all, char **split, t_room *room1, t_room *room2)
 		if (add_edge_to_room(room1, edg1) == 0)
 			if (!all->error)
 			{
-				all->error= 3;
+				all->error = 3;
 				free(edg1);
 				free(edg2);
-				return(0);
+				return (0);
 			}
 		if (add_edge_to_room(room2, edg2) == 0)
 			if (!all->error)
 			{
-				all->error= 3;
+				all->error = 3;
 				free(edg2);
 				free(edg1);
 				return (0);

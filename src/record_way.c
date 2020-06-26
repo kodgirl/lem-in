@@ -1,9 +1,9 @@
 #include "../includes/lem_in.h"
 
-int 	calc_rooms_in_way(t_way *way)
+int				calc_rooms_in_way(t_way *way)
 {
-	t_way *runner;
-	int counter;
+	t_way		*runner;
+	int			counter;
 
 	counter = 0;
 	runner = way;
@@ -15,7 +15,7 @@ int 	calc_rooms_in_way(t_way *way)
 	return (counter);
 }
 
-t_way 	*add_room_to_way(t_room *room, t_way *new_way, t_struct *all)
+t_way			*add_room_to_way(t_room *room, t_way *new_way, t_struct *all)
 {
 	t_way *new_list_of_way;
 
@@ -28,7 +28,8 @@ t_way 	*add_room_to_way(t_room *room, t_way *new_way, t_struct *all)
 	return (new_way);
 }
 
-t_way	*processing_way(t_struct *all, t_room *last_room, t_way *new_way)
+t_way			*processing_way(t_struct *all, t_room *last_room,
+					t_way *new_way)
 {
 	t_room *room_runner;
 
@@ -41,7 +42,7 @@ t_way	*processing_way(t_struct *all, t_room *last_room, t_way *new_way)
 	return (new_way);
 }
 
-void 	free_way_in_list(t_way *way)
+void			free_way_in_list(t_way *way)
 {
 	t_way	*tmp;
 
@@ -53,19 +54,19 @@ void 	free_way_in_list(t_way *way)
 	}
 }
 
-t_ways 	*record_ways(t_struct *all, t_ways *all_ways, t_ways *clean_all_ways, t_ways *head_of_ways)
+t_ways			*record_ways(t_struct *all, t_ways *all_ways,
+					t_ways *clean_all_ways, t_ways *head_of_ways)
 {
-	t_way	*way;
+	t_way		*way;
 
-	if(!(all_ways = (t_ways *)ft_memalloc(sizeof(t_ways))))
+	if (!(all_ways = (t_ways *)ft_memalloc(sizeof(t_ways))))
 		return (NULL);
 	head_of_ways = all_ways;
 	annual_rooms_vars(all);
-	while (bfs(all))
+	while (bfs(all, NULL, NULL))
 	{
 		way = processing_way(all, all->end, NULL);
 		all_ways->rm_qn = calc_rooms_in_way(way);
-		//TODO почему сегается прога, если не присваиваю путь в all_ways. Причём её нигде не использую.
 		all_ways->way = way;
 		all_ways->way_in_arr = record_to_array(way, all_ways->rm_qn);
 		all_ways->next = (t_ways *)ft_memalloc(sizeof(t_ways));
@@ -74,7 +75,7 @@ t_ways 	*record_ways(t_struct *all, t_ways *all_ways, t_ways *clean_all_ways, t_
 		free_way_in_list(all_ways->way);
 	}
 	if (head_of_ways->rm_qn)
-		return(head_of_ways);
+		return (head_of_ways);
 	else
 	{
 		free(all_ways);

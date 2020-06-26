@@ -1,9 +1,9 @@
 #include "../includes/lem_in.h"
 
-static void 			free_edges(t_room *room)
+static void			free_edges(t_room *room)
 {
-	t_edge	*curr_edge;
-	t_edge 	*tmp;
+	t_edge			*curr_edge;
+	t_edge			*tmp;
 
 	curr_edge = room->edge;
 	while (curr_edge)
@@ -15,7 +15,7 @@ static void 			free_edges(t_room *room)
 	free(curr_edge);
 }
 
-static void 		free_rooms(t_room *room)
+static void			free_rooms(t_room *room)
 {
 	t_room	*curr;
 	t_room	*tmp;
@@ -31,7 +31,7 @@ static void 		free_rooms(t_room *room)
 	}
 }
 
-static void 		freeWayInArray(t_room **room, int len)
+static void			free_array(t_room **room, int len)
 {
 	while (len >= 0)
 	{
@@ -43,16 +43,16 @@ static void 		freeWayInArray(t_room **room, int len)
 	room = NULL;
 }
 
-void		free_lem_in2(t_struct *all, t_ways *wayS)
+void				free_lem_in2(t_struct *all, t_ways *ways)
 {
 	t_ways	*tmp;
 
 	free_rooms(all->room);
-	while (wayS != NULL)
+	while (ways != NULL)
 	{
-		freeWayInArray (wayS->way_in_arr, wayS->rm_qn - 1);
-		tmp = wayS;
-		wayS = wayS->next;
+		free_array(ways->way_in_arr, ways->rm_qn - 1);
+		tmp = ways;
+		ways = ways->next;
 		free(tmp);
 	}
 }

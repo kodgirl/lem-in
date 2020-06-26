@@ -1,4 +1,4 @@
-# include "../includes/lem_in.h"
+#include "../includes/lem_in.h"
 
 /*
 ** changing from char to int and record ants;

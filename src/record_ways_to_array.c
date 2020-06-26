@@ -1,10 +1,10 @@
 #include "../includes/lem_in.h"
 
-t_room	**record_to_array(t_way *way, int quantity)
+t_room			**record_to_array(t_way *way, int quantity)
 {
-	t_room **array;
-	t_way *read_way;
-	unsigned i;
+	t_room		**array;
+	t_way		*read_way;
+	unsigned	i;
 
 	i = 0;
 	read_way = way;

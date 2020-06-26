@@ -10,52 +10,52 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "../includes/lem_in.h"
+#include "../includes/lem_in.h"
 
-void        error_free(t_struct *all, t_room *tmp_rooms, t_room *tmp_rooms2, t_edge *tmp_edges2)
+void			error_free(t_struct *all, t_room *tmp_rooms,
+						t_room *tmp_rooms2, t_edge *tmp_edges2)
 {
-    t_edge *tmp_edges;
+	t_edge		*tmp_edges;
 
-    tmp_rooms = all->room;
-    while (tmp_rooms)
-    {
-        tmp_edges = tmp_rooms->edge;
-        while (tmp_edges)
+	tmp_rooms = all->room;
+	while (tmp_rooms)
+	{
+		tmp_edges = tmp_rooms->edge;
+		while (tmp_edges)
 		{
-            tmp_edges2 = tmp_edges;
-            tmp_edges = tmp_edges->next;
-            free(tmp_edges2);
-        }
-        tmp_rooms2 = tmp_rooms;
-        tmp_rooms = tmp_rooms->next;
-        free(tmp_rooms2->name);
+			tmp_edges2 = tmp_edges;
+			tmp_edges = tmp_edges->next;
+			free(tmp_edges2);
+		}
+		tmp_rooms2 = tmp_rooms;
+		tmp_rooms = tmp_rooms->next;
+		free(tmp_rooms2->name);
 		free(tmp_rooms2);
-    }
-    return;
+	}
+	return ;
 }
 
-void		ft_free_split(char **for_free)
+void			ft_free_split(char **for_free)
 {
-    size_t			i;
+	size_t		i;
 
-    i = 0;
-    if (for_free)
-    {
-        while (for_free[i])
-        {
-                if (for_free[i])
-                    free(for_free[i]);
-                i++;
-        }
-        free(for_free);
-    }
-    for_free = NULL;
+	i = 0;
+	if (for_free)
+	{
+		while (for_free[i])
+		{
+			if (for_free[i])
+				free(for_free[i]);
+			i++;
+		}
+		free(for_free);
+	}
+	for_free = NULL;
 }
 
-
-int		check_char(int *b, char str, int *error)
+int				check_char(int *b, char str, int *error)
 {
-	int	check;
+	int			check;
 
 	check = *b;
 	*b = (str - 48) + *b * 10;
@@ -67,10 +67,10 @@ int		check_char(int *b, char str, int *error)
 	return (0);
 }
 
-int		    f_atoi(char *str, int *error)
+int				f_atoi(char *str, int *error)
 {
-	int		a;
-	int		b;
+	int			a;
+	int			b;
 
 	a = 1;
 	b = 0;
@@ -95,9 +95,9 @@ int		    f_atoi(char *str, int *error)
 	return (a * b);
 }
 
-int 	array_len(char **str)
+int				array_len(char **str)
 {
-	int len;
+	int			len;
 
 	len = 0;
 	if (str == NULL)

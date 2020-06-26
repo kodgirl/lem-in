@@ -12,20 +12,19 @@
 
 #include "../includes/lem_in.h"
 
-int		main(int ac, char **av)
+int				main(int ac, char **av)
 {
 	t_struct	all;
-	int			visual;
-	short 		i;
+	short		i;
 
 	i = 0;
 	ft_bzero(&all, sizeof(t_struct));
 	if (ac == 1)
 	{
-        if (!parser(&all, NULL, NULL))
+		if (!parser(&all, NULL, NULL, 0))
 			return (0);
 		start_actions(&all);
-        exit(0);
-    }
+		exit(0);
+	}
 	return (0);
 }
