@@ -78,6 +78,29 @@ int			add_edge_to_room(t_room *room, t_edge *new_edge)
 	return (1);
 }
 
+int			add_edges(t_room *room1, t_room *room2, t_struct *all)
+{
+	t_edge *edg1;
+	t_edge *edg2;
+
+	edg1 = malloc_edge();
+	edg2 = malloc_edge();
+	edg1->room = room2;
+	edg2->room = room1;
+	if (add_edge_to_room(room1, edg1) == 0 ||
+			add_edge_to_room(room2, edg2) == 0)
+		if (!all->error)
+		{
+			all->error = 3;
+			free(edg1);
+			free(edg2);
+			return (0);
+		}
+	edg1->cost = 0;
+	edg2->cost = 0;
+	return (1);
+}
+
 /*
 ** rooms1 and rooms2 - rooms than to create edge between them.
 ** Find two vertex names in our list [0] and [1];
@@ -85,7 +108,6 @@ int			add_edge_to_room(t_room *room, t_edge *new_edge)
 ** If rooms found - allocating memory for edge of room1 to room2
 ** and vice versa;
 ** Adding edges to structure of room. That's all.
-** TODO рассортировать функцию ниже.
 */
 
 int			read_link(t_struct *all, char **split, t_room *room1, t_room *room2)
@@ -106,28 +128,7 @@ int			read_link(t_struct *all, char **split, t_room *room1, t_room *room2)
 	room2 = search_room_name(split[1], all);
 	if (room1 && room2)
 	{
-		edg1 = malloc_edge();
-		edg2 = malloc_edge();
-		edg1->room = room2;
-		edg2->room = room1;
-		if (add_edge_to_room(room1, edg1) == 0)
-			if (!all->error)
-			{
-				all->error = 3;
-				free(edg1);
-				free(edg2);
-				return (0);
-			}
-		if (add_edge_to_room(room2, edg2) == 0)
-			if (!all->error)
-			{
-				all->error = 3;
-				free(edg2);
-				free(edg1);
-				return (0);
-			}
-		edg1->cost = 0;
-		edg2->cost = 0;
+		add_edges(room1, room2, all);
 		return (1);
 	}
 	else
