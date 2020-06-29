@@ -58,19 +58,15 @@ static void		print_just_text(int fd, char *line, t_struct *all)
 
 int				parser(t_struct *all, char *line, char **split, int size)
 {
-	all->rm_count = 0;
-	split = NULL;
 	while ((size = get_next_line(0, &line)) > 0)
 	{
-		if (size == -1)
-			exit(0);
 		ft_putstr(line);
 		ft_putchar('\n');
 		if (all->error)
 			print_just_text(0, line, all);
 		if (all->ant == 0)
 			read_ant(line, all);
-		else if ((split = is_room(line)) && all->link_flag == 0 && *line != '#')
+		else if (all->link_flag == 0 && (split = is_room(line)) && *line != '#')
 			read_room(all, split);
 		else if ((split = is_link(line)) && *line != '#')
 			read_link(all, split, NULL, NULL);
