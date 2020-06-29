@@ -62,6 +62,8 @@ int				parser(t_struct *all, char *line, char **split, int size)
 	split = NULL;
 	while ((size = get_next_line(0, &line)) > 0)
 	{
+		if (size == -1)
+			exit(0);
 		ft_putstr(line);
 		ft_putchar('\n');
 		if (all->error)
@@ -79,6 +81,8 @@ int				parser(t_struct *all, char *line, char **split, int size)
 		if (line)
 			free(line);
 	}
+	if (size == -1)
+		exit(0);
 	error_print(all);
 	check_end_start(all);
 	return (1);

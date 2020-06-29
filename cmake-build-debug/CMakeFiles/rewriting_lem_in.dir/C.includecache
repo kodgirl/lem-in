@@ -30,7 +30,7 @@ unistd.h
 bbtree_utils.h
 /home/dpenney/Desktop/rewriting_lem_in/src/libft/includes/bbtree_utils.h
 
-/home/dpenney/Desktop/rewriting_lem_in/src/parsers_utilits.c
+/home/dpenney/Desktop/rewriting_lem_in/src/parser.c
 ../includes/lem_in.h
 /home/dpenney/Desktop/rewriting_lem_in/includes/lem_in.h
 
