@@ -34,7 +34,7 @@ int				check_end_start(t_struct *all)
 
 void			error_print(t_struct *all)
 {
-	if (all->error)
+	if (all->error || !all->room || !all->start || !all->end)
 	{
 		error_free(all, NULL, NULL, NULL);
 		ft_putstr("\nERROR\n");
