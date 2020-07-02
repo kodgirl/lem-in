@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dpenney/Desktop/GitLem-In/includes/lem_in.h
+stdlib.h
+-
+unistd.h
+-
+fcntl.h
+-
+../src/libft/includes/libft.h
+/home/dpenney/Desktop/GitLem-In/src/libft/includes/libft.h
+
+/home/dpenney/Desktop/GitLem-In/src/libft/includes/bbtree_utils.h
+stdlib.h
+-
+
+/home/dpenney/Desktop/GitLem-In/src/libft/includes/libft.h
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+bbtree_utils.h
+/home/dpenney/Desktop/GitLem-In/src/libft/includes/bbtree_utils.h
+
+/home/dpenney/Desktop/GitLem-In/src/start_actions.c
+../includes/lem_in.h
+/home/dpenney/Desktop/GitLem-In/includes/lem_in.h
+
