@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strsplit.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bgian <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/23 17:25:27 by bgian             #+#    #+#             */
-/*   Updated: 2019/09/25 19:32:45 by bgian            ###   ########.fr       */
+/*   Created: 2019/09/19 00:51:13 by dpenney           #+#    #+#             */
+/*   Updated: 2020/02/17 16:36:50 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@ static int				get_n_words(char const *s, char c)
 {
 	int	n;
 
-	if (!s)
-		return (0);
 	n = 0;
 	while (*s)
 	{
@@ -48,7 +46,7 @@ static size_t			len_of_next(const char *src, char sep)
 	return (len);
 }
 
-static void				avoid_leaks(char **res, int nlinks)
+void					avoid_leaks(char **res, int nlinks)
 {
 	while (nlinks > 0)
 		free(res[nlinks--]);

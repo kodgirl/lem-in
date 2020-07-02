@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "../includes/lem_in.h"
+#include "../includes/lem_in.h"
 
 /*
 ** Allocating memory for room;
@@ -19,13 +19,13 @@
 ** Checking errors;
 */
 
-t_room	*malloc_room(char **split)
+t_room			*malloc_room(char **split)
 {
-	t_room 	*rm;
-	int		error;
-	
+	t_room		*rm;
+	int			error;
+
 	error = 0;
-	if ((rm = (t_room*)malloc(sizeof(t_room))))
+	if ((rm = (t_room *)malloc(sizeof(t_room))))
 	{
 		ft_bzero(rm, sizeof(t_room));
 		rm->name = ft_strdup(split[0]);
@@ -53,11 +53,11 @@ t_room	*malloc_room(char **split)
 ** or put new room by start of list;
 */
 
-int		read_room(t_struct *all, char **split)
+int				read_room(t_struct *all, char **split)
 {
-	t_room	*rm;
-	t_room	*temp;
-	
+	t_room		*rm;
+	t_room		*temp;
+
 	if ((rm = malloc_room(split)))
 	{
 		temp = all->room;
@@ -75,6 +75,54 @@ int		read_room(t_struct *all, char **split)
 		free(rm->name);
 		free(rm);
 	}
-	all->error = 2;
+	if (!all->error)
+		all->error = ERROR_READ_ROOMS;
+	return (0);
+}
+
+void			door_to_room(t_room *room, t_struct *all, int i)
+{
+	t_room *tmp;
+
+	tmp = room;
+	while (tmp && tmp->next)
+		tmp = tmp->next;
+	if (i == 1)
+	{
+		if (tmp)
+			all->start = tmp;
+		else
+			all->start = room;
+		all->start_flag = 1;
+	}
+	if (i == 2)
+	{
+		if (tmp)
+			all->end = tmp;
+		else
+			all->end = room;
+		all->end_flag = 1;
+	}
+}
+
+int				read_door(t_struct *all, int i, char *line, char **split)
+{
+	if ((i == 1 && all->start_flag == 1) || (i == 2 && all->end_flag == 1))
+		all->error = 4;
+	else if (i != 0 && get_next_line(0, &line) > 0)
+	{
+		ft_putstr(line);
+		ft_putstr("\n");
+		if ((split = is_room(line)) && all->link_flag == 0)
+		{
+			read_room(all, split);
+			door_to_room(all->room, all, i);
+		}
+		else
+			all->error = ERROR_RECORD_START_FINISH;
+		free(line);
+	}
+	if (split)
+		ft_free_split(split);
 	return (0);
 }

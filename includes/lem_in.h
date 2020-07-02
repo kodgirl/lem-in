@@ -17,7 +17,6 @@
 # include <unistd.h>
 # include <fcntl.h>
 # include "../src/libft/includes/libft.h"
-# include "../src/libft/ft_printf/printf.h"
 
 /*
 ** Every room is vertex of graph.
@@ -30,21 +29,24 @@
 ** 1: 3->4 // vertex 1 have edge with 2 and 4 ...
 */
 
+# define ERROR_ANTS 1
+# define ERROR_READ_ROOMS 2
+# define ERROR_INVALID_LINKS 3
+# define ERROR_RECORD_START_FINISH 4
+# define ERROR_WAYS_NOT_FOUND 5
+
 typedef struct		s_room
 {
-	char	        *name;
-	int		        x;
-	int		        y;
-	int             distance;
-	int             visit;
+	char			*name;
+	int				x;
+	int				y;
+	int				visit;
 	struct s_room	*next;
-	int             index;
 	struct s_edge	*edge;
 	struct s_room	*go_from;
-	int 			ant;
-	short 			in_way;
+	int				ant;
+	short			in_way;
 }					t_room;
-
 
 /*
 ** t_edge using for build edges between vertexes.
@@ -72,25 +74,32 @@ typedef struct		s_edge
 
 typedef struct		s_struct
 {
-	int					ant;
-	t_room				*room;
-	t_room				*start;
-	t_room				*end;
-	short 				rm_count;
-	short				error;
-	short				start_flag;
-	short				end_flag;
-	short				ant_flag;
-	short				link_flag;
+	int				ant;
+	t_room			*room;
+	t_room			*start;
+	t_room			*end;
+	int				rm_count;
+	int				error;
+	short			start_flag;
+	short			end_flag;
+	short			ant_flag;
+	short			link_flag;
 }					t_struct;
 
-typedef struct      s_way
+/*
+** Structure for recording way to list;
+*/
+
+typedef struct		s_way
 {
-	t_room          *room;
-	struct s_way    *next;
-}                   t_way;
+	t_room			*room;
+	struct s_way	*next;
+}					t_way;
 
-
+/*
+** Structure t_order for bfs
+** implementation.
+*/
 
 typedef struct		s_order
 {
@@ -98,78 +107,73 @@ typedef struct		s_order
 	struct s_order	*next;
 }					t_order;
 
-typedef struct      s_ways
+typedef struct		s_ways
 {
-    t_way           *way;
-    unsigned int 	vtx_qn;
-	int 			expression;
-	struct s_ways   *next;
-	struct s_ways	*prev;
-}                   t_ways;
+	t_way			*way;
+	unsigned		rm_qn;
+	int				calc;
+	t_room			**way_in_arr;
+	struct s_ways	*next;
+}					t_ways;
+
+int					parser(t_struct *all, char *line, char **split, int size);
+void				read_ant(char *line, t_struct *all);
+char				**is_room(char *line);
+char				**is_link(char *line);
+int					is_door(char *line);
+int					f_atoi(char *str, int *error);
+int					array_len(char **str);
+int					read_room(t_struct *all, char **split);
+int					read_link(t_struct *all, char **split,
+		t_room *room1, t_room *room2);
+int					read_door(t_struct *all, int i, char *line, char **split);
+int					room_validation(t_room *room, t_room *flat);
+void				error_free(t_struct *all, t_room *tmp_rooms,
+		t_room *tmp_rooms2, t_edge *tmp_edges2);
+void				ft_free_split(char **for_free);
+void				error_print(t_struct *all);
+int					check_end_start(t_struct *all);
 
 /*
- * FIXME change names of structure;
+** Functions of find ways and print results
 */
 
-typedef struct		s_sum
-{
-	int				number_of_ants;
-	int				sum_steps_all_ways;
-	int				number_of_ways;
-	int				result;
-	int				str_sum;
-}					t_calc;
-
-typedef struct 		s_array
-{
-	t_way			**way;
-	t_ways			**wayS;
-	t_room			**rooms;
-}					t_array;
-
-int			parser(t_struct *all, char *line, char **split);
-void		read_ant(char *line, t_struct *all);
-char		**is_room(char *line);
-char		**is_link(char *line);
-int			is_door(char *line);
-int		    f_atoi(char *str, int *error);
-int 	    array_len(char **str);
-int		    read_room(t_struct *all, char **split);
-int			read_link(t_struct *all, char **split, t_room *room1, t_room *room2);
-int		    room_validation(t_room *room, t_room *flat);
-void        free_lem_in(t_struct *all, t_room *tmp_rooms, t_room *tmp_rooms2, t_edge *tmp_edges2);
-void        ft_free_split(char **for_free);
-void		error_print(t_struct *all);
-int		check_end_start(t_struct *all);
-
-int 		ft_solution(t_struct *all, t_way *way, t_ways *wayS, t_ways *head_wayS);
-t_way		*bfs(t_struct *all, t_order *order, t_order *head_order, t_way *way);
-void     	*clean_order(t_order *head_order, t_struct *all, t_room *tmpRoom, t_edge *edges);
-void		free_order(t_order *head_order, t_order *tmp);
+int					start_actions(t_struct *all);
+t_ways				*record_ways(t_struct *all, t_ways *all_ways,
+		t_ways *clean_all_ways, t_ways *head_of_ways);
+t_way				*processing_way(t_struct *all, t_room *last_room,
+		t_way *new_way);
+t_way				*add_room_to_way(t_room *room, t_way *new_way,
+		t_struct *all);
+int					calc_rooms_in_way(t_way *way);
 
 /*
-** Record way function
+** Next functions of bfs regulation
 */
 
-t_way		*record_way(t_struct *all, t_way *HeadWay, t_way *way, t_room *room);
-t_way		*mark_used_edges(t_way *way, t_way *tmpWay, t_edge *tmpEdge, t_room *room);
-t_way		*invert_way(t_way *way, t_way *curr, t_way *next, t_way *prev);
+int					bfs(t_struct *all, t_order *order, t_order *clean_order);
+int					read_edges_room(t_edge *edge, t_order *order,
+			t_struct *all);
+void				add_room(t_order *order, t_room *new_room);
+t_order				*allocate_orders_list(t_room *start_room);
 
 /*
- * TODO change names of fucntions;
- */
-
-
-int 		move_ant(t_way *way, int i, t_struct *all);
-void		gen_cycle(t_ways *head_wayS, t_struct *all);
-void		walking_ants(t_ways *wayS, int *antsRemain, int *antsCurrent, t_struct *all);
-/*
-** Instrumental functions
+** Next functions with goal of marking used edges and rooms
+** in new way and clear variable visited than to start bfs again.
 */
 
-void	write_order(t_order *order, t_struct *all);
-void	del_double_massive(char **str);
-void 	printRecordWay(t_ways *head_wayS);
-void 	printRecordWay(t_ways *head_wayS);
+void				preparing_to_bfs(t_struct *all, t_way *way);
+void				annual_rooms_vars(t_struct *all);
+void				free_order(t_order *clean_order);
+t_room				**record_to_array(t_way *way, int quantity);
+
+/*
+** Functions for printing results
+*/
+void				movement(t_ways *curr_way, unsigned *curr_ant,
+						unsigned *remain_ants);
+void				ants_movement(t_ways *all_ways, t_struct *all);
+void				print_ants(int ant, char *room, short space);
+void				free_lem_in2(t_struct *all, t_ways *ways);
 
 #endif

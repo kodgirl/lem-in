@@ -13,19 +13,22 @@
 NAME = lem-in
 
 SRC =	src/main.c\
-		src/parser.c\
+		src/ants_moving.c\
+		src/bfs.c\
+		src/equal_rooms.c\
 		src/liba.c\
+		src/marking_and_clearing.c\
 		src/parse_edges.c\
 		src/parse_rooms.c\
+		src/parser.c\
 		src/parsers_utilits.c\
-		src/ft_solution.c\
-		src/equal_rooms.c\
-		src/bfs.c\
-		src/recorder_way.c\
-		src/movements.c\
-		src/instruments.c\
+		src/record_way.c\
+		src/record_ways_to_array.c\
+		src/start_actions.c\
+		src/print_strings.c\
+		src/free_sources.c
 
-INCL = includes/lem_in.h 
+INCL = includes 
 
 GCC_FLAGS = -Wall -Werror -Wextra
 

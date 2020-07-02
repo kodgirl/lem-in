@@ -1,40 +1,40 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_atoi.c                                          :+:      :+:    :+:   */
+/*   oformi_ft_atoi.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bgian <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/21 16:46:08 by bgian             #+#    #+#             */
-/*   Updated: 2019/09/21 19:28:05 by bgian            ###   ########.fr       */
+/*   Created: 2019/09/16 19:07:20 by dpenney           #+#    #+#             */
+/*   Updated: 2020/02/16 17:24:29 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-static int	ft_isspace(char c)
-{
-	return (c == '\t' || c == '\n' || c == '\v' ||\
-			c == '\f' || c == '\r' || c == ' ' ? 1 : 0);
-}
+#include "libft.h"
+#include <limits.h>
 
-int			ft_atoi(const char *str)
+int							ft_atoi(const char *str)
 {
-	int	res;
-	int sign;
+	size_t					i;
+	int						sym;
+	int						res;
 
+	i = 0;
+	sym = 1;
 	res = 0;
-	sign = 1;
-	while (ft_isspace(*str))
-		str++;
-	if (*str == '-' || *str == '+')
+	while (str[i] == ' ' || str[i] == '\n' || str[i] == '\t'
+			|| str[i] == '\r' || str[i] == '\f' || str[i] == '\v')
+		i++;
+	if (str[i] == '-')
+		sym = -1;
+	if (str[i] == '-' || str[i] == '+')
+		i++;
+	while (str[i] == 0)
+		i++;
+	while (str[i] >= '0' && str[i] <= '9')
 	{
-		sign = (*str == '-') ? -1 : 1;
-		str++;
+		res = res * 10 + (str[i] - 48);
+		i++;
 	}
-	while (*str >= '0' && *str <= '9')
-	{
-		res *= 10;
-		res += *str - '0';
-		str++;
-	}
-	return (res * sign);
+	return (res * sym);
 }

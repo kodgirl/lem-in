@@ -1,4 +1,16 @@
-# include "../includes/lem_in.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   parsers_utilits.c                                  :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dpenney <dpenney@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/06/26 12:21:13 by dpenney           #+#    #+#             */
+/*   Updated: 2020/06/26 12:21:16 by dpenney          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "../includes/lem_in.h"
 
 /*
 ** changing from char to int and record ants;
@@ -6,7 +18,9 @@
 
 void	read_ant(char *line, t_struct *all)
 {
-	all->ant = f_atoi(line, &(all->error));
+	all->ant = f_atoi(line, &all->error);
+	if (all->ant < 0)
+		all->error = ERROR_ANTS;
 }
 
 /*
@@ -18,7 +32,7 @@ char	**is_room(char *line)
 	char	**str;
 
 	str = ft_strsplit(line, ' ');
-	if (array_len(str) != 3)
+	if (array_len(str) != 3 || *line == '#')
 	{
 		ft_free_split(str);
 		return (NULL);
