@@ -48,7 +48,7 @@ t_way			*processing_way(t_struct *all, t_room *last_room,
 	room_runner = last_room;
 	while (room_runner)
 	{
-пше		new_way = add_room_to_way(room_runner, new_way, all);
+		new_way = add_room_to_way(room_runner, new_way, all);
 		room_runner = room_runner->go_from;
 	}
 	return (new_way);
