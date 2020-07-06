@@ -43,17 +43,24 @@ static void			free_rooms(t_room *room)
 	}
 }
 
-static void			free_array(t_room **room, int len)
+static void			free_array(t_room **way_in_arr, int len)
 {
-	while (len >= 0)
+	if (way_in_arr)
+		free(way_in_arr);
+	way_in_arr = NULL;
+}
+
+void				free_lists_of_way(t_way *way)
+{
+	t_way			*tmp;
+
+	tmp = way;
+	while (way)
 	{
-		if (room[len])
-			free(room[len]);
-		len--;
+		tmp = way;
+		way = way->next;
+		free(tmp);
 	}
-	if (room)
-		free(room);
-	room = NULL;
 }
 
 void				free_lem_in2(t_struct *all, t_ways *ways)
@@ -64,8 +71,10 @@ void				free_lem_in2(t_struct *all, t_ways *ways)
 	while (ways != NULL)
 	{
 		free_array(ways->way_in_arr, ways->rm_qn - 1);
+		free_lists_of_way(ways->way);
 		tmp = ways;
 		ways = ways->next;
 		free(tmp);
 	}
+	free(all);
 }

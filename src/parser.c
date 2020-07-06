@@ -19,6 +19,33 @@ int				check_end_start(t_struct *all)
 	return (0);
 }
 
+void			error_print(t_struct *all)
+{
+	if (all->error || !all->room || !all->start || !all->end)
+	{
+		error_free(all, NULL, NULL, NULL);
+		free(all);
+		ft_putstr("\nERROR\n");
+		exit(0);
+	}
+}
+
+static void		print_just_text(int fd, char *line, t_struct *all)
+{
+	int			i;
+
+	i = 0;
+	free(line);
+	all->error = 1;
+	while ((i = get_next_line(0, &line) > 0))
+	{
+		ft_putstr(line);
+		ft_putchar('\n');
+		free(line);
+	}
+	error_print(all);
+}
+
 /*
 ** Through gnl parsing from file;
 ** Validating through term operator;
@@ -31,30 +58,6 @@ int				check_end_start(t_struct *all)
 ** this edges to rooms structure.
 ** read doors recording comments ##start and ##end;
 */
-
-void			error_print(t_struct *all)
-{
-	if (all->error || !all->room || !all->start || !all->end)
-	{
-		error_free(all, NULL, NULL, NULL);
-		ft_putstr("\nERROR\n");
-		exit(0);
-	}
-}
-
-static void		print_just_text(int fd, char *line, t_struct *all)
-{
-	int			i;
-
-	i = 0;
-	while ((i = get_next_line(0, &line) > 0))
-	{
-		ft_putstr(line);
-		ft_putchar('\n');
-		free(line);
-	}
-	error_print(all);
-}
 
 int				parser(t_struct *all, char *line, char **split, int size)
 {
@@ -78,7 +81,7 @@ int				parser(t_struct *all, char *line, char **split, int size)
 			free(line);
 	}
 	if (size == -1)
-		exit(0);
+		error_print(all);
 	error_print(all);
 	check_end_start(all);
 	return (1);
