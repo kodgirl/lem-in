@@ -61,6 +61,8 @@ void				free_lem_in2(t_struct *all, t_ways *ways)
 	t_ways	*tmp;
 
 	free_rooms(all->room);
+	free(all->start);
+	free(all->end);
 	while (ways != NULL)
 	{
 		free_array(ways->way_in_arr, ways->rm_qn - 1);
