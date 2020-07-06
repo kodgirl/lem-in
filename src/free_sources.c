@@ -51,7 +51,8 @@ static void			free_array(t_room **room, int len)
 			free(room[len]);
 		len--;
 	}
-	free(room);
+	if (room)
+		free(room);
 	room = NULL;
 }
 

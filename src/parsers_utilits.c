@@ -18,6 +18,13 @@
 
 void	read_ant(char *line, t_struct *all)
 {
+	if (ft_strcmp(line, "##start") == 0 || ft_strcmp(line, "##end") == 0)
+	{
+		all->error = ERROR_ANTS;
+		return ;
+	}
+	else if (line[0] == '#' || line[0] == '\0')
+		return ;
 	all->ant = f_atoi(line, &all->error);
 	if (all->ant < 0)
 		all->error = ERROR_ANTS;
