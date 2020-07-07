@@ -175,5 +175,6 @@ void				movement(t_ways *curr_way, unsigned *curr_ant,
 void				ants_movement(t_ways *all_ways, t_struct *all);
 void				print_ants(int ant, char *room, short space);
 void				free_lem_in2(t_struct *all, t_ways *ways);
+t_room				*search_room_name(char *name, t_struct *all);
 
 #endif
