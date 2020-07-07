@@ -31,7 +31,7 @@ t_room			*malloc_room(char **split)
 		rm->name = ft_strdup(split[0]);
 		rm->x = f_atoi(split[1], &error);
 		rm->y = f_atoi(split[2], &error);
-		if (error != 0)
+		if (error != 0 || rm->name[0] == 'L')
 		{
 			free(rm->name);
 			free(rm);
@@ -109,7 +109,13 @@ int				read_door(t_struct *all, int i, char *line, char **split)
 {
 	if ((i == 1 && all->start_flag == 1) || (i == 2 && all->end_flag == 1))
 		all->error = 4;
-	else if (i != 0 && get_next_line(0, &line) > 0)
+	while (i != 0 && get_next_line(0, &line) > 0 && line[0] == '#')
+	{
+		ft_putstr(line);
+		ft_putchar('\n');
+		free(line);
+	}
+	if (line)
 	{
 		ft_putstr(line);
 		ft_putstr("\n");

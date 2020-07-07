@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="original"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dpenney/Desktop/original/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dpenney/Desktop/original/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dpenney/Desktop/original/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="original">
+				<Option output="/home/dpenney/Desktop/original/cmake-build-debug/original" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dpenney/Desktop/original/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dpenney/Desktop/original/includes"/>
+					<Add directory="/home/dpenney/Desktop/original/src/libft/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 original"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="original/fast">
+				<Option output="/home/dpenney/Desktop/original/cmake-build-debug/original" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dpenney/Desktop/original/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dpenney/Desktop/original/includes"/>
+					<Add directory="/home/dpenney/Desktop/original/src/libft/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 original/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dpenney/Desktop/original/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dpenney/Desktop/original/includes/lem_in.h">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/ants_moving.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/bfs.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/equal_rooms.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/free_sources.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/liba.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_array_subtract.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_atoi.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_bbtree_utils.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_bsort_int.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_bzero.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_del.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_isalnum.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_isalpha.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_isascii.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_isdigit.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_isprint.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_itoa.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_itoa_base.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_lstadd.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_lstappend.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_lstdel.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_lstdelone.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_lstiter.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_lstmap.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_lstnew.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_max_int.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_maxval_int.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_memalloc.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_memccpy.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_memchr.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_memcmp.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_memcpy.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_memdel.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_memdup.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_memmove.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_memset.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_min_int.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_minval_int.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_num_word.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_print_array.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_putchar.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_putchar_fd.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_putendl.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_putendl_fd.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_putnbr.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_putnbr_fd.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_putstr.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_putstr_fd.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strcat.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strchr.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strclr.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strcmp.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strcpy.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strdel.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strdup.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strequ.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_striter.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_striteri.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strjoin.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strlcat.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strlen.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strmap.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strmapi.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strncat.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strncmp.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strncpy.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strnequ.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strnew.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strnstr.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strrchr.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strrev.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strsplit.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strstr.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strsub.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_strtrim.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_swap.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_swapint.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_tolower.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/ft_toupper.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/get_next_line.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/includes/bbtree_utils.h">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/includes/get_next_line.h">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/libft/includes/libft.h">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/main.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/marking_and_clearing.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/parse_edges.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/parse_rooms.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/parser.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/parsers_utilits.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/print_strings.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/record_way.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/record_ways_to_array.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/src/start_actions.c">
+			<Option target="original"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/original/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
