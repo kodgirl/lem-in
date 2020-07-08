@@ -75,6 +75,8 @@ int				parser(t_struct *all, char *line, char **split, int size)
 			read_link(all, split, NULL, NULL);
 		else if (*line == '#')
 			read_door(all, is_door(line + 1), NULL, NULL);
+		else
+			all->error = 10;
 		if (split)
 			ft_free_split(split);
 		if (line)
