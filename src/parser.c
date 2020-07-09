@@ -46,6 +46,11 @@ static void		print_just_text(int fd, char *line, t_struct *all)
 	error_print(all);
 }
 
+void			check_split(char **split)
+{
+	ft_free_split(split);
+}
+
 /*
 ** Through gnl parsing from file;
 ** Validating through term operator;
@@ -77,8 +82,7 @@ int				parser(t_struct *all, char *line, char **split, int size)
 			read_door(all, is_door(line + 1), NULL, NULL);
 		else
 			all->error = 10;
-		if (split)
-			ft_free_split(split);
+		check_split(split);
 		if (line)
 			free(line);
 	}
