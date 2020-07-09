@@ -27,5 +27,6 @@ int				main(int ac, char **av)
 		start_actions(all);
 		exit(0);
 	}
+	free(all);
 	return (0);
 }
